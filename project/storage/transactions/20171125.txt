@@ -1,0 +1,39 @@
+25-11-2017 | TTLR TO MTN REQUEST FOREIGN
+12:34:24 | vendorID : ***
+12:34:24 | subscriberID : 0244704531
+12:34:24 | thirdpartyTransactionID : 151161325900
+12:34:24 | amount : 100
+12:34:24 | apiKey : ***********************
+
+25-11-2017 | MTN TO TLLR RESPONSE FOREIGN
+12:34:28 | return
+12:34:28 | responseCode : 01
+12:34:28 | responseMessage : Successfully processed transaction.
+12:34:28 | thirdpartyTransactionId : 151161325900
+
+25-11-2017 | TTLR TO MTN REQUEST FOREIGN
+12:34:38 | vendorID : ***
+12:34:38 | subscriberID : 0244704531
+12:34:38 | thirdpartyTransactionID : 151161327500
+12:34:38 | amount : 300
+12:34:38 | apiKey : ***********************
+
+25-11-2017 | MTN TO TLLR RESPONSE FOREIGN
+12:34:42 | return
+12:34:42 | responseCode : 01
+12:34:42 | responseMessage : Successfully processed transaction.
+12:34:42 | thirdpartyTransactionId : 151161327500
+
+25-11-2017 | TTLR TO MTN REQUEST FOREIGN
+12:35:59 | vendorID : ***
+12:35:59 | subscriberID : 0543500833
+12:35:59 | thirdpartyTransactionID : 151161335300
+12:35:59 | amount : 300
+12:35:59 | apiKey : ***********************
+
+25-11-2017 | MTN TO TLLR RESPONSE FOREIGN
+12:36:03 | return
+12:36:03 | responseCode : 01
+12:36:03 | responseMessage : Successfully processed transaction.
+12:36:03 | thirdpartyTransactionId : 151161335300
+

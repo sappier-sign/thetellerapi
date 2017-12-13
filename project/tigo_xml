@@ -1,0 +1,68 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+                   xmlns:v1="http://xmlns.tigo.com/MFS/PurchaseInitiateRequest/V1"
+                   xmlns:v2="http://xlns.tigo.com/ParameterType/V2" xmlns:v3="http://xmlns.tigo.com/RequestHeader/V3">
+    <SOAP-ENV:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+        <cor:debugFlag xmlns:cor="http://soa.mic.co.af/coredata_1">
+            true
+        </cor:debugFlag>
+        <wsse:Security>
+            <wsse:UsernameToken>
+                <wsse:Username>live_mw_payswitch</wsse:Username>
+                <wsse:Password>PAYswt@241</wsse:Password>
+            </wsse:UsernameToken>
+        </wsse:Security>
+    </SOAP-ENV:Header>
+    <SOAP-ENV:Body>
+        <v1:PurchaseInitiateRequest>
+            <v3:RequestHeader>
+                <v3:GeneralConsumerInformation>
+                    <v3:consumerID>payswitch</v3:consumerID>
+                    <v3:transactionID>Pay001</v3:transactionID>
+                    <v3:country>GHA</v3:country>
+                    <v3:correlationID>Pay01</v3:correlationID>
+                </v3:GeneralConsumerInformation>
+            </v3:RequestHeader>
+            <v1:requestBody>
+                <v1:customerAccount>
+                    <v1:msisdn>233577621938</v1:msisdn>
+                </v1:customerAccount>
+                <v1:initiatorAccount>
+                    <v1:msisdn>233276203025</v1:msisdn>
+                </v1:initiatorAccount>
+                <v1:paymentReference>150963343400</v1:paymentReference>
+                <v1:externalCategory>default</v1:externalCategory>
+                <v1:externalChannel>default</v1:externalChannel>
+                <v1:webUser>payswitch_reporter</v1:webUser>
+                <v1:webPassword>Pay@30</v1:webPassword>
+                <v1:merchantName>payswitch</v1:merchantName>
+                <v1:itemName>testing tigo debit</v1:itemName>
+                <v1:amount>0.1</v1:amount>
+                <v1:minutesToExpire>2</v1:minutesToExpire>
+                <v1:notificationChannel>2</v1:notificationChannel>
+            </v1:requestBody>
+        </v1:PurchaseInitiateRequest>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+<SOAP-ENV:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:v1="http://xmlns.tigo.com/MFS/PurchaseInitiateRequest/V1" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v3="http://xmlns.tigo.com/RequestHeader/V3" xmlns:v2="http://xmlns.tigo.com/ParameterType/V2">
+    <cor:SOATransactionID xmlns:cor="http://soa.mic.co.af/coredata_1">459 dea2a-23b6-463b-9dbc-3ecb335626fa</cor:SOATransactionID>
+</SOAP-ENV:Header>
+<SOAP-ENV:Body xmlns:v1="http://xmlns.tigo.com/MFS/PurchaseInitiateRequest/V1" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v3="http://xmlns.tigo.com/RequestHeader/V3" xmlns:v2="http://xmlns.tigo.com/ParameterType/V2">
+    <v11:PurchaseInitiateResponse xmlns:v11="http://xmlns.tigo.com/MFS/PurchaseInitiateResponse/V1">
+        <v31:ResponseHeader xmlns:v31="http://xmlns.tigo.com/ResponseHeader/V3">
+            <v31:GeneralResponse>
+                <v31:correlationID>Pay01</v31:correlationID>
+                <v31:status>OK
+                </v31:status>
+                <v31:code>purchaseinitiate-3022-0001-S</v31:code>
+                <v31:description>Your payment request has been initiated.</v31:description>
+            </v31:GeneralResponse>
+        </                                                                       v31:ResponseHeader>
+        <v11:responseBody>
+            <v11:paymentId>1314888</v11:paymentId>
+            <v11:paymentReference>150963343400</v11:paymentReference>
+        </v11:responseBody>
+    </v11:PurchaseInitiateResponse>
+</SOAP-ENV:Body>
+</soapenv:Envelope>

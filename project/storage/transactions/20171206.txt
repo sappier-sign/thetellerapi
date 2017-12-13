@@ -1,0 +1,28 @@
+06-12-2017 | TTLR VODAFONE REQUEST FOREIGN
+16:44:20 | TOKEN : ******************
+16:44:20 | RESULTURL : https://api.theteller.net/v1.1/vodafone/response
+16:44:20 | VFPIN : ************
+16:44:20 | VOUCHERCODE : 541623
+16:44:20 | PHONENUMBER : 0506327253
+16:44:20 | AMOUNT : 0.1
+16:44:20 | VENDORCODE : ****
+16:44:20 | TRANSACTIONID : 151257865600
+
+06-12-2017 | VODAFONE TTLR RESPONSE FOREIGN
+16:44:23 | statusCode : nothing
+16:44:23 | statusMessage : nothing
+16:44:23 | ext_trans_id : nothing
+
+06-12-2017 | TTLR TO MTN REQUEST FOREIGN
+17:43:10 | vendorID : ***
+17:43:10 | subscriberID : 0244704531
+17:43:10 | thirdpartyTransactionID : 151258218800
+17:43:10 | amount : 300
+17:43:10 | apiKey : ***********************
+
+06-12-2017 | MTN TO TLLR RESPONSE FOREIGN
+17:43:14 | return
+17:43:14 | responseCode : 01
+17:43:14 | responseMessage : Successfully processed transaction.
+17:43:14 | thirdpartyTransactionId : 151258218800
+

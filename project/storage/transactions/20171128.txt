@@ -1,0 +1,13 @@
+28-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:36:16 | vendorID : ***
+18:36:16 | subscriberID : 0550240396
+18:36:16 | thirdpartyTransactionID : 151189415900
+18:36:16 | amount : 100
+18:36:16 | apiKey : ***********************
+
+28-11-2017 | MTN TO TLLR RESPONSE FOREIGN
+18:36:35 | return
+18:36:35 | responseCode : 01
+18:36:35 | responseMessage : Successfully processed transaction.
+18:36:35 | thirdpartyTransactionId : 151189415900
+

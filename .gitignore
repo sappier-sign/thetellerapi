@@ -1,0 +1,7 @@
+/project/vendor
+/project/.idea
+/project/Homestead.json
+/project/Homestead.yaml
+.env
+*.zip
+*.gz

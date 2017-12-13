@@ -1,0 +1,425 @@
+23-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:28:19 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:28:19 | expiry : 2017-11-24
+13:28:19 | username : *********
+13:28:19 | password : *********
+13:28:19 | name : PaySwitch Company Ltd.
+13:28:19 | info : testing offline
+13:28:19 | amt : 0.1
+13:28:19 | mobile : 0249621938
+13:28:19 | billprompt : 2
+13:28:19 | thirdpartyID : 151144369900
+
+23-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:28:20 | return
+13:28:20 | responseCode : 0000
+13:28:20 | responseMessage : Accepted for Delivery 0249621938
+13:28:20 | invoiceNo : 202896162
+
+23-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:28:42 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:28:42 | expiry : 2017-11-24
+13:28:42 | username : *********
+13:28:42 | password : *********
+13:28:42 | name : PaySwitch Company Ltd.
+13:28:42 | info : testing offline
+13:28:42 | amt : 0.1
+13:28:42 | mobile : 0249621938
+13:28:42 | billprompt : 2
+13:28:42 | thirdpartyID : 151144372200
+
+23-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:28:44 | return
+13:28:44 | responseCode : 0000
+13:28:44 | responseMessage : Accepted for Delivery 0249621938
+13:28:44 | invoiceNo : 202896167
+
+23-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:30:11 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:30:11 | expiry : 2017-11-24
+13:30:11 | username : *********
+13:30:11 | password : *********
+13:30:11 | name : PaySwitch Company Ltd.
+13:30:11 | info : testing offline
+13:30:11 | amt : 0.1
+13:30:11 | mobile : 0249621938
+13:30:11 | billprompt : 2
+13:30:11 | thirdpartyID : 151144381100
+
+23-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:30:14 | return
+13:30:14 | responseCode : 0000
+13:30:14 | responseMessage : Accepted for Delivery 0249621938
+13:30:14 | invoiceNo : 202896189
+
+23-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:37:23 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:37:23 | expiry : 2017-11-24
+13:37:23 | username : *********
+13:37:23 | password : *********
+13:37:23 | name : PaySwitch Company Ltd.
+13:37:23 | info : testing offline
+13:37:23 | amt : 0.1
+13:37:23 | mobile : 0249621938
+13:37:23 | billprompt : 2
+13:37:23 | thirdpartyID : 151144424300
+
+23-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:37:31 | return
+13:37:31 | responseCode : 0000
+13:37:31 | responseMessage : Accepted for Delivery 0249621938
+13:37:31 | invoiceNo : 202896288
+
+23-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:29:43 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:29:43 | expiry : 2017-11-24
+14:29:43 | username : *********
+14:29:43 | password : *********
+14:29:43 | name : PaySwitch Company Ltd.
+14:29:43 | info : testing offline
+14:29:43 | amt : 0.1
+14:29:43 | mobile : 0249621938
+14:29:43 | billprompt : 2
+14:29:43 | thirdpartyID : 151144738300
+
+23-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:29:47 | return
+14:29:47 | responseCode : 0000
+14:29:47 | responseMessage : Accepted for Delivery 0249621938
+14:29:47 | invoiceNo : 202897028
+
+23-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:03:31 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:03:31 | expiry : 2017-11-24
+15:03:31 | username : *********
+15:03:31 | password : *********
+15:03:31 | name : PaySwitch Company Ltd.
+15:03:31 | info : testing offline
+15:03:31 | amt : 0.1
+15:03:31 | mobile : 0249621938
+15:03:31 | billprompt : 2
+15:03:31 | thirdpartyID : 151144941100
+
+23-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:03:33 | return
+15:03:33 | responseCode : 0000
+15:03:33 | responseMessage : Accepted for Delivery 0249621938
+15:03:33 | invoiceNo : 202897437
+
+23-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:05:00 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:05:00 | expiry : 2017-11-24
+15:05:00 | username : *********
+15:05:00 | password : *********
+15:05:00 | name : PaySwitch Company Ltd.
+15:05:00 | info : testing offline
+15:05:00 | amt : 0.1
+15:05:00 | mobile : 0249621938
+15:05:00 | billprompt : 2
+15:05:00 | thirdpartyID : 151144950000
+
+23-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:05:01 | return
+15:05:01 | responseCode : 0000
+15:05:01 | responseMessage : Accepted for Delivery 0249621938
+15:05:01 | invoiceNo : 202897457
+
+23-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:05:47 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:05:47 | expiry : 2017-11-24
+15:05:47 | username : *********
+15:05:47 | password : *********
+15:05:47 | name : PaySwitch Company Ltd.
+15:05:47 | info : testing offline
+15:05:47 | amt : 0.1
+15:05:47 | mobile : 0249621938
+15:05:47 | billprompt : 2
+15:05:47 | thirdpartyID : 151144954700
+
+23-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:05:51 | return
+15:05:51 | responseCode : 0000
+15:05:51 | responseMessage : Accepted for Delivery 0249621938
+15:05:51 | invoiceNo : 202897465
+
+23-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:06:46 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:06:46 | expiry : 2017-11-24
+15:06:46 | username : *********
+15:06:46 | password : *********
+15:06:46 | name : PaySwitch Company Ltd.
+15:06:46 | info : testing offline
+15:06:46 | amt : 0.1
+15:06:46 | mobile : 0249621938
+15:06:46 | billprompt : 2
+15:06:46 | thirdpartyID : 151144960600
+
+23-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:07:04 | return
+15:07:04 | responseCode : 0000
+15:07:04 | responseMessage : Accepted for Delivery 0249621938
+15:07:04 | invoiceNo : 202897484
+
+23-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:09:48 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:09:48 | expiry : 2017-11-24
+15:09:48 | username : *********
+15:09:48 | password : *********
+15:09:48 | name : PaySwitch Company Ltd.
+15:09:48 | info : testing offline
+15:09:48 | amt : 0.1
+15:09:48 | mobile : 0249621938
+15:09:48 | billprompt : 2
+15:09:48 | thirdpartyID : 151144978800
+
+23-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:09:53 | return
+15:09:53 | responseCode : 0000
+15:09:53 | responseMessage : Accepted for Delivery 0249621938
+15:09:53 | invoiceNo : 202897528
+
+23-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:13:45 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:13:45 | expiry : 2017-11-24
+15:13:45 | username : *********
+15:13:45 | password : *********
+15:13:45 | name : PaySwitch Company Ltd.
+15:13:45 | info : testing offline
+15:13:45 | amt : 0.1
+15:13:45 | mobile : 0249621938
+15:13:45 | billprompt : 2
+15:13:45 | thirdpartyID : 151145002500
+
+23-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:13:49 | return
+15:13:49 | responseCode : 0000
+15:13:49 | responseMessage : Accepted for Delivery 0249621938
+15:13:49 | invoiceNo : 202897601
+
+23-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:15:00 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:15:00 | expiry : 2017-11-24
+15:15:00 | username : *********
+15:15:00 | password : *********
+15:15:00 | name : PaySwitch Company Ltd.
+15:15:00 | info : testing offline
+15:15:00 | amt : 0.1
+15:15:00 | mobile : 0249621938
+15:15:00 | billprompt : 2
+15:15:00 | thirdpartyID : 151145010000
+
+23-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:15:56 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:15:56 | expiry : 2017-11-24
+15:15:56 | username : *********
+15:15:56 | password : *********
+15:15:56 | name : PaySwitch Company Ltd.
+15:15:56 | info : testing offline
+15:15:56 | amt : 0.1
+15:15:56 | mobile : 0249621938
+15:15:56 | billprompt : 2
+15:15:56 | thirdpartyID : 151145015600
+
+23-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:15:59 | return
+15:15:59 | responseCode : 0000
+15:15:59 | responseMessage : Accepted for Delivery 0249621938
+15:15:59 | invoiceNo : 202897633
+
+23-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:18:52 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:18:52 | expiry : 2017-11-24
+15:18:52 | username : *********
+15:18:52 | password : *********
+15:18:52 | name : PaySwitch Company Ltd.
+15:18:52 | info : testing offline
+15:18:52 | amt : 0.1
+15:18:52 | mobile : 0249621938
+15:18:52 | billprompt : 2
+15:18:52 | thirdpartyID : 151145033200
+
+23-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:19:00 | return
+15:19:00 | responseCode : 0000
+15:19:00 | responseMessage : Accepted for Delivery 0249621938
+15:19:00 | invoiceNo : 202897669
+
+23-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:20:44 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:20:44 | expiry : 2017-11-24
+15:20:44 | username : *********
+15:20:44 | password : *********
+15:20:44 | name : PaySwitch Company Ltd.
+15:20:44 | info : testing offline
+15:20:44 | amt : 0.1
+15:20:44 | mobile : 0249621938
+15:20:44 | billprompt : 2
+15:20:44 | thirdpartyID : 151145044400
+
+23-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:20:51 | return
+15:20:51 | responseCode : 0000
+15:20:51 | responseMessage : Accepted for Delivery 0249621938
+15:20:51 | invoiceNo : 202897692
+
+23-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:45:31 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:45:31 | expiry : 2017-11-24
+16:45:31 | username : *********
+16:45:31 | password : *********
+16:45:31 | name : PaySwitch Company Ltd.
+16:45:31 | info : testing offline
+16:45:31 | amt : 0.1
+16:45:31 | mobile : 0249621938
+16:45:31 | billprompt : 2
+16:45:31 | thirdpartyID : 151145553100
+
+23-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:45:38 | return
+16:45:38 | responseCode : 0000
+16:45:38 | responseMessage : Accepted for Delivery 0249621938
+16:45:38 | invoiceNo : 202898926
+
+23-11-2017 | TTLR TO MTN REQUEST FOREIGN
+22:48:57 | vendorID : ***
+22:48:57 | subscriberID : 0249829196
+22:48:57 | thirdpartyTransactionID : 151147733000
+22:48:57 | amount : 300
+22:48:57 | apiKey : ***********************
+
+23-11-2017 | MTN TO TLLR RESPONSE FOREIGN
+22:49:00 | return
+22:49:00 | responseCode : 01
+22:49:00 | responseMessage : Successfully processed transaction.
+22:49:00 | thirdpartyTransactionId : 151147733000
+
+23-11-2017 | TTLR TO MTN REQUEST FOREIGN
+22:49:26 | vendorID : ***
+22:49:26 | subscriberID : 0554049468
+22:49:26 | thirdpartyTransactionID : 151147736300
+22:49:26 | amount : 300
+22:49:26 | apiKey : ***********************
+
+23-11-2017 | MTN TO TLLR RESPONSE FOREIGN
+22:49:30 | return
+22:49:30 | responseCode : 01
+22:49:30 | responseMessage : Successfully processed transaction.
+22:49:30 | thirdpartyTransactionId : 151147736300
+
+23-11-2017 | TTLR TO MTN REQUEST FOREIGN
+22:49:40 | vendorID : ***
+22:49:40 | subscriberID : 0554049468
+22:49:40 | thirdpartyTransactionID : 151147737700
+22:49:40 | amount : 300
+22:49:40 | apiKey : ***********************
+
+23-11-2017 | MTN TO TLLR RESPONSE FOREIGN
+22:49:43 | return
+22:49:43 | responseCode : 01
+22:49:43 | responseMessage : Successfully processed transaction.
+22:49:43 | thirdpartyTransactionId : 151147737700
+
+23-11-2017 | TTLR TO MTN REQUEST FOREIGN
+22:49:52 | vendorID : ***
+22:49:52 | subscriberID : 0554049468
+22:49:52 | thirdpartyTransactionID : 151147738800
+22:49:52 | amount : 300
+22:49:52 | apiKey : ***********************
+
+23-11-2017 | MTN TO TLLR RESPONSE FOREIGN
+22:49:55 | return
+22:49:55 | responseCode : 01
+22:49:55 | responseMessage : Successfully processed transaction.
+22:49:55 | thirdpartyTransactionId : 151147738800
+
+23-11-2017 | TTLR TO MTN REQUEST FOREIGN
+22:50:30 | vendorID : ***
+22:50:30 | subscriberID : 0249829196
+22:50:30 | thirdpartyTransactionID : 151147742800
+22:50:30 | amount : 300
+22:50:30 | apiKey : ***********************
+
+23-11-2017 | MTN TO TLLR RESPONSE FOREIGN
+22:50:34 | return
+22:50:34 | responseCode : 01
+22:50:34 | responseMessage : Successfully processed transaction.
+22:50:34 | thirdpartyTransactionId : 151147742800
+
+23-11-2017 | TTLR TO MTN REQUEST FOREIGN
+22:52:03 | vendorID : ***
+22:52:03 | subscriberID : 0244927904
+22:52:03 | thirdpartyTransactionID : 151147752000
+22:52:03 | amount : 300
+22:52:03 | apiKey : ***********************
+
+23-11-2017 | MTN TO TLLR RESPONSE FOREIGN
+22:52:08 | return
+22:52:08 | responseCode : 01
+22:52:08 | responseMessage : Successfully processed transaction.
+22:52:08 | thirdpartyTransactionId : 151147752000
+
+23-11-2017 | TTLR TO MTN REQUEST FOREIGN
+22:52:13 | vendorID : ***
+22:52:13 | subscriberID : 0244927904
+22:52:13 | thirdpartyTransactionID : 151147753100
+22:52:13 | amount : 300
+22:52:13 | apiKey : ***********************
+
+23-11-2017 | MTN TO TLLR RESPONSE FOREIGN
+22:52:19 | return
+22:52:19 | responseCode : 01
+22:52:19 | responseMessage : Successfully processed transaction.
+22:52:19 | thirdpartyTransactionId : 151147753100
+
+23-11-2017 | TTLR TO MTN REQUEST FOREIGN
+22:52:48 | vendorID : ***
+22:52:48 | subscriberID : 0244927904
+22:52:48 | thirdpartyTransactionID : 151147756500
+22:52:48 | amount : 300
+22:52:48 | apiKey : ***********************
+
+23-11-2017 | MTN TO TLLR RESPONSE FOREIGN
+22:52:52 | return
+22:52:52 | responseCode : 01
+22:52:52 | responseMessage : Successfully processed transaction.
+22:52:52 | thirdpartyTransactionId : 151147756500
+
+23-11-2017 | TTLR TO MTN REQUEST FOREIGN
+22:53:03 | vendorID : ***
+22:53:03 | subscriberID : 0244927904
+22:53:03 | thirdpartyTransactionID : 151147758000
+22:53:03 | amount : 300
+22:53:03 | apiKey : ***********************
+
+23-11-2017 | MTN TO TLLR RESPONSE FOREIGN
+22:53:06 | return
+22:53:06 | responseCode : 01
+22:53:06 | responseMessage : Successfully processed transaction.
+22:53:06 | thirdpartyTransactionId : 151147758000
+
+23-11-2017 | TTLR TO MTN REQUEST FOREIGN
+22:53:13 | vendorID : ***
+22:53:13 | subscriberID : 0244927904
+22:53:13 | thirdpartyTransactionID : 151147758900
+22:53:13 | amount : 300
+22:53:13 | apiKey : ***********************
+
+23-11-2017 | MTN TO TLLR RESPONSE FOREIGN
+22:53:18 | return
+22:53:18 | responseCode : 01
+22:53:18 | responseMessage : Successfully processed transaction.
+22:53:18 | thirdpartyTransactionId : 151147758900
+
+23-11-2017 | TTLR TO MTN REQUEST FOREIGN
+22:53:36 | vendorID : ***
+22:53:36 | subscriberID : 0244927904
+22:53:36 | thirdpartyTransactionID : 151147761400
+22:53:36 | amount : 300
+22:53:36 | apiKey : ***********************
+
+23-11-2017 | MTN TO TLLR RESPONSE FOREIGN
+22:53:40 | return
+22:53:40 | responseCode : 01
+22:53:40 | responseMessage : Successfully processed transaction.
+22:53:40 | thirdpartyTransactionId : 151147761400
+

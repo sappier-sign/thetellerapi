@@ -1,0 +1,101 @@
+22-11-2017 | TTLR TO ZENITH REQUEST FOREIGN
+06:02:58 | PaymentRequest
+06:02:58 | Merchant
+06:02:58 | GlobalPayID : ********
+06:02:58 | Card
+06:02:58 | CardNumber : 531632******5297
+06:02:58 | CardExpiryMonth : 05
+06:02:58 | CardExpiryYear : 20
+06:02:58 | CardCvv : ***
+06:02:58 | Payment
+06:02:58 | Description : 151117092280
+06:02:58 | ReferenceID : 151117092280
+06:02:58 | OrderID : 151117092280
+06:02:58 | Amount : 100
+06:02:58 | mode : Mastercard
+
+22-11-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+06:03:03 | PaymentResponse
+06:03:03 | Date : 11/22/2017
+06:03:03 | referenceID : 151117092280
+06:03:03 | PaymentStatus : DECLINED
+06:03:03 | Reason : Bank Declined Transaction
+06:03:03 | ResponseCode : 2
+06:03:03 | Mode : Mastercard
+
+22-11-2017 | TTLR TO ZENITH REQUEST FOREIGN
+06:05:45 | PaymentRequest
+06:05:45 | Merchant
+06:05:45 | GlobalPayID : ********
+06:05:45 | Card
+06:05:45 | CardNumber : 545756******0409
+06:05:45 | CardExpiryMonth : 09
+06:05:45 | CardExpiryYear : 18
+06:05:45 | CardCvv : ***
+06:05:45 | Payment
+06:05:45 | Description : 151166005237
+06:05:45 | ReferenceID : 151166005237
+06:05:45 | OrderID : 151166005237
+06:05:45 | Amount : 300
+06:05:45 | mode : Mastercard
+
+22-11-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+06:05:49 | PaymentResponse
+06:05:49 | Date : 11/22/2017
+06:05:49 | referenceID : 151166005237
+06:05:49 | PaymentStatus : DECLINED
+06:05:49 | Reason : Bank Declined Transaction
+06:05:49 | ResponseCode : 2
+06:05:49 | Mode : Mastercard
+
+22-11-2017 | TTLR TO ZENITH REQUEST FOREIGN
+06:07:35 | PaymentRequest
+06:07:35 | Merchant
+06:07:35 | GlobalPayID : ********
+06:07:35 | Card
+06:07:35 | CardNumber : 519123******4632
+06:07:35 | CardExpiryMonth : 08
+06:07:35 | CardExpiryYear : 20
+06:07:35 | CardCvv : ***
+06:07:35 | Payment
+06:07:35 | Description : 151106061320
+06:07:35 | ReferenceID : 151106061320
+06:07:35 | OrderID : 151106061320
+06:07:35 | Amount : 300
+06:07:35 | mode : Mastercard
+
+22-11-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+06:08:13 | PaymentResponse
+06:08:13 | Date : 11/22/2017
+06:08:13 | referenceID : 151106061320
+06:08:13 | PaymentStatus : DECLINED
+06:08:13 | Reason : Bank Declined Transaction
+06:08:13 | ResponseCode : 2
+06:08:13 | Mode : Mastercard
+
+22-11-2017 | TTLR TO MTN REQUEST FOREIGN
+06:55:46 | vendorID : ***
+06:55:46 | subscriberID : 0554049468
+06:55:46 | thirdpartyTransactionID : 151133374200
+06:55:46 | amount : 300
+06:55:46 | apiKey : ***********************
+
+22-11-2017 | MTN TO TLLR RESPONSE FOREIGN
+06:55:49 | return
+06:55:49 | responseCode : 01
+06:55:49 | responseMessage : Successfully processed transaction.
+06:55:49 | thirdpartyTransactionId : 151133374200
+
+22-11-2017 | TTLR TO MTN REQUEST FOREIGN
+06:56:16 | vendorID : ***
+06:56:16 | subscriberID : 0249621938
+06:56:16 | thirdpartyTransactionID : 151133376800
+06:56:16 | amount : 3
+06:56:16 | apiKey : ***********************
+
+22-11-2017 | MTN TO TLLR RESPONSE FOREIGN
+06:56:19 | return
+06:56:19 | responseCode : 01
+06:56:19 | responseMessage : Successfully processed transaction.
+06:56:19 | thirdpartyTransactionId : 151133376800
+

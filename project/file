@@ -1,0 +1,33 @@
+27-07-2017 | TTLR TO ZENITH REQUEST FOREIGN
+13:05:18 | PaymentRequest
+13:05:18 | Merchant
+13:05:18 | GlobalPayID : GPZEN017
+13:05:18 | Card
+13:05:18 | CardNumber : 4458241000342195
+13:05:18 | CardExpiryMonth : 07
+13:05:18 | CardExpiryYear : 21
+13:05:18 | CardCvv : 699
+13:05:18 | Payment
+13:05:18 | Description : testing new api
+13:05:18 | ReferenceID : 001501160718
+13:05:18 | OrderID : testing new api
+13:05:18 | Amount : 0.1
+13:05:18 | mode : Visa
+
+
+
+27-07-2017 | TTLR TO ZENITH REQUEST FOREIGN
+13:06:53 | PaymentRequest
+13:06:53 | Merchant
+13:06:53 | GlobalPayID : GPZEN017
+13:06:53 | Card
+13:06:53 | CardNumber : 5454410007344162
+13:06:53 | CardExpiryMonth : 10
+13:06:53 | CardExpiryYear : 19
+13:06:53 | CardCvv : 959
+13:06:53 | Payment
+13:06:53 | Description : testing new api
+13:06:53 | ReferenceID : 001501160813
+13:06:53 | OrderID : testing new api
+13:06:53 | Amount : 0.1
+13:06:53 | mode : Mastercard

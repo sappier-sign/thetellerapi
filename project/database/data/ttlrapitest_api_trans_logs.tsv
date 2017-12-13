@@ -1,0 +1,1203 @@
+Array	5654321341	1488837861	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	000000000007	koesieoekcm				2017-03-06 22:04:21
+cloudport	121547856321	1496467724	REQ	debit	mtn	0249621938	0.1	0	0					testing on behalf of cloudport		successful		2017-06-03 05:28:44
+cloudport	121547856321	1496467724	RES	debit	mtn	0249621938	0.1	0	0					testing on behalf of cloudport	0000	successful	Bill found. Tracking ID: MTN175932491D8EE25/1664349891	2017-06-03 05:29:13
+cloudport	121547856321	1497879484	REQ	debit	mtn	0249621938	0.1	0	0					testing on behalf of cloudport				2017-06-19 13:38:04
+cloudport	121547856321	1497879484	RES	debit	mtn	0249621938	0.1	0	0					testing on behalf of cloudport	21VD	failed	Bill not paid...	2017-06-19 13:39:24
+cloudport	124578506542	1496466751	REQ	debit	mtn	0249621938	0.1	0	0					testing on behalf of cloudport				2017-06-03 05:12:31
+cloudport	124578506542	1496466894	REQ	credit	mtn	0249621938	0.1	0	0					testing on behalf of cloudport				2017-06-03 05:14:54
+cloudport	124578506542	1496467672	REQ	credit	mtn	0249621938	0.1	0	0					testing on behalf of cloudport		successful		2017-06-03 05:27:52
+cloudport	124578506542	1496467672	RES	credit	mtn	0249621938	0.1	0	0					testing on behalf of cloudport	01	successful	Successfully processed transaction.	2017-06-03 05:27:54
+cloudport	124578596542	1496466514	REQ	debit	mtn	0249621938	0.1	0	0					testing on behalf of cloudport				2017-06-03 05:08:34
+cloudport	2A6HJDHXALHL	1496444970	REQ	credit	airtel	0269288445	1	0	0									2017-06-02 23:09:30
+cloudport	2A6HJDHXALHL	1496444970	RES	credit	airtel	0269288445	1	0	0					Invalid reference provided	116	failed		2017-06-02 23:10:51
+cloudport	2N4SX57B6E4F	1496444632	REQ	debit	mtn	0200219320	0.5	0	0									2017-06-02 23:03:52
+cloudport	2N4SX57B6E4F	1496444632	RES	debit	mtn	0200219320	0.5	0	0						22VD	failed	Invalid Invoice	2017-06-02 23:04:01
+cloudport	32QDK64O6JWP	1496520488	REQ	debit	Visa	4399********3423	1	0	0	11	20	****	6PAGQJQBE4HM	Gomani Test	https://api.gomani.tech/v1/uniwallet/callback	successful		2017-06-03 20:08:08
+cloudport	32QDK64O6JWP	1496520488	RES	debit	Visa	4399********3423	1	0	0	11	20	****	6PAGQJQBE4HM	Gomani Test	https://api.gomani.tech/v1/uniwallet/callback	successful	transaction processed successfully	2017-06-03 20:08:12
+cloudport	3QKIPHYTHC25	1496519675	REQ	debit	Visa	4399********3423	1	0	0	11	20	****	6LKWWZKVWELR	Gomani Test	https://api.gomani.tech/v1/uniwallet/callback	successful		2017-06-03 19:54:35
+cloudport	3QKIPHYTHC25	1496519675	RES	debit	Visa	4399********3423	1	0	0	11	20	****	6LKWWZKVWELR	Gomani Test	https://api.gomani.tech/v1/uniwallet/callback	successful	transaction processed successfully	2017-06-03 19:54:39
+cloudport	4FEPIWWPXPGD	1496444595	REQ	debit	mtn	0200219320	0.01	0	0									2017-06-02 23:03:15
+cloudport	4FEPIWWPXPGD	1496444595	RES	debit	mtn	0200219320	0.01	0	0						22VD	failed	Invalid Invoice	2017-06-02 23:03:23
+cloudport	4VIFMENBH77T	1496522012	REQ	debit	mastercard	5326********2192	1	0	0	08	19	****	VSCOCWY752C4	Gomani Test				2017-06-03 20:33:32
+cloudport	63CPQTW2KL6K	1496765610	REQ	debit	visa	4399********3423	1	0	0	11	20	****	U3XTLDRKIAWT	Gomani Test				2017-06-06 16:13:30
+cloudport	7J2ZTM5CR6TI	1496522631	REQ	credit	visa	4042********5672	1	0	0	11	18	****	HLVIUOKA7EIV	Gomani Test				2017-06-03 20:43:51
+cloudport	BL7OAJVVCODP	1496521907	REQ	debit	visa	4399********3423	1	0	0	11	20	****	XHHOKQFKVKUQ	Gomani Test				2017-06-03 20:31:47
+cloudport	BUO5EBNRL6AH	1496518746	REQ	credit	Visa	4399********3423	1	0	0	11	20	****	2EMMVTABOWCP		https://api.gomani.tech/v1/uniwallet/callback			2017-06-03 19:39:06
+cloudport	BUO5EBNRL6AH	1496518746	RES	credit	Visa	4399********3423	1	0	0	11	20	****	2EMMVTABOWCP		https://api.gomani.tech/v1/uniwallet/callback	failed	Error: Description Not Set	2017-06-03 19:39:07
+cloudport	C7GNXPQ3FSCD	1496518812	REQ	credit	Visa	4399********3423	1	0	0	11	20	****	YUIJWFL3XBRB	Test	https://api.gomani.tech/v1/uniwallet/callback	successful		2017-06-03 19:40:12
+cloudport	C7GNXPQ3FSCD	1496518812	RES	credit	Visa	4399********3423	1	0	0	11	20	****	YUIJWFL3XBRB	Test	https://api.gomani.tech/v1/uniwallet/callback	successful	transaction processed successfully	2017-06-03 19:40:18
+cloudport	CFCZLRUR7USU	1496520608	REQ	debit	Visa	4399********3423	1	0	0	11	20	****	JH3GHYAGX5XW	Gomani Test	https://api.gomani.tech/v1/uniwallet/callback	successful		2017-06-03 20:10:08
+cloudport	CFCZLRUR7USU	1496520608	RES	debit	Visa	4399********3423	1	0	0	11	20	****	JH3GHYAGX5XW	Gomani Test	https://api.gomani.tech/v1/uniwallet/callback	successful	transaction processed successfully	2017-06-03 20:10:13
+cloudport	CIYDOMBG7NNR	1496522426	REQ	debit	mastercard	4042********5672	1	0	0	11	18	****	KFZ32TDOVGTU	Gomani Test				2017-06-03 20:40:26
+cloudport	DNB2UBZQPUSD	1496524142	REQ	credit	visa	4399********3423	1	0	0	11	20	****	6BLYLSH4XBAQ	Gomani Test				2017-06-03 21:09:02
+cloudport	DQFUAKA2BEYP	1496444919	REQ	credit	airtel	0269288445	1	0	0									2017-06-02 23:08:39
+cloudport	DQFUAKA2BEYP	1496444919	RES	credit	airtel	0269288445	1	0	0					Invalid reference provided	116	failed		2017-06-02 23:09:05
+cloudport	ENE24HTQOFKG	1496444709	REQ	debit	mtn	0200219320	1	0	0									2017-06-02 23:05:09
+cloudport	ENE24HTQOFKG	1496444709	RES	debit	mtn	0200219320	1	0	0						22VD	failed	Invalid Invoice	2017-06-02 23:05:17
+cloudport	EY2KG765C7ZV	1496518712	REQ	credit	mtn	4399********3423	1	0	0			****						2017-06-03 19:38:32
+cloudport	IMSU3YFWTEL4	1496444746	REQ	credit	mtn	0200219320	1	0	0							successful		2017-06-02 23:05:46
+cloudport	IMSU3YFWTEL4	1496444746	RES	credit	mtn	0200219320	1	0	0						01	successful	Successfully processed transaction.	2017-06-02 23:05:49
+cloudport	J6IXGLZL7M4P	1496766419	REQ	debit	visa	4042********5672	1	0	0	11	18	****	3IW6PVA4ZLFD	Gomani Test				2017-06-06 16:26:59
+cloudport	JDQUGRBHOCIR	1496767230	REQ	credit	mtn	0200219320	1	0	0					Gomani Test				2017-06-06 16:40:30
+cloudport	KR3CA4LV7HLO	1496522284	REQ	debit	mastercard	5326********2192	1	0	0	08	19	****	RM5G4DZ5H5ES	Gomani Test				2017-06-03 20:38:04
+cloudport	LWFTDYDEYVG3	1496522959	REQ	credit	visa	4399********3423	1	0	0	11	20	****	IWT3PEE4JE3H	Gomani Test				2017-06-03 20:49:19
+cloudport	ME7B6WGSFB62	1496767204	REQ	debit	mtn	0200219320	1	0	0					Gomani Test				2017-06-06 16:40:04
+cloudport	ME7B6WGSFB62	1496767204	RES	debit	mtn	0200219320	1	0	0					Bill not paid...	21VD	failed		2017-06-06 16:41:23
+cloudport	NAJJYIR7D75R	1496443596	REQ	credit	mtn	0200219320	0.01	0	0							successful		2017-06-02 22:46:36
+cloudport	NAJJYIR7D75R	1496443596	RES	credit	mtn	0200219320	0.01	0	0						01	successful	Successfully processed transaction.	2017-06-02 22:46:38
+cloudport	O5NKPIXFWSR5	1496446708	REQ	credit	airtel	0269288445	1	0	0									2017-06-02 23:38:28
+cloudport	O5NKPIXFWSR5	1496446708	RES	credit	airtel	0269288445	1	0	0					Invalid reference provided	116	failed		2017-06-02 23:38:34
+cloudport	OAMNX2MFA32K	1496522089	REQ	debit	mastercard	5326********2192	1	0	0	08	19	****	JYXRAAF3ER6S	Gomani Test				2017-06-03 20:34:49
+cloudport	OCKLGE63KPHR	1496443563	REQ	credit	mtn	233200219320	0.01	0	0									2017-06-02 22:46:03
+cloudport	PP2AIXWGWKTU	1496765181	REQ	credit	visa	4399********3423	1	0	0	11	20	****	PFWTOHJJMTJR	Gomani Test				2017-06-06 16:06:21
+cloudport	QQAPYJZWNW57	1496765515	REQ	debit	visa	4399********3423	1	0	0	11	20	****	CCHGMJKXAEQT	Gomani Test				2017-06-06 16:11:55
+cloudport	RIN356Z4FIAB	1496521424	REQ	debit	Visa	4399********3422	1	0	0	11	20	****	XWM7IMUXP66I	Gomani Test	https://api.gomani.tech/v1/uniwallet/callback			2017-06-03 20:23:44
+cloudport	RIN356Z4FIAB	1496521424	RES	debit	Visa	4399********3422	1	0	0	11	20	****	XWM7IMUXP66I	Gomani Test	https://api.gomani.tech/v1/uniwallet/callback	failed	Digit check failed.	2017-06-03 20:23:50
+cloudport	TCUGTJVHZ37A	1496522478	REQ	debit	visa	4042********5672	1	0	0	11	18	****	ZDDKCR4Q6MNO	Gomani Test				2017-06-03 20:41:18
+cloudport	TLI4A2SWLJ35	1496520720	REQ	debit	Visa	4399********3423	1	0	0	11	20	****	AW7UHSWPEMCP	Gomani Test	https://api.gomani.tech/v1/uniwallet/callback	successful		2017-06-03 20:12:00
+cloudport	TLI4A2SWLJ35	1496520720	RES	debit	Visa	4399********3423	1	0	0	11	20	****	AW7UHSWPEMCP	Gomani Test	https://api.gomani.tech/v1/uniwallet/callback	successful	transaction processed successfully	2017-06-03 20:12:05
+cloudport	TYXZHRSRLHYT	1496444573	REQ	debit	mtn	0200219320	0.01	0	0									2017-06-02 23:02:53
+cloudport	TYXZHRSRLHYT	1496444573	RES	debit	mtn	0200219320	0.01	0	0						22VD	failed	Invalid Invoice	2017-06-02 23:03:02
+cloudport	UGVIJME2COZZ	1496521740	REQ	credit	visa	4399********3423	1	0	0	11	20	****	RI3N6TQSY7FW	Gomani Test				2017-06-03 20:29:00
+cloudport	VJ4YUYYI6NAJ	1496522544	REQ	debit	visa	4042********5672	1	0	0	11	18	****	QKWHXB7WIO35	Gomani Test				2017-06-03 20:42:24
+cloudport	WHSESMXAT2PG	1496521597	REQ	credit	visa	4399********3423	1	0	0	11	20	****	M5NLWEQF6F5I	Gomani Test				2017-06-03 20:26:37
+cloudport	WJK63WLZD5CP	1496767438	REQ	credit	airtel	0269288445	1	0	0					Gomani Test				2017-06-06 16:43:58
+cloudport	WJK63WLZD5CP	1496767438	RES	credit	airtel	0269288445	1	0	0				CI170606.1644.C01374	You have sent GHC1.00 to 269288445. Your new balance is GHC2.03. Trans ID: CI170606.1644.C01374.	200	successful		2017-06-06 16:44:30
+cloudport	Z5KBLZZJ7YRB	1496766331	REQ	debit	visa	4042********5672	1	0	0	11	18	****	I3ISK27WTKSN	Gomani Test				2017-06-06 16:25:31
+geevapp	43	1494830620	REQ	debit	visa	4069********3942	2	0	0	02	20	****	123456789012	payment for goods and services				2017-05-15 06:43:40
+geevapp	4343564353545	1494830758	REQ	debit	visa	4069********3942	2	0	0	02	20	****	123456789012	payment for goods and services				2017-05-15 06:45:58
+geevapp	4343564353545	1494830774	REQ	debit	visa	4069********3942	2	0	0	02	20	****	123456789013422	payment for goods and services				2017-05-15 06:46:14
+geevapp	4343564353545	1494831087	REQ	debit	visa	4069********3942	2	0	0	02	20	****	123456789032	payment for goods and services				2017-05-15 06:51:27
+geevapp	4343564353545	1498442148	REQ	debit	visa	4131********4386	2	0	0	11	17	****	123456789032	payment for goods and services				2017-06-26 01:55:48
+geevapp	4343564353545	1498442388	REQ	debit	visa	4131********4386	2	0	0	11	17	****	123456789034432	payment for goods and services				2017-06-26 01:59:48
+gfntvstream	1497599550	1497599554	REQ	debit	mtn	0249621938	13.17	0	0					braasig@gmail.com				2017-06-16 07:52:34
+gfntvstream	1497599550	1497599554	RES	debit	mtn	0249621938	13.17	0	0					Bill not paid...	21VD	failed		2017-06-16 07:53:53
+gfntvstream	1497629330	1497629333	REQ	debit	mtn	0249621938	13.17	0	0					braasig@gmail.com				2017-06-16 16:08:53
+gfntvstream	1497629330	1497629333	RES	debit	mtn	0249621938	13.17	0	0					FAILURE	100	failed		2017-06-16 16:10:07
+gfntvstream	1497688794	1497688796	REQ	debit	mtn	0249621938	13.17	0	0					braasig@gmail.com				2017-06-17 08:39:56
+gfntvstream	1497688794	1497688796	RES	debit	mtn	0249621938	13.17	0	0					Bill not paid...	21VD	failed		2017-06-17 08:41:16
+sesmoney		1499969877	REQ	debit	visa	4131********9258	1.01	0	0	01	19	****		Joachim some				2017-07-13 18:17:57
+sesmoney	SES-0b6zawjMeHTW	1497719474	REQ	debit	mastercard	5347********8264	2	0	0	10	17	****	SES-0b6zawjMeHTW	akim				2017-06-17 17:11:14
+sesmoney	SES-0CzDpudB7Qbj	1497719661	REQ	debit	mastercard	5347********8264	2	0	0	10	17	****	SES-0CzDpudB7Qbj	akim				2017-06-17 17:14:21
+sesmoney	SES-1u8lypQgUXjJ	1499968478	REQ	debit	visa	4131********9258	1.02	0	0	01	19	****	SES-1u8lypQgUXjJ	Joachim some				2017-07-13 17:54:38
+sesmoney	SES-2nbHcfsTCDh7	1498074873	REQ	debit	visa	4131********9258	1	0	0	01	19	****	SES-2nbHcfsTCDh7	Joachim some				2017-06-21 19:54:33
+sesmoney	ses-2Pq4vDIac5Ow	1498075742	REQ	debit	visa	4131********9258	1	0	0	01	19	****	2Pq4vDIac5Ow	test				2017-06-21 20:09:02
+sesmoney	SES-41vULRkuX8r0	1497723110	REQ	debit	visa	4131********9258	1	0	0	10	19	****	SES-41vULRkuX8r0	Joachim kofi some				2017-06-17 18:11:50
+sesmoney	SES-4evZUPDfmyAc	1499968773	REQ	debit	visa	4131********9258	1.02	0	0	01	19	****	SES-4evZUPDfmyAc	Joachim some				2017-07-13 17:59:33
+sesmoney	ses-4pLME8bTfIl7	1499970158	REQ	debit	visa	4131********9258	1	0	0	01	19	****	4pLME8bTfIl7	test				2017-07-13 18:22:38
+sesmoney	SES-5KO8vCnsgT91	1499968550	REQ	debit	visa	4131********9258	1.02	0	0	01	19	****	SES-5KO8vCnsgT91	Joachim some				2017-07-13 17:55:50
+sesmoney	SES-5rRFjZNluWkf	1499970498	REQ	debit	visa	4131********9258	1.02	0	0	01	19	****	SES-5rRFjZNluWkf	Joachim some				2017-07-13 18:28:18
+sesmoney	SES-6wMP3Cs50ucX	1492872510	REQ	debit	visa	4131********9258	1	0	0	01	19	****	SES-6wMP3Cs50ucX	Joachim some				2017-04-22 14:48:30
+sesmoney	SES-a3h7H2mslSZ1	1498072935	REQ	debit	visa	4131********9258	1	0	0	01	19	****	Joachim some	Joachim some				2017-06-21 19:22:15
+sesmoney	ses-A5uxLW3fv60R	1498133691	REQ	debit	visa	4131********9258	1	0	0	01	19	****	A5uxLW3fv60R	test				2017-06-22 12:14:51
+sesmoney	ses-ACxzvgDVN4dS	1498073090	REQ	debit	visa	4131********9258	1	0	0	01	19	****	ACxzvgDVN4dS	test				2017-06-21 19:24:50
+sesmoney	SES-AGdj9iqEI32O	1499969733	REQ	debit	visa	4131********9258	1.02	0	0	01	19	****	SES-AGdj9iqEI32O	Joachim some				2017-07-13 18:15:33
+sesmoney	SES-AJgHBKNa1w5x	1499970297	REQ	debit	visa	4131********9258	1.02	0	0	01	19	****	SES-AJgHBKNa1w5x	Joachim some				2017-07-13 18:24:57
+sesmoney	ses-awNpkh0zi4yR	1500032148	REQ	debit	visa	4131********9258	1	0	0	01	19	****	awNpkh0zi4yR	test				2017-07-14 11:35:48
+sesmoney	ses-b6FNTPULEHuo	1500146618	REQ	debit	visa	4131********9258	1	0	0	01	19	****	b6FNTPULEHuo	test				2017-07-15 19:23:38
+sesmoney	SES-bCshQNLtHrdV	1493484006	REQ	debit	visa	4131********9258	1	0	0	01	19	****	SES-bCshQNLtHrdV	Joachim some				2017-04-29 16:40:06
+sesmoney	SES-bKzdOqYktQM2	1493907493	REQ	debit	visa	4563*********523	500	0	0	12	21	****	SES-bKzdOqYktQM2	Kell L Moore				2017-05-04 14:18:13
+sesmoney	ses-brTf5o8v2s1R	1498730016	REQ	debit	visa	4131********9258	1	0	0	01	19	****	brTf5o8v2s1R	test				2017-06-29 09:53:36
+sesmoney	SES-bVk6MzYLQlAW	1498134356	REQ	debit	visa	4131********9258	1	0	0	01	22	****	SES-bVk6MzYLQlAW	Joachim some				2017-06-22 12:25:56
+sesmoney	SES-BxmtUJz7IHfD	1497717150	REQ	debit	mastercard	5347********8264	2	0	0	05	17	****	SES-BxmtUJz7IHfD	Bright				2017-06-17 16:32:30
+sesmoney	SES-BZfr2uJUvEwm	1498072922	REQ	debit	visa	4131********9258	1	0	0	01	19	****	Joachim some	Joachim some				2017-06-21 19:22:02
+sesmoney	SES-clkojpBh9T3U	1497722784	REQ	debit	visa	4131********9258	1	0	0	01	19	****	SES-clkojpBh9T3U	Joachim Kofi Some				2017-06-17 18:06:24
+sesmoney	ses-cS6eiqG4EZkj	1492174105	REQ	debit	visa	0244************	1	0	0	04	18	****	123456789123	test				2017-04-14 12:48:25
+sesmoney	ses-cW74eH1aA2sB	1498083401	REQ	debit	visa	4131********9258	1	0	0	01	199	****	cW74eH1aA2sB	test				2017-06-21 22:16:41
+sesmoney	SES-DdYNGu7JzphA	1493907542	REQ	debit	visa	4563********0523	50	0	0	12	21	****	SES-DdYNGu7JzphA	Kell L Moore				2017-05-04 14:19:02
+sesmoney	SES-dVo2tnzA1DQh	1498133209	REQ	debit	visa	4131********9258	1	0	0	01	19	****	SES-dVo2tnzA1DQh	Joachim some				2017-06-22 12:06:49
+sesmoney	SES-E1r0kOfpBVTL	1498075075	REQ	debit	visa	4131********9258	1	0	0	01	19	****	SES-E1r0kOfpBVTL	Joachim Some				2017-06-21 19:57:55
+sesmoney	SES-edm7gK92r1vI	1498075396	REQ	debit	visa	4131********9258	5	0	0	01	19	****	SES-edm7gK92r1vI	Joachim Some				2017-06-21 20:03:16
+sesmoney	SES-ehAWLZOs2lg7	1498075062	REQ	debit	visa	4131********9258	1	0	0	01	19	****	SES-ehAWLZOs2lg7	Joachim some				2017-06-21 19:57:42
+sesmoney	SES-eM8mDgvufios	1498071236	REQ	debit	visa	4131********9258	1	0	0	01	19	****	SES-eM8mDgvufios	Joachim some				2017-06-21 18:53:56
+sesmoney	SES-eY8AduhXg0Et	1498072628	REQ	debit	visa	4131********9258	1	0	0	01	19	****	Joachim some	Joachim some				2017-06-21 19:17:08
+sesmoney	ses-FG2rE09ke3zc	1498573769	REQ	debit	visa	4131********9258	1	0	0	01	19	****	FG2rE09ke3zc	test				2017-06-27 14:29:29
+sesmoney	ses-ftRAekw4YXq1	1492173890	REQ	debit	visa	0244************	1	0	0	04	18	****	123456789123	test				2017-04-14 12:44:50
+sesmoney	SES-fWKdQrnC3vIl	1497721042	REQ	debit	mastercard	5347********8264	5	0	0	10	17	****	SES-fWKdQrnC3vIl	Joachim some				2017-06-17 17:37:22
+sesmoney	SES-Fxi19mldcH4a	1497723079	REQ	debit	visa	4131********9258	1	0	0	10	19	****	SES-Fxi19mldcH4a	Joachim some				2017-06-17 18:11:19
+sesmoney	SES-gAjWuJCOXMTd	1497723258	REQ	debit	visa	4131********9258	1	0	0	10	19	****	SES-gAjWuJCOXMTd	Joachim kofi some				2017-06-17 18:14:18
+sesmoney	SES-gCQ7NefkVhrs	1498072809	REQ	debit	visa	4131********9258	1	0	0	01	19	****	Joachim some	Joachim some				2017-06-21 19:20:09
+sesmoney	SES-I6nEN0AvWKbx	1499968518	REQ	debit	visa	4131********9258	1.02	0	0	01	19	****	SES-I6nEN0AvWKbx	Joachim some				2017-07-13 17:55:18
+sesmoney	SES-iEmYJNaK7djQ	1497720834	REQ	debit	mastercard	5347********8264	2	0	0	10	17	****	SES-iEmYJNaK7djQ	Joachim some				2017-06-17 17:33:54
+sesmoney	SES-IHcsaz2M0mG3	1497720622	REQ	debit	mastercard	5347********8264	2	0	0	10	17	****	SES-IHcsaz2M0mG3	Joachim some				2017-06-17 17:30:22
+sesmoney	ses-J3wrmXTeHLPx	1492174982	REQ	debit	mastercard	4131********9258	1	0	0	01	19	****	J3wrmXTeHLPx	test				2017-04-14 13:03:02
+sesmoney	SES-jrNXWSCHYpwI	1499968593	REQ	debit	visa	4131********9258	1.02	0	0	01	19	****	SES-jrNXWSCHYpwI	Joachim some				2017-07-13 17:56:33
+sesmoney	ses-JV0Kae5oN7lk	1498083415	REQ	debit	visa	4131********9258	1	0	0	01	19	****	JV0Kae5oN7lk	test				2017-06-21 22:16:55
+sesmoney	SES-K4Raglxz0OXc	1498133794	REQ	debit	visa	4131********9258	1	0	0	01	19	****	SES-K4Raglxz0OXc	Joachim some				2017-06-22 12:16:34
+sesmoney	SES-l5M182CIjeTJ	1498076363	REQ	debit	visa	4131********9258	1	0	0	01	19	****	SES-l5M182CIjeTJ	Joachim Some				2017-06-21 20:19:23
+sesmoney	ses-LmHT87	1492174959	REQ	debit	mastercard	4131********9258	1	0	0	01	19	****	LmHT87	test				2017-04-14 13:02:39
+sesmoney	SES-lzWboerZ1nTd	1498133984	REQ	debit	visa	4131********9258	1	0	0	01	19	****	SES-lzWboerZ1nTd	Joachim some				2017-06-22 12:19:44
+sesmoney	SES-MY0nB1HWxlGh	1498077290	REQ	debit	visa	4131********9258	1	0	0	01	19	****	SES-MY0nB1HWxlGh	Joachim some				2017-06-21 20:34:50
+sesmoney	SES-N54zVBRUgXfh	1493484139	REQ	debit	visa	4131********9258	1	0	0	01	19	****	SES-N54zVBRUgXfh	Joachim some				2017-04-29 16:42:19
+sesmoney	SES-nScvt6KhgR27	1497719753	REQ	debit	mastercard	5347********8264	2	0	0	10	17	****	SES-nScvt6KhgR27	akim				2017-06-17 17:15:53
+sesmoney	SES-Oh5p94CjKEa7	1497720027	REQ	debit	mastercard	5347********8264	1	0	0	10	17	****	SES-Oh5p94CjKEa7	Joachim some				2017-06-17 17:20:27
+sesmoney	SES-OUDzVvX5AsBN	1493907569	REQ	debit	visa	4563********0523	50	0	0	08	21	****	SES-OUDzVvX5AsBN	Kell L Moore				2017-05-04 14:19:29
+sesmoney	SES-pNKYceAVjJ5U	1497722957	REQ	debit	visa	4131********9258	1	0	0	10	19	****	SES-pNKYceAVjJ5U	Joachim some				2017-06-17 18:09:17
+sesmoney	ses-pTOdRyPx4lwX	1498074730	REQ	debit	visa	4131********9258	1	0	0	01	19	****	pTOdRyPx4lwX	test				2017-06-21 19:52:10
+sesmoney	ses-Q6c1BYLOexhV	1500462943	REQ	debit	visa	4131********9258	1	0	0	01	19	****	Q6c1BYLOexhV	test				2017-07-19 11:15:43
+sesmoney	SES-QEgVHyUecsAv	1497722433	REQ	debit	visa	4131********9258	1	0	0	10	19	****	SES-QEgVHyUecsAv	Joachim some				2017-06-17 18:00:33
+sesmoney	SES-RNyeaDrPnV7H	1499968635	REQ	debit	visa	4131********9258	1.02	0	0	01	19	****	SES-RNyeaDrPnV7H	Joachim some				2017-07-13 17:57:15
+sesmoney	SES-rU1RXeTEqzl2	1497722471	REQ	debit	visa	4131********9258	1	0	0	10	19	****	SES-rU1RXeTEqzl2	Joachim some				2017-06-17 18:01:11
+sesmoney	SES-rXNHKOPUVyGA	1498076406	REQ	debit	visa	4131********9258	1	0	0	01	19	****	SES-rXNHKOPUVyGA	Joachim some				2017-06-21 20:20:06
+sesmoney	ses-s38OcD	1492174899	REQ	debit	mastercard	********	1	0	0	01	19	****	4131023866829258	test				2017-04-14 13:01:39
+sesmoney	SES-scUP7vo3jI8f	1499419259	REQ	debit	visa	4145********6575	5	0	0	11	19	****	SES-scUP7vo3jI8f	Godwin Amedia				2017-07-07 09:20:59
+sesmoney	SES-SG7KvAYN3Ln0	1498134301	REQ	debit	visa	4131********9258	1	0	0	01	19	****	SES-SG7KvAYN3Ln0	Joachim some				2017-06-22 12:25:01
+sesmoney	ses-swlZi76YmSMy	1499968807	REQ	debit	visa	4131********9258	1	0	0	01	19	****	swlZi76YmSMy	test				2017-07-13 18:00:07
+sesmoney	SES-t2CJXg8eqsWI	1498134491	REQ	debit	visa	4131********9258	1	0	0	01	22	****	SES-t2CJXg8eqsWI	Joachim some				2017-06-22 12:28:11
+sesmoney	ses-TAprwnHJDBYq	1492518350	REQ	debit	visa	4131********9258	1	0	0	01	19	****	TAprwnHJDBYq	test				2017-04-18 12:25:50
+sesmoney	ses-uc8zOMrCGAIj	1498076537	REQ	debit	visa	4131********9258	1	0	0	01	199	****	uc8zOMrCGAIj	test				2017-06-21 20:22:17
+sesmoney	SES-ueENSyv87BFX	1497719941	REQ	debit	mastercard	5347********8264	2	0	0	10	17	****	SES-ueENSyv87BFX	Joachim some				2017-06-17 17:19:01
+sesmoney	SES-UGceJhMwYnTF	1498076432	REQ	debit	visa	4131********9258	1	0	0	01	19	****	SES-UGceJhMwYnTF	Joachim Some				2017-06-21 20:20:32
+sesmoney	SES-UWvD1mB2gJpQ	1498076890	REQ	debit	visa	4131********9258	1	0	0	01	19	****	SES-UWvD1mB2gJpQ	Joachim some				2017-06-21 20:28:10
+sesmoney	SES-VFAsw5GplZXN	1499968733	REQ	debit	visa	4131********9258	1.02	0	0	01	19	****	SES-VFAsw5GplZXN	Joachim some				2017-07-13 17:58:53
+sesmoney	SES-VRqYp4WeKTw0	1498072821	REQ	debit	visa	4131********9258	1	0	0	01	19	****	Joachim some	Joachim some				2017-06-21 19:20:21
+sesmoney	SES-waigRGN57ftS	1498134646	REQ	debit	visa	4131********9258	1	0	0	01	19	****	SES-waigRGN57ftS	Joachim some				2017-06-22 12:30:46
+sesmoney	SES-wDbSxVCHLvYq	1497720250	REQ	debit	mastercard	5347********8264	1	0	0	10	17	****	SES-wDbSxVCHLvYq	Joachim some				2017-06-17 17:24:10
+sesmoney	SES-WrpMcgeOHZTx	1497719731	REQ	debit	mastercard	5347********8264	2	0	0	10	17	****	SES-WrpMcgeOHZTx	akim				2017-06-17 17:15:31
+sesmoney	SES-WYqOwtIBiDlN	1493931652	REQ	debit	visa	4648********4009	100	0	0	11	21	****	SES-WYqOwtIBiDlN	Joseph Gyimah				2017-05-04 21:00:52
+sesmoney	ses-X1lWFA	1492174793	REQ	debit	mastercard	0244********6729	1	0	0	01	19	****	4131023866829258	test				2017-04-14 12:59:53
+sesmoney	ses-XAJpCS6kYIPj	1499969643	REQ	debit	visa	4131********9258	1	0	0	01	19	****	XAJpCS6kYIPj	test				2017-07-13 18:14:03
+sesmoney	ses-xId5hYfqM3yA	1500415257	REQ	debit	visa	4131********9258	1	0	0	01	19	****	xId5hYfqM3yA	test				2017-07-18 22:00:57
+sesmoney	ses-xJgmrMQeuRfa	1492174087	REQ	debit	visa	0244************	1	0	0	04	18	****	123456789123	test				2017-04-14 12:48:07
+sesmoney	SES-xLMIOWw08SBh	1497723654	REQ	debit	visa	4131********9258	1	0	0	01	19	****	SES-xLMIOWw08SBh	Joachim kofi some				2017-06-17 18:20:54
+sesmoney	SES-xuRi98cUINOM	1498134553	REQ	debit	visa	4131********9258	1	0	0	01	22	****	SES-xuRi98cUINOM	Joachim some				2017-06-22 12:29:13
+sesmoney	SES-y0aB8vCkloYp	1498075255	REQ	debit	visa	4131********9258	2	0	0	01	19	****	SES-y0aB8vCkloYp	Joachim Some				2017-06-21 20:00:55
+sesmoney	SES-yf32UTBbJO6I	1499968570	REQ	debit	visa	4131********9258	1.02	0	0	01	19	****	SES-yf32UTBbJO6I	Joachim some				2017-07-13 17:56:10
+sesmoney	ses-YgCRySsGZMx8	1492175040	REQ	debit	visa	4131********9258	1	0	0	01	19	****	YgCRySsGZMx8	test				2017-04-14 13:04:00
+sesmoney	SES-ygquaMQlnRYf	1492436938	REQ	debit	visa	4131********9258	1	0	0	01	19	****	SES-ygquaMQlnRYf	Joachim Kofi Some				2017-04-17 13:48:58
+sesmoney	ses-ymNtskIcHeOx	1500287898	REQ	debit	visa	4131********9258	1	0	0	01	19	****	ymNtskIcHeOx	test				2017-07-17 10:38:18
+sesmoney	ses-YmVoxO	1492174611	REQ	debit	mastercard	0244********6729	1	0	0	05	16	****	5175451894002263	test				2017-04-14 12:56:51
+sesmoney	SES-zcexYZrNy3IF	1499968688	REQ	debit	visa	4131********9258	1.02	0	0	01	19	****	SES-zcexYZrNy3IF	Joachim some				2017-07-13 17:58:08
+sesmoney	ses-zjFdZ6Ck9Emu	1500246513	REQ	debit	visa	4131********9258	1	0	0	01	19	****	zjFdZ6Ck9Emu	test				2017-07-16 23:08:33
+testuser	02039485678	1490974382	REQ	credit	Mastercard	0249********1938	0.2	0	0			****		test		successful		2017-03-31 15:33:31
+testuser	02039485678	1490974382	REQ	debit	mtn	0249621938	0.1	0	0			****		test		successful		2017-03-31 15:33:02
+testuser	02039485678	1490974382	RES	credit	Mastercard	0249********1938	0.2	0	0			****		test		successful	Error: Card Cvv Not Set	2017-03-31 15:33:32
+testuser	02039485678	1490974382	RES	debit	mtn	0249621938	0.1	0	0			****		test	0000	successful	Bill found. Tracking ID: MTN1758DE76C13CC4B/1394714136	2017-03-31 15:33:31
+testuser	0203948596433	1490978860	REQ	credit	mtn	0249621938	0.1	0	0					deliverables		successful		2017-03-31 16:47:40
+testuser	0203948596433	1490978860	RES	credit	mtn	0249621938	0.1	0	0					deliverables	01	successful	Successfully processed transaction.	2017-03-31 16:47:41
+testuser	02039587939858	1490978929	REQ	credit	mtn	0249621938	0.1	0	0					test		successful		2017-03-31 16:48:49
+testuser	02039587939858	1490978929	RES	credit	mtn	0249621938	0.1	0	0					test	01	successful	Successfully processed transaction.	2017-03-31 16:48:51
+testuser	021545852301	1498647973	REQ	debit	mtn	0249621938	0.1	0	0					testivity		successful		2017-06-28 11:06:13
+testuser	021545852301	1498647973	RES	debit	mtn	0249621938	0.1	0	0					testivity	0000	successful	Bill found. Tracking ID: MTN1759538DB71B433/1767439196	2017-06-28 11:06:43
+testuser	0293847	1490977403	REQ	credit	mtn	0249621938	0.1	0	0					school dues		successful		2017-03-31 16:23:23
+testuser	0293847	1490977403	RES	credit	mtn	0249621938	0.1	0	0					school dues	01	successful	Successfully processed transaction.	2017-03-31 16:23:24
+testuser	03939584749393	1490976513	REQ	credit	mtn	0249621938	0.1	0	0					lol		successful		2017-03-31 16:08:33
+testuser	03939584749393	1490976513	RES	credit	mtn	0249621938	0.1	0	0					lol	01	successful	Successfully processed transaction.	2017-03-31 16:08:35
+testuser	04958674945	1490976628	REQ	credit	mtn	0249621938	0.1	0	0					rrfre		successful		2017-03-31 16:10:28
+testuser	04958674945	1490976628	RES	credit	mtn	0249621938	0.1	0	0					rrfre	01	successful	Successfully processed transaction.	2017-03-31 16:10:30
+testuser	0898978457	1487346917	REQ	debit	mtn	0249621938	0.1	0	0					koesieoekcm		successful		2017-02-17 15:55:17
+testuser	0898978457	1487346917	RES	debit	mtn	0249621938	0.1	0	0						0000	successful	Bill found. Tracking ID: MTN1758A71CFEB862D/1238230408	2017-02-17 15:55:51
+testuser	0898978457	1487351160	REQ	debit	tigo	0275485802	0.1	0	0					koesieoekcm				2017-02-17 17:06:00
+testuser	0898978457	1487357028	REQ	debit	tigo	0275485802	0.1	0	0					koesieoekcm		successful		2017-02-17 18:43:48
+testuser	0898978457	1487357028	RES	debit	tigo	0275485802	0.1	0	0					1483303307	purchase-3008-0000-S	successful	The request has been processed successfully	2017-02-17 18:44:01
+testuser	0898978457	1487357569	REQ	debit	tigo	0275485802	0.1	0	0					koesieoekcm		successful		2017-02-17 18:52:49
+testuser	0898978457	1487357569	RES	debit	tigo	0275485802	0.1	0	0					1483568699	purchase-3008-0000-S	successful	The request has been processed successfully	2017-02-17 18:53:24
+testuser	0898978457	1487357753	REQ	credit	tigo	0275485802	0.3	0	0					koesieoekcm				2017-02-17 18:55:53
+testuser	0898978457	1487358292	REQ	credit	tigo	0275485802	0.1	0	0					koesieoekcm				2017-02-17 19:04:52
+testuser	0898978457	1487358292	RES	credit	tigo	0275485802	0.1	0	0									2017-02-17 19:04:53
+testuser	0898978457	1487358511	REQ	credit	tigo	0275485802	0.1	0	0					koesieoekcm				2017-02-17 19:08:31
+testuser	0898978457	1487358511	RES	credit	tigo	0275485802	0.1	0	0									2017-02-17 19:08:33
+testuser	0898978457	1487361535	REQ	credit	tigo	0275485802	0.1	0	0					koesieoekcm				2017-02-17 19:58:55
+testuser	0898978457	1487361535	RES	credit	tigo	0275485802	0.1	0	0									2017-02-17 19:58:57
+testuser	0898978457	1487361650	REQ	credit	tigo	0275485802	0.1	0	0					koesieoekcm				2017-02-17 20:00:50
+testuser	0898978457	1487361650	RES	credit	tigo	0275485802	0.1	0	0									2017-02-17 20:00:51
+testuser	0898978457	1487496612	REQ	debit	tigo	0275485802	0.1	0	0					koesieoekcm		successful		2017-02-19 09:30:12
+testuser	0898978457	1487496612	RES	debit	tigo	0275485802	0.1	0	0					1485873462	purchase-3008-0000-S	successful	The request has been processed successfully	2017-02-19 09:31:15
+testuser	10002293846	1490970657	REQ	credit	mtn	0249621938	0.1	0	0					test crediting		successful		2017-03-31 14:30:57
+testuser	10002293846	1490970657	RES	credit	mtn	0249621938	0.1	0	0					test crediting	01	successful	Successfully processed transaction.	2017-03-31 14:30:59
+testuser	10002293846	1490970801	REQ	credit	mtn	0249621938	0.5	0	0					test crediting		successful		2017-03-31 14:33:21
+testuser	10002293846	1490970801	RES	credit	mtn	0249621938	0.5	0	0					test crediting	01	successful	Successfully processed transaction.	2017-03-31 14:33:23
+testuser	1010235241	1487329982	REQ	credit	mtn	0249621938	0.1	0.1	0	0.10							koesieoekcm	2017-02-17 11:13:02
+testuser	1010235241	1487330236	REQ	credit	mtn	0249621938	0.1	0.1	0	0.10							koesieoekcm	2017-02-17 11:17:16
+testuser	1010235241	1487330264	REQ	debit	mtn	0249621938	0.1	0.1	0	0.10							koesieoekcm	2017-02-17 11:17:44
+testuser	120124547859	1493799981	REQ	debit	mtn	0249621938	0.01	0	0					demonstration				2017-05-03 08:26:21
+testuser	120124547859	1493799981	RES	debit	mtn	0249621938	0.01	0	0					Bill not paid...	21VD	failed		2017-05-03 08:27:40
+testuser	120128965471	1498648280	REQ	debit	mtn	0249621938	0.1	0	0					payswitch test		successful		2017-06-28 11:11:20
+testuser	120128965471	1498648280	RES	debit	mtn	0249621938	0.1	0	0					payswitch test	0000	successful	Bill found. Tracking ID: MTN1759538EE798DFB/1767461700	2017-06-28 11:11:50
+testuser	1212545878	1491056209	REQ	debit	mtn	0249621938	0.1	0	0									2017-04-01 14:16:49
+testuser	1212545878	1491056209	RES	debit	mtn	0249621938	0.1	0	0						22VD	failed	Invalid Invoice	2017-04-01 14:16:57
+testuser	12451245785	1491060423	REQ	credit	mtn	0249621938	0.2	0	0					val		successful		2017-04-01 15:27:03
+testuser	12451245785	1491060423	RES	credit	mtn	0249621938	0.2	0	0					val	01	successful	Successfully processed transaction.	2017-04-01 15:27:05
+testuser	124545458789	1491057333	REQ	debit	mtn	0249621938	0.1	0	0					descr		successful		2017-04-01 14:35:33
+testuser	124545458789	1491057333	RES	debit	mtn	0249621938	0.1	0	0					descr	0000	successful	Bill found. Tracking ID: MTN1758DFBAE7D1398/1398846662	2017-04-01 14:36:33
+testuser	1245785963	1493836520	REQ	debit	airtel	0263581279	0.01	0	0					school fees				2017-05-03 18:35:20
+testuser	1245785963	1493836520	RES	debit	airtel	0263581279	0.01	0	0				1493836520	NA	NA	failed	Session has been expired.Request could not be processed	2017-05-03 18:35:45
+testuser	12457878854	1491056380	REQ	debit	mtn	0249621938	0.1	0	0									2017-04-01 14:19:40
+testuser	12457878854	1491056380	RES	debit	mtn	0249621938	0.1	0	0						22VD	failed	Invalid Invoice	2017-04-01 14:19:48
+testuser	1293399498	1490974702	REQ	debit	mtn	0249621938	0.1	0	0					desc				2017-03-31 15:38:22
+testuser	1293399498	1490974702	RES	debit	mtn	0249621938	0.1	0	0					desc	21VD	failed	Bill not paid...	2017-03-31 15:39:42
+testuser	1421521425454	1491057218	REQ	debit	mtn	0249621938	0.1	0	0					desc		successful		2017-04-01 14:33:38
+testuser	1421521425454	1491057218	RES	debit	mtn	0249621938	0.1	0	0					desc	0000	successful	Bill found. Tracking ID: MTN1758DFBA7A693FB/1398838661	2017-04-01 14:34:43
+testuser	145114578521	1491060319	REQ	debit	mtn	0249621938	0.1	0	0					validated		successful		2017-04-01 15:25:19
+testuser	145114578521	1491060319	RES	debit	mtn	0249621938	0.1	0	0					validated	0000	successful	Bill found. Tracking ID: MTN1758DFC6899C2D6/1399052774	2017-04-01 15:26:09
+testuser	1497578771	1497578774	REQ	debit	mtn	0249621938	13.17	0	0					braasig@gmail.com				2017-06-16 02:06:14
+testuser	1497578771	1497578774	RES	debit	mtn	0249621938	13.17	0	0					Bill not paid...	21VD	failed		2017-06-16 02:07:34
+testuser	1497579013	1497579015	REQ	debit	mtn	0249621938	0.1	0	0					braasig@gmail.com		successful		2017-06-16 02:10:15
+testuser	1497579013	1497579015	RES	debit	mtn	0249621938	0.1	0	0					Bill found. Tracking ID: MTN1759433E1A32444/1717307130	0000	successful		2017-06-16 02:10:44
+testuser	1497580406	1497580408	REQ	debit	mtn	0249621938	0.1	0	0					braasig@gmail.com		successful		2017-06-16 02:33:28
+testuser	1497580406	1497580408	RES	debit	mtn	0249621938	0.1	0	0					Bill found. Tracking ID: MTN17594343849525F/1717309257	0000	successful		2017-06-16 02:33:58
+testuser	1497580851	1497580853	REQ	debit	mtn	0249621938	0.1	0	0					braasig@gmail.com		successful		2017-06-16 02:40:53
+testuser	1497580851	1497580853	RES	debit	mtn	0249621938	0.1	0	0					Bill found. Tracking ID: MTN1759434546F25EC/1717309956	0000	successful		2017-06-16 02:41:23
+testuser	1497581064	1497581067	REQ	debit	mtn	0249621938	0.1	0	0					braasig@gmail.com		successful		2017-06-16 02:44:27
+testuser	1497581064	1497581067	RES	debit	mtn	0249621938	0.1	0	0					Bill found. Tracking ID: MTN175943461C93466/1717310351	0000	successful		2017-06-16 02:44:56
+testuser	1497581165	1497581167	REQ	debit	mtn	0249621938	0.1	0	0					braasig@gmail.com		successful		2017-06-16 02:46:07
+testuser	1497581165	1497581167	RES	debit	mtn	0249621938	0.1	0	0					Bill found. Tracking ID: MTN175943467E2BD42/1717310525	0000	successful		2017-06-16 02:46:36
+testuser	1497581388	1497581390	REQ	debit	mtn	0249621938	0.1	0	0					braasig@gmail.com		successful		2017-06-16 02:49:50
+testuser	1497581388	1497581390	RES	debit	mtn	0249621938	0.1	0	0					Bill found. Tracking ID: MTN175943475F13F18/1717310925	0000	successful		2017-06-16 02:50:20
+testuser	1497581607	1497581609	REQ	debit	mtn	0249621938	0.1	0	0					braasig@gmail.com		successful		2017-06-16 02:53:29
+testuser	1497581607	1497581609	RES	debit	mtn	0249621938	0.1	0	0					Bill found. Tracking ID: MTN175943483CA9F52/1717311370	0000	successful		2017-06-16 02:53:59
+testuser	1497581855	1497581857	REQ	debit	mtn	0249621938	0.1	0	0					braasig@gmail.com		successful		2017-06-16 02:57:37
+testuser	1497581855	1497581857	RES	debit	mtn	0249621938	0.1	0	0					Bill found. Tracking ID: MTN175943493003BB4/1717311942	0000	successful		2017-06-16 02:58:06
+testuser	1497581998	1497582000	REQ	debit	mtn	0249621938	0.1	0	0					braasig@gmail.com		successful		2017-06-16 03:00:00
+testuser	1497581998	1497582000	RES	debit	mtn	0249621938	0.1	0	0					Bill found. Tracking ID: MTN17594349C102C93/1717312305	0000	successful		2017-06-16 03:00:30
+testuser	1497582252	1497582254	REQ	debit	mtn	0249621938	0.1	0	0					braasig@gmail.com		successful		2017-06-16 03:04:14
+testuser	1497582252	1497582254	RES	debit	mtn	0249621938	0.1	0	0					Bill found. Tracking ID: MTN1759434ABBCDB9F/1717313110	0000	successful		2017-06-16 03:04:43
+testuser	412457896325	1498647213	REQ	debit	mtn	0249621938	0.1	0	0					testivity		successful		2017-06-28 10:53:33
+testuser	412457896325	1498647213	RES	debit	mtn	0249621938	0.1	0	0					testivity	0000	successful	Bill found. Tracking ID: MTN1759538AC204FC1/1767382786	2017-06-28 10:54:02
+testuser	451136598712	1491066331	REQ	credit	mtn	0249621938	0.5	0	0					Testing credit validation		successful		2017-04-01 17:05:31
+testuser	451136598712	1491066331	RES	credit	mtn	0249621938	0.5	0	0					Testing credit validation	01	successful	Successfully processed transaction.	2017-04-01 17:05:32
+testuser	4512121547	1491068765	REQ	debit	Mastercard	5454********4162	0.1	0	0	10	19	****	454585878545	debit mc				2017-04-01 17:46:05
+testuser	4512121547	1491068765	RES	debit	Mastercard	5454********4162	0.1	0	0	10	19	****	454585878545	debit mc				2017-04-01 17:46:18
+testuser	454789564587	1493799855	REQ	credit	mtn	0249621938	0.1	0	0					demonstration				2017-05-03 08:24:15
+testuser	4548785454	1491067453	REQ	credit	mtn	0249621938	0.2	0	0					transfer		successful		2017-04-01 17:24:53
+testuser	4548785454	1491067453	REQ	debit	mtn	0249621938	0.1	0	0					transfer		successful		2017-04-01 17:24:13
+testuser	4548785454	1491067453	RES	credit	mtn	0249621938	0.2	0	0					transfer	01	successful	Successfully processed transaction.	2017-04-01 17:24:54
+testuser	4548785454	1491067453	RES	debit	mtn	0249621938	0.1	0	0					transfer	0000	successful	Bill found. Tracking ID: MTN1758DFE25C11B6F/1399610346	2017-04-01 17:24:53
+testuser	4754578	1491066092	REQ	debit	mtn	0249621938	0.1	0	0					describe it yourself		successful		2017-04-01 17:01:32
+testuser	4754578	1491066092	RES	debit	mtn	0249621938	0.1	0	0					describe it yourself	0000	successful	Bill found. Tracking ID: MTN1758DFDCFBC7BC3/1399500849	2017-04-01 17:02:01
+testuser	487596541278	1488838814	REQ	debit	mtn	0553790423	0.1	0	0					koesieoekcm				2017-03-06 22:20:14
+testuser	487596541278	1488838814	RES	debit	mtn	0553790423	0.1	0	0					Bill not paid...	21VD	failed		2017-03-06 22:21:33
+testuser	487596541278	1488839048	REQ	debit	mtn	0553790423	0.1	0	0					koesieoekcm				2017-03-06 22:24:08
+testuser	487596541278	1488839434	REQ	credit	mtn	0553790423	0.1	0	0					koesieoekcm				2017-03-06 22:30:34
+testuser	487596541278	1488841437	REQ	transfer	mtn	0553790423	0.1	0	0					koesieoekcm				2017-03-06 23:03:57
+testuser	487596541278	1488841490	REQ	transfer	mtn	0553790423	0.1	0	0					koesieoekcm				2017-03-06 23:04:50
+testuser	487596541278	1488841573	REQ	transfer	mtn	0553790423	0.1	0	0					koesieoekcm				2017-03-06 23:06:13
+testuser	487596541278	1488841584	REQ	transfer	mtn	0553790423	0.1	0	0					koesieoekcm				2017-03-06 23:06:24
+testuser	487596541278	1488841646	REQ	transfer	mtn	0553790423	0.1	0	0					koesieoekcm				2017-03-06 23:07:26
+testuser	487596541278	1488842226	REQ	credit	mtn	0553790423	0.1	0	0					koesieoekcm				2017-03-06 23:17:06
+testuser	487596541278	1488842557	REQ	transfer	mtn	0553790423	0.1	0	0					koesieoekcm				2017-03-06 23:22:37
+testuser	487596541278	1488842628	REQ	transfer	mtn	0553790423	0.1	0	0					koesieoekcm				2017-03-06 23:23:48
+testuser	487596541278	1488842667	REQ	transfer	mtn	0553790423	0.1	0	0					koesieoekcm				2017-03-06 23:24:27
+testuser	487596541278	1488842753	REQ	transfer	mtn	0553790423	0.1	0	0					koesieoekcm				2017-03-06 23:25:53
+testuser	487596541278	1488842839	REQ	transfer	mtn	0553790423	0.1	0	0					koesieoekcm				2017-03-06 23:27:19
+testuser	487596541278	1488843067	REQ	transfer	mtn	0553790423	0.1	0	0					koesieoekcm				2017-03-06 23:31:07
+testuser	487596541278	1488843297	REQ	debit	mtn	0275485802	0.1	0	0					koesieoekcm				2017-03-06 23:34:57
+testuser	487596541278	1488843297	RES	debit	mtn	0275485802	0.1	0	0					User account not registered on Mobile Money	515	failed		2017-03-06 23:35:25
+testuser	487596541278	1488843336	REQ	debit	tigo	0275485802	0.1	0	0					koesieoekcm		successful		2017-03-06 23:35:36
+testuser	487596541278	1488843336	RES	debit	tigo	0275485802	0.1	0	0					1514829817	purchase-3008-0000-S	successful	The request has been processed successfully	2017-03-06 23:36:17
+testuser	487596541278	1488843482	REQ	credit	tigo	0275485802	0.1	0	0					koesieoekcm		successful		2017-03-06 23:38:02
+testuser	487596541278	1488843482	RES	credit	tigo	0275485802	0.1	0	0				1488843482	1514829837	purchase-3008-0000-S	successful	The request has been processed successfully	2017-03-06 23:38:04
+testuser	487596541278	1488843717	REQ	transfer	tigo	0275485802	0.1	0	0					koesieoekcm				2017-03-06 23:41:57
+testuser	487596541278	1488843792	REQ	transfer	tigo	0275485802	0.1	0	0					koesieoekcm				2017-03-06 23:43:12
+testuser	487596541278	1488843975	REQ	transfer	tigo	0275485802	0.1	0	0					koesieoekcm				2017-03-06 23:46:15
+testuser	487596541278	1488844125	REQ	transfer	tigo	0275485802	0.1	0	0					koesieoekcm				2017-03-06 23:48:45
+testuser	487596541278	1488844131	REQ	transfer	tigo	0275485802	0.1	0	0					koesieoekcm				2017-03-06 23:48:51
+testuser	487596541278	1488844378	REQ	transfer	tigo	0275485802	0.1	0	0					koesieoekcm				2017-03-06 23:52:58
+testuser	487596541278	1488844907	REQ	transfer	tigo	0275485802	0.1	0	0					koesieoekcm				2017-03-07 00:01:47
+testuser	487596541278	1488845238	REQ	transfer	tigo	0275485802	0.1	0	0					koesieoekcm				2017-03-07 00:07:18
+testuser	487596541278	1488845316	REQ	credit	tigo	0275485802	0.1	0	0					koesieoekcm		successful		2017-03-07 00:09:12
+testuser	487596541278	1488845316	REQ	debit	tigo	0275485802	0.1	0	0					koesieoekcm		successful		2017-03-07 00:08:36
+testuser	487596541278	1488845316	RES	credit	tigo	0275485802	0.1	0	0				1488845316	1514830194	purchase-3008-0000-S	successful	The request has been processed successfully	2017-03-07 00:09:14
+testuser	487596541278	1488845316	RES	debit	tigo	0275485802	0.1	0	0					1514830187	purchase-3008-0000-S	successful	The request has been processed successfully	2017-03-07 00:09:12
+testuser	487596541278	1488846004	REQ	credit	tigo	0279621938	0.1	0	0					koesieoekcm		successful		2017-03-07 00:20:43
+testuser	487596541278	1488846004	REQ	debit	tigo	0275485802	0.1	0	0					koesieoekcm		successful		2017-03-07 00:20:04
+testuser	487596541278	1488846004	RES	credit	tigo	0279621938	0.1	0	0				1488846004	1514837824	purchase-3008-0000-S	successful	The request has been processed successfully	2017-03-07 00:20:45
+testuser	487596541278	1488846004	RES	debit	tigo	0275485802	0.1	0	0					1514837821	purchase-3008-0000-S	successful	The request has been processed successfully	2017-03-07 00:20:43
+testuser	487596541278	1488846082	REQ	credit	tigo	0249621938	0.1	0	0					koesieoekcm		successful		2017-03-07 00:21:55
+testuser	487596541278	1488846082	REQ	debit	tigo	0275485802	0.1	0	0					koesieoekcm		successful		2017-03-07 00:21:22
+testuser	487596541278	1488846082	RES	credit	tigo	0275485802	0.1	0	0				1488846082	1514837841	purchase-3008-0000-S	successful	The request has been processed successfully	2017-03-07 00:21:59
+testuser	487596541278	1488846082	RES	debit	tigo	0275485802	0.1	0	0					1514837836	purchase-3008-0000-S	successful	The request has been processed successfully	2017-03-07 00:21:55
+testuser	487596541278	1488846197	REQ	credit	mtn	0249621938	0.1	0	0					koesieoekcm		successful		2017-03-07 00:23:46
+testuser	487596541278	1488846197	REQ	debit	tigo	0275485802	0.1	0	0					koesieoekcm		successful		2017-03-07 00:23:17
+testuser	487596541278	1488846197	RES	debit	tigo	0275485802	0.1	0	0					1514837851	purchase-3008-0000-S	successful	The request has been processed successfully	2017-03-07 00:23:46
+testuser	487596541278	1488846347	REQ	credit	mtn	4846********6596	0.1	0	0			****		koesieoekcm				2017-03-07 00:25:52
+testuser	487596541278	1488846347	REQ	debit	visa	4846********6596	1	0	0	11	19	****	000000000011	koesieoekcm				2017-03-07 00:25:47
+testuser	487596541278	1488846382	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	000000000011	koesieoekcm				2017-03-07 00:26:22
+testuser	487596541278	1488846390	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	000000000012	koesieoekcm				2017-03-07 00:26:30
+testuser	487596541278	1488846596	REQ	debit	mtn	0249621938	0.1	0	0					koesieoekcm				2017-03-07 00:29:56
+testuser	487596541278	1488886992	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	000000000013	koesieoekcm				2017-03-07 11:43:12
+testuser	487596541278	1488887276	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	000000000014	koesieoekcm				2017-03-07 11:47:56
+testuser	5654321341	1487573691	REQ	debit	tigo	0249621938	0.02	0	0					koesieoekcm		successful		2017-02-20 06:54:51
+testuser	5654321341	1487573691	RES	debit	tigo	0249621938	0.02	0	0					1486784927	purchase-3008-0000-S	successful	The request has been processed successfully	2017-02-20 06:56:59
+testuser	5654321341	1487574080	REQ	debit	tigo	0249621938	100	0	0					koesieoekcm				2017-02-20 07:01:20
+testuser	5654321341	1487574080	RES	debit	tigo	0249621938	100	0	0					1486801535	purchase-3008-3017-E	failed	Insufficient balance.	2017-02-20 07:03:28
+testuser	5654321341	1487574096	REQ	debit	tigo	0275485802	100	0	0					koesieoekcm				2017-02-20 07:01:36
+testuser	5654321341	1487574096	RES	debit	tigo	0275485802	100	0	0					1486801535	purchase-3008-3017-E	failed	Insufficient balance.	2017-02-20 07:02:10
+testuser	5654321341	1487578121	REQ	credit	tigo	0275485802	0.01	0	0					koesieoekcm		successful		2017-02-20 08:08:41
+testuser	5654321341	1487578121	RES	credit	tigo	0275485802	0.01	0	0				1487578121	1486897491	purchase-3008-0000-S	successful	The request has been processed successfully	2017-02-20 08:08:44
+testuser	5654321341	1487578555	REQ	debit	tigo	0275485802	0.01	0	0					koesieoekcm		successful		2017-02-20 08:15:55
+testuser	5654321341	1487578555	RES	debit	tigo	0275485802	0.01	0	0					1486914972	purchase-3008-0000-S	successful	The request has been processed successfully	2017-02-20 08:16:20
+testuser	5654321341	1487582970	REQ	debit	tigo	0275485802	0.01	0	0					koesieoekcm		successful		2017-02-20 09:29:30
+testuser	5654321341	1487582970	RES	debit	tigo	0275485802	0.01	0	0					1487087567	purchase-3008-0000-S	successful	The request has been processed successfully	2017-02-20 09:29:57
+testuser	5654321341	1487678624	REQ	debit	mtn	0249621938	0.1	0	0					koesieoekcm				2017-02-21 12:03:44
+testuser	5654321341	1487678624	RES	debit	mtn	0249621938	0.1	0	0					Bill not paid...	21VD	failed		2017-02-21 12:05:03
+testuser	5654321341	1487678659	REQ	debit	mtn	0249621938	0.1	0	0					koesieoekcm		successful		2017-02-21 12:04:19
+testuser	5654321341	1487678659	RES	debit	mtn	0249621938	0.1	0	0						0000	successful	Bill found. Tracking ID: MTN1758AC2CDFAA26B/1250727236	2017-02-21 12:04:53
+testuser	5654321341	1487678877	REQ	credit	airtel	0244637602	0.1	0	0					koesieoekcm		successful		2017-02-21 12:08:31
+testuser	5654321341	1487678877	REQ	debit	mtn	0249621938	0.1	0	0					koesieoekcm		successful		2017-02-21 12:07:57
+testuser	5654321341	1487678877	RES	debit	mtn	0249621938	0.1	0	0						0000	successful	Bill found. Tracking ID: MTN1758AC2DB7D6ED8/1250741256	2017-02-21 12:08:31
+testuser	5654321341	1487843496	REQ	debit	airtel	0244637602	0.1	0	0					koesieoekcm				2017-02-23 09:51:36
+testuser	5654321341	1487843496	RES	debit	airtel	0244637602	0.1	0	0						113	failed	Absent subscriber	2017-02-23 09:51:49
+testuser	5654321341	1487843611	REQ	debit	airtel	0244637602	0.1	0	0					koesieoekcm				2017-02-23 09:53:31
+testuser	5654321341	1487843611	RES	debit	airtel	0244637602	0.1	0	0						100	failed	Timeout	2017-02-23 09:54:12
+testuser	5654321341	1487843774	REQ	debit	airtel	0244637602	0.1	0	0					koesieoekcm				2017-02-23 09:56:14
+testuser	5654321341	1487843774	RES	debit	airtel	0244637602	0.1	0	0						101	failed	MAP interface error	2017-02-23 09:56:46
+testuser	5654321341	1487843888	REQ	credit	mtn	0249621938	0.1	0	0					koesieoekcm		successful		2017-02-23 09:58:34
+testuser	5654321341	1487843888	REQ	debit	airtel	0244637602	0.1	0	0					koesieoekcm		successful		2017-02-23 09:58:08
+testuser	5654321341	1487843888	RES	debit	airtel	0244637602	0.1	0	0				1487843888	MP170223.0958.C05984	200	successful	Success	2017-02-23 09:58:34
+testuser	5654321341	1487844615	REQ	debit	mastercard	5454********4162	0.1	0	0	10	19	****	878454587898	koesieoekcm				2017-02-23 10:10:15
+testuser	5654321341	1487845169	REQ	debit	mastercard	5454********4162	0.1	0	0	10	19	****	878454587898	koesieoekcm				2017-02-23 10:19:29
+testuser	5654321341	1487845303	REQ	debit	mastercard	5454********4162	0.1	0	0	10	19	****	878454587898	koesieoekcm				2017-02-23 10:21:43
+testuser	5654321341	1488379427	REQ	debit	mastercard	5454********4162	0.1	0	0	10	19	****	878454587898	koesieoekcm				2017-03-01 14:43:47
+testuser	5654321341	1488379452	REQ	debit	mastercard	5454********4162	0.1	0	0	10	19	****	878454587892	koesieoekcm				2017-03-01 14:44:12
+testuser	5654321341	1488380056	REQ	debit	mastercard	5454********4162	0.1	0	0	10	19	****	878454587892	koesieoekcm				2017-03-01 14:54:16
+testuser	5654321341	1488380153	REQ	debit	mastercard	5454********4162	0.1	0	0	10	19	****	878454587892	koesieoekcm				2017-03-01 14:55:53
+testuser	5654321341	1488380484	REQ	debit	mastercard	5454********4162	0.1	0	0	10	19	****	878454587892	koesieoekcm				2017-03-01 15:01:24
+testuser	5654321341	1488380498	REQ	debit	mastercard	5454********4162	0.1	0	0	10	19	****	878454587892	koesieoekcm				2017-03-01 15:01:38
+testuser	5654321341	1488380531	REQ	debit	mastercard	5454********4162	0.1	0	0	10	19	****	878454587892	koesieoekcm				2017-03-01 15:02:11
+testuser	5654321341	1488380570	REQ	debit	mastercard	5454********4162	0.1	0	0	10	19	****	878454587892	koesieoekcm				2017-03-01 15:02:50
+testuser	5654321341	1488380940	REQ	debit	mastercard	5454********4162	0.1	0	0	10	19	****	878454587892	koesieoekcm				2017-03-01 15:09:00
+testuser	5654321341	1488381005	REQ	debit	mastercard	5454********4162	0.1	0	0	10	19	****	878454587892	koesieoekcm				2017-03-01 15:10:05
+testuser	5654321341	1488381722	REQ	debit	mastercard	5454********4162	0.1	0	0	10	19	****	878454587892	koesieoekcm				2017-03-01 15:22:02
+testuser	5654321341	1488383040	REQ	debit	mastercard	5454********4162	0.1	0	0	10	19	****	878454587892	koesieoekcm				2017-03-01 15:44:00
+testuser	5654321341	1488383126	REQ	debit	visa	4714********2150	0.1	0	0	03	18	****	878454587892	koesieoekcm				2017-03-01 15:45:26
+testuser	5654321341	1488383238	REQ	debit	visa	4714********2150	0.1	0	0	03	18	****	878454587892	koesieoekcm				2017-03-01 15:47:18
+testuser	5654321341	1488383300	REQ	debit	mastercard	5454********4162	0.02	0	0	10	19	****	878454587892	koesieoekcm				2017-03-01 15:48:20
+testuser	5654321341	1488383314	REQ	debit	mastercard	5454********4162	0.02	0	0	10	19	****	878454587897	koesieoekcm				2017-03-01 15:48:34
+testuser	5654321341	1488383427	REQ	transfer	mastercard	5454********4162	0.02	0	0	10	19	****	878454587821	koesieoekcm				2017-03-01 15:50:27
+testuser	5654321341	1488383489	REQ	transfer	mastercard	5454********4162	0.02	0	0	10	19	****	878454587821	koesieoekcm				2017-03-01 15:51:29
+testuser	5654321341	1488383507	REQ	transfer	mastercard	5454********4162	0.02	0	0	10	19	****	154257859632	koesieoekcm				2017-03-01 15:51:47
+testuser	5654321341	1488383789	REQ	transfer	mastercard	5454********4162	0.02	0	0	10	19	****	157757859632	koesieoekcm				2017-03-01 15:56:29
+testuser	5654321341	1488384573	REQ	transfer	mastercard	5454********4162	0.02	0	0	10	19	****	957757859632	koesieoekcm				2017-03-01 16:09:33
+testuser	5654321341	1488384808	REQ	transfer	mastercard	5454********4162	0.02	0	0	10	19	****	957757859632	koesieoekcm				2017-03-01 16:13:28
+testuser	5654321341	1488385362	REQ	debit	mastercard	5454********4162	0.02	0	0	10	19	****	958757859632	koesieoekcm				2017-03-01 16:22:42
+testuser	5654321341	1488385746	REQ	debit	mastercard	5454********4162	0.02	0	0	10	19	****	958757859777	koesieoekcm				2017-03-01 16:29:06
+testuser	5654321341	1488385944	REQ	transfer	mastercard	5454********4162	0.02	0	0	10	19	****	958766859777	koesieoekcm				2017-03-01 16:32:24
+testuser	5654321341	1488386310	REQ	transfer	mastercard	5454********4162	0.02	0	0	10	19	****	959966859777	koesieoekcm				2017-03-01 16:38:30
+testuser	5654321341	1488386524	REQ	transfer	mastercard	5454********4162	0.02	0	0	10	19	****	959966859707	koesieoekcm				2017-03-01 16:42:04
+testuser	5654321341	1488386647	REQ	transfer	mastercard	5454********4162	0.02	0	0	10	19	****	959966859707	koesieoekcm				2017-03-01 16:44:07
+testuser	5654321341	1488386657	REQ	transfer	mastercard	5454********4162	0.02	0	0	10	19	****	959966859701	koesieoekcm				2017-03-01 16:44:17
+testuser	5654321341	1488386776	REQ	transfer	mastercard	5454********4162	0.02	0	0	10	19	****	959966859702	koesieoekcm				2017-03-01 16:46:16
+testuser	5654321341	1488386846	REQ	transfer	mastercard	5454********4162	0.02	0	0	10	19	****	956966859702	koesieoekcm				2017-03-01 16:47:26
+testuser	5654321341	1488387249	REQ	transfer	mastercard	5454********4162	0.02	0	0	10	19	****	956966759702	koesieoekcm				2017-03-01 16:54:09
+testuser	5654321341	1488387503	REQ	transfer	mastercard	5454********4162	0.02	0	0	10	19	****	056966759702	koesieoekcm				2017-03-01 16:58:23
+testuser	5654321341	1488387531	REQ	debit	mastercard	5454********4162	0.02	0	0	10	19	****	056966759102	koesieoekcm				2017-03-01 16:58:51
+testuser	5654321341	1488387719	REQ	debit	mastercard	5454********4162	0.02	0	0	10	19	****	056966009102	koesieoekcm				2017-03-01 17:01:59
+testuser	5654321341	1488387854	REQ	debit	mastercard	5454********4162	0.02	0	0	10	19	****	056966009112	koesieoekcm				2017-03-01 17:04:14
+testuser	5654321341	1488387876	REQ	debit	mastercard	5454********4162	0.02	0	0	10	19	****	101020324578	koesieoekcm				2017-03-01 17:04:36
+testuser	5654321341	1488387979	REQ	debit	mastercard	5454********4162	0.02	0	0	10	19	****	101020324578	koesieoekcm				2017-03-01 17:06:19
+testuser	5654321341	1488388000	REQ	debit	mastercard	5454********4162	0.02	0	0	10	19	****	101020324588	koesieoekcm				2017-03-01 17:06:40
+testuser	5654321341	1488388127	REQ	debit	mastercard	5454********4162	0.02	0	0	10	19	****	111020324588	koesieoekcm				2017-03-01 17:08:47
+testuser	5654321341	1488388268	REQ	debit	visa	4714********2152	0.02	0	0	10	19	****	111020324588	koesieoekcm				2017-03-01 17:11:08
+testuser	5654321341	1488388281	REQ	debit	visa	4714********2152	0.02	0	0	10	19	****	111022324588	koesieoekcm				2017-03-01 17:11:21
+testuser	5654321341	1488388429	REQ	debit	visa	4714********2152	0.02	0	0	10	19	****	119032324588	koesieoekcm				2017-03-01 17:13:49
+testuser	5654321341	1488389672	REQ	debit	visa	4704********5515	0.02	0	0	09	19	****	58585478512	koesieoekcm				2017-03-01 17:34:32
+testuser	5654321341	1488389687	REQ	debit	visa	4704********5515	0.02	0	0	09	19	****	102010002321	koesieoekcm				2017-03-01 17:34:47
+testuser	5654321341	1488389988	REQ	debit	visa	4846********6596	0.02	0	0	11	19	****	002010002321	koesieoekcm				2017-03-01 17:39:48
+testuser	5654321341	1488390051	REQ	debit	visa	4846********6596	1	0	0	11	19	****	002010002321	koesieoekcm				2017-03-01 17:40:51
+testuser	5654321341	1488390063	REQ	debit	visa	4846********6596	1	0	0	11	19	****	000010002321	koesieoekcm				2017-03-01 17:41:03
+testuser	5654321341	1488390269	REQ	transfer	visa	4846********6596	0.5	0	0	11	19	****	000000002321	koesieoekcm				2017-03-01 17:44:29
+testuser	5654321341	1488390361	REQ	transfer	visa	4846********6596	0.1	0	0	11	19	****	000000000321	koesieoekcm				2017-03-01 17:46:01
+testuser	5654321341	1488390426	REQ	transfer	visa	4846********6596	0.1	0	0	11	19	****	000000000021	koesieoekcm				2017-03-01 17:47:06
+testuser	5654321341	1488390908	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	000000000001	koesieoekcm				2017-03-01 17:55:08
+testuser	5654321341	1488391000	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	000000000001	koesieoekcm				2017-03-01 17:56:40
+testuser	5654321341	1488465414	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	000000000000	koesieoekcm				2017-03-02 14:36:54
+testuser	5654321341	1488465976	REQ	credit	mtn	4846********6596	0.1	0	0			****		koesieoekcm				2017-03-02 14:46:22
+testuser	5654321341	1488465976	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	000000000002	koesieoekcm				2017-03-02 14:46:16
+testuser	5654321341	1488466543	REQ	credit	mtn	4846********6596	0.1	0	0			****		koesieoekcm				2017-03-02 14:55:47
+testuser	5654321341	1488466543	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	000000000003	koesieoekcm				2017-03-02 14:55:43
+testuser	5654321341	1488466606	REQ	credit	mtn	4846********6596	0.1	0	0			****		koesieoekcm				2017-03-02 14:56:52
+testuser	5654321341	1488466606	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	000000000004	koesieoekcm				2017-03-02 14:56:46
+testuser	5654321341	1488466653	REQ	credit	mtn	4846********6596	0.1	0	0			****		koesieoekcm				2017-03-02 14:57:37
+testuser	5654321341	1488466653	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	000000000005	koesieoekcm				2017-03-02 14:57:33
+testuser	5654321341	1488466985	REQ	credit	tigo	4846********6596	0.1	0	0			****		koesieoekcm		successful		2017-03-02 15:03:10
+testuser	5654321341	1488466985	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	000000000006	koesieoekcm		successful		2017-03-02 15:03:05
+testuser	5654321341	1488466985	RES	credit	tigo	0275485802	0.1	0	0			****	1488466985	1507140243	purchase-3008-0000-S	successful	The request has been processed successfully	2017-03-02 15:03:14
+testuser	5654321341	1488838248	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	000000000008	koesieoekcm				2017-03-06 22:10:48
+testuser	5654321341	1488838378	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	000000000009	koesieoekcm				2017-03-06 22:12:58
+testuser	5654321345	1487496882	REQ	debit	tigo	0275485802	0.1	0	0					koesieoekcm		successful		2017-02-19 09:34:42
+testuser	5654321345	1487496882	RES	debit	tigo	0275485802	0.1	0	0					1485878852	purchase-3008-0000-S	successful	The request has been processed successfully	2017-02-19 09:35:16
+testuser	5654321345	1487497083	REQ	debit	tigo	0275485802	0.1	0	0					koesieoekcm		successful		2017-02-19 09:38:03
+testuser	5654321345	1487497083	RES	debit	tigo	0275485802	0.1	0	0					1485879020	purchase-3008-0000-S	successful	The request has been processed successfully	2017-02-19 09:38:29
+testuser	5654321345	1487497883	REQ	debit	tigo	0275485802	0.1	0	0					koesieoekcm		successful		2017-02-19 09:51:24
+testuser	5654321345	1487497883	RES	debit	tigo	0275485802	0.1	0	0					1485881760	purchase-3008-0000-S	successful	The request has been processed successfully	2017-02-19 09:51:49
+testuser	5654321345	1487498131	REQ	debit	tigo	0275485802	0.1	0	0					koesieoekcm		successful		2017-02-19 09:55:31
+testuser	5654321345	1487498131	RES	debit	tigo	0275485802	0.1	0	0					1485888556	purchase-3008-0000-S	successful	The request has been processed successfully	2017-02-19 09:55:55
+testuser	5654321345	1487498238	REQ	debit	tigo	0275485802	0.1	0	0					koesieoekcm		successful		2017-02-19 09:57:18
+testuser	5654321345	1487498238	RES	debit	tigo	0275485802	0.1	0	0					1485888700	purchase-3008-0000-S	successful	The request has been processed successfully	2017-02-19 09:57:42
+testuser	5654321345	1487498505	REQ	debit	tigo	0275485802	0.02	0	0					koesieoekcm		successful		2017-02-19 10:01:45
+testuser	5654321345	1487498505	RES	debit	tigo	0275485802	0.02	0	0					1485894998	purchase-3008-0000-S	successful	The request has been processed successfully	2017-02-19 10:02:10
+testuser	5654321345	1487499062	REQ	debit	tigo	0275485802	0.02	0	0					koesieoekcm		successful		2017-02-19 10:11:02
+testuser	5654321345	1487499062	RES	debit	tigo	0275485802	0.02	0	0					1485900557	purchase-3008-0000-S	successful	The request has been processed successfully	2017-02-19 10:11:40
+testuser	5654321345	1487499578	REQ	debit	tigo	0275485802	0.02	0	0					koesieoekcm		successful		2017-02-19 10:19:38
+testuser	5654321345	1487499578	RES	debit	tigo	0275485802	0.02	0	0					1485904992	purchase-3008-0000-S	successful	The request has been processed successfully	2017-02-19 10:20:06
+testuser	5654321345	1487499872	REQ	credit	tigo	0275485802	0.02	0	0					koesieoekcm				2017-02-19 10:24:32
+testuser	5654321345	1487499928	REQ	credit	tigo	0275485802	0.02	0	0					koesieoekcm				2017-02-19 10:25:28
+testuser	5654321345	1487569036	REQ	credit	tigo	0275485802	0.02	0	0					koesieoekcm				2017-02-20 05:37:16
+testuser	5654321345	1487569036	RES	credit	tigo	0275485802	0.02	0	0									2017-02-20 05:37:19
+testuser	5654321345	1487569476	REQ	credit	tigo	0275485802	0.02	0	0					koesieoekcm				2017-02-20 05:44:36
+testuser	5654321345	1487569476	RES	credit	tigo	0275485802	0.02	0	0									2017-02-20 05:44:38
+testuser	5654321345	1487569949	REQ	credit	tigo	0275485802	0.02	0	0					koesieoekcm				2017-02-20 05:52:29
+testuser	5654321345	1487569949	RES	credit	tigo	0275485802	0.02	0	0									2017-02-20 05:52:31
+testuser	5654321345	1487570128	REQ	credit	tigo	0275485802	0.02	0	0					koesieoekcm				2017-02-20 05:55:28
+testuser	5654321345	1487570128	RES	credit	tigo	0275485802	0.02	0	0									2017-02-20 05:55:29
+testuser	5654321345	1487570300	REQ	credit	tigo	0275485802	0.02	0	0					koesieoekcm				2017-02-20 05:58:20
+testuser	5654321345	1487570300	RES	credit	tigo	0275485802	0.02	0	0				1487570300					2017-02-20 05:58:22
+testuser	5654321345	1487570767	REQ	credit	tigo	0275485802	0.02	0	0					koesieoekcm				2017-02-20 06:06:07
+testuser	5654321345	1487570897	REQ	credit	tigo	0275485802	0.02	0	0					koesieoekcm		successful		2017-02-20 06:08:17
+testuser	5654321345	1487570897	RES	credit	tigo	0275485802	0.02	0	0				1487570897	1486768888	purchase-3008-0000-S	successful	The request has been processed successfully	2017-02-20 06:08:18
+testuser	5654321345	1487571271	REQ	credit	tigo	0275485802	0.02	0	0					koesieoekcm		successful		2017-02-20 06:14:31
+testuser	5654321345	1487571271	RES	credit	tigo	0275485802	0.02	0	0				1487571271	1486769047	purchase-3008-0000-S	successful	The request has been processed successfully	2017-02-20 06:14:32
+testuser	5654321345	1487571686	REQ	debit	tigo	0275485802	0.02	0	0					koesieoekcm				2017-02-20 06:21:26
+testuser	5654321345	1487572731	REQ	debit	tigo	0275485802	0.02	0	0					koesieoekcm		successful		2017-02-20 06:38:51
+testuser	5654321345	1487572731	RES	debit	tigo	0275485802	0.02	0	0					1486784862	purchase-3008-0000-S	successful	The request has been processed successfully	2017-02-20 06:40:59
+testuser	5654321345	1487572843	REQ	debit	tigo	0275485802	0.02	0	0					koesieoekcm		successful		2017-02-20 06:40:43
+testuser	5654321345	1487572843	RES	debit	tigo	0275485802	0.02	0	0					1486784927	purchase-3008-0000-S	successful	The request has been processed successfully	2017-02-20 06:41:09
+testuser	5654321345	1487573145	REQ	debit	tigo	0275485802	0.02	0	0					koesieoekcm		successful		2017-02-20 06:45:45
+testuser	5654321345	1487573145	RES	debit	tigo	0275485802	0.02	0	0					1486784927	purchase-3008-0000-S	successful	The request has been processed successfully	2017-02-20 06:47:53
+testuser	5654321345	1487573494	REQ	debit	tigo	0249621938	0.02	0	0					koesieoekcm		successful		2017-02-20 06:51:34
+testuser	5654321345	1487573494	RES	debit	tigo	0249621938	0.02	0	0					1486784927	purchase-3008-0000-S	successful	The request has been processed successfully	2017-02-20 06:53:42
+testuser	7784569874	1493836380	REQ	debit	mtn	0243578761	0.01	0	0					school fees				2017-05-03 18:33:00
+testuser	7784569874	1493836380	RES	debit	mtn	0243578761	0.01	0	0					Bill not paid...	21VD	failed		2017-05-03 18:34:20
+testuser	7845123658	1493797049	REQ	credit	mtn	0249621938	0.01	0	0					demolise				2017-05-03 07:37:29
+testuser	784545475124	1488899044	REQ	debit	mastercard	4846********6596	0.1	0	0	10	19	****	000000000015	koesieoekcm				2017-03-07 15:04:04
+testuser	784545475124	1488899070	REQ	debit	mastercard	5454********4162	0.1	0	0	10	19	****	000000000015	koesieoekcm				2017-03-07 15:04:30
+testuser	784545475124	1488899081	REQ	credit	mtn	5454********4162	0.1	0	0			****		koesieoekcm				2017-03-07 15:04:46
+testuser	784545475124	1488899081	REQ	debit	mastercard	5454********4162	0.1	0	0	10	19	****	000000000016	koesieoekcm				2017-03-07 15:04:41
+testuser	784545475124	1489064552	REQ	debit	visa	4846********6596	0.1	0	0	10	19	****	000000000017	koesieoekcm				2017-03-09 13:02:32
+testuser	784545475124	1489064783	REQ	debit	visa	4846********6596	0.1	0	0	10	19	****	000000000017	koesieoekcm				2017-03-09 13:06:23
+testuser	784545475124	1489064943	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	000000000017	koesieoekcm				2017-03-09 13:09:03
+testuser	784545475124	1489065281	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	000000000017	koesieoekcm				2017-03-09 13:14:41
+testuser	784545475124	1489065281	RES	debit	Visa	4846********6596	0.1	0	0	11	19	****	000000000017	koesieoekcm	Array	failed		2017-03-09 13:14:42
+testuser	784545475124	1489065928	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	000000000017	koesieoekcm				2017-03-09 13:25:28
+testuser	784545475124	1489065928	RES	debit	Visa	4846********6596	0.1	0	0	11	19	****	000000000017	koesieoekcm		failed	Error: ReferenceID must be unique	2017-03-09 13:25:28
+testuser	784545475124	1489067057	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	000000000017	koesieoekcm		successful		2017-03-09 13:44:17
+testuser	784545475124	1489067057	RES	debit	Visa	4846********6596	0.1	0	0	11	19	****	000000000017	koesieoekcm		successful	transaction processed successfully	2017-03-09 13:44:20
+testuser	784545475124	1489067879	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	000000000017	koesieoekcm				2017-03-09 13:57:59
+testuser	784545475124	1489067879	RES	debit	Visa	4846********6596	0.1	0	0	11	19	****	000000000017	koesieoekcm		failed	Error: ReferenceID must be unique	2017-03-09 13:58:00
+testuser	784545475124	1489068038	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	000000000017	koesieoekcm				2017-03-09 14:00:38
+testuser	784545475124	1489068038	RES	debit	Visa	4846********6596	0.1	0	0	11	19	****	000000000017	koesieoekcm		failed	Error: ReferenceID must be unique	2017-03-09 14:00:39
+testuser	784545475124	1489068313	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	000000000017	koesieoekcm				2017-03-09 14:05:13
+testuser	784545475124	1489068313	RES	debit	Visa	4846********6596	0.1	0	0	11	19	****	000000000017	koesieoekcm		failed	Error: ReferenceID must be unique	2017-03-09 14:05:13
+testuser	784545475124	1489068435	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	000000000017	koesieoekcm				2017-03-09 14:07:15
+testuser	784545475124	1489068435	RES	debit	Visa	4846********6596	0.1	0	0	11	19	****	000000000017	koesieoekcm		failed	Error: ReferenceID must be unique	2017-03-09 14:07:16
+testuser	784545475124	1489068453	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	000000000017	koesieoekcm				2017-03-09 14:07:33
+testuser	784545475124	1489068453	RES	debit	Visa	4846********6596	0.1	0	0	11	19	****	000000000017	koesieoekcm		failed	Error: ReferenceID must be unique	2017-03-09 14:07:34
+testuser	784545475124	1489068483	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	000000000017	koesieoekcm				2017-03-09 14:08:03
+testuser	784545475124	1489068483	RES	debit	Visa	4846********6596	0.1	0	0	11	19	****	000000000017	koesieoekcm		failed	Error: ReferenceID must be unique	2017-03-09 14:08:04
+testuser	784545475124	1489068533	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	000000000017	koesieoekcm				2017-03-09 14:08:53
+testuser	784545475124	1489068533	RES	debit	Visa	4846********6596	0.1	0	0	11	19	****	000000000017	koesieoekcm		failed	Error: ReferenceID must be unique	2017-03-09 14:08:54
+testuser	784545475124	1489068614	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	000000000017	koesieoekcm				2017-03-09 14:10:14
+testuser	784545475124	1489068614	RES	debit	Visa	4846********6596	0.1	0	0	11	19	****	000000000017	koesieoekcm		failed	Error: ReferenceID must be unique	2017-03-09 14:10:14
+testuser	784545475124	1489068828	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	000000000017	koesieoekcm				2017-03-09 14:13:48
+testuser	784545475124	1489068828	RES	debit	Visa	4846********6596	0.1	0	0	11	19	****	000000000017	koesieoekcm		failed	Error: ReferenceID must be unique	2017-03-09 14:13:49
+testuser	784545475124	1489068848	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	000000000018	koesieoekcm		successful		2017-03-09 14:14:08
+testuser	784545475124	1489068848	RES	debit	Visa	4846********6596	0.1	0	0	11	19	****	000000000018	koesieoekcm		successful	transaction processed successfully	2017-03-09 14:14:11
+testuser	784545475124	1489069132	REQ	debit	Visa	4846********6596	0.1	0	0	11	19	****	000000000018	koesieoekcm				2017-03-09 14:18:52
+testuser	784545475124	1489069132	RES	debit	Visa	4846********6596	0.1	0	0	11	19	****	000000000018	koesieoekcm		failed	Error: ReferenceID must be unique	2017-03-09 14:18:53
+testuser	784545475124	1489069375	REQ	debit	Visa	4846********6596	0.1	0	0	11	19	****	000000000018	koesieoekcm				2017-03-09 14:22:55
+testuser	784545475124	1489069375	RES	debit	Visa	4846********6596	0.1	0	0	11	19	****	000000000018	koesieoekcm		failed	Error: ReferenceID must be unique	2017-03-09 14:22:56
+testuser	784545475124	1489069557	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	000000000018	koesieoekcm				2017-03-09 14:25:57
+testuser	784545475124	1489069557	RES	debit	Visa	4846********6596	0.1	0	0	11	19	****	000000000018	koesieoekcm		failed	Error: ReferenceID must be unique	2017-03-09 14:25:58
+testuser	784545475124	1489069625	REQ	debit	Visa	4846********6596	0.1	0	0	11	19	****	000000000018	koesieoekcm				2017-03-09 14:27:05
+testuser	784545475124	1489069625	RES	debit	Visa	4846********6596	0.1	0	0	11	19	****	000000000018	koesieoekcm		failed	Error: ReferenceID must be unique	2017-03-09 14:27:06
+testuser	784545475124	1489069676	REQ	debit	Visa	4846********6596	0.1	0	0	11	19	****	000000000019	koesieoekcm		successful		2017-03-09 14:27:56
+testuser	784545475124	1489069676	RES	debit	Visa	4846********6596	0.1	0	0	11	19	****	000000000019	koesieoekcm		successful	transaction processed successfully	2017-03-09 14:28:00
+testuser	784545475124	1489069920	REQ	credit	mtn	4846********6596	0.1	0	0			****		koesieoekcm		successful		2017-03-09 14:32:04
+testuser	784545475124	1489069920	REQ	debit	Visa	4846********6596	0.1	0	0	11	19	****	000000000020	koesieoekcm		successful		2017-03-09 14:32:00
+testuser	784545475124	1489069920	RES	debit	Visa	4846********6596	0.1	0	0	11	19	****	000000000020	koesieoekcm		successful	transaction processed successfully	2017-03-09 14:32:04
+testuser	784545475124	1489075030	REQ	debit	mtn	0249621938	0.1	0	0					koesieoekcm				2017-03-09 15:57:10
+testuser	784545475124	1489075468	REQ	debit	mtn	0249621938	0.1	0	0					koesieoekcm		successful		2017-03-09 16:04:28
+testuser	784545475124	1489075468	RES	debit	mtn	0249621938	0.1	0	0					Bill found. Tracking ID: MTN1758C17D3A6414C/1310735919	0000	successful		2017-03-09 16:05:22
+testuser	784545475124	1489075821	REQ	debit	mtn	0249621938	0.1	0	0					koesieoekcm		successful		2017-03-09 16:10:21
+testuser	784545475124	1489075821	RES	debit	mtn	0249621938	0.1	0	0						0000	successful	Bill found. Tracking ID: MTN1758C17E92C0BA5/1310764232	2017-03-09 16:11:06
+testuser	784545475124	1489076336	REQ	credit	mtn	0249621938	0.1	0	0					koesieoekcm		successful		2017-03-09 16:18:56
+testuser	784545475124	1489076336	RES	credit	mtn	0249621938	0.1	0	0						01	successful	Successfully processed transaction.	2017-03-09 16:18:57
+testuser	784545475124	1489076927	REQ	credit	mtn	0249621938	0.1	0	0					koesieoekcm		successful		2017-03-09 16:29:21
+testuser	784545475124	1489076927	REQ	debit	mtn	0249621938	0.1	0	0					koesieoekcm		successful		2017-03-09 16:28:47
+testuser	784545475124	1489076927	RES	credit	mtn	0249621938	0.1	0	0					koesieoekcm	01	successful	Successfully processed transaction.	2017-03-09 16:29:22
+testuser	784545475124	1489076927	RES	debit	mtn	0249621938	0.1	0	0					koesieoekcm	0000	successful	Bill found. Tracking ID: MTN1758C182DA5E016/1310854454	2017-03-09 16:29:21
+testuser	784545475124	1489397843	REQ	debit	mtn	4145641682130546	0.1	0	0					koesieoekcm				2017-03-13 09:37:23
+testuser	784545475124	1489397859	REQ	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000021	koesieoekcm				2017-03-13 09:37:39
+testuser	784545475124	1489397859	RES	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000021	koesieoekcm		failed	Error: ReferenceID must be unique	2017-03-13 09:37:40
+testuser	784545475124	1489397871	REQ	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000022	koesieoekcm				2017-03-13 09:37:51
+testuser	784545475124	1489397871	RES	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000022	koesieoekcm	900	vbv required	Transaction failed	2017-03-13 09:37:54
+testuser	784545475124	1489400369	REQ	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000023	koesieoekcm	https://qisimah.com			2017-03-13 10:19:29
+testuser	784545475124	1489400369	RES	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000023	koesieoekcm	https://qisimah.com			2017-03-13 10:19:30
+testuser	784545475124	1489400387	REQ	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000023	koesieoekcm	https://qisimah.com			2017-03-13 10:19:47
+testuser	784545475124	1489400387	RES	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000023	koesieoekcm	https://qisimah.com			2017-03-13 10:19:48
+testuser	784545475124	1489400466	REQ	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000024	koesieoekcm	https://qisimah.com			2017-03-13 10:21:06
+testuser	784545475124	1489400466	RES	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000024	koesieoekcm	https://qisimah.com			2017-03-13 10:21:06
+testuser	784545475124	1489400693	REQ	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000025	koesieoekcm	https://qisimah.com			2017-03-13 10:24:53
+testuser	784545475124	1489400693	RES	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000025	koesieoekcm	https://qisimah.com			2017-03-13 10:24:54
+testuser	784545475124	1489400774	REQ	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000025	koesieoekcm	https://qisimah.com			2017-03-13 10:26:14
+testuser	784545475124	1489400774	RES	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000025	koesieoekcm	https://qisimah.com			2017-03-13 10:26:15
+testuser	784545475124	1489400785	REQ	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000025	koesieoekcm	https://qisimah.com			2017-03-13 10:26:25
+testuser	784545475124	1489400785	RES	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000025	koesieoekcm	https://qisimah.com			2017-03-13 10:26:26
+testuser	784545475124	1489404494	REQ	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000026	koesieoekcm	https://qisimah.com			2017-03-13 11:28:14
+testuser	784545475124	1489404494	RES	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000026	koesieoekcm	https://qisimah.com	failed	Timeout.	2017-03-13 11:28:49
+testuser	784545475124	1489404543	REQ	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000026	koesieoekcm	https://qisimah.com			2017-03-13 11:29:03
+testuser	784545475124	1489404543	RES	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000026	koesieoekcm	https://qisimah.com	failed	Error: ReferenceID must be unique	2017-03-13 11:29:04
+testuser	784545475124	1489404555	REQ	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000027	koesieoekcm	https://qisimah.com			2017-03-13 11:29:15
+testuser	784545475124	1489404555	RES	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000027	koesieoekcm	https://qisimah.com	vbv required	https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20170313114342	2017-03-13 11:29:26
+testuser	784545475124	1489410038	REQ	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000028	koesieoekcm	https://qisimah.com			2017-03-13 13:00:38
+testuser	784545475124	1489410038	RES	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000028	koesieoekcm	https://qisimah.com	vbv required	https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20170313131509	2017-03-13 13:00:41
+testuser	784545475124	1489410766	REQ	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000029	koesieoekcm	https://qisimah.com			2017-03-13 13:12:46
+testuser	784545475124	1489410766	RES	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000029	koesieoekcm	https://qisimah.com	vbv required	https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20170313132717	2017-03-13 13:12:48
+testuser	784545475124	1489411002	REQ	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000029	koesieoekcm	https://qisimah.com			2017-03-13 13:16:42
+testuser	784545475124	1489411002	RES	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000029	koesieoekcm	https://qisimah.com	failed	Error: ReferenceID must be unique	2017-03-13 13:16:43
+testuser	784545475124	1489411012	REQ	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000030	koesieoekcm	https://qisimah.com			2017-03-13 13:16:52
+testuser	784545475124	1489411012	RES	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000030	koesieoekcm	https://qisimah.com	vbv required	https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20170313133124	2017-03-13 13:16:55
+testuser	784545475124	1489411168	REQ	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000031	koesieoekcm	https://qisimah.com			2017-03-13 13:19:28
+testuser	784545475124	1489411168	RES	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000031	koesieoekcm	900	vbv required	Transaction failed	2017-03-13 13:19:33
+testuser	784545475124	1489412049	REQ	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000032	koesieoekcm	https://qisimah.com			2017-03-13 13:34:09
+testuser	784545475124	1489412049	RES	debit	Visa	4145********0546	0.1	0	0	09	18	****	000000000032	koesieoekcm	900	vbv required	Transaction failed	2017-03-13 13:34:12
+testuser	784545475124	1490382651	REQ	debit	Visa	4145********0438	0.1	0	0	09	18	****	000000000033	koesieoekcm	https://qisimah.com			2017-03-24 19:10:51
+testuser	784545475124	1490382651	RES	debit	Visa	4145********0438	0.1	0	0	09	18	****	000000000033	koesieoekcm	https://qisimah.com	vbv required	https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20170324192825	2017-03-24 19:10:55
+testuser	784545475124	1490383083	REQ	debit	Visa	4145********0438	0.1	0	0	09	18	****	000000000034	koesieoekcm	https://qisimah.com			2017-03-24 19:18:03
+testuser	784545475124	1490383083	RES	debit	Visa	4145********0438	0.1	0	0	09	18	****	000000000034	koesieoekcm	https://qisimah.com	vbv required	https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20170324193536	2017-03-24 19:18:06
+testuser	784545475124	1490385663	REQ	debit	Visa	4145********0438	0.1	0	0	09	18	****	000000000034	koesieoekcm	https://qisimah.com			2017-03-24 20:01:03
+testuser	784545475124	1490385663	RES	debit	Visa	4145********0438	0.1	0	0	09	18	****	000000000034	koesieoekcm	https://qisimah.com	failed	Error: ReferenceID must be unique	2017-03-24 20:01:04
+testuser	784545475124	1490385672	REQ	debit	Visa	4145********0438	0.1	0	0	09	18	****	000000000035	koesieoekcm	https://qisimah.com			2017-03-24 20:01:12
+testuser	784545475124	1490385672	RES	debit	Visa	4145********0438	0.1	0	0	09	18	****	000000000035	koesieoekcm	https://qisimah.com	vbv required	https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20170324201845	2017-03-24 20:01:15
+testuser	784545475124	1490385729	REQ	debit	Visa	4145********0438	0.1	0	0	03	20	****	000000000035	koesieoekcm	https://qisimah.com			2017-03-24 20:02:09
+testuser	784545475124	1490385729	RES	debit	Visa	4145********0438	0.1	0	0	03	20	****	000000000035	koesieoekcm	https://qisimah.com	failed	Error: ReferenceID must be unique	2017-03-24 20:02:10
+testuser	784545475124	1490385737	REQ	debit	Visa	4145********0438	0.1	0	0	03	20	****	000000000036	koesieoekcm	https://qisimah.com			2017-03-24 20:02:17
+testuser	784545475124	1490385737	RES	debit	Visa	4145********0438	0.1	0	0	03	20	****	000000000036	koesieoekcm	https://qisimah.com	vbv required	https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20170324201951	2017-03-24 20:02:20
+testuser	784545475124	1490607929	REQ	debit	Visa	4145********0438	0.1	0	0	03	20	****	000000000034	koesieoekcm	https://qisimah.com			2017-03-27 09:45:29
+testuser	784545475124	1490607929	RES	debit	Visa	4145********0438	0.1	0	0	03	20	****	000000000034	koesieoekcm	https://qisimah.com	failed	Error: ReferenceID must be unique	2017-03-27 09:45:31
+testuser	784545475124	1490607944	REQ	debit	Visa	4145********0438	0.1	0	0	03	20	****	000000000035	koesieoekcm	https://qisimah.com			2017-03-27 09:45:44
+testuser	784545475124	1490607944	RES	debit	Visa	4145********0438	0.1	0	0	03	20	****	000000000035	koesieoekcm	https://qisimah.com	failed	Error: ReferenceID must be unique	2017-03-27 09:45:45
+testuser	784545475124	1490607953	REQ	debit	Visa	4145********0438	0.1	0	0	03	20	****	000000000036	koesieoekcm	https://qisimah.com			2017-03-27 09:45:53
+testuser	784545475124	1490607953	RES	debit	Visa	4145********0438	0.1	0	0	03	20	****	000000000036	koesieoekcm	https://qisimah.com	failed	Error: ReferenceID must be unique	2017-03-27 09:46:07
+testuser	784545475124	1490607974	REQ	debit	Visa	4145********0438	0.1	0	0	03	20	****	000000000037	koesieoekcm	https://qisimah.com			2017-03-27 09:46:14
+testuser	784545475124	1490607974	RES	debit	Visa	4145********0438	0.1	0	0	03	20	****	000000000037	koesieoekcm	https://qisimah.com	vbv required	https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20170327100418	2017-03-27 09:46:16
+testuser	784545475124	1490612697	REQ	debit	Visa	4145********0438	0.1	0	0	03	20	****	000000000038	koesieoekcm	https://qisimah.com			2017-03-27 11:04:57
+testuser	784545475124	1490612697	RES	debit	Visa	4145********0438	0.1	0	0	03	20	****	000000000038	koesieoekcm	https://qisimah.com	vbv required	https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20170327112302	2017-03-27 11:05:00
+testuser	784545475124	1490698573	REQ	debit	Visa	4145********0438	0.1	0	0	03	20	****	000000000039	koesieoekcm	https://qisimah.com			2017-03-28 10:56:13
+testuser	784545475124	1490698573	RES	debit	Visa	4145********0438	0.1	0	0	03	20	****	000000000039	koesieoekcm	https://qisimah.com	vbv required	https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20170328111431	2017-03-28 10:56:17
+testuser	784545475124	1490721442	REQ	debit	Visa	4145********0438	0.1	0	0	03	20	****	000000000039	koesieoekcm	https://qisimah.com			2017-03-28 17:17:22
+testuser	784545475124	1490721442	RES	debit	Visa	4145********0438	0.1	0	0	03	20	****	000000000039	koesieoekcm	https://qisimah.com	failed	Error: ReferenceID must be unique	2017-03-28 17:17:22
+testuser	784545475124	1490870416	REQ	debit	Visa	4145********0438	0.1	0	0	03	20	****	000000000040	koesieoekcm	https://qisimah.com			2017-03-30 10:40:16
+testuser	784545475124	1490870416	RES	debit	Visa	4145********0438	0.1	0	0	03	20	****	000000000040	koesieoekcm	https://qisimah.com	vbv required	https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20170330105900	2017-03-30 10:40:19
+testuser	784545475124	1490870541	REQ	debit	Visa	4145********0438	0.1	0	0	03	20	****	000000000041	koesieoekcm	https://qisimah.com			2017-03-30 10:42:21
+testuser	784545475124	1490870541	RES	debit	Visa	4145********0438	0.1	0	0	03	20	****	000000000041	koesieoekcm	https://qisimah.com	vbv required	https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20170330110105	2017-03-30 10:42:24
+testuser	784545475124	1491068846	REQ	debit	Mastercard	5454********4162	0.1	0	0	10	19	****	000000000042	koesieoekcm	https://qisimah.com			2017-04-01 17:47:26
+testuser	784545475124	1491068846	RES	debit	Mastercard	5454********4162	0.1	0	0	10	19	****	000000000042	koesieoekcm	https://qisimah.com			2017-04-01 17:47:39
+testuser	784545475124	1491069199	REQ	debit	Visa	5454********4162	0.1	0	0	10	19	****	000000000042	koesieoekcm	https://qisimah.com			2017-04-01 17:53:19
+testuser	784545475124	1491069199	RES	debit	Visa	5454********4162	0.1	0	0	10	19	****	000000000042	koesieoekcm	https://qisimah.com	failed	Error: ReferenceID must be unique	2017-04-01 17:53:20
+testuser	784545475124	1491069211	REQ	debit	Visa	5454********4162	0.1	0	0	10	19	****	000000000043	koesieoekcm	https://qisimah.com			2017-04-01 17:53:31
+testuser	784545475124	1491069211	RES	debit	Visa	5454********4162	0.1	0	0	10	19	****	000000000043	koesieoekcm	https://qisimah.com	failed	Card Not valid	2017-04-01 17:53:32
+testuser	784545475124	1491069228	REQ	debit	Mastercard	5454********4162	0.1	0	0	10	19	****	000000000043	koesieoekcm	https://qisimah.com			2017-04-01 17:53:48
+testuser	784545475124	1491069228	RES	debit	Mastercard	5454********4162	0.1	0	0	10	19	****	000000000043	koesieoekcm	https://qisimah.com	failed	Error: ReferenceID must be unique	2017-04-01 17:53:49
+testuser	784545475124	1491069237	REQ	debit	Mastercard	5454********4162	0.1	0	0	10	19	****	000000000045	koesieoekcm	https://qisimah.com			2017-04-01 17:53:57
+testuser	784545475124	1491069237	RES	debit	Mastercard	5454********4162	0.1	0	0	10	19	****	000000000045	koesieoekcm	https://qisimah.com			2017-04-01 17:54:10
+testuser	784545475124	1491069302	REQ	debit	Mastercard	5454********4162	0.1	0	0	10	19	****	000000000044	koesieoekcm	https://qisimah.com			2017-04-01 17:55:02
+testuser	784545475124	1491069302	RES	debit	Mastercard	5454********4162	0.1	0	0	10	19	****	000000000044	koesieoekcm	https://qisimah.com			2017-04-01 17:55:15
+testuser	784545475124	1491069374	REQ	debit	Mastercard	5454********4162	0.2	0	0	10	19	****	000000000046	koesieoekcm	https://qisimah.com			2017-04-01 17:56:14
+testuser	784545475124	1491069374	RES	debit	Mastercard	5454********4162	0.2	0	0	10	19	****	000000000046	koesieoekcm	https://qisimah.com			2017-04-01 17:56:27
+testuser	784545475124	1491069403	REQ	debit	Mastercard	5454********4162	0.2	0	0	10	19	****	000000000046	koesieoekcm	https://qisimah.com			2017-04-01 17:56:43
+testuser	784545475124	1491069403	RES	debit	Mastercard	5454********4162	0.2	0	0	10	19	****	000000000046	koesieoekcm	https://qisimah.com	failed	Error: ReferenceID must be unique	2017-04-01 17:56:44
+testuser	784545475124	1491069413	REQ	debit	Mastercard	5454********4162	0.2	0	0	10	19	****	000000000047	koesieoekcm	https://qisimah.com			2017-04-01 17:56:53
+testuser	784545475124	1491069413	RES	debit	Mastercard	5454********4162	0.2	0	0	10	19	****	000000000047	koesieoekcm	https://qisimah.com			2017-04-01 17:57:06
+testuser	784545475124	1491069446	REQ	debit	Mastercard	5454********4162	0.2	0	0	10	19	****	000000000048	koesieoekcm	https://qisimah.com			2017-04-01 17:57:26
+testuser	784545475124	1491069446	RES	debit	Mastercard	5454********4162	0.2	0	0	10	19	****	000000000048	koesieoekcm	https://qisimah.com			2017-04-01 17:57:39
+testuser	784545475124	1491069500	REQ	debit	Mastercard	5454********4162	20	0	0	10	19	****	000000000049	koesieoekcm	https://qisimah.com			2017-04-01 17:58:20
+testuser	784545475124	1491069500	RES	debit	Mastercard	5454********4162	20	0	0	10	19	****	000000000049	koesieoekcm	https://qisimah.com			2017-04-01 17:58:33
+testuser	784545475124	1491069703	REQ	debit	Mastercard	4145********0438	0.1	0	0	03	20	****	000000000050	koesieoekcm	https://qisimah.com			2017-04-01 18:01:43
+testuser	784545475124	1491069703	RES	debit	Mastercard	4145********0438	0.1	0	0	03	20	****	000000000050	koesieoekcm	https://qisimah.com			2017-04-01 18:01:56
+testuser	784545475124	1491069732	REQ	debit	Visa	4145********0438	0.1	0	0	03	20	****	000000000050	koesieoekcm	https://qisimah.com			2017-04-01 18:02:12
+testuser	784545475124	1491069732	RES	debit	Visa	4145********0438	0.1	0	0	03	20	****	000000000050	koesieoekcm	https://qisimah.com	failed	Error: ReferenceID must be unique	2017-04-01 18:02:13
+testuser	784545475124	1491069740	REQ	debit	Visa	4145********0438	0.1	0	0	03	20	****	000000000051	koesieoekcm	https://qisimah.com			2017-04-01 18:02:20
+testuser	784545475124	1491069740	RES	debit	Visa	4145********0438	0.1	0	0	03	20	****	000000000051	koesieoekcm	https://qisimah.com	vbv required	https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20170401182152	2017-04-01 18:02:30
+testuser	784545475124	1492171275	REQ	debit	Visa	4145********0438	0.1	0	0	03	20	****	000000000055	koesieoekcm	https://qisimah.com			2017-04-14 12:01:15
+testuser	784545475124	1492171275	RES	debit	Visa	4145********0438	0.1	0	0	03	20	****	000000000055	koesieoekcm	https://qisimah.com	vbv required	https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20170414122459	2017-04-14 12:01:19
+testuser	784545475124	1493638957	REQ	debit	mtn	0546697189	90	0	0					koesieoekcm				2017-05-01 11:42:37
+testuser	784545475124	1493638957	RES	debit	mtn	0546697189	90	0	0					koesieoekcm	100	failed	FAILURE	2017-05-01 11:43:56
+testuser	784545475124	1493639101	REQ	debit	mtn	0546697189	90	0	0					koesieoekcm				2017-05-01 11:45:01
+testuser	784545475124	1493639101	RES	debit	mtn	0546697189	90	0	0					koesieoekcm	21VD	failed	Bill not paid...	2017-05-01 11:46:20
+testuser	784545475124	1493639208	REQ	credit	mtn	0249621938	4	0	0					koesieoekcm		successful		2017-05-01 11:46:48
+testuser	784545475124	1493639208	RES	credit	mtn	0249621938	4	0	0					koesieoekcm	01	successful	Successfully processed transaction.	2017-05-01 11:46:50
+testuser	784545475124	1493639673	REQ	debit	mtn	0546697189	90	0	0					koesieoekcm				2017-05-01 11:54:33
+testuser	784545475124	1493639673	RES	debit	mtn	0546697189	90	0	0					koesieoekcm	21VD	failed	Bill not paid...	2017-05-01 11:55:53
+testuser	784545475124	1493639870	REQ	debit	mtn	0546697189	90	0	0					koesieoekcm				2017-05-01 11:57:50
+testuser	784545475124	1493639870	RES	debit	mtn	0546697189	90	0	0					koesieoekcm	100	failed	FAILURE	2017-05-01 11:59:13
+testuser	784545475124	1493640056	REQ	debit	mtn	0546697189	90	0	0					koesieoekcm		successful		2017-05-01 12:00:56
+testuser	784545475124	1493640056	RES	debit	mtn	0546697189	90	0	0					koesieoekcm	0000	successful	Bill found. Tracking ID: MTN17590723948DB6B/1522259867	2017-05-01 12:01:36
+testuser	784545475124	1493640236	REQ	credit	mtn	0546697181	86	0	0					koesieoekcm		successful		2017-05-01 12:03:56
+testuser	784545475124	1493640236	RES	credit	mtn	0546697181	86	0	0					koesieoekcm	01	successful	Successfully processed transaction.	2017-05-01 12:03:58
+testuser	7845785457	1491070052	REQ	debit	Visa	4145********0438	0.1	0	0	03	20	****	121254587854	iouriuo				2017-04-01 18:07:32
+testuser	7845785457	1491070052	RES	debit	Visa	4145********0438	0.1	0	0	03	20	****	121254587854	iouriuo		vbv required	https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20170401182705	2017-04-01 18:07:35
+testuser	7845878454	1491070359	REQ	debit	Visa	4145********0438	0.1	0	0	03	20	****	121545785452	ioyduo				2017-04-01 18:12:39
+testuser	7845878454	1491070359	RES	debit	Visa	4145********0438	0.1	0	0	03	20	****	121545785452	ioyduo		vbv required	https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20170401183212	2017-04-01 18:12:41
+testuser	784587854587	1491069898	REQ	debit	Visa	4145********0438	0.1	0	0	03	20	****	726345768765	tttuh				2017-04-01 18:04:58
+testuser	784587854587	1491069898	RES	debit	Visa	4145********0438	0.1	0	0	03	20	****	726345768765	tttuh				2017-04-01 18:05:58
+testuser	7848545478	1491068621	REQ	debit	Mastercard	5454********4162	0.01	0	0	10	19	****	121215458796	debit mc				2017-04-01 17:43:41
+testuser	7848545478	1491068621	RES	debit	Mastercard	5454********4162	0.01	0	0	10	19	****	121215458796	debit mc				2017-04-01 17:43:55
+testuser	83838388383	1490970846	REQ	debit	mtn	0249621938	0.1	0	0					testing		successful		2017-03-31 14:34:06
+testuser	83838388383	1490970846	RES	debit	mtn	0249621938	0.1	0	0					testing	0000	successful	Bill found. Tracking ID: MTN1758DE68F6305F8/1394400001	2017-03-31 14:34:40
+testuser	839283485474	1490964339	REQ	debit	mtn	0249621938	1	0	0					testing				2017-03-31 12:45:39
+testuser	839283485474	1490964339	RES	debit	mtn	0249621938	1	0	0					testing	21VD	failed	Bill not paid...	2017-03-31 12:46:59
+testuser	839283485474	1490964691	REQ	debit	mtn	0249621938	0.1	0	0					testing				2017-03-31 12:51:31
+testuser	839283485474	1490964691	RES	debit	mtn	0249621938	0.1	0	0					testing	21VD	failed	Bill not paid...	2017-03-31 12:52:50
+testuser	839283485474	1490964828	REQ	debit	mtn	0249621938	0.1	0	0					testing		successful		2017-03-31 12:53:48
+testuser	839283485474	1490964828	RES	debit	mtn	0249621938	0.1	0	0					testing	0000	successful	Bill found. Tracking ID: MTN1758DE518634A4B/1393920486	2017-03-31 12:54:38
+testuser	839283485474	1490967447	REQ	debit	mtn	0249621938	0.1	0	0					testing		successful		2017-03-31 13:37:27
+testuser	839283485474	1490967447	RES	debit	mtn	0249621938	0.1	0	0					testing	0000	successful	Bill found. Tracking ID: MTN1758DE5BC5CA365/1394118493	2017-03-31 13:38:21
+testuser	839283485474	1490968059	REQ	debit	mtn	0249621938	0.1	0	0					testing				2017-03-31 13:47:39
+testuser	839283485474	1490968059	RES	debit	mtn	0249621938	0.1	0	0					testing	21VD	failed	Bill not paid...	2017-03-31 13:48:59
+testuser	839283485474	1490968171	REQ	debit	mtn	0249621938	0.1	0	0					testing		successful		2017-03-31 13:49:31
+testuser	839283485474	1490968171	RES	debit	mtn	0249621938	0.1	0	0					testing	0000	successful	Bill found. Tracking ID: MTN1758DE5E8E46493/1394175046	2017-03-31 13:50:16
+testuser	839283485474	1490968376	REQ	debit	mtn	0249621938	0.1	0	0					testing		successful		2017-03-31 13:52:56
+testuser	839283485474	1490968376	RES	debit	mtn	0249621938	0.1	0	0					testing	0000	successful	Bill found. Tracking ID: MTN1758DE5F44AF345/1394191627	2017-03-31 13:53:25
+testuser	839283485474	1490968500	REQ	debit	mtn	0249621938	0.1	0	0					testing		successful		2017-03-31 13:55:00
+testuser	839283485474	1490968500	RES	debit	mtn	0249621938	0.1	0	0					testing	0000	successful	Bill found. Tracking ID: MTN1758DE5FD51C151/1394201912	2017-03-31 13:55:40
+testuser	839283485474	1490968577	REQ	debit	mtn	0249621938	0.1	0	0					testing		successful		2017-03-31 13:56:17
+testuser	839283485474	1490968577	RES	debit	mtn	0249621938	0.1	0	0					testing	0000	successful	Bill found. Tracking ID: MTN1758DE600E94383/1394208193	2017-03-31 13:56:47
+testuser	839283485474	1490968673	REQ	debit	mtn	0249621938	0.1	0	0					testing		successful		2017-03-31 13:57:53
+testuser	839283485474	1490968673	RES	debit	mtn	0249621938	0.1	0	0					testing	0000	successful	Bill found. Tracking ID: MTN1758DE607F6D1C9/1394215982	2017-03-31 13:58:33
+testuser	839283485474	1490968772	REQ	debit	mtn	0249621938	0.1	0	0					testing		successful		2017-03-31 13:59:32
+testuser	839283485474	1490968772	RES	debit	mtn	0249621938	0.1	0	0					testing	0000	successful	Bill found. Tracking ID: MTN1758DE60ED70943/1394224406	2017-03-31 14:00:22
+testuser	8545215785	1491070719	REQ	debit	Visa	4145********0438	0.1	0	0	03	20	****	965865421478	opiudyy				2017-04-01 18:18:39
+testuser	8545215785	1491070719	RES	debit	Visa	4145********0438	0.1	0	0	03	20	****	965865421478	opiudyy		vbv required	https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20170401183811	2017-04-01 18:18:41
+testuser	856321457953	1498647840	REQ	debit	mtn	0249621983	0.1	0	0					testivity again				2017-06-28 11:04:00
+testuser	856321457953	1498647840	RES	debit	mtn	0249621983	0.1	0	0					testivity again	100	failed	FAILURE	2017-06-28 11:05:09
+testuser	8565478563	1491071369	REQ	debit	Visa	4145********0438	0.1	0	0	03	20	****	011254545896	polkopudrrztt				2017-04-01 18:29:29
+testuser	8565478563	1491071369	RES	debit	Visa	4145********0438	0.1	0	0	03	20	****	011254545896	polkopudrrztt		vbv required	https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20170401184934	2017-04-01 18:30:04
+testuser	8654521236	1491072367	REQ	debit	Visa	4145********0438	0.1	0	0	03	20	****	845758965421	pokopkp				2017-04-01 18:46:07
+testuser	8654521236	1491072367	RES	debit	Visa	4145********0438	0.1	0	0	03	20	****	845758965421	pokopkp		vbv required	https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20170401190540	2017-04-01 18:46:09
+testuser	8754875451	1495486483	REQ	credit	mtn	0243965066	1	0	0					koesieoekcm		successful		2017-05-22 20:54:43
+testuser	8754875451	1495486483	RES	credit	mtn	0243965066	1	0	0					koesieoekcm	01	successful	Successfully processed transaction.	2017-05-22 20:54:46
+testuser	8787898745	1487329470	REQ	debit	mtn	0249621938	0.1	0.1	0	0.10							koesieoekcm	2017-02-17 11:04:30
+testuser	8787898745	1487329845	REQ	credit	mtn	0249621938	0.1	0.1	0	0.10							koesieoekcm	2017-02-17 11:10:45
+testuser	884758477384	1490977321	REQ	credit	mtn	0249621938	0.2	0	0					distance learning		successful		2017-03-31 16:22:01
+testuser	884758477384	1490977321	RES	credit	mtn	0249621938	0.2	0	0					distance learning	01	successful	Successfully processed transaction.	2017-03-31 16:22:03
+testuser	896523214578	1491071541	REQ	debit	Visa	4145********0438	0.1	0	0	03	20	****	121524587956	opipihhiotdrftrs				2017-04-01 18:32:21
+testuser	896523214578	1491071541	RES	debit	Visa	4145********0438	0.1	0	0	03	20	****	121524587956	opipihhiotdrftrs		vbv required	https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20170401185154	2017-04-01 18:32:23
+testuser	8978564521	1491070480	REQ	debit	Visa	4145********0438	0.1	0	0	03	20	****	548759632145	iuiudzsrttro				2017-04-01 18:14:40
+testuser	8978564521	1491070480	RES	debit	Visa	4145********0438	0.1	0	0	03	20	****	548759632145	iuiudzsrttro		vbv required	https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20170401183412	2017-04-01 18:14:42
+testuser	8987654321	1490972763	REQ	credit	mtn	0249621938	0.1	0	0					transferable		successful		2017-03-31 15:06:38
+testuser	8987654321	1490972763	REQ	debit	mtn	0249621938	0.1	0	0					transferable		successful		2017-03-31 15:06:03
+testuser	8987654321	1490972763	RES	credit	mtn	0249621938	0.1	0	0					transferable	01	successful	Successfully processed transaction.	2017-03-31 15:06:40
+testuser	8987654321	1490972763	RES	debit	mtn	0249621938	0.1	0	0					transferable	0000	successful	Bill found. Tracking ID: MTN1758DE707605F42/1394567733	2017-03-31 15:06:37
+testuser	8987656543	1490974844	REQ	credit	mtn	0249621938	0.2	0	0					desc		successful		2017-03-31 15:41:14
+testuser	8987656543	1490974844	REQ	debit	mtn	0249621938	0.1	0	0					desc		successful		2017-03-31 15:40:44
+testuser	8987656543	1490974844	RES	credit	mtn	0249621938	0.2	0	0					desc	01	successful	Successfully processed transaction.	2017-03-31 15:41:15
+testuser	8987656543	1490974844	RES	debit	mtn	0249621938	0.1	0	0					desc	0000	successful	Bill found. Tracking ID: MTN1758DE788DE6666/1394758177	2017-03-31 15:41:14
+testuser	9192933456	1490971371	REQ	credit	mtn	0249621938	0.1	0	0					test processing		successful		2017-03-31 14:42:51
+testuser	9192933456	1490971371	RES	credit	mtn	0249621938	0.1	0	0					test processing	01	successful	Successfully processed transaction.	2017-03-31 14:42:53
+testuser	928485781234	1500128190	REQ	credit	mtn	0249621938	0.1	0	0					testings		successful		2017-07-15 14:16:30
+testuser	928485781234	1500128190	RES	credit	mtn	0249621938	0.1	0	0					testings	01	successful	Successfully processed transaction.	2017-07-15 14:16:32
+testuser	98292838573	1490977737	REQ	credit	mtn	0249621938	0.1	0	0					momentum		successful		2017-03-31 16:28:57
+testuser	98292838573	1490977737	RES	credit	mtn	0249621938	0.1	0	0					momentum	01	successful	Successfully processed transaction.	2017-03-31 16:28:59
+testuser	9865412301	1487334729	RES	debit	mtn	0249621938	0.1	0	0						21VD	failed	Bill not paid...	2017-02-17 12:33:28
+testuser	9865412301	1487335313	REQ	debit	mtn	0249621938	0.1	0	0					koesieoekcm				2017-02-17 12:41:53
+testuser	9865412301	1487335421	REQ	debit	mtn	0249621938	0.1	0	0					koesieoekcm		successful		2017-02-17 12:43:41
+testuser	9865412301	1487335421	RES	debit	mtn	0249621938	0.1	0	0						0000	successful	Bill found. Tracking ID: MTN1758A6F02993ABD/1237420617	2017-02-17 12:44:35
+testuser	9865412301	1487341985	REQ	debit	airtel	0244637602	0.1	0	0					koesieoekcm				2017-02-17 14:33:05
+testuser	9868412301	1487342031	REQ	credit	airtel	0244637602	0.1	0	0					koesieoekcm				2017-02-17 14:33:51
+testuser	9868412301	1487342031	RES	credit	airtel	0244637602	0.1	0	0									2017-02-17 14:33:53
+testuser	9868412301	1487343013	REQ	debit	airtel	0244637602	0.01	0	0					koesieoekcm				2017-02-17 14:50:13
+testuser	9868412301	1487343013	RES	debit	airtel	0244637602	0.01	0	0				9868412301	CI170217.1433.C09251	200	successful	Success	2017-02-17 14:50:42
+testuser	9898978457	1487343296	REQ	credit	airtel	0244637602	0.01	0	0					koesieoekcm				2017-02-17 14:54:56
+testuser	9898978457	1487343296	RES	credit	airtel	0244637602	0.01	0	0									2017-02-17 14:54:58
+testuser	9898978457	1487343517	REQ	credit	airtel	0244637602	0.01	0	0					koesieoekcm				2017-02-17 14:58:37
+testuser	9898978457	1487343517	RES	credit	airtel	0244637602	0.01	0	0						104	failed		2017-02-17 14:58:37
+testuser	9898978457	1487344430	REQ	credit	airtel	0244637602	0.01	0	0					koesieoekcm				2017-02-17 15:13:50
+testuser	9898978457	1487344430	RES	credit	airtel	0244637602	0.01	0	0						104	failed		2017-02-17 15:13:50
+testuser	9898978457	1487344969	REQ	credit	airtel	0244637602	0.01	0	0					koesieoekcm				2017-02-17 15:22:49
+testuser	9898978457	1487344969	RES	credit	airtel	0244637602	0.01	0	0						104	failed		2017-02-17 15:22:49
+testuser	9898978457	1487345555	REQ	credit	airtel	0244637602	0.01	0	0					koesieoekcm				2017-02-17 15:32:35
+testuser	9898978457	1487345555	RES	credit	airtel	0244637602	0.01	0	0						104	failed		2017-02-17 15:32:35
+testuser	9898978457	1487345825	REQ	credit	airtel	0244637602	0.01	0	0					koesieoekcm				2017-02-17 15:37:05
+testuser	9898978457	1487345825	RES	credit	airtel	0244637602	0.01	0	0					trans	104	failed		2017-02-17 15:37:05
+testuser	9898978457	1487345964	REQ	credit	airtel	0244637602	0.01	0	0					koesieoekcm				2017-02-17 15:39:24
+testuser	9898978457	1487345964	RES	credit	airtel	0244637602	0.01	0	0					Duplicate transaction	104	failed		2017-02-17 15:39:24
+testuser	9898978457	1487346820	REQ	debit	mtn	0249621938	0.01	0	0					koesieoekcm				2017-02-17 15:53:40
+testuser	9898978457	1487346820	RES	debit	mtn	0249621938	0.01	0	0						21VD	failed	Bill not paid...	2017-02-17 15:54:59
+testuser	99281127384	1490977546	REQ	credit	mtn	0249621938	0.1	0	0					hopement		successful		2017-03-31 16:25:46
+testuser	99281127384	1490977546	RES	credit	mtn	0249621938	0.1	0	0					hopement	01	successful	Successfully processed transaction.	2017-03-31 16:25:48
+theteller	112027017978	1494952595	REQ	debit	mtn	0556783436	1.03	0	0					PaySwitch Bill Payment				2017-05-16 16:36:35
+theteller	112027017978	1494952595	RES	debit	mtn	0556783436	1.03	0	0					Bill not paid...	21VD	failed		2017-05-16 16:37:55
+theteller	115810356073	1488547534	REQ	debit	visa	4145********0546	0.01	0	0	09	18	****	115810356073	PaySwitch Bill Payment				2017-03-03 13:25:34
+theteller	132765565212	1488189744	REQ	debit	airtel	0561111015	10.28	0	0					PaySwitch Bill Payment				2017-02-27 10:02:24
+theteller	132765565212	1488189744	RES	debit	airtel	0561111015	10.28	0	0						120	failed	Unknown	2017-02-27 10:02:30
+theteller	133170667750	1487335954	REQ	debit	airtel	0244637602	0.01	0	0					PaySwitch Bill Payment				2017-02-17 12:52:34
+theteller	136792180740	1499872751	REQ	debit	mtn	0244294960	0.01	0	0					Mobile Money Transfers				2017-07-12 15:19:11
+theteller	136792180740	1499872751	RES	debit	mtn	0244294960	0.01	0	0					Bill not paid...	21VD	failed		2017-07-12 15:20:31
+theteller	153700745576	1499278406	REQ	debit	airtel	0269910160	0.51	0	0					Mobile Money Transfers				2017-07-05 18:13:26
+theteller	163251809826	1488280541	REQ	debit	mtn	0244339954	1.54	0	0					PaySwitch Bill Payment				2017-02-28 11:15:41
+theteller	163251809826	1488280541	RES	debit	mtn	0244339954	1.54	0	0					Bill not paid...	21VD	failed		2017-02-28 11:17:01
+theteller	172993761170	1488555739	REQ	debit	airtel	0244637602	0.02	0	0					PaySwitch Bill Payment				2017-03-03 15:42:19
+theteller	172993761170	1488555739	RES	debit	airtel	0244637602	0.02	0	0				1488555739	MP170303.1542.C07179	200	successful	Success	2017-03-03 15:43:04
+theteller	175767803211	1487843017	REQ	debit	mtn	0243578761	10.28	0	0					PaySwitch Bill Payment				2017-02-23 09:43:37
+theteller	175767803211	1487843017	RES	debit	mtn	0243578761	10.28	0	0						21VD	failed	Bill not paid...	2017-02-23 09:44:57
+theteller	175767803211	1487843135	REQ	debit	mtn	0243578761	10.28	0	0					PaySwitch Bill Payment				2017-02-23 09:45:35
+theteller	175767803211	1487843135	RES	debit	mtn	0243578761	10.28	0	0						21VD	failed	Bill not paid...	2017-02-23 09:46:55
+theteller	204550359007	1488979909	REQ	credit	mtn	4846********6596	0.1	0	0			****		Mobile Money Transfers				2017-03-08 13:31:53
+theteller	204550359007	1488979909	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	204550359007	Mobile Money Transfers				2017-03-08 13:31:49
+theteller	212133777923	1487346636	REQ	debit	mtn	0244294960	0.01	0	0					PaySwitch Bill Payment				2017-02-17 15:50:36
+theteller	212133777923	1487346636	RES	debit	mtn	0244294960	0.01	0	0						21VD	failed	Bill not paid...	2017-02-17 15:51:55
+theteller	222943578893	1500626743	REQ	debit	mtn	0244704531	0.51	0	0					Mobile Money Transfers				2017-07-21 08:45:43
+theteller	222943578893	1500626743	RES	debit	mtn	0244704531	0.51	0	0					Bill not paid...	21VD			2017-07-21 08:47:03
+theteller	229684229367	1488882347	REQ	debit	visa	4846********596 	0.02	0	0	11	19	****	229684229367	PaySwitch Bill Payment				2017-03-07 10:25:47
+theteller	267348491597	1490878213	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	267348491597	PaySwitch Bill Payment				2017-03-30 12:50:13
+theteller	283457282027	1487335290	REQ	debit	airtel	0244637602	0.01	0.01	0	0.01							PaySwitch Bill Payment	2017-02-17 12:41:30
+theteller	287635045765	1495620430	REQ	debit	visa	4458********2195	1.23	0	0	07	21	****	287635045765	PaySwitch Bill Payment				2017-05-24 10:07:10
+theteller	296138253864	1498212705	REQ	debit	visa	4145********0546	10.28	0	0	09	18	****	296138253864	PaySwitch Bill Payment				2017-06-23 10:11:45
+theteller	302243379691	1487346340	REQ	debit	airtel	0244294960	0.01	0	0					PaySwitch Bill Payment				2017-02-17 15:45:40
+theteller	302532050365	1494952891	REQ	debit	visa	4145********0546	10.28	0	0	09	18	****	302532050365	PaySwitch Bill Payment				2017-05-16 16:41:31
+theteller	333955298019	1499333018	REQ	debit	airtel	0244508240	0.01	0	0					Mobile Money Transfers				2017-07-06 09:23:38
+theteller	333955298019	1499333018	RES	debit	airtel	0244508240	0.01	0	0						101	failed	MAP interface error	2017-07-06 09:24:11
+theteller	339953206095	1488546532	REQ	debit	visa	4145********0546	0.06	0	0	09	18	****	339953206095	PaySwitch Bill Payment				2017-03-03 13:08:52
+theteller	358441778323	1499255100	REQ	credit	mtn	Mavis Awuah-Pinamang	0.05	0	0					Mobile Money Transfers		successful		2017-07-05 11:46:01
+theteller	358441778323	1499255100	REQ	debit	mtn	0242160511	0.05	0	0					Mobile Money Transfers		successful		2017-07-05 11:45:00
+theteller	358441778323	1499255100	RES	debit	mtn	0242160511	0.05	0	0					Bill found. Tracking ID: MTN17595CD170CD495/1798361932	0000	successful		2017-07-05 11:46:01
+theteller	358441778323	1499255163	REQ	debit	mtn	0242160511	0.05	0	0					Mobile Money Transfers				2017-07-05 11:46:03
+theteller	358441778323	1499255163	RES	debit	mtn	0242160511	0.05	0	0					Bill not paid...	21VD	failed		2017-07-05 11:47:23
+theteller	361351655307	1499277906	REQ	debit	mtn	0553687042	0.51	0	0					Mobile Money Transfers				2017-07-05 18:05:06
+theteller	361351655307	1499277906	RES	debit	mtn	0553687042	0.51	0	0					Bill not paid...	21VD	failed		2017-07-05 18:06:26
+theteller	361351655307	1499277986	REQ	credit	airtel	0269910160	0.5	0	0					Mobile Money Transfers		successful		2017-07-05 18:06:56
+theteller	361351655307	1499277986	REQ	debit	mtn	0553687042	0.51	0	0					Mobile Money Transfers		successful		2017-07-05 18:06:26
+theteller	361351655307	1499277986	RES	credit	airtel	0269910160	0.5	0	0							successful		2017-07-05 18:07:26
+theteller	361351655307	1499277986	RES	debit	mtn	0553687042	0.51	0	0					Bill found. Tracking ID: MTN17595D2AB76D481/1800345884	0000	successful		2017-07-05 18:06:56
+theteller	365711748047	1487341133	REQ	debit	airtel	0244637602	0.01	0	0					PaySwitch Bill Payment				2017-02-17 14:18:53
+theteller	368137015021	1499337816	REQ	credit	mtn	0553687042	0.6	0	0					Mobile Money Transfers				2017-07-06 10:45:06
+theteller	368137015021	1499337816	REQ	debit	airtel	0269910160	0.62	0	0					Mobile Money Transfers				2017-07-06 10:43:36
+theteller	368137015021	1499337816	RES	debit	airtel	0269910160	0.62	0	0				1499337816	MP170706.1044.D09508	200	successful	Success	2017-07-06 10:45:06
+theteller	368137015021	1499337909	REQ	debit	airtel	0269910160	0.62	0	0					Mobile Money Transfers				2017-07-06 10:45:09
+theteller	368137015021	1499337909	RES	debit	airtel	0269910160	0.62	0	0						101	failed	MAP interface error	2017-07-06 10:46:21
+theteller	392251403285	1487676269	REQ	debit	airtel	0244637602	0.01	0	0					PaySwitch Bill Payment				2017-02-21 11:24:29
+theteller	403984540603	1495621343	REQ	credit	mtn	0543803148	1	0	0					Mobile Money Transfers		successful		2017-05-24 10:22:57
+theteller	403984540603	1495621343	REQ	debit	mtn	0241028918	1.03	0	0					Mobile Money Transfers		successful		2017-05-24 10:22:23
+theteller	403984540603	1495621343	RES	debit	mtn	0241028918	1.03	0	0					Bill found. Tracking ID: MTN1759255EF99A354/1623834537	0000	successful		2017-05-24 10:22:57
+theteller	415550417424	1499255564	REQ	credit	mtn	0244294960	1	0	0					Mobile Money Transfers		successful		2017-07-05 11:53:13
+theteller	415550417424	1499255564	REQ	debit	mtn	0242672647	1.03	0	0					Mobile Money Transfers		successful		2017-07-05 11:52:44
+theteller	415550417424	1499255564	RES	debit	mtn	0242672647	1.03	0	0					Bill found. Tracking ID: MTN17595CD31E2E6DC/1798398098	0000	successful		2017-07-05 11:53:13
+theteller	417709776255	1487344939	REQ	debit	airtel	0244637602	0.01	0	0					PaySwitch Bill Payment				2017-02-17 15:22:19
+theteller	424255143617	1490877487	REQ	debit	airtel	0244637602	0.01	0	0					PaySwitch Bill Payment				2017-03-30 12:38:07
+theteller	424255143617	1490877487	RES	debit	airtel	0244637602	0.01	0	0				1490877487	MP170330.1238.D08310	200	successful	Success	2017-03-30 12:39:00
+theteller	426680268039	1488886507	REQ	debit	visa	4846********596 	0.1	0	0	11	19	****	426680268039	PaySwitch Bill Payment				2017-03-07 11:35:07
+theteller	431579228553	1495630021	REQ	debit	visa	4145********0546	1.03	0	0	09	18	****	431579228553	PaySwitch Bill Payment				2017-05-24 12:47:01
+theteller	433075348449	1499873883	REQ	debit	airtel	0263581279	1.03	0	0					Mobile Money Transfers				2017-07-12 15:38:03
+theteller	440645519444	1488280448	REQ	debit	mtn	0244339952	12.34	0	0					PaySwitch Bill Payment				2017-02-28 11:14:08
+theteller	440645519444	1488280448	RES	debit	mtn	0244339952	12.34	0	0					User account not registered on Mobile Money	515	failed		2017-02-28 11:14:36
+theteller	443235879012	1495451818	REQ	credit	mtn	0241220886	0.01	0	0					Mobile Money Transfers				2017-05-22 11:17:24
+theteller	443235879012	1495451818	REQ	debit	airtel	0244637602	0.01	0	0					Mobile Money Transfers				2017-05-22 11:16:58
+theteller	443235879012	1495451818	RES	credit	airtel	0244637602	0.01	0	0				CI170522.1117.C00816	You have sent GHC0.01 to 244637602. Your new balance is GHC3.03. Trans ID: CI170522.1117.C00816.	200	successful		2017-05-22 11:18:22
+theteller	443235879012	1495451818	RES	debit	airtel	0244637602	0.01	0	0				1495451818	MP170522.1117.D01409	200	successful	Success	2017-05-22 11:17:24
+theteller	443235879012	1495451902	REQ	debit	airtel	0244637602	0.01	0	0					Mobile Money Transfers				2017-05-22 11:18:22
+theteller	443235879012	1495451902	RES	debit	airtel	0244637602	0.01	0	0						108	failed	System failure	2017-05-22 11:18:23
+theteller	448153958075	1488885149	REQ	debit	visa	4846********596 	0.03	0	0	11	19	****	448153958075	Mobile Money Transfers				2017-03-07 11:12:29
+theteller	448634613397	1487676023	REQ	debit	airtel	0244637602	0.01	0	0					PaySwitch Bill Payment				2017-02-21 11:20:23
+theteller	453987396792	1488544446	REQ	debit	visa	4145********0546	0.01	0	0	09	18	****	453987396792	PaySwitch Bill Payment				2017-03-03 12:34:06
+theteller	453987396792	1488546459	REQ	debit	visa	4145********0546	0.01	0	0	09	18	****	453987396792	PaySwitch Bill Payment				2017-03-03 13:07:39
+theteller	456437559405	1499870601	REQ	debit	mtn	0243558448	1.03	0	0					PaySwitch Bill Payment				2017-07-12 14:43:21
+theteller	456437559405	1499870601	RES	debit	mtn	0243558448	1.03	0	0					Bill not paid...	21VD	failed		2017-07-12 14:44:41
+theteller	457922160920	1487844432	REQ	credit	mtn	0244294960	0.01	0	0					Mobile Money Transfers		successful		2017-02-23 10:07:37
+theteller	457922160920	1487844432	REQ	debit	airtel	0244637602	0.01	0	0					Mobile Money Transfers		successful		2017-02-23 10:07:12
+theteller	457922160920	1487844432	RES	debit	airtel	0244637602	0.01	0	0				1487844432	MP170223.1007.C06000	200	successful	Success	2017-02-23 10:07:37
+theteller	465279861892	1490887987	REQ	credit	mtn	4458********2195	1	0	0			****		Mobile Money Transfers				2017-03-30 15:33:09
+theteller	465279861892	1490887987	REQ	debit	visa	4458********2195	1.03	0	0	07	21	****	465279861892	Mobile Money Transfers				2017-03-30 15:33:07
+theteller	483306486957	1487844145	REQ	credit	mtn	0244294960	0.01	0	0					Mobile Money Transfers		successful		2017-02-23 10:02:48
+theteller	483306486957	1487844145	REQ	debit	airtel	0244637602	0.01	0	0					Mobile Money Transfers		successful		2017-02-23 10:02:25
+theteller	483306486957	1487844145	RES	debit	airtel	0244637602	0.01	0	0				1487844145	MP170223.1002.C05991	200	successful	Success	2017-02-23 10:02:48
+theteller	483401512570	1495624916	REQ	debit	visa	4458********2195	1.03	0	0	07	21	****	483401512570	PaySwitch Bill Payment				2017-05-24 11:21:56
+theteller	487449182774	1495622537	REQ	debit	mtn	0248153587	5.14	0	0					Mobile Money Transfers				2017-05-24 10:42:17
+theteller	487449182774	1495622537	RES	debit	mtn	0248153587	5.14	0	0					Bill not paid...	21VD	failed		2017-05-24 10:43:36
+theteller	487948015479	1500496682	REQ	debit	airtel	0561111015	1.03	0	0					PaySwitch Bill Payment				2017-07-19 20:38:02
+theteller	487948015479	1500496682	RES	debit	airtel	0561111015	1.03	0	0						00068	failed	Failed	2017-07-19 20:39:45
+theteller	497904052509	1487677560	REQ	debit	airtel	0244637602	0.01	0	0					Mobile Money Transfers				2017-02-21 11:46:00
+theteller	499229627315	1495620657	REQ	credit	mtn	4458********2195	1	0	0			****		Mobile Money Transfers				2017-05-24 10:11:00
+theteller	499229627315	1495620657	REQ	debit	visa	4458********2195	1.03	0	0	07	21	****	499229627315	Mobile Money Transfers				2017-05-24 10:10:57
+theteller	506086754176	1495621768	REQ	credit	mtn	0248153587	0.5	0	0					Mobile Money Transfers		successful		2017-05-24 10:30:07
+theteller	506086754176	1495621768	REQ	debit	mtn	0248153587	0.51	0	0					Mobile Money Transfers		successful		2017-05-24 10:29:28
+theteller	506086754176	1495621768	RES	debit	mtn	0248153587	0.51	0	0					Bill found. Tracking ID: MTN17592560A872680/1623865990	0000	successful		2017-05-24 10:30:07
+theteller	506390577071	1487334325	REQ	debit	airtel	0244637602	0.02	0.02	0	0.02							PaySwitch Bill Payment	2017-02-17 12:25:25
+theteller	511291154575	1499870861	REQ	credit	mtn	4221********6618	1	0	0			****		Mobile Money Transfers				2017-07-12 14:47:44
+theteller	511291154575	1499870861	REQ	debit	visa	4221********6618	1.03	0	0	04	20	****	511291154575	Mobile Money Transfers				2017-07-12 14:47:41
+theteller	520333701515	1487335498	REQ	debit	airtel	0244637602	0.01	0.01	0	0.01							PaySwitch Bill Payment	2017-02-17 12:44:58
+theteller	520333701515	1487335675	REQ	debit	airtel	0244637602	0.01	0.01	0	0.01							PaySwitch Bill Payment	2017-02-17 12:47:55
+theteller	527415455477	1487843270	REQ	debit	airtel	0561111015	12.34	0	0					PaySwitch Bill Payment				2017-02-23 09:47:50
+theteller	537497032864	1488880583	REQ	debit	visa	4846********596 	0.02	0	0	11	19	****	537497032864	Mobile Money Transfers				2017-03-07 09:56:23
+theteller	543162256155	1487856856	REQ	credit	mtn	0244294960	0.01	0	0					Mobile Money Transfers		successful		2017-02-23 13:34:59
+theteller	543162256155	1487856856	REQ	debit	airtel	0244637602	0.01	0	0					Mobile Money Transfers		successful		2017-02-23 13:34:16
+theteller	543162256155	1487856856	RES	debit	airtel	0244637602	0.01	0	0				1487856856	MP170223.1334.C06988	200	successful	Success	2017-02-23 13:34:59
+theteller	554673915592	1487589924	REQ	debit	airtel	0244637602	0.01	0	0					PaySwitch Bill Payment				2017-02-20 11:25:24
+theteller	558336111363	1488885461	REQ	debit	visa	4846********6496	1.03	0	0	11	19	****	558336111363	PaySwitch Bill Payment				2017-03-07 11:17:41
+theteller	558450125593	1499264473	REQ	credit	mtn	0244704531	0.5	0	0					Mobile Money Transfers		successful		2017-07-05 14:21:47
+theteller	558450125593	1499264473	REQ	debit	mtn	0243151525	0.51	0	0					Mobile Money Transfers		successful		2017-07-05 14:21:13
+theteller	558450125593	1499264473	RES	debit	mtn	0243151525	0.51	0	0					Bill found. Tracking ID: MTN17595CF5F2CAEDD/1799098197	0000	successful		2017-07-05 14:21:47
+theteller	558490756811	1499256073	REQ	debit	mtn	0242160511	0.05	0	0					PaySwitch Bill Payment				2017-07-05 12:01:13
+theteller	558490756811	1499256073	RES	debit	mtn	0242160511	0.05	0	0					Bill not paid...	21VD	failed		2017-07-05 12:02:33
+theteller	577036946307	1495622816	REQ	debit	mtn	0248153587	5.14	0	0					Mobile Money Transfers				2017-05-24 10:46:56
+theteller	577036946307	1495622816	RES	debit	mtn	0248153587	5.14	0	0					Bill not paid...	21VD	failed		2017-05-24 10:48:16
+theteller	595135915427	1487341641	REQ	debit	airtel	0244637602	0.01	0	0					PaySwitch Bill Payment				2017-02-17 14:27:21
+theteller	598067342676	1487676092	REQ	debit	airtel	0244637602	0.01	0	0					PaySwitch Bill Payment				2017-02-21 11:21:32
+theteller	604614624135	1490876863	REQ	debit	visa	4846********6596	0.01	0	0	11	19	****	604614624135	PaySwitch Bill Payment				2017-03-30 12:27:43
+theteller	606483769785	1499278275	REQ	debit	airtel	0269910160	0.51	0	0					Mobile Money Transfers				2017-07-05 18:11:15
+theteller	606483769785	1499278275	RES	debit	airtel	0269910160	0.51	0	0									2017-07-05 18:12:00
+theteller	620052944850	1487678270	REQ	debit	airtel	0244637602	0.01	0	0					Mobile Money Transfers				2017-02-21 11:57:50
+theteller	626103824966	1488880419	REQ	debit	visa	4846********596 	0.03	0	0	11	19	****	626103824966	Mobile Money Transfers				2017-03-07 09:53:39
+theteller	636649190135	1499785223	REQ	debit	airtel	0561111015	1.03	0	0					PaySwitch Bill Payment				2017-07-11 15:00:23
+theteller	636649190135	1499785223	RES	debit	airtel	0561111015	1.03	0	0						100	failed	Timeout	2017-07-11 15:01:05
+theteller	638946375832	1495628127	REQ	debit	visa	4458********2195	1.03	0	0	07	21	****	638946375832	PaySwitch Bill Payment				2017-05-24 12:15:27
+theteller	644046927373	1489393101	REQ	debit	visa	4458********2195	1.03	0	0	07	21	****	644046927373	PaySwitch Bill Payment				2017-03-13 08:18:21
+theteller	661003197620	1495622666	REQ	debit	mtn	0248153587	5.14	0	0					Mobile Money Transfers				2017-05-24 10:44:26
+theteller	661003197620	1495622666	RES	debit	mtn	0248153587	5.14	0	0					Bill not paid...	21VD	failed		2017-05-24 10:45:46
+theteller	680962229675	1487855615	REQ	credit	mtn	0244294960	0.01	0	0					Mobile Money Transfers		successful		2017-02-23 13:13:58
+theteller	680962229675	1487855615	REQ	debit	airtel	0244637602	0.01	0	0					Mobile Money Transfers		successful		2017-02-23 13:13:35
+theteller	680962229675	1487855615	RES	debit	airtel	0244637602	0.01	0	0				1487855615	MP170223.1313.C06851	200	successful	Success	2017-02-23 13:13:58
+theteller	682866288099	1495621013	REQ	credit	mtn	4458********2195	1	0	0			****		Mobile Money Transfers				2017-05-24 10:16:55
+theteller	682866288099	1495621013	REQ	debit	visa	4458********2195	1.03	0	0	07	21	****	682866288099	Mobile Money Transfers				2017-05-24 10:16:53
+theteller	685057010057	1499274878	REQ	debit	mtn	0245336511	0.01	0	0					Mobile Money Transfers				2017-07-05 17:14:38
+theteller	685057010057	1499274878	RES	debit	mtn	0245336511	0.01	0	0					Bill not paid...	21VD	failed		2017-07-05 17:15:58
+theteller	686761457936	1499872604	REQ	debit	airtel	0244627602	0.01	0	0					Mobile Money Transfers				2017-07-12 15:16:44
+theteller	686761457936	1499872604	RES	debit	airtel	0244627602	0.01	0	0						100	failed	Timeout	2017-07-12 15:17:26
+theteller	696645757285	1499157245	REQ	credit	mtn	0246797125	0.01	0	0					Mobile Money Transfers		successful		2017-07-04 08:34:38
+theteller	696645757285	1499157245	REQ	debit	airtel	0244637602	0.01	0	0					Mobile Money Transfers		successful		2017-07-04 08:34:05
+theteller	696645757285	1499157245	RES	debit	airtel	0244637602	0.01	0	0				1499157245	MP170704.0834.D05129	200	successful	Success	2017-07-04 08:34:38
+theteller	703367115197	1499274484	REQ	debit	mtn	0246797125	0.01	0	0					Mobile Money Transfers				2017-07-05 17:08:04
+theteller	703367115197	1499274484	RES	debit	mtn	0246797125	0.01	0	0					Bill not paid...	21VD	failed		2017-07-05 17:09:23
+theteller	706406402105	1499274980	REQ	debit	mtn	0243625791	0.01	0	0					Mobile Money Transfers				2017-07-05 17:16:20
+theteller	706406402105	1499274980	RES	debit	mtn	0243625791	0.01	0	0					Bill not paid...	21VD	failed		2017-07-05 17:17:40
+theteller	708120167782	1495629950	REQ	debit	visa	4145********0546	1.03	0	0	09	18	****	708120167782	PaySwitch Bill Payment				2017-05-24 12:45:50
+theteller	709613697048	1487843974	REQ	debit	airtel	0244637602	0.01	0	0					PaySwitch Bill Payment				2017-02-23 09:59:34
+theteller	710967980887	1488879980	REQ	credit	mtn	0244294960	0.01	0	0					Mobile Money Transfers		successful		2017-03-07 09:46:49
+theteller	710967980887	1488879980	REQ	debit	airtel	0244637602	0.01	0	0					Mobile Money Transfers		successful		2017-03-07 09:46:20
+theteller	710967980887	1488879980	RES	debit	airtel	0244637602	0.01	0	0				1488879980	MP170307.0946.C04576	200	successful	Success	2017-03-07 09:46:49
+theteller	713322987913	1499267992	REQ	credit	mtn	0243578761	1	0	0					Mobile Money Transfers		successful		2017-07-05 15:20:22
+theteller	713322987913	1499267992	REQ	debit	mtn	0243965066	1.03	0	0					Mobile Money Transfers		successful		2017-07-05 15:19:52
+theteller	713322987913	1499267992	RES	debit	mtn	0243965066	1.03	0	0					Bill found. Tracking ID: MTN17595D03ABBF698/1799391282	0000	successful		2017-07-05 15:20:22
+theteller	714942000129	1490718510	REQ	credit	mtn	4458********2195	2	0	0			****		Mobile Money Transfers				2017-03-28 16:28:36
+theteller	714942000129	1490718510	REQ	debit	visa	4458********2195	2.06	0	0	07	21	****	714942000129	Mobile Money Transfers				2017-03-28 16:28:30
+theteller	730851322708	1487761255	REQ	debit	airtel	0244637602	0.01	0	0					Mobile Money Transfers				2017-02-22 11:00:55
+theteller	752013358661	1498212798	REQ	debit	visa	4145********0438	10.28	0	0	09	18	****	752013358661	PaySwitch Bill Payment				2017-06-23 10:13:18
+theteller	754079498052	1495622209	REQ	debit	airtel	0263581279	20.56	0	0					PaySwitch Bill Payment				2017-05-24 10:36:49
+theteller	784247175218	1499252559	REQ	credit	mtn	0244294960	0.1	0	0					Mobile Money Transfers		successful		2017-07-05 11:03:25
+theteller	784247175218	1499252559	REQ	debit	mtn	0248153587	0.1	0	0					Mobile Money Transfers		successful		2017-07-05 11:02:39
+theteller	784247175218	1499252559	RES	debit	mtn	0248153587	0.1	0	0					Bill found. Tracking ID: MTN17595CC7757C5DC/1798157425	0000	successful		2017-07-05 11:03:25
+theteller	786766633064	1487332198	REQ	debit	airtel	0244637602	0.01	0.01	0	0.01							PaySwitch Bill Payment	2017-02-17 11:49:58
+theteller	786766633064	1487334054	REQ	debit	airtel	0244637602	0.01	0.01	0	0.01							PaySwitch Bill Payment	2017-02-17 12:20:54
+theteller	790580680556	1499277804	REQ	debit	mtn	0553687042	0.51	0	0					Mobile Money Transfers				2017-07-05 18:03:25
+theteller	790580680556	1499277804	RES	debit	mtn	0553687042	0.51	0	0					General Failure	100	failed		2017-07-05 18:03:53
+theteller	798481642261	1499256069	REQ	credit	mtn	0240754714	1	0	0					Mobile Money Transfers		successful		2017-07-05 12:01:49
+theteller	798481642261	1499256069	REQ	debit	airtel	0266404841	1.03	0	0					Mobile Money Transfers		successful		2017-07-05 12:01:09
+theteller	798481642261	1499256069	RES	debit	airtel	0266404841	1.03	0	0				1499256069	MP170705.1202.D03771	200	successful	Success	2017-07-05 12:01:49
+theteller	808265588742	1487768129	REQ	debit	airtel	0244637602	0.01	0	0					PaySwitch Bill Payment				2017-02-22 12:55:29
+theteller	820025292305	1488882515	REQ	debit	visa	4846********596 	0.01	0	0	11	19	****	820025292305	PaySwitch Bill Payment				2017-03-07 10:28:35
+theteller	820134342081	1495478316	REQ	debit	mtn	0243965066	10.28	0	0					PaySwitch Bill Payment				2017-05-22 18:38:36
+theteller	820134342081	1495478316	RES	debit	mtn	0243965066	10.28	0	0					Bill not paid...	21VD	failed		2017-05-22 18:39:55
+theteller	823716065396	1487335868	REQ	debit	airtel	0244637602	0.01	0	0					PaySwitch Bill Payment				2017-02-17 12:51:08
+theteller	839680903648	1493975744	REQ	debit	airtel	0244637602	0.01	0	0					PaySwitch Bill Payment		successful		2017-05-05 09:15:44
+theteller	839680903648	1493975744	RES	debit	airtel	0244637602	0.01	0	0				1493975744	MP170505.0916.D04013	200	successful	Success	2017-05-05 09:16:28
+theteller	839680903648	1493975788	REQ	debit	airtel	0244637602	0.01	0	0					PaySwitch Bill Payment		successful		2017-05-05 09:16:28
+theteller	839680903648	1493975788	RES	debit	airtel	0244637602	0.01	0	0				1493975788	MP170505.0917.D04021	200	successful	Success	2017-05-05 09:17:17
+theteller	844055687286	1495628296	REQ	debit	visa	4458********2195	1.03	0	0	07	21	****	844055687286	Mobile Money Transfers				2017-05-24 12:18:16
+theteller	854759653076	1499262692	REQ	debit	mtn	0241878289	0.1	0	0					PaySwitch Bill Payment				2017-07-05 13:51:32
+theteller	858637515888	1488887264	REQ	credit	mtn	4846********6596	0.1	0	0			****		Mobile Money Transfers				2017-03-07 11:47:48
+theteller	858637515888	1488887264	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	858637515888	Mobile Money Transfers				2017-03-07 11:47:44
+theteller	860353717351	1494953025	REQ	debit	visa	4145********0438	1.03	0	0	03	20	****	860353717351	PaySwitch Bill Payment				2017-05-16 16:43:45
+theteller	866151906766	1487676926	REQ	debit	airtel	0244637602	0.01	0	0					Mobile Money Transfers				2017-02-21 11:35:26
+theteller	870876756334	1488542675	REQ	debit	visa	4145********0546	0.09	0	0	09	18	****	870876756334	PaySwitch Bill Payment				2017-03-03 12:04:35
+theteller	871608929090	1499278185	REQ	debit	airtel	0269910160	0.51	0	0					Mobile Money Transfers				2017-07-05 18:09:45
+theteller	871608929090	1499278185	RES	debit	airtel	0269910160	0.51	0	0						101	failed	MAP interface error	2017-07-05 18:10:08
+theteller	899850482808	1487586913	REQ	debit	airtel	0561111015	46.26	0	0					PaySwitch Bill Payment				2017-02-20 10:35:13
+theteller	901251241058	1487843537	REQ	debit	airtel	0561111015	3.08	0	0					PaySwitch Bill Payment				2017-02-23 09:52:17
+theteller	901942277356	1493975645	REQ	debit	airtel	0244637602	0.05	0	0					PaySwitch Bill Payment				2017-05-05 09:14:05
+theteller	901942277356	1493975645	RES	debit	airtel	0244637602	0.05	0	0						101	failed	MAP interface error	2017-05-05 09:14:37
+theteller	906499725763	1487340410	REQ	debit	airtel	0244637602	0.01	0	0					PaySwitch Bill Payment				2017-02-17 14:06:50
+theteller	925529654471	1487346194	REQ	debit	airtel	0244294960	0.01	0	0					PaySwitch Bill Payment				2017-02-17 15:43:14
+theteller	929197987705	1487334583	REQ	debit	airtel	0244637602	0.01	0.01	0	0.01							PaySwitch Bill Payment	2017-02-17 12:29:43
+theteller	929197987705	1487334799	REQ	debit	airtel	0244637602	0.01	0.01	0	0.01							PaySwitch Bill Payment	2017-02-17 12:33:19
+theteller	939424490893	1488885677	REQ	debit	visa	4846********596 	0.01	0	0	11	19	****	939424490893	PaySwitch Bill Payment				2017-03-07 11:21:17
+theteller	942783538776	1488887109	REQ	debit	visa	4846********6596	0.1	0	0	11	19	****	942783538776	PaySwitch Bill Payment				2017-03-07 11:45:09
+theteller	944136291547	1495622352	REQ	debit	mtn	0556783436	0.51	0	0					PaySwitch Bill Payment		successful		2017-05-24 10:39:12
+theteller	944136291547	1495622352	RES	debit	mtn	0556783436	0.51	0	0					Bill found. Tracking ID: MTN17592562E8B2CBE/1623909601	0000	successful		2017-05-24 10:39:47
+theteller	953212533399	1487347118	REQ	debit	tigo	0275485802	0.01	0	0					PaySwitch Bill Payment				2017-02-17 15:58:38
+theteller	964384693089	1499785026	REQ	debit	visa	4221********6618	1.03	0	0	04	20	****	964384693089	PaySwitch Bill Payment				2017-07-11 14:57:06
+theteller	967307592281	1499870783	REQ	debit	visa	4221********6618	1.03	0	0	04	20	****	967307592281	Mobile Money Transfers				2017-07-12 14:46:23
+theteller	971104789163	1487677255	REQ	debit	airtel	0244637602	0.01	0	0					Mobile Money Transfers				2017-02-21 11:40:55
+theteller	978956058174	1488542020	REQ	debit	airtel	0244637602	0.03	0	0					PaySwitch Bill Payment		successful		2017-03-03 11:53:40
+theteller	978956058174	1488542020	RES	debit	airtel	0244637602	0.03	0	0				1488542020	MP170303.1154.C06117	200	successful	Success	2017-03-03 11:54:05
+theteller	979278236053	1499870433	REQ	debit	mtn	0556783436	1.03	0	0					PaySwitch Bill Payment				2017-07-12 14:40:33
+theteller	979278236053	1499870433	RES	debit	mtn	0556783436	1.03	0	0					Bill not paid...	21VD	failed		2017-07-12 14:41:53
+theteller	995778974722	1499872447	REQ	debit	mtn	0244637602	0.01	0	0					Mobile Money Transfers				2017-07-12 15:14:07
+theteller	995778974722	1499872447	RES	debit	mtn	0244637602	0.01	0	0					Bill not paid...	21VD	failed		2017-07-12 15:15:26
+theteller	995986217158	1499785669	REQ	credit	mtn	4221********6618	1	0	0			****		Mobile Money Transfers				2017-07-11 15:07:52
+theteller	995986217158	1499785669	REQ	debit	visa	4221********6618	1.03	0	0	04	20	****	995986217158	Mobile Money Transfers				2017-07-11 15:07:49
+thetellermobile	5jMl3iUv3b8u3dw	1494449460	REQ	credit	mtn	0249621938	1	0	0					testing mobile api		successful		2017-05-10 20:51:31
+thetellermobile	5jMl3iUv3b8u3dw	1494449460	REQ	debit	mtn	0249621938	0.11	0	0					testing mobile api		successful		2017-05-10 20:51:00
+thetellermobile	5jMl3iUv3b8u3dw	1494449460	RES	debit	mtn	0249621938	0.11	0	0					Bill found. Tracking ID: MTN1759137D45A508B/1569396100	0000	successful		2017-05-10 20:51:31
+thetellermobile	5jMl3iUvGb8u3dw	1494447550	REQ	debit	mtn	0249621938	0.11	0	0					testing mobile api		successful		2017-05-10 20:19:10
+thetellermobile	5jMl3iUvGb8u3dw	1494447550	RES	debit	mtn	0249621938	0.11	0	0					Bill found. Tracking ID: MTN17591375CED8450/1569291856	0000	successful		2017-05-10 20:19:39
+thetellermobile	5jMl3iUvGftu3dw	1494447399	REQ	debit	mtn	0249621938	0.11	0	0					testing mobile api		successful		2017-05-10 20:16:39
+thetellermobile	5jMl3iUvGftu3dw	1494447399	RES	debit	mtn	0249621938	0.11	0	0					Bill found. Tracking ID: MTN1759137534CFF48/1569283451	0000	successful		2017-05-10 20:17:08
+thetellermobile	5jNl3iUvGftu3dw	1494447283	REQ	debit	mtn	0249621938	0.11	0	0					testing mobile api		successful		2017-05-10 20:14:43
+thetellermobile	5jNl3iUvGftu3dw	1494447283	RES	debit	mtn	0249621938	0.11	0	0					Bill found. Tracking ID: MTN17591374C16DDE7/1569276960	0000	successful		2017-05-10 20:15:12
+thetellermobile	666l3iUv3b8u3dw	1494449644	REQ	credit	mtn	0249621938	0.5	0	0					testing mobile api		successful		2017-05-10 20:54:34
+thetellermobile	666l3iUv3b8u3dw	1494449644	REQ	debit	mtn	0249621938	0.51	0	0					testing mobile api		successful		2017-05-10 20:54:04
+thetellermobile	666l3iUv3b8u3dw	1494449644	RES	debit	mtn	0249621938	0.51	0	0					Bill found. Tracking ID: MTN1759137DFB7070E/1569406672	0000	successful		2017-05-10 20:54:34
+thetellermobile	676l3iUv3b8u3dw	1494450350	REQ	credit	mtn	0249621938	0.2	0	0					testing mobile api		successful		2017-05-10 21:06:19
+thetellermobile	676l3iUv3b8u3dw	1494450350	REQ	debit	mtn	0249621938	0.11	0	0					testing mobile api		successful		2017-05-10 21:05:50
+thetellermobile	676l3iUv3b8u3dw	1494450350	RES	debit	mtn	0249621938	0.11	0	0					Bill found. Tracking ID: MTN17591380BCE86A6/1569446016	0000	successful		2017-05-10 21:06:19
+thetellermobile	7jNl3iU7Gftu3dw	1494435583	REQ	debit	mtn	0249621938	0.11	0	0					testing mobile api		successful		2017-05-10 16:59:43
+thetellermobile	7jNl3iU7Gftu3dw	1494435583	RES	debit	mtn	0249621938	0.11	0	0					Bill found. Tracking ID: MTN1759134710DB9D9/1568256486	0000	successful		2017-05-10 17:00:14
+thetellermobile	7jNlkiU7Gft43dw	1494435119	REQ	debit	mtn	0249621938	0.01	0	0					testing mobile api				2017-05-10 16:51:59
+thetellermobile	7jNlkiU7Gft43dw	1494435119	RES	debit	mtn	0249621938	0.01	0	0					Bill not paid...	21VD	failed		2017-05-10 16:53:18
+thetellermobile	7jNlkiU7Gftu3dw	1494435416	REQ	debit	mtn	0249621938	0.01	0	0					testing mobile api				2017-05-10 16:56:56
+thetellermobile	7jNlkiU7Gftu3dw	1494435416	RES	debit	mtn	0249621938	0.01	0	0					Bill not paid...	21VD	failed		2017-05-10 16:58:16
+thetellermobile	b1amPxStGJ5JfVS	1496917453	REQ	credit	mtn	0243965066	5	0	0					Send money to someone on the same mobile network or on a different network		successful		2017-06-08 10:24:44
+thetellermobile	b1amPxStGJ5JfVS	1496917453	REQ	debit	mtn	0241028918	5.14	0	0					Send money to someone on the same mobile network or on a different network		successful		2017-06-08 10:24:13
+thetellermobile	b1amPxStGJ5JfVS	1496917453	RES	debit	mtn	0241028918	5.14	0	0					Bill found. Tracking ID: MTN17593925E31F1C4/1685811908	0000	successful		2017-06-08 10:24:44
+thetellermobile	bcNFfijgaZKmEHw	1495991109	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-05-28 17:05:09
+thetellermobile	bcNFfijgaZKmEHw	1495991109	RES	debit	mtn	0243965066	1.03	0	0					Bill not paid...	21VD	failed		2017-05-28 17:06:28
+thetellermobile	bnCDHQLLYfhPAhg	1497075583	REQ	credit	mtn	0554038249	50	0	0					Send money to someone on the same mobile network or on a different network		successful		2017-06-10 06:20:13
+thetellermobile	bnCDHQLLYfhPAhg	1497075583	REQ	debit	mtn	0241028918	51.4	0	0					Send money to someone on the same mobile network or on a different network		successful		2017-06-10 06:19:43
+thetellermobile	bnCDHQLLYfhPAhg	1497075583	RES	debit	mtn	0241028918	51.4	0	0					Bill found. Tracking ID: MTN17593B8F912EDC0/1693765751	0000	successful		2017-06-10 06:20:13
+thetellermobile	bnszPP1vzQEdZ0y	1497279726	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-06-12 15:02:06
+thetellermobile	bnszPP1vzQEdZ0y	1497279726	RES	debit	mtn	0243965066	1.03	0	0					Bill not paid...	21VD	failed		2017-06-12 15:03:27
+thetellermobile	bOmSpUClibZV4iM	1496223901	REQ	debit	mtn	0243965066	0.51	0	0					Send money to someone on the same mobile network or on a different network				2017-05-31 09:45:01
+thetellermobile	bOmSpUClibZV4iM	1496223901	RES	debit	mtn	0243965066	0.51	0	0					Bill not paid...	21VD	failed		2017-05-31 09:46:21
+thetellermobile	br6onh8vbpDfxDk	1495807941	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-05-26 14:12:21
+thetellermobile	br6onh8vbpDfxDk	1495807941	RES	debit	mtn	0243965066	1.03	0	0					Bill not paid...	21VD	failed		2017-05-26 14:13:41
+thetellermobile	btJYEmBdcOcIYHC	1496052475	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-05-29 10:07:55
+thetellermobile	btJYEmBdcOcIYHC	1496052475	RES	debit	mtn	0243965066	1.03	0	0					FAILURE	100	failed		2017-05-29 10:09:09
+thetellermobile	bTmKJdsjslPpYQ6	1495989730	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-05-28 16:42:10
+thetellermobile	bTmKJdsjslPpYQ6	1495989730	RES	debit	mtn	0243965066	1.03	0	0					Bill not paid...	21VD	failed		2017-05-28 16:43:30
+thetellermobile	bTUE3m5tAvAD1Qu	1496230737	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-05-31 11:38:57
+thetellermobile	bTUE3m5tAvAD1Qu	1496230737	RES	debit	mtn	0243965066	1.03	0	0					FAILURE	100	failed		2017-05-31 11:40:12
+thetellermobile	bWqxT17YLW7mzfS	1496058940	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-05-29 11:55:40
+thetellermobile	bWqxT17YLW7mzfS	1496058940	RES	debit	mtn	0243965066	1.03	0	0					Bill not paid...	21VD	failed		2017-05-29 11:56:59
+thetellermobile	bX32mDbmSfsVQJs	1499877554	REQ	debit	visa	4860********6810	1.03	0	0	05	22	****	783371078753	Send money to someone on the same mobile network or on a different network				2017-07-12 16:39:14
+thetellermobile	bX8gCrDbfQDNbye	1496767993	REQ	debit	mtn	0243965066	0.51	0	0					Send money to someone on the same mobile network or on a different network				2017-06-06 16:53:13
+thetellermobile	bX8gCrDbfQDNbye	1496767993	RES	debit	mtn	0243965066	0.51	0	0					Bill not paid...	21VD	failed		2017-06-06 16:54:33
+thetellermobile	bXEUDQ0ktijnmNk	1495792694	REQ	debit	mtn	0243965066	0.5	0	0					Send money to someone on the same mobile network or on a different network				2017-05-26 09:58:14
+thetellermobile	bXEUDQ0ktijnmNk	1495792694	RES	debit	mtn	0243965066	0.5	0	0					Bill not paid...	21VD	failed		2017-05-26 09:59:33
+thetellermobile	ccHcLDbA2v6Vhj4	1496066767	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-05-29 14:06:07
+thetellermobile	ccHcLDbA2v6Vhj4	1496066767	RES	debit	mtn	0243965066	1.03	0	0					Bill not paid...	21VD	failed		2017-05-29 14:07:27
+thetellermobile	cDPgazvLMTHo8c2	1497370967	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-06-13 16:22:47
+thetellermobile	cDPgazvLMTHo8c2	1497370967	RES	debit	mtn	0243965066	1.03	0	0					Bill not paid...	21VD	failed		2017-06-13 16:24:06
+thetellermobile	chbp4wK5A7zF4Z0	1496223754	REQ	debit	mtn	0243965066	0.51	0	0					Send money to someone on the same mobile network or on a different network				2017-05-31 09:42:34
+thetellermobile	chbp4wK5A7zF4Z0	1496223754	RES	debit	mtn	0243965066	0.51	0	0					FAILURE	100	failed		2017-05-31 09:43:49
+thetellermobile	cj8lgYGWBj34WSe	1495798954	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-05-26 11:42:34
+thetellermobile	cj8lgYGWBj34WSe	1495798954	RES	debit	mtn	0243965066	1.03	0	0					FAILURE	100	failed		2017-05-26 11:43:49
+thetellermobile	cl9LK0fyFU7983W	1495794125	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-05-26 10:22:05
+thetellermobile	cl9LK0fyFU7983W	1495794125	RES	debit	mtn	0243965066	1.03	0	0					Bill not paid...	21VD	failed		2017-05-26 10:23:24
+thetellermobile	co3Cu8WeBKsYudS	1500469386	REQ	debit	mtn	0556783436	20	0	0					Buy international airtime with the Payswitch International Airtime Top ups				2017-07-19 13:03:06
+thetellermobile	co3Cu8WeBKsYudS	1500469386	RES	debit	mtn	0556783436	20	0	0					Bill not paid...	21VD	failed		2017-07-19 13:04:26
+thetellermobile	cW4QvJuMXfbiMKI	1495821127	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-05-26 17:52:07
+thetellermobile	cW4QvJuMXfbiMKI	1495821127	RES	debit	mtn	0243965066	1.03	0	0					Bill not paid...	21VD	failed		2017-05-26 17:53:27
+thetellermobile	cWh7Au98FONay1g	1500637276	REQ	credit	mtn	0201248822	1	0	0					Send money to someone on the same mobile network or on a different network				2017-07-21 11:41:46
+thetellermobile	cWh7Au98FONay1g	1500637276	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-07-21 11:41:16
+thetellermobile	cWh7Au98FONay1g	1500637276	RES	debit	mtn	0243965066	1.03	0	0					Bill found. Tracking ID: MTN175971E86E0F69F/1869955208	0000			2017-07-21 11:41:46
+thetellermobile	d2g9bhOGKvtlMwQ	1496085390	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-05-29 19:16:30
+thetellermobile	d2g9bhOGKvtlMwQ	1496085390	RES	debit	mtn	0243965066	1.03	0	0					FAILURE	100	failed		2017-05-29 19:17:45
+thetellermobile	daCwTKuVNdRc5EQ	1499785115	REQ	debit	visa	4860********6810	1.03	0	0	05	22	****	908535881453	Send money to someone on the same mobile network or on a different network				2017-07-11 14:58:35
+thetellermobile	dhDysiQkNjQHpxG	1498066064	REQ	debit	mtn	0556783436	1.03	0	0					Pay theteller setup fee with the PaySwitch Bill Payment		successful		2017-06-21 17:27:44
+thetellermobile	dhDysiQkNjQHpxG	1498066064	RES	debit	mtn	0556783436	1.03	0	0					Bill found. Tracking ID: MTN17594AACAAF2AFC/1740232044	0000	successful		2017-06-21 17:28:19
+thetellermobile	dnsw2muaJ91qFbo	1495820854	REQ	debit	mtn	0243965066	0.51	0	0					Send money to someone on the same mobile network or on a different network				2017-05-26 17:47:34
+thetellermobile	dnsw2muaJ91qFbo	1495820854	RES	debit	mtn	0243965066	0.51	0	0					FAILURE	100	failed		2017-05-26 17:48:49
+thetellermobile	drPSNuTa25gZxmA	1495811970	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-05-26 15:19:30
+thetellermobile	drPSNuTa25gZxmA	1495811970	RES	debit	mtn	0243965066	1.03	0	0					FAILURE	100	failed		2017-05-26 15:20:50
+thetellermobile	dW3Y0kYqRA694IU	1498122625	REQ	debit	visa	4860********6810	1.03	0	0	05	22	****	718287387105	Send money to someone on the same mobile network or on a different network				2017-06-22 09:10:25
+thetellermobile	dwDMqoyEhzkh9ka	1495807090	REQ	debit	mtn	0243965066	0.51	0	0					Send money to someone on the same mobile network or on a different network				2017-05-26 13:58:10
+thetellermobile	dwDMqoyEhzkh9ka	1495807090	RES	debit	mtn	0243965066	0.51	0	0					Bill not paid...	21VD	failed		2017-05-26 13:59:30
+thetellermobile	dWLP5pS5r3hQJPc	1495655010	REQ	debit	mtn	0243965066	0.5	0	0					Use MTN Mobile Money to pay for your transaction				2017-05-24 19:43:30
+thetellermobile	dWLP5pS5r3hQJPc	1495655010	RES	debit	mtn	0243965066	0.5	0	0					FAILURE	100	failed		2017-05-24 19:44:50
+thetellermobile	e7Su17KzFRi2yRk	1498122769	REQ	debit	visa	4860********6810	1.03	0	0	05	22	****	787950085252	Send money to someone on the same mobile network or on a different network				2017-06-22 09:12:49
+thetellermobile	eA9hYvXQVHTsbr4	1496067308	REQ	credit	mtn	0241878289	0.5	0	0					Send money to someone on the same mobile network or on a different network		successful		2017-05-29 14:15:38
+thetellermobile	eA9hYvXQVHTsbr4	1496067308	REQ	debit	mtn	0243965066	0.51	0	0					Send money to someone on the same mobile network or on a different network		successful		2017-05-29 14:15:08
+thetellermobile	eA9hYvXQVHTsbr4	1496067308	RES	debit	mtn	0243965066	0.51	0	0					Bill found. Tracking ID: MTN17592C2CFC7307F/1644076558	0000	successful		2017-05-29 14:15:38
+thetellermobile	eFRck8Liyzu6mx4	1499877219	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-07-12 16:33:39
+thetellermobile	eFRck8Liyzu6mx4	1499877219	RES	debit	mtn	0243965066	1.03	0	0					Bill not paid...	21VD	failed		2017-07-12 16:34:58
+thetellermobile	eIjrl95e3YNs4zW	1496767717	REQ	credit	mtn	0241028918	0.5	0	0					Send money to someone on the same mobile network or on a different network		successful		2017-06-06 16:49:07
+thetellermobile	eIjrl95e3YNs4zW	1496767717	REQ	debit	mtn	0243965066	0.51	0	0					Send money to someone on the same mobile network or on a different network		successful		2017-06-06 16:48:37
+thetellermobile	eIjrl95e3YNs4zW	1496767717	RES	debit	mtn	0243965066	0.51	0	0					Bill found. Tracking ID: MTN175936DCF721AAE/1678889667	0000	successful		2017-06-06 16:49:07
+thetellermobile	eIYfcIazLMXPUI6	1495818500	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-05-26 17:08:20
+thetellermobile	eIYfcIazLMXPUI6	1495818500	RES	debit	mtn	0243965066	1.03	0	0					Bill not paid...	21VD	failed		2017-05-26 17:09:40
+thetellermobile	elADN5HYTIMMdGi	1495806158	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-05-26 13:42:38
+thetellermobile	elADN5HYTIMMdGi	1495806158	RES	debit	mtn	0243965066	1.03	0	0					FAILURE	100	failed		2017-05-26 13:43:48
+thetellermobile	eLbJ1PDPewqbmFG	1495808841	REQ	credit	mtn	0241878289	0.5	0	0					Send money to someone on the same mobile network or on a different network		successful		2017-05-26 14:28:01
+thetellermobile	eLbJ1PDPewqbmFG	1495808841	REQ	debit	mtn	0243965066	0.51	0	0					Send money to someone on the same mobile network or on a different network		successful		2017-05-26 14:27:21
+thetellermobile	eLbJ1PDPewqbmFG	1495808841	RES	debit	mtn	0243965066	0.51	0	0					Bill found. Tracking ID: MTN1759283B676A9C5/1632807950	0000	successful		2017-05-26 14:28:01
+thetellermobile	eOPfwy8umZ9BGFc	1497892273	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-06-19 17:11:13
+thetellermobile	eOPfwy8umZ9BGFc	1497892273	RES	debit	mtn	0243965066	1.03	0	0					Bill not paid...	21VD	failed		2017-06-19 17:12:32
+thetellermobile	eVTUJa8oyiugl6e	1495806476	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-05-26 13:47:56
+thetellermobile	eVTUJa8oyiugl6e	1495806476	RES	debit	mtn	0243965066	1.03	0	0					FAILURE	100	failed		2017-05-26 13:49:11
+thetellermobile	eZ61P1S4r89pabk	1496056388	REQ	debit	mtn	0243965066	0.51	0	0					Send money to someone on the same mobile network or on a different network				2017-05-29 11:13:08
+thetellermobile	eZ61P1S4r89pabk	1496056388	RES	debit	mtn	0243965066	0.51	0	0					Bill not paid...	21VD	failed		2017-05-29 11:14:27
+thetellermobile	eztFYemtGHN80VG	1495991541	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-05-28 17:12:21
+thetellermobile	eztFYemtGHN80VG	1495991541	RES	debit	mtn	0243965066	1.03	0	0					Bill not paid...	21VD	failed		2017-05-28 17:13:41
+thetellermobile	f12YI9eFGrExanO	1495800007	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-05-26 12:00:07
+thetellermobile	f12YI9eFGrExanO	1495800007	RES	debit	mtn	0243965066	1.03	0	0					Bill not paid...	21VD	failed		2017-05-26 12:01:27
+thetellermobile	f41tSFQTrTktAH4	1495808779	REQ	debit	mtn	0243965066	0.51	0	0					Send money to someone on the same mobile network or on a different network				2017-05-26 14:26:19
+thetellermobile	f41tSFQTrTktAH4	1495808779	RES	debit	mtn	0243965066	0.51	0	0					Bill not paid...	21VD	failed		2017-05-26 14:27:39
+thetellermobile	f5ndffgfliMVt3S	1499787036	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-07-11 15:30:36
+thetellermobile	f5ndffgfliMVt3S	1499787036	RES	debit	mtn	0243965066	1.03	0	0					Bill not paid...	21VD	failed		2017-07-11 15:31:55
+thetellermobile	fa5P6GjVdswFBGE	1495801295	REQ	debit	mtn	0243965066	0.51	0	0					Send money to someone on the same mobile network or on a different network				2017-05-26 12:21:36
+thetellermobile	fa5P6GjVdswFBGE	1495801295	RES	debit	mtn	0243965066	0.51	0	0					FAILURE	100	failed		2017-05-26 12:22:50
+thetellermobile	fAJPEOLLuCJOFTk	1499876917	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-07-12 16:28:37
+thetellermobile	fAJPEOLLuCJOFTk	1499876917	RES	debit	mtn	0243965066	1.03	0	0					Bill not paid...	21VD	failed		2017-07-12 16:29:57
+thetellermobile	fhbjkyIoVSifCD4	1496766972	REQ	credit	mtn	0241028918	0.5	0	0					Send money to someone on the same mobile network or on a different network		successful		2017-06-06 16:36:42
+thetellermobile	fhbjkyIoVSifCD4	1496766972	REQ	debit	mtn	0243965066	0.51	0	0					Send money to someone on the same mobile network or on a different network		successful		2017-06-06 16:36:12
+thetellermobile	fhbjkyIoVSifCD4	1496766972	RES	debit	mtn	0243965066	0.51	0	0					Bill found. Tracking ID: MTN175936DA0D4A1A9/1678820373	0000	successful		2017-06-06 16:36:42
+thetellermobile	fHujjvf8sNclj5O	1496768811	REQ	credit	mtn	0241028918	0.5	0	0					Send money to someone on the same mobile network or on a different network		successful		2017-06-06 17:07:20
+thetellermobile	fHujjvf8sNclj5O	1496768811	REQ	debit	mtn	0243965066	0.51	0	0					Send money to someone on the same mobile network or on a different network		successful		2017-06-06 17:06:51
+thetellermobile	fHujjvf8sNclj5O	1496768811	RES	debit	mtn	0243965066	0.51	0	0					Bill found. Tracking ID: MTN175936E138266BD/1678991444	0000	successful		2017-06-06 17:07:20
+thetellermobile	fihqyoaurXmHbUA	1496064393	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-05-29 13:26:33
+thetellermobile	fihqyoaurXmHbUA	1496064393	RES	debit	mtn	0243965066	1.03	0	0					FAILURE	100	failed		2017-05-29 13:27:47
+thetellermobile	fnaR3mdlTQLk2z8	1499351461	REQ	debit	visa	4860********6810	1.03	0	0	05	22	****	902770985117	Send money to someone on the same mobile network or on a different network				2017-07-06 14:31:01
+thetellermobile	fpeCs1VYfnwXMWm	1499786825	REQ	credit	mtn	0244451474	1	0	0					Send money to someone on the same mobile network or on a different network		successful		2017-07-11 15:27:35
+thetellermobile	fpeCs1VYfnwXMWm	1499786825	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network		successful		2017-07-11 15:27:05
+thetellermobile	fpeCs1VYfnwXMWm	1499786825	RES	debit	mtn	0243965066	1.03	0	0					Bill found. Tracking ID: MTN175964EE5C06C63/1825336388	0000	successful		2017-07-11 15:27:35
+thetellermobile	fpSrPWNQpSKcRnS	1495810749	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-05-26 14:59:09
+thetellermobile	fpSrPWNQpSKcRnS	1495810749	RES	debit	mtn	0243965066	1.03	0	0					Bill not paid...	21VD	failed		2017-05-26 15:00:29
+thetellermobile	fWOTC7IQEYuBW4Y	1500638700	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-07-21 12:05:00
+thetellermobile	fWOTC7IQEYuBW4Y	1500638700	RES	debit	mtn	0243965066	1.03	0	0					FAILURE	100			2017-07-21 12:06:10
+thetellermobile	fx7dizUKoo0DblG	1495808863	REQ	debit	mtn	0243965066	0.51	0	0					Send money to someone on the same mobile network or on a different network				2017-05-26 14:27:43
+thetellermobile	fx7dizUKoo0DblG	1495808863	RES	debit	mtn	0243965066	0.51	0	0					Bill not paid...	21VD	failed		2017-05-26 14:29:03
+thetellermobile	fzOjqsHVQjJKrmu	1496139964	REQ	credit	mtn	0241028918	0.5	0	0					Send money to someone on the same mobile network or on a different network		successful		2017-05-30 10:26:33
+thetellermobile	fzOjqsHVQjJKrmu	1496139964	REQ	debit	mtn	0243965066	0.51	0	0					Send money to someone on the same mobile network or on a different network		successful		2017-05-30 10:26:04
+thetellermobile	fzOjqsHVQjJKrmu	1496139964	RES	debit	mtn	0243965066	0.51	0	0					Bill found. Tracking ID: MTN17592D48CC13CF0/1647450442	0000	successful		2017-05-30 10:26:33
+thetellermobile	fZXWL7WyehgUD58	1495793802	REQ	debit	airtel	0244637602	0.53	0	0					Send money to someone on the same mobile network or on a different network				2017-05-26 10:16:42
+thetellermobile	fZXWL7WyehgUD58	1495793802	RES	debit	airtel	0244637602	0.53	0	0						101	failed	MAP interface error	2017-05-26 10:17:03
+thetellermobile	g0k99qwtbEtagu6	1498122245	REQ	debit	visa	4860********6810	1.03	0	0	05	22	****	4c43f9e58c42	Send money to someone on the same mobile network or on a different network				2017-06-22 09:04:05
+thetellermobile	g21ZNLdU1IqxOgY	1496766499	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-06-06 16:28:19
+thetellermobile	g21ZNLdU1IqxOgY	1496766499	RES	debit	mtn	0243965066	1.03	0	0					Bill not paid...	21VD	failed		2017-06-06 16:29:38
+thetellermobile	gAj84YNNlU4n4Ay	1496056959	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-05-29 11:22:40
+thetellermobile	gAj84YNNlU4n4Ay	1496056959	RES	debit	mtn	0243965066	1.03	0	0					Bill not paid...	21VD	failed		2017-05-29 11:23:59
+thetellermobile	gBRVpH4js0WzYbW	1496056680	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-05-29 11:18:00
+thetellermobile	gBRVpH4js0WzYbW	1496056680	RES	debit	mtn	0243965066	1.03	0	0					FAILURE	100	failed		2017-05-29 11:19:09
+thetellermobile	gF32G05mGVKdllc	1498121782	REQ	debit	visa	4860********6810	1.03	0	0	05	22	****	012154578521	Send money to someone on the same mobile network or on a different network				2017-06-22 08:56:22
+thetellermobile	gguUQhp6EBKHB5c	1498122010	REQ	debit	visa	4860********6810	1.03	0	0	05	22	****	78b1ed1c2a5a	Send money to someone on the same mobile network or on a different network				2017-06-22 09:00:10
+thetellermobile	gGXRljEjs8UWb5k	1500638783	REQ	debit	mtn	0208826635	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-07-21 12:06:23
+thetellermobile	gI60FbWbmll5qyy	1495808639	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-05-26 14:23:59
+thetellermobile	gI60FbWbmll5qyy	1495808639	RES	debit	mtn	0243965066	1.03	0	0					FAILURE	100	failed		2017-05-26 14:25:09
+thetellermobile	gnjYPOSL6eACaJk	1496662615	REQ	debit	mtn	0243965066	0.51	0	0					Pay theteller setup fee with the PaySwitch Bill Payment				2017-06-05 11:36:55
+thetellermobile	gnjYPOSL6eACaJk	1496662615	RES	debit	mtn	0243965066	0.51	0	0					FAILURE	100	failed		2017-06-05 11:38:09
+thetellermobile	gOSKaSpaNnEHoFs	1497876204	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-06-19 12:43:24
+thetellermobile	gOSKaSpaNnEHoFs	1497876204	RES	debit	mtn	0243965066	1.03	0	0					Bill not paid...	21VD	failed		2017-06-19 12:44:44
+thetellermobile	gpb3UFr9KNw3pbK	1498658132	REQ	debit	mtn	0243965066	1.03	0	0					Pay theteller setup fee with the PaySwitch Bill Payment				2017-06-28 13:55:32
+thetellermobile	gpb3UFr9KNw3pbK	1498658132	RES	debit	mtn	0243965066	1.03	0	0					Bill not paid...	21VD	failed		2017-06-28 13:56:52
+thetellermobile	gQXeFHCYRsIYfJC	1497539283	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-06-15 15:08:03
+thetellermobile	gQXeFHCYRsIYfJC	1497539283	RES	debit	mtn	0243965066	1.03	0	0					Bill not paid...	21VD	failed		2017-06-15 15:09:23
+thetellermobile	gtNLhwMLWMHz6DC	1495797319	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-05-26 11:15:19
+thetellermobile	gtNLhwMLWMHz6DC	1495797319	RES	debit	mtn	0243965066	1.03	0	0					Bill not paid...	21VD	failed		2017-05-26 11:16:39
+thetellermobile	gVDxffjxV6mFswI	1495806800	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-05-26 13:53:20
+thetellermobile	gVDxffjxV6mFswI	1495806800	RES	debit	mtn	0243965066	1.03	0	0					Bill not paid...	21VD	failed		2017-05-26 13:54:40
+thetellermobile	h65Vc7WDSfcND4E	1496224178	REQ	debit	mtn	0243965066	0.51	0	0					Send money to someone on the same mobile network or on a different network				2017-05-31 09:49:38
+thetellermobile	h65Vc7WDSfcND4E	1496224178	RES	debit	mtn	0243965066	0.51	0	0					Bill not paid...	21VD	failed		2017-05-31 09:50:58
+thetellermobile	hdpLpVjHHkDsl6Q	1496073944	REQ	credit	mtn	0241028918	0.5	0	0					Send money to someone on the same mobile network or on a different network		successful		2017-05-29 16:06:13
+thetellermobile	hdpLpVjHHkDsl6Q	1496073944	REQ	debit	mtn	0243965066	0.51	0	0					Send money to someone on the same mobile network or on a different network		successful		2017-05-29 16:05:44
+thetellermobile	hdpLpVjHHkDsl6Q	1496073944	RES	debit	mtn	0243965066	0.51	0	0					Bill found. Tracking ID: MTN17592C46E71B781/1644621513	0000	successful		2017-05-29 16:06:13
+thetellermobile	hF1jXTkypkrrYuM	1498121758	REQ	debit	visa	4860********6810	1.03	0	0	05	22	****	jrufjghtuy64	Send money to someone on the same mobile network or on a different network				2017-06-22 08:55:58
+thetellermobile	hgMV2tqulcROVVo	1495810941	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-05-26 15:02:21
+thetellermobile	hgMV2tqulcROVVo	1495810941	RES	debit	mtn	0243965066	1.03	0	0					Bill not paid...	21VD	failed		2017-05-26 15:03:41
+thetellermobile	hGUWvKvlOp3YaFc	1496425858	REQ	credit	mtn	0263581279	0.5	0	0					Send money to someone on the same mobile network or on a different network		successful		2017-06-02 17:51:27
+thetellermobile	hGUWvKvlOp3YaFc	1496425858	REQ	debit	mtn	0243965066	0.51	0	0					Send money to someone on the same mobile network or on a different network		successful		2017-06-02 17:50:58
+thetellermobile	hGUWvKvlOp3YaFc	1496425858	RES	debit	mtn	0243965066	0.51	0	0					Bill found. Tracking ID: MTN175931A593650CA/1663091874	0000	successful		2017-06-02 17:51:27
+thetellermobile	hk5h6yNaUC6C48Y	1496766195	REQ	credit	mtn	0243965066	0.5	0	0					Send money to someone on the same mobile network or on a different network		successful		2017-06-06 16:23:45
+thetellermobile	hk5h6yNaUC6C48Y	1496766195	REQ	debit	mtn	0241028918	0.51	0	0					Send money to someone on the same mobile network or on a different network		successful		2017-06-06 16:23:15
+thetellermobile	hk5h6yNaUC6C48Y	1496766195	RES	debit	mtn	0241028918	0.51	0	0					Bill found. Tracking ID: MTN175936D7082A4A0/1678747684	0000	successful		2017-06-06 16:23:45
+thetellermobile	hnBXNs65TI478AE	1498122135	REQ	debit	visa	4860********6810	1.03	0	0	05	22	****	1c9ffbe282a0	Send money to someone on the same mobile network or on a different network				2017-06-22 09:02:15
+thetellermobile	hTU2hayYdzH16RO	1495793050	REQ	debit	mtn	0243965066	0.53	0	0					Send money to someone on the same mobile network or on a different network				2017-05-26 10:04:10
+thetellermobile	hTU2hayYdzH16RO	1495793050	RES	debit	mtn	0243965066	0.53	0	0					Bill not paid...	21VD	failed		2017-05-26 10:05:30
+thetellermobile	hWXwSMvRhpdmyw2	1496425749	REQ	debit	mtn	0243965066	0.51	0	0					Send money to someone on the same mobile network or on a different network				2017-06-02 17:49:09
+thetellermobile	hWXwSMvRhpdmyw2	1496425749	RES	debit	mtn	0243965066	0.51	0	0					Bill not paid...	21VD	failed		2017-06-02 17:50:29
+thetellermobile	hXDxDBW9DQ0JfNw	1498121721	REQ	debit	visa	4860********6810	1.03	0	0	05	22	****	visa	Send money to someone on the same mobile network or on a different network				2017-06-22 08:55:21
+thetellermobile	hz3t6uttyE3nLKU	1498122077	REQ	debit	visa	4860********6810	1.03	0	0	05	22	****	1eaafe42a9e0	Send money to someone on the same mobile network or on a different network				2017-06-22 09:01:17
+thetellermobile	ibVUsfHNt9E4q4m	1496015962	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-05-28 23:59:22
+thetellermobile	ibVUsfHNt9E4q4m	1496015962	RES	debit	mtn	0243965066	1.03	0	0					Bill not paid...	21VD	failed		2017-05-29 00:00:42
+thetellermobile	jkhvbCsy9OerSAD	1495484625	REQ	debit	mtn	0243965066	0.5	0	0					Use MTN Mobile Money to pay for your transaction				2017-05-22 20:23:45
+thetellermobile	jkhvbCsy9OerSAD	1495484625	RES	debit	mtn	0243965066	0.5	0	0					Bill not paid...	21VD	failed		2017-05-22 20:25:04
+thetellermobile	jkhvbCsy9OerSAD	1495484734	REQ	debit	mtn	0243965066	0.5	0	0					Use MTN Mobile Money to pay for your transaction				2017-05-22 20:25:34
+thetellermobile	jkhvbCsy9OerSAD	1495484734	RES	debit	mtn	0243965066	0.5	0	0					Bill not paid...	21VD	failed		2017-05-22 20:26:54
+thetellermobile	jkhvbCsy9OerSAD	1495528410	REQ	debit	mtn	0243965066	0.5	0	0					Use MTN Mobile Money to pay for your transaction				2017-05-23 08:33:30
+thetellermobile	jkhvbCsy9OerSAD	1495528410	RES	debit	mtn	0243965066	0.5	0	0					FAILURE	100	failed		2017-05-23 08:34:49
+thetellermobile	jkhvbCsy9OerSAD	1495531148	REQ	debit	mtn	0243965066	0.5	0	0					Use MTN Mobile Money to pay for your transaction				2017-05-23 09:19:08
+thetellermobile	jkhvbCsy9OerSAD	1495531148	RES	debit	mtn	0243965066	0.5	0	0					Bill not paid...	21VD	failed		2017-05-23 09:20:28
+thetellermobile	jkhvbCsy9OerSAD	1495535667	REQ	debit	mtn	0243965066	0.5	0	0					Use MTN Mobile Money to pay for your transaction				2017-05-23 10:34:27
+thetellermobile	jkhvbCsy9OerSAD	1495535667	RES	debit	mtn	0243965066	0.5	0	0					Bill not paid...	21VD	failed		2017-05-23 10:35:47
+thetellermobile	jkhvbCsy9OerSAD	1495537310	REQ	debit	mtn	0243965066	0.5	0	0					Use MTN Mobile Money to pay for your transaction				2017-05-23 11:01:50
+thetellermobile	jkhvbCsy9OerSAD	1495537310	RES	debit	mtn	0243965066	0.5	0	0					FAILURE	100	failed		2017-05-23 11:03:10
+thetellermobile	jkhvbCsy9OerSAD	1495550308	REQ	debit	mtn	0243965066	0.5	0	0					Use MTN Mobile Money to pay for your transaction				2017-05-23 14:38:28
+thetellermobile	jkhvbCsy9OerSAD	1495550308	RES	debit	mtn	0243965066	0.5	0	0					FAILURE	100	failed		2017-05-23 14:39:47
+thetellermobile	jkhvbCsy9OerSAD	1495554387	REQ	debit	mtn	0243965066	0.5	0	0					Use MTN Mobile Money to pay for your transaction				2017-05-23 15:46:27
+thetellermobile	jkhvbCsy9OerSAD	1495554387	RES	debit	mtn	0243965066	0.5	0	0					FAILURE	100	failed		2017-05-23 15:47:47
+thetellermobile	jkhvbCsy9OerSAD	1495644256	REQ	debit	mtn	0243965066	0.5	0	0					Use MTN Mobile Money to pay for your transaction				2017-05-24 16:44:16
+thetellermobile	jkhvbCsy9OerSAD	1495644256	RES	debit	mtn	0243965066	0.5	0	0					Bill not paid...	21VD	failed		2017-05-24 16:45:35
+thetellermobile	jkhvbCsy9OerSAD	1495644715	REQ	debit	mtn	0243965066	0.5	0	0					Use MTN Mobile Money to pay for your transaction				2017-05-24 16:51:55
+thetellermobile	jkhvbCsy9OerSAD	1495644715	RES	debit	mtn	0243965066	0.5	0	0					FAILURE	100	failed		2017-05-24 16:53:09
+thetellermobile	jkhvbCsy9OerSAD	1495644956	REQ	debit	mtn	0243965066	0.5	0	0					Send money to someone on the same mobile network or on a different network				2017-05-24 16:55:56
+thetellermobile	jkhvbCsy9OerSAD	1495644956	RES	debit	mtn	0243965066	0.5	0	0					FAILURE	100	failed		2017-05-24 16:57:11
+thetellermobile	jkhvbCsy9OerSAD	1495645152	REQ	credit	cEWx2WmzBxzn2TS	0241878289	0.5	0	0					Send money to someone on the same mobile network or on a different network		successful		2017-05-24 16:59:42
+thetellermobile	jkhvbCsy9OerSAD	1495645152	REQ	debit	mtn	0243965066	0.5	0	0					Send money to someone on the same mobile network or on a different network		successful		2017-05-24 16:59:12
+thetellermobile	jkhvbCsy9OerSAD	1495645152	RES	debit	mtn	0243965066	0.5	0	0					Bill found. Tracking ID: MTN175925BBF6F1113/1625635642	0000	successful		2017-05-24 16:59:42
+thetellermobile	jkhvbCsy9OerSAD	1495645368	REQ	credit	cEWx2WmzBxzn2TS	0241878289	0.5	0	0					Use MTN Mobile Money to pay for your transaction		successful		2017-05-24 17:03:18
+thetellermobile	jkhvbCsy9OerSAD	1495645368	REQ	debit	mtn	0243965066	0.5	0	0					Use MTN Mobile Money to pay for your transaction		successful		2017-05-24 17:02:48
+thetellermobile	jkhvbCsy9OerSAD	1495645368	RES	debit	mtn	0243965066	0.5	0	0					Bill found. Tracking ID: MTN175925BCCD8C2C1/1625656962	0000	successful		2017-05-24 17:03:18
+thetellermobile	jkhvbCsy9OerSAD	1495645546	REQ	credit	cEWx2WmzBxzn2TS	0242732017	0.5	0	0					Use MTN Mobile Money to pay for your transaction		successful		2017-05-24 17:06:15
+thetellermobile	jkhvbCsy9OerSAD	1495645546	REQ	debit	mtn	0243965066	0.5	0	0					Use MTN Mobile Money to pay for your transaction		successful		2017-05-24 17:05:46
+thetellermobile	jkhvbCsy9OerSAD	1495645546	RES	debit	mtn	0243965066	0.5	0	0					Bill found. Tracking ID: MTN175925BD810AC3E/1625673933	0000	successful		2017-05-24 17:06:15
+thetellermobile	jkhvbCsy9OerSAD	1495645646	REQ	credit	cEWx2WmzBxzn2TS	0249621938	0.5	0	0					Use MTN Mobile Money to pay for your transaction		successful		2017-05-24 17:07:56
+thetellermobile	jkhvbCsy9OerSAD	1495645646	REQ	debit	mtn	0243965066	0.5	0	0					Use MTN Mobile Money to pay for your transaction		successful		2017-05-24 17:07:26
+thetellermobile	jkhvbCsy9OerSAD	1495645646	RES	debit	mtn	0243965066	0.5	0	0					Bill found. Tracking ID: MTN175925BDE0D0DC4/1625683432	0000	successful		2017-05-24 17:07:56
+thetellermobile	jkhvbCsy9OerSAD	1495645838	REQ	credit	hkJjfRplinyqTSM	0249621938	0.5	0	0					Use MTN Mobile Money to pay for your transaction		successful		2017-05-24 17:11:08
+thetellermobile	jkhvbCsy9OerSAD	1495645838	REQ	debit	mtn	0243965066	0.5	0	0					Use MTN Mobile Money to pay for your transaction		successful		2017-05-24 17:10:38
+thetellermobile	jkhvbCsy9OerSAD	1495645838	RES	debit	mtn	0243965066	0.5	0	0					Bill found. Tracking ID: MTN175925BE9F2DE61/1625701562	0000	successful		2017-05-24 17:11:08
+thetellermobile	jkhvbCsy9OerSAD	1495645928	REQ	credit	mtn	0249621938	0.5	0	0					Use MTN Mobile Money to pay for your transaction		successful		2017-05-24 17:12:37
+thetellermobile	jkhvbCsy9OerSAD	1495645928	REQ	debit	mtn	0243965066	0.5	0	0					Use MTN Mobile Money to pay for your transaction		successful		2017-05-24 17:12:08
+thetellermobile	jkhvbCsy9OerSAD	1495645928	RES	debit	mtn	0243965066	0.5	0	0					Bill found. Tracking ID: MTN175925BEFABF562/1625710154	0000	successful		2017-05-24 17:12:37
+thetellermobile	jkhvbCsy9OerSAD	1495649539	REQ	debit	mtn	0243965066	0.5	0	0					Send money to someone on the same mobile network or on a different network				2017-05-24 18:12:19
+thetellermobile	jkhvbCsy9OerSAD	1495649539	RES	debit	mtn	0243965066	0.5	0	0					Bill not paid...	21VD	failed		2017-05-24 18:13:39
+thetellermobile	jkhvbCsy9OerSAD	1495652824	REQ	debit	mtn	0243965066	0.5	0	0					Send money to someone on the same mobile network or on a different network				2017-05-24 19:07:04
+thetellermobile	jkhvbCsy9OerSAD	1495652824	RES	debit	mtn	0243965066	0.5	0	0					Bill not paid...	21VD	failed		2017-05-24 19:08:24
+thetellermobile	jkhvbCsy9OerSAD	1495653012	REQ	debit	mtn	0243965066	0.5	0	0					Use MTN Mobile Money to pay for your transaction				2017-05-24 19:10:12
+thetellermobile	jkhvbCsy9OerSAD	1495653012	RES	debit	mtn	0243965066	0.5	0	0					Bill not paid...	21VD	failed		2017-05-24 19:11:32
+thetellermobile	jkhvbCsy9OerSAD	1495654110	REQ	debit	mtn	0243965066	0.5	0	0					Send money to someone on the same mobile network or on a different network				2017-05-24 19:28:30
+thetellermobile	jkhvbCsy9OerSAD	1495654110	RES	debit	mtn	0243965066	0.5	0	0					FAILURE	100	failed		2017-05-24 19:29:49
+thetellermobile	jkhvbCsy9OerSAD	1495654597	REQ	debit	mtn	0243965066	0.5	0	0					Send money to someone on the same mobile network or on a different network				2017-05-24 19:36:37
+thetellermobile	jkhvbCsy9OerSAD	1495654597	RES	debit	mtn	0243965066	0.5	0	0					FAILURE	100	failed		2017-05-24 19:37:46
+thetellermobile	jkhvbCsy9OerSAD	1498822140	REQ	credit	mtn	0241028918	1	0	0					Send money to someone on the same mobile network or on a different network		successful		2017-06-30 11:29:30
+thetellermobile	jkhvbCsy9OerSAD	1498822140	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network		successful		2017-06-30 11:29:00
+thetellermobile	jkhvbCsy9OerSAD	1498822140	RES	debit	mtn	0243965066	1.03	0	0					Bill found. Tracking ID: MTN1759563612429D5/1776716676	0000	successful		2017-06-30 11:29:30
+thetellermobile	OEeq3UpNnrP2yE	1495826472	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network				2017-05-26 19:21:12
+thetellermobile	OEeq3UpNnrP2yE	1495826472	RES	debit	mtn	0243965066	1.03	0	0					Bill not paid...	21VD	failed		2017-05-26 19:22:31
+thetellermobile	SLG8y6vv9XLa02	1495656255	REQ	credit	mtn	0241878289	0.5	0	0					Use MTN Mobile Money to pay for your transaction		successful		2017-05-24 20:04:44
+thetellermobile	SLG8y6vv9XLa02	1495656255	REQ	debit	mtn	0243965066	0.5	0	0					Use MTN Mobile Money to pay for your transaction		successful		2017-05-24 20:04:15
+thetellermobile	SLG8y6vv9XLa02	1495656255	RES	debit	mtn	0243965066	0.5	0	0					Bill found. Tracking ID: MTN175925E74FE5A4F/1626583914	0000	successful		2017-05-24 20:04:44
+thetellermobile	Y0uTXxRDRC460A	1496425446	REQ	credit	mtn	0248153587	1	0	0					Send money to someone on the same mobile network or on a different network		successful		2017-06-02 17:44:35
+thetellermobile	Y0uTXxRDRC460A	1496425446	REQ	debit	mtn	0243965066	1.03	0	0					Send money to someone on the same mobile network or on a different network		successful		2017-06-02 17:44:06
+thetellermobile	Y0uTXxRDRC460A	1496425446	RES	debit	mtn	0243965066	1.03	0	0					Bill found. Tracking ID: MTN175931A3F6D0248/1663048661	0000	successful		2017-06-02 17:44:35
+thetellermobile	ZQAnJNmh7oyEQi	1495792483	REQ	debit	mtn	0243965066	0.53	0	0					Send money to someone on the same mobile network or on a different network				2017-05-26 09:54:43
+unibank	1122334455	1498670363	REQ	credit	mtn	0244840465	0.21	0	0					pymt to dan				2017-06-28 17:19:23
+unibank	1234	1498220604	REQ	credit	mtn	0244840465	0.21	0	0					1234				2017-06-23 12:23:24
+unibank	1234	1498220730	REQ	debit	mtn	0244840465	0.21	0	0					1234				2017-06-23 12:25:30
+unibank	1234	1498220730	RES	debit	mtn	0244840465	0.21	0	0					Bill not paid...	21VD	failed		2017-06-23 12:26:50
+unibank	1234	1498220903	REQ	debit	mtn	0244840465	0.21	0	0					1234		successful		2017-06-23 12:28:23
+unibank	1234	1498220903	RES	debit	mtn	0244840465	0.21	0	0					Bill found. Tracking ID: MTN17594D098A784CC/1748091369	0000	successful		2017-06-23 12:29:08
+unibank	1234	1498220990	REQ	credit	mtn	0243284274	0.21	0	0					1234				2017-06-23 12:29:50
+unibank	123445	1498572936	REQ	credit	mastercard	5198********0140	0.22	0	0	04	17	****	12345	123456				2017-06-27 14:15:36
+unibank	123445	1498572979	REQ	credit	mastercard	5198********0140	0.22	0	0	04	17	****	123454532132	123456				2017-06-27 14:16:19
+unibank	123445	1498573185	REQ	credit	mastercard	5198********0140	0.22	0	0	02	20	****	123454532133	123456				2017-06-27 14:19:45
+unibank	123445	1498573285	REQ	credit	mastercard	5198********0140	0.22	0	0	02	20	****	123454532133	123456				2017-06-27 14:21:25
+unibank	123445	1498573312	REQ	credit	mastercard	5198********0140	0.22	0	0	02	20	****	123454532134	123456				2017-06-27 14:21:52
+unibank	123445	1498577775	REQ	credit	mastercard	5198********0140	0.22	0	0	02	20	****	123454532155	123456				2017-06-27 15:36:16
+unibank	123445	1498577812	REQ	debit	mastercard	5198********0140	0.22	0	0	02	20	****	123454532155	123456				2017-06-27 15:36:52
+unibank	123445	1498577851	REQ	debit	mastercard	5198********0140	0.22	0	0	02	20	****	123454532222	123456				2017-06-27 15:37:31
+unibank	123456789	1498670060	REQ	credit	mtn	0244840465	0.1	0	0					desc				2017-06-28 17:14:20
+unibank	333333	1497970899	REQ	credit	mtn	0243284274	0.2	0	0					3333333				2017-06-20 15:01:39
+unibank	333333	1497973328	REQ	credit	mtn	0243284274	0.2	0	0					3333333				2017-06-20 15:42:08
+unibank	333333	1498218201	REQ	credit	mtn	0243284274	0.2	0	0					3333333				2017-06-23 11:43:21
+unibank	33f3333	1498218341	REQ	debit	mtn	0243284274	0.25	0	0					3333f333				2017-06-23 11:45:41
+unibank	33f3333	1498218341	RES	debit	mtn	0243284274	0.25	0	0					Bill not paid...	21VD	failed		2017-06-23 11:47:02
+unibank	33f3333	1498218511	REQ	debit	mtn	0243284274	0.25	0	0					3333f333				2017-06-23 11:48:31
+unibank	33f3333	1498218511	RES	debit	mtn	0243284274	0.25	0	0					Bill not paid...	21VD	failed		2017-06-23 11:49:51
+unibank	33f3333	1498218615	REQ	credit	mtn	0244840465	0.25	0	0					3333f333				2017-06-23 11:50:15
+unibank	33f3333	1498218819	REQ	debit	mtn	0243284274	0.25	0	0					3333f333				2017-06-23 11:53:39
+unibank	33f3333	1498218819	RES	debit	mtn	0243284274	0.25	0	0					Bill not paid...	21VD	failed		2017-06-23 11:54:59
+unibank	33f3333	1498218881	REQ	debit	mtn	0244840465	0.25	0	0					3333f333		successful		2017-06-23 11:54:41
+unibank	33f3333	1498218881	RES	debit	mtn	0244840465	0.25	0	0					Bill found. Tracking ID: MTN17594D01A142C6E/1747930676	0000	successful		2017-06-23 11:55:21
+unibank	33f3333	1498219321	REQ	debit	mtn	0243284274	0.25	0	0					3333f333		successful		2017-06-23 12:02:01
+unibank	33f3333	1498219321	RES	debit	mtn	0243284274	0.25	0	0					Bill found. Tracking ID: MTN17594D0355CD5C0/1747966027	0000	successful		2017-06-23 12:02:36

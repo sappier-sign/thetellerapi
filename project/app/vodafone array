@@ -1,0 +1,160 @@
+(
+    [0] => Array
+        (
+            [tag] => S:ENVELOPE
+            [type] => open
+            [level] => 1
+            [attributes] => Array
+                (
+                    [XMLNS:S] => http://schemas.xmlsoap.org/soap/envelope/
+                )
+
+        )
+
+    [1] => Array
+        (
+            [tag] => S:BODY
+            [type] => open
+            [level] => 2
+        )
+
+    [2] => Array
+        (
+            [tag] => NS0:PAYMENTSERVICERESPONSE
+            [type] => open
+            [level] => 3
+            [attributes] => Array
+                (
+                    [XMLNS:NS0] => http://services.apiservices.vodafone.com.gh/
+                )
+
+        )
+
+    [3] => Array
+        (
+            [tag] => RETURN
+            [type] => open
+            [level] => 4
+        )
+
+    [4] => Array
+        (
+            [tag] => STATUSCODE
+            [type] => complete
+            [level] => 5
+            [value] => 0
+        )
+
+    [5] => Array
+        (
+            [tag] => STATUSMESSAGE
+            [type] => complete
+            [level] => 5
+            [value] => Accept the service request successfully.
+        )
+
+    [6] => Array
+        (
+            [tag] => TRANSACTIONID
+            [type] => complete
+            [level] => 5
+            [value] => AG_20171030_00004e704ce962d86e1c
+        )
+
+    [7] => Array
+        (
+            [tag] => RETURN
+            [type] => close
+            [level] => 4
+        )
+
+    [8] => Array
+        (
+            [tag] => NS0:PAYMENTSERVICERESPONSE
+            [type] => close
+            [level] => 3
+        )
+
+    [9] => Array
+        (
+            [tag] => S:BODY
+            [type] => close
+            [level] => 2
+        )
+
+    [10] => Array
+        (
+            [tag] => S:ENVELOPE
+            [type] => close
+            [level] => 1
+        )
+
+)
+
+[
+     [
+       "tag" => "S:ENVELOPE",
+       "type" => "open",
+       "level" => 1,
+       "attributes" => [
+         "XMLNS:S" => "http://schemas.xmlsoap.org/soap/envelope/",
+       ],
+     ],
+     [
+       "tag" => "S:BODY",
+       "type" => "open",
+       "level" => 2,
+     ],
+     [
+       "tag" => "NS0:PAYMENTSERVICERESPONSE",
+       "type" => "open",
+       "level" => 3,
+       "attributes" => [
+         "XMLNS:NS0" => "http://services.apiservices.vodafone.com.gh/",
+       ],
+     ],
+     [
+       "tag" => "RETURN",
+       "type" => "open",
+       "level" => 4,
+     ],
+     [
+       "tag" => "STATUSCODE",
+       "type" => "complete",
+       "level" => 5,
+       "value" => "0",
+     ],
+     [
+       "tag" => "STATUSMESSAGE",
+       "type" => "complete",
+       "level" => 5,
+       "value" => "Accept the service request successfully.",
+     ],
+     [
+       "tag" => "TRANSACTIONID",
+       "type" => "complete",
+       "level" => 5,
+       "value" => "AG_20171030_00006916721fc8fc51fb",
+     ],
+     [
+       "tag" => "RETURN",
+       "type" => "close",
+       "level" => 4,
+     ],
+     [
+       "tag" => "NS0:PAYMENTSERVICERESPONSE",
+       "type" => "close",
+       "level" => 3,
+     ],
+     [
+       "tag" => "S:BODY",
+       "type" => "close",
+       "level" => 2,
+     ],
+     [
+       "tag" => "S:ENVELOPE",
+       "type" => "close",
+       "level" => 1,
+     ],
+   ]
+]
