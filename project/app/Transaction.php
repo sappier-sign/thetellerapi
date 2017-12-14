@@ -80,7 +80,7 @@ class Transaction extends Model
                 'reason' => 'Duplicate transaction: transaction_id must be unique'
             ];
         } elseif ($saveTransaction === '010' || $saveTransaction === '020'){
-            return $saveTransaction;
+            return self::responseMessage($saveTransaction);
         }
         return Transaction::routeSwitch($transaction, 'purchase');
     }
@@ -620,6 +620,22 @@ class Transaction extends Model
                     'status' => 'Declined',
                     'code' => 200,
                     'reason' => 'Card expired'
+                ];
+                break;
+
+            case '010':
+                return [
+                    'status' => 'Declined',
+                    'code' => '010',
+                    'reason' => 'Suspicious transaction'
+                ];
+                break;
+
+            case '020':
+                return [
+                    'status' => 'Declined',
+                    'code' => '020',
+                    'reason' => 'Transaction amount above GHS 500 are not allowed.'
                 ];
                 break;
 
