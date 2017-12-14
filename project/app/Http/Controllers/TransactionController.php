@@ -33,7 +33,7 @@ class TransactionController extends Controller
             'processing_code'   => 'bail|required|digits:6|in:000000,400000,400010,400020,400100,400110,400120,400200,400210,400220,000200',
             'transaction_id'    => 'bail|required|digits:12',
             'desc'              => 'bail|required|min:10|max:100',
-            'amount'            => 'bail|required|regex:/^[+-]?[0-9]{1,3}(?:,?[0-9]{3})*\.[0-9]{2}$/',
+            'amount'            => 'bail|required|digits:12',
 
             'r-switch'          => 'bail|required|in:TGO,MTN,ATL,MAS,VIS,VDF|size:3',
             'voucher_code'      => 'bail|required_if:r-switch,VDF',
@@ -47,7 +47,7 @@ class TransactionController extends Controller
             'account_number'    => 'bail|required_if:processing_code,400000|required_if:processing_code,400100|required_if:processing_code,400200|required_if:processing_code,400110|required_if:processing_code,400120|required_if:processing_code,400010|required_if:processing_code,400020'
         ], [
             'processing_code.in'=> 'The selected transaction type is invalid. Please refer to the documentation.',
-            'amount.regex'      => 'The debit amount format is invalid. Expected float with 2 decimal places',
+            'amount.digits'      => 'Format error: Amount must be 12 digits. Eg 000000000100 for GHS 1.00',
             'merchant_id.size'  => 'Merchant id must be 12 characters long'
         ]);
 
