@@ -218,13 +218,13 @@ class Transaction extends Model
             switch ($action) {
                 case 'purchase':
                     if ($transaction['rfu_005'] === 'offline'){
-                        return Transaction::transactionResponse($mtn->debitOffline($transaction['fld_002'], floatval($transaction['fld_004']), $merchant_name, $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
+                        return Transaction::transactionResponse($mtn->debitOffline($transaction['fld_002'], Functions::toFloat($transaction['fld_004']), $merchant_name, $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
                     }
-                    return Transaction::transactionResponse($mtn->debit($transaction['fld_002'], floatval($transaction['fld_004']), $merchant_name, $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
+                    return Transaction::transactionResponse($mtn->debit($transaction['fld_002'], Functions::toFloat($transaction['fld_004']), $merchant_name, $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
                     break;
 
                 case 'deposit':
-                    return Transaction::transactionResponse($mtn->credit($transaction['fld_002'], floatval($transaction['fld_004']), $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
+                    return Transaction::transactionResponse($mtn->credit($transaction['fld_002'], Functions::toFloat($transaction['fld_004']), $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
                     break;
             }
 
@@ -232,22 +232,22 @@ class Transaction extends Model
 
             switch ($action) {
                 case 'purchase':
-                    return Transaction::transactionResponse(Vodafone::debit($transaction['fld_002'], floatval($transaction['fld_004']), $transaction['fld_011'], $transaction['voucher_code']), $transaction['fld_037'], $transaction['fld_042']);
+                    return Transaction::transactionResponse(Vodafone::debit($transaction['fld_002'], Functions::toFloat($transaction['fld_004']), $transaction['fld_011'], $transaction['voucher_code']), $transaction['fld_037'], $transaction['fld_042']);
                     break;
 
                 case 'deposit':
-                    return Transaction::transactionResponse(Vodafone::credit($transaction['fld_002'], floatval($transaction['fld_004']), $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
+                    return Transaction::transactionResponse(Vodafone::credit($transaction['fld_002'], Functions::toFloat($transaction['fld_004']), $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
                     break;
             }
         } elseif ($transaction['fld_057'] === 'TGO') { // if route switch is TIGO
             $tigo = new Tigo();
             switch ($action) {
                 case 'purchase':
-                    return Transaction::transactionResponse($tigo->debit($transaction['fld_002'], floatval($transaction['fld_004']), $transaction['fld_116'], $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
+                    return Transaction::transactionResponse($tigo->debit($transaction['fld_002'], Functions::toFloat($transaction['fld_004']), $transaction['fld_116'], $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
                     break;
 
                 case 'deposit':
-                    return Transaction::transactionResponse($tigo->credit($transaction['fld_002'], floatval($transaction['fld_004']), $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
+                    return Transaction::transactionResponse($tigo->credit($transaction['fld_002'], Functions::toFloat($transaction['fld_004']), $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
                     break;
             }
 
@@ -255,18 +255,18 @@ class Transaction extends Model
             $airtel = new Airtel();
             switch ($action) {
                 case 'purchase':
-                    return Transaction::transactionResponse($airtel->debit($transaction['fld_002'], floatval($transaction['fld_004']), $transaction['fld_116'], $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
+                    return Transaction::transactionResponse($airtel->debit($transaction['fld_002'], Functions::toFloat($transaction['fld_004']), $transaction['fld_116'], $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
                     break;
 
                 case 'deposit':
-                    return Transaction::transactionResponse($airtel->credit($transaction['fld_002'], floatval($transaction['fld_004']), $transaction['fld_116'], $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
+                    return Transaction::transactionResponse($airtel->credit($transaction['fld_002'], Functions::toFloat($transaction['fld_004']), $transaction['fld_116'], $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
                     break;
             }
         } elseif ($transaction['fld_057'] === 'VIS' || $transaction['fld_057'] === 'MAS') { // if route switch is VISA
             $mode = ($transaction['fld_057'] === 'VIS') ? 'Visa' : 'Mastercard';
             switch ($action) {
                 case 'purchase':
-                    return Transaction::transactionResponse(Zenith::debit($transaction['fld_002'], $transaction['expMonth'], $transaction['expYear'], $transaction['cvv'], floatval($transaction['fld_004']), $mode, $transaction['fld_116'], $transaction['fld_116'], $transaction['fld_011'], $transaction['response_url']), $transaction['fld_037'], $transaction['fld_042']);
+                    return Transaction::transactionResponse(Zenith::debit($transaction['fld_002'], $transaction['expMonth'], $transaction['expYear'], $transaction['cvv'], Functions::toFloat($transaction['fld_004']), $mode, $transaction['fld_116'], $transaction['fld_116'], $transaction['fld_011'], $transaction['response_url']), $transaction['fld_037'], $transaction['fld_042']);
                     break;
 
                 default:
