@@ -297,4 +297,9 @@ class Functions extends Model
         fwrite( $fopen, $dataToWrite );
         fclose( $fopen );
     }
+
+    public static function toFloat($minor_unit){
+        $float = ((int)$minor_unit)/100;
+        return round((float)$float,2);
+    }
 }
