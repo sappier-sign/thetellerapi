@@ -195,21 +195,21 @@ class Transaction extends Model
             if ($transaction['fld_117'] === 'MTN') {
 
                 $mtn = new Mtn();
-                $result = Transaction::transactionResponse($mtn->credit($transaction['fld_103'], number_format(floatval($transaction['fld_004']), 2), $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
+                $result = Transaction::transactionResponse($mtn->credit($transaction['fld_103'], Functions::toFloat($transaction['fld_004']), $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
 
                 return $result;
             } elseif ($transaction['fld_117'] === 'TGO') {
 
                 $tigo = new Tigo();
-                return Transaction::transactionResponse($tigo->credit($transaction['fld_103'], floatval($transaction['fld_004']), $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
+                return Transaction::transactionResponse($tigo->credit($transaction['fld_103'],Functions::toFloat($transaction['fld_004']), $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
 
             } elseif ($transaction['fld_117'] === 'ATL') {
 
                 $airtel = new Airtel();
-                return Transaction::transactionResponse($airtel->credit($transaction['fld_103'], floatval($transaction['fld_004']), $transaction['fld_116'], $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
+                return Transaction::transactionResponse($airtel->credit($transaction['fld_103'], Functions::toFloat($transaction['fld_004']), $transaction['fld_116'], $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
             } elseif ($transaction['fld_117'] === 'VDF') {
 
-                return Transaction::transactionResponse(Vodafone::credit($transaction['fld_002'], floatval($transaction['fld_004']), $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
+                return Transaction::transactionResponse(Vodafone::credit($transaction['fld_002'], Functions::toFloat($transaction['fld_004']), $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
             }
         }
 
