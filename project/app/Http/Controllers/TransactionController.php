@@ -121,7 +121,7 @@ class TransactionController extends Controller
         $transaction['fld_002']         =   $request->input('subscriber_number', null);
         $transaction['voucher_code']    =   $request->input('voucher_code', null);
         $transaction['fld_003'] = $request->input('processing_code');
-        $transaction['fld_004'] = (float) str_replace(',', '', $request->input('amount'));
+        $transaction['fld_004'] = $request->input('amount');
         $transaction['fld_009'] = $request->input('device_type', 'N');
         $transaction['fld_011'] = substr(explode(' ', microtime())[1], 0, 4).str_shuffle(explode('.', explode(' ', microtime())[0])[1]);
         $transaction['fld_014'] = null;
