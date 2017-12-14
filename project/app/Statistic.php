@@ -23,7 +23,7 @@ class Statistic extends Model
 
     public function setAmountAttribute($value)
     {
-        $this->attributes['amount'] = number_format( (float) str_replace(',', '', $value), 2);
+        $this->attributes['amount'] = Functions::toFloat($value);
     }
 
     public function setSourceAttribute($value)

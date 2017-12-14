@@ -86,7 +86,6 @@
       <server host="localhost" id="0f3c1b35-9065-4a88-b993-3424c621ff56" name="debugger" port="9090" />
     </servers>
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
   <component name="PhpUnit">
     <phpunit_settings>
       <PhpUnitSettings load_method="CUSTOM_LOADER" custom_loader_path="$PROJECT_DIR$/project/vendor/autoload.php" />
