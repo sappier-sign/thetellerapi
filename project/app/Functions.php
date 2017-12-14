@@ -1,13 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Admin
- * Date: 20/07/2017
- * Time: 11:36 PM
- */
 
 namespace App;
-
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\File;
