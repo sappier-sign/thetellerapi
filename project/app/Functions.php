@@ -142,13 +142,13 @@ class Functions extends Model
     {
         $match = array('merchant_number');
         $message	=	"$header\r\n";
-        foreach ( $value as $key => $value )
+        foreach ( $value as $key => $val )
         {
             if ( in_array( $key, $match ) )
             {
-                $message .= date( 'H:i:s' ).' | '.$key.' : '.self::maskAm( $value)."\r\n";
+                $message .= date( 'H:i:s' ).' | '.$key.' : '.self::maskAm( $val )."\r\n";
             } else {
-                $message .= date( 'H:i:s' ).' | '."$key : $value\r\n";
+                $message .= date( 'H:i:s' ).' | '."$key : $val\r\n";
             }
         }
         self::writeRequestWithTimestamp( $message );
