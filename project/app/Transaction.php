@@ -35,6 +35,16 @@ class Transaction extends Model
 
     public static function saveTransaction($transaction)
     {
+        if (is_null($transaction['rfu_002'])){
+            if (self::where('fld_037', $transaction['rfu_002'])->where('fld_042', $transaction['fld_042'])->count() === 0){
+                return [
+                    'status' => 'error',
+                    'code'  => '030',
+                    'reason' => 'Original transaction with id: '.$transaction['rfu_002'].' does not exist'
+                ];
+            }
+        }
+
         $saveStatistic = self::saveStatistic($transaction);
         if ($saveStatistic === '010' || $saveStatistic === '020'){
             return $saveStatistic;
@@ -81,6 +91,8 @@ class Transaction extends Model
             ];
         } elseif ($saveTransaction === '010' || $saveTransaction === '020'){
             return self::responseMessage($saveTransaction);
+        } elseif (isset($saveTransaction['code']) && $saveTransaction['code'] === '030'){
+            return $saveTransaction;
         }
         return Transaction::routeSwitch($transaction, 'purchase');
     }
