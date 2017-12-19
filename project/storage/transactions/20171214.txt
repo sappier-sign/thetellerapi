@@ -82,3 +82,30 @@
 12:32:13 | responseCode : 0000
 12:32:13 | responseMessage : Bill found. Tracking ID: MTN175A326F4B3C538/2615783276
 
+14-12-2017 | TTLR TO AIRTEL REQUEST FOREIGN
+13:49:28 | customer_number : 0263581279
+13:49:28 | merchant_number : **********
+13:49:28 | amount : 0.1
+13:49:28 | exttrid : 151308651209
+13:49:28 | reference : testing transfe
+13:49:28 | nickname : PAYSWITCH
+13:49:28 | ts : 2017-12-14 13:49:28
+
+14-12-2017 | TTLR TO AIRTEL REQUEST FOREIGN
+14:01:01 | customer_number : 0263581279
+14:01:01 | merchant_number : **********
+14:01:01 | amount : 0.1
+14:01:01 | exttrid : 151384010504
+14:01:01 | reference : testing transfe
+14:01:01 | nickname : PAYSWITCH
+14:01:01 | ts : 2017-12-14 13:59:05
+
+14-12-2017 | TTLR TO AIRTEL REQUEST FOREIGN
+14:04:51 | customer_number : 0263581279
+14:04:51 | merchant_number : **********
+14:04:51 | amount : 0.1
+14:04:51 | exttrid : 151369008020
+14:04:51 | reference : testing transfe
+14:04:51 | nickname : PAYSWITCH
+14:04:51 | ts : 2017-12-14 14:04:44
+
