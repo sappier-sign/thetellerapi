@@ -20,4 +20,31 @@ class Rswitch extends Model
      */
     protected $table = 'r_switches';
 
+    protected $fillable = ['name', 'short_code'];
+
+    /**
+     * @param $value
+     */
+    public function setShortCodeAttribute($value)
+    {
+        $short_code = strtolower($value);
+        $this->attributes['short_code'] = strtoupper($short_code);
+    }
+
+    /**
+     * @param $value
+     */
+    public function setNameAttribute($value)
+    {
+        $this->attributes['name'] = strtolower($value);
+    }
+
+    /**
+     * @return string
+     */
+    public function getNameAttribute($value)
+    {
+        return ucfirst($value);
+    }
+
 }
