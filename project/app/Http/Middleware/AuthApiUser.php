@@ -39,15 +39,21 @@ class AuthApiUser
 
         }
 
-        $user = User::where('user_name', $_SERVER['PHP_AUTH_USER'])->where('api_key', $_SERVER['PHP_AUTH_PW'])->where('status', 1)->first();
-        if ($user->exists){
-            if ( DB::table('users')->where('apiuser', $user->user_name)->first()->merchant_id !== $request->input('merchant_id') ) {
-                return response(['status' => 'Unauthorized', 'code' => 999, 'description' => 'Merchant ID is wrong!'], 401);
+        $user = User::where('user_name', $_SERVER['PHP_AUTH_USER'])->where('api_key', $_SERVER['PHP_AUTH_PW'])->first();
+        $found = $user->id ?? false;
+        if ($found){
+            if ($user->status){
+                if ( DB::table('users')->where('apiuser', $user->user_name)->first()->merchant_id !== $request->input('merchant_id') ) {
+                    return response(['status' => 'Unauthorized', 'code' => 999, 'description' => 'Merchant ID is wrong!'], 401);
+                }
+                return $next($request);
+            } else {
+                return response(['status' => 'Unauthorized', 'code' => 998, 'description' => 'Merchant deactivated. Please contact support'], 401);
             }
-            return $next($request);
+
         }
 
-        return response(['status' => 'Bad request', 'code' => 999, 'description' => 'Merchant not found. Please make sure you have your credentials set using basic Authentication!'], 400);
+        return response(['status' => 'Unauthorized', 'code' => 999, 'description' => 'Merchant not found. Please make sure you have your credentials set using basic Authentication!'], 400);
 
 //        if (!isset($user->id)){
 //
