@@ -47,4 +47,8 @@ class Rswitch extends Model
         return ucfirst($value);
     }
 
+    public function merchants(){
+        return $this->belongsToMany(Merchant::class,'ttm_merchant_r_switch','r_switch_id','merchant_id')->withTimestamps();
+    }
+
 }
