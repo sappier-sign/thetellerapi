@@ -13,10 +13,10 @@ class CreateTtmMerchantsRSwitchTable extends Migration
      */
     public function up()
     {
-        Schema::create('ttm_merchants_r_switch', function (Blueprint $table) {
+        Schema::create('ttm_merchant_r_switch', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('merchant_id');
-            $table->string('r_switch_id');
+            $table->unsignedInteger('merchant_id');
+            $table->unsignedInteger('r_switch_id');
             $table->timestamps();
         });
     }

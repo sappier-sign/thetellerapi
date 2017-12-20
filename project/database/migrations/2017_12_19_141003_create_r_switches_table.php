@@ -17,6 +17,7 @@ class CreateRSwitchesTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('short_code');
+            $table->string('category');
             $table->timestamps();
         });
     }
