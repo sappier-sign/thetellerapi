@@ -35,6 +35,17 @@ class Transaction extends Model
 
     public static function saveTransaction($transaction)
     {
+        $r_switch = Rswitch::where('short_code', $transaction['fld_057'])->first();
+        if ($r_switch->exists()){
+            if (!in_array($r_switch->id, Merchant::where('merchant_id', $transaction['fld_042'])->first()->rswitches()->pluck('r_switch_id')->toArray())){
+                return [
+                    'status' => 'error',
+                    'code'  => '040',
+                    'reason' => 'You are not allowed to transact with '.$transaction['fld_057'].' ('.$r_switch->name.')'
+                ];
+            }
+        }
+
         if (is_null($transaction['rfu_002'])){
             if (self::where('fld_037', $transaction['rfu_002'])->where('fld_042', $transaction['fld_042'])->count() === 0){
                 return [
@@ -91,7 +102,7 @@ class Transaction extends Model
             ];
         } elseif ($saveTransaction === '010' || $saveTransaction === '020'){
             return self::responseMessage($saveTransaction);
-        } elseif (isset($saveTransaction['code']) && $saveTransaction['code'] === '030'){
+        } elseif (isset($saveTransaction['code'])) {
             return $saveTransaction;
         }
         return Transaction::routeSwitch($transaction, 'purchase');
