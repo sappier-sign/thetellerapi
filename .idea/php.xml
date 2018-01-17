@@ -79,6 +79,14 @@
       <path value="$PROJECT_DIR$/project/vendor/jakub-onderka/php-console-highlighter" />
       <path value="$PROJECT_DIR$/project/vendor/doctrine/inflector" />
       <path value="$PROJECT_DIR$/project/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/project/vendor/xethron/laravel-4-generators" />
+      <path value="$PROJECT_DIR$/project/vendor/xethron/migrations-generator" />
+      <path value="$PROJECT_DIR$/project/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/project/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/project/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/project/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/project/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/project/vendor/doctrine/cache" />
     </include_path>
   </component>
   <component name="PhpProjectServersManager">

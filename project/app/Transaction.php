@@ -30,34 +30,34 @@ class Transaction extends Model
     public static function saveStatistic($transaction)
     {
         $statistic = new Statistic();
-         return $statistic->persist($transaction['fld_002'], $transaction['fld_004']);
+        return $statistic->persist($transaction['fld_002'], $transaction['fld_004']);
     }
 
     public static function saveTransaction($transaction)
     {
         $r_switch = Rswitch::where('short_code', $transaction['fld_057'])->first();
-        if ($r_switch->exists()){
-            if (!in_array($r_switch->id, Merchant::where('merchant_id', $transaction['fld_042'])->first()->rswitches()->pluck('r_switch_id')->toArray())){
+        if ($r_switch->exists()) {
+            if (!in_array($r_switch->id, Merchant::where('merchant_id', $transaction['fld_042'])->first()->rswitches()->pluck('r_switch_id')->toArray())) {
                 return [
                     'status' => 'error',
-                    'code'  => '040',
-                    'reason' => 'You are not allowed to transact with '.$transaction['fld_057'].' ('.$r_switch->name.')'
+                    'code' => '040',
+                    'reason' => 'You are not allowed to transact with ' . $transaction['fld_057'] . ' (' . $r_switch->name . ')'
                 ];
             }
         }
 
-        if (is_null($transaction['rfu_002'])){
-            if (self::where('fld_037', $transaction['rfu_002'])->where('fld_042', $transaction['fld_042'])->count() === 0){
+        if (is_null($transaction['rfu_002'])) {
+            if (self::where('fld_037', $transaction['rfu_002'])->where('fld_042', $transaction['fld_042'])->count() === 0) {
                 return [
                     'status' => 'error',
-                    'code'  => '030',
-                    'reason' => 'Original transaction with id: '.$transaction['rfu_002'].' does not exist'
+                    'code' => '030',
+                    'reason' => 'Original transaction with id: ' . $transaction['rfu_002'] . ' does not exist'
                 ];
             }
         }
 
         $saveStatistic = self::saveStatistic($transaction);
-        if ($saveStatistic === '010' || $saveStatistic === '020'){
+        if (in_array($saveStatistic, ['010', '020', '030'])) {
             return $saveStatistic;
         }
 
@@ -94,18 +94,21 @@ class Transaction extends Model
     public static function purchase($transaction)
     {
         $saveTransaction = Transaction::saveTransaction($transaction);
-        if ($saveTransaction === false) {
+        if ($saveTransaction === true) {
+            $response = Transaction::routeSwitch($transaction, 'purchase');
+            return $response;
+        } elseif ($saveTransaction === false) {
             return [
                 'status' => 'failed',
                 'code' => 959,
                 'reason' => 'Duplicate transaction: transaction_id must be unique'
             ];
-        } elseif ($saveTransaction === '010' || $saveTransaction === '020'){
+        } elseif (in_array($saveTransaction, ['010', '020', '030'])) {
             return self::responseMessage($saveTransaction);
         } elseif (isset($saveTransaction['code'])) {
             return $saveTransaction;
         }
-        return Transaction::routeSwitch($transaction, 'purchase');
+
     }
 
     public static function deposit($transaction, $transfer = false)
@@ -131,12 +134,12 @@ class Transaction extends Model
         $response = null;
         $merchant_debiting = false;
 
-        if (strtoupper(substr($transaction['fld_002'], 0, 4)) === 'TTM-'){
+        if (strtoupper(substr($transaction['fld_002'], 0, 4)) === 'TTM-') {
             self::saveTransaction($transaction);
 
             $merchant_debiting = true;
             $debitee = new Debit();
-            $debitee->amount = number_format((float) $transaction['fld_004'], 2);
+            $debitee->amount = number_format((float)$transaction['fld_004'], 2);
             $debitee->success = 0;
             $debitee->merchant_id = $transaction['fld_042'];
             $debitee->transaction_id = $transaction['fld_011'];
@@ -153,10 +156,10 @@ class Transaction extends Model
 
         if (isset($purchase['code']) && $purchase['code'] === '000') {
 
-            if ($merchant_debiting){
-                $debitee->transaction_id = $deposit['fld_011'] = '00'.time();
+            if ($merchant_debiting) {
+                $debitee->transaction_id = $deposit['fld_011'] = '00' . time();
             }
-            $transaction['rfu_001'] = '00'.time();
+            $transaction['rfu_001'] = '00' . time();
 
             // If the Merchant is TheTeller Web or Mobile, Then use the transacted amount instead of the amount
             if ($transaction['fld_042'] === 'TTM-00000002' && $transacted_amount) {
@@ -172,7 +175,7 @@ class Transaction extends Model
                     'reason' => 'Transfer successful'
                 ];
 
-                if ($merchant_debiting){
+                if ($merchant_debiting) {
                     $debitee->success = 1;
                     $debitee->save();
                 }
@@ -195,6 +198,12 @@ class Transaction extends Model
                 'status' => 'declined',
                 'code' => '020',
                 'reason' => 'Transactions above GHS 500.00 are not allowed!'
+            ];
+        } elseif ($purchase === '030') {
+            return $response = [
+                'status' => 'declined',
+                'code' => '030',
+                'reason' => 'Transactions below GHS 0.10 are not allowed!'
             ];
         }
         return $response = [
@@ -224,7 +233,7 @@ class Transaction extends Model
             } elseif ($transaction['fld_117'] === 'TGO') {
 
                 $tigo = new Tigo();
-                return Transaction::transactionResponse($tigo->credit($transaction['fld_103'],Functions::toFloat($transaction['fld_004']), $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
+                return Transaction::transactionResponse($tigo->credit($transaction['fld_103'], Functions::toFloat($transaction['fld_004']), $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
 
             } elseif ($transaction['fld_117'] === 'ATL') {
 
@@ -240,7 +249,7 @@ class Transaction extends Model
             $mtn = new Mtn();
             switch ($action) {
                 case 'purchase':
-                    if ($transaction['rfu_005'] === 'offline'){
+                    if ($transaction['rfu_005'] === 'offline') {
                         return Transaction::transactionResponse($mtn->debitOffline($transaction['fld_002'], Functions::toFloat($transaction['fld_004']), $merchant_name, $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
                     }
                     return Transaction::transactionResponse($mtn->debit($transaction['fld_002'], Functions::toFloat($transaction['fld_004']), $merchant_name, $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
@@ -309,7 +318,7 @@ class Transaction extends Model
     public static function transactionResponse($response, $id, $merchant_id)
     {
         $transaction = Transaction::where('fld_037', $id)->where('fld_042', $merchant_id)->where('fld_038', 'pending');
-        if ($transaction->count() <> 1){
+        if ($transaction->count() <> 1) {
             $transaction = Transaction::where('fld_037', $id)->where('fld_042', $merchant_id)->where('fld_039', '101')->first();
         } else {
             $transaction = $transaction->first();
@@ -662,6 +671,14 @@ class Transaction extends Model
                 ];
                 break;
 
+            case '030':
+                return [
+                    'status' => 'Declined',
+                    'code' => '030',
+                    'reason' => 'Transaction amount below GHS 0.10 are not allowed.'
+                ];
+                break;
+
             default:
                 return [
                     'status' => 'declined',
@@ -780,22 +797,22 @@ class Transaction extends Model
 
     public static function getTransactionStatus($merchant_id, $transaction_id)
     {
-        $transaction =  Transaction::where('fld_042', $merchant_id)->where('fld_037', $transaction_id)->first();
-        if($transaction->exists){
-            if ( ($transaction->fld_039 === '101') && ($transaction->fld_057 === 'MTN') ){
+        $transaction = Transaction::where('fld_042', $merchant_id)->where('fld_037', $transaction_id)->first();
+        if ($transaction->exists) {
+            if (($transaction->fld_039 === '101') && ($transaction->fld_057 === 'MTN')) {
                 $mtn = new Mtn();
                 $mtn_transaction = Mtn::where('thirdpartyID', $transaction->fld_011)->first();
 
-                if ($mtn_transaction->exists){
+                if ($mtn_transaction->exists) {
                     $status = $mtn->checkInvoiceOffline($mtn_transaction->invoiceNo);
                     self::transactionResponse($status, $transaction_id, $merchant_id);
-                    $transaction =  self::where('fld_042', $merchant_id)->where('fld_037', $transaction_id)->first();
+                    $transaction = self::where('fld_042', $merchant_id)->where('fld_037', $transaction_id)->first();
                     return self::responseMessage(substr($transaction->fld_038, 3));
                 }
                 return [
                     'status' => 'failed',
-                    'code'  =>  999,
-                    'reason'    =>  'Transaction not found'
+                    'code' => 999,
+                    'reason' => 'Transaction not found'
                 ];
 
             }
@@ -803,8 +820,8 @@ class Transaction extends Model
         }
         return [
             'status' => 'failed',
-            'code'  =>  999,
-            'reason'    =>  'Transaction not found'
+            'code' => 999,
+            'reason' => 'Transaction not found'
         ];
     }
 }
