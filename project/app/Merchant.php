@@ -27,18 +27,21 @@ class Merchant extends Model
     }
 
     public function assignMomos(){
+        $old_rswitches = $this->rswitches()->pluck('r_switch_id')->toArray();
         $momoIDs = Rswitch::where('category', 'momo')->pluck('id');
-        $this->rswitches()->sync($momoIDs);
+        $this->rswitches()->sync(array_merge($old_rswitches, $momoIDs));
     }
 
     public function assignCards(){
+        $old_rswitches = $this->rswitches()->pluck('r_switch_id')->toArray();
         $cards = Rswitch::where('category', 'cards')->pluck('id');
-        $this->rswitches()->sync($cards);
+        $this->rswitches()->sync(array_merge($old_rswitches, $cards));
     }
 
     public function assignBanks(){
+        $old_rswitches = $this->rswitches()->pluck('r_switch_id')->toArray();
         $banks = Rswitch::where('category', 'bank')->pluck('id');
-        $this->rswitches()->sync($banks);
+        $this->rswitches()->sync(array_merge($old_rswitches, $banks));
     }
     
     public function assignAllRswitches(){

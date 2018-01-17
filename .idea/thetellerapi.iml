@@ -6,8 +6,14 @@
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/bupt1987/html-parser" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/dnoegel/php-xdg-base-dir" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/annotations" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/collections" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/common" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/dbal" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/inflector" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/lexer" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/fzaninotto/faker" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/hamcrest/hamcrest-php" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/illuminate/auth" />
@@ -80,6 +86,8 @@
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/yaml" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/vlucas/phpdotenv" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/xethron/laravel-4-generators" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/xethron/migrations-generator" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -89,8 +97,14 @@
           <root url="file://$MODULE_DIR$/project/vendor/bupt1987/html-parser" />
           <root url="file://$MODULE_DIR$/project/vendor/composer" />
           <root url="file://$MODULE_DIR$/project/vendor/dnoegel/php-xdg-base-dir" />
+          <root url="file://$MODULE_DIR$/project/vendor/doctrine/annotations" />
+          <root url="file://$MODULE_DIR$/project/vendor/doctrine/cache" />
+          <root url="file://$MODULE_DIR$/project/vendor/doctrine/collections" />
+          <root url="file://$MODULE_DIR$/project/vendor/doctrine/common" />
+          <root url="file://$MODULE_DIR$/project/vendor/doctrine/dbal" />
           <root url="file://$MODULE_DIR$/project/vendor/doctrine/inflector" />
           <root url="file://$MODULE_DIR$/project/vendor/doctrine/instantiator" />
+          <root url="file://$MODULE_DIR$/project/vendor/doctrine/lexer" />
           <root url="file://$MODULE_DIR$/project/vendor/fzaninotto/faker" />
           <root url="file://$MODULE_DIR$/project/vendor/hamcrest/hamcrest-php" />
           <root url="file://$MODULE_DIR$/project/vendor/illuminate/auth" />
@@ -163,13 +177,21 @@
           <root url="file://$MODULE_DIR$/project/vendor/symfony/yaml" />
           <root url="file://$MODULE_DIR$/project/vendor/vlucas/phpdotenv" />
           <root url="file://$MODULE_DIR$/project/vendor/webmozart/assert" />
+          <root url="file://$MODULE_DIR$/project/vendor/xethron/laravel-4-generators" />
+          <root url="file://$MODULE_DIR$/project/vendor/xethron/migrations-generator" />
         </CLASSES>
         <SOURCES>
           <root url="file://$MODULE_DIR$/project/vendor/bupt1987/html-parser" />
           <root url="file://$MODULE_DIR$/project/vendor/composer" />
           <root url="file://$MODULE_DIR$/project/vendor/dnoegel/php-xdg-base-dir" />
+          <root url="file://$MODULE_DIR$/project/vendor/doctrine/annotations" />
+          <root url="file://$MODULE_DIR$/project/vendor/doctrine/cache" />
+          <root url="file://$MODULE_DIR$/project/vendor/doctrine/collections" />
+          <root url="file://$MODULE_DIR$/project/vendor/doctrine/common" />
+          <root url="file://$MODULE_DIR$/project/vendor/doctrine/dbal" />
           <root url="file://$MODULE_DIR$/project/vendor/doctrine/inflector" />
           <root url="file://$MODULE_DIR$/project/vendor/doctrine/instantiator" />
+          <root url="file://$MODULE_DIR$/project/vendor/doctrine/lexer" />
           <root url="file://$MODULE_DIR$/project/vendor/fzaninotto/faker" />
           <root url="file://$MODULE_DIR$/project/vendor/hamcrest/hamcrest-php" />
           <root url="file://$MODULE_DIR$/project/vendor/illuminate/auth" />
@@ -242,16 +264,8 @@
           <root url="file://$MODULE_DIR$/project/vendor/symfony/yaml" />
           <root url="file://$MODULE_DIR$/project/vendor/vlucas/phpdotenv" />
           <root url="file://$MODULE_DIR$/project/vendor/webmozart/assert" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="PHARS">
-        <CLASSES>
-          <root url="phar://$MODULE_DIR$/project/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.0.phar/" />
-        </CLASSES>
-        <SOURCES>
-          <root url="phar://$MODULE_DIR$/project/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.0.phar/" />
+          <root url="file://$MODULE_DIR$/project/vendor/xethron/laravel-4-generators" />
+          <root url="file://$MODULE_DIR$/project/vendor/xethron/migrations-generator" />
         </SOURCES>
       </library>
     </orderEntry>

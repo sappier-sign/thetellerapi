@@ -8,6 +8,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Functions;
 use App\Payswitch;
 use App\Transaction;
 use App\User;
@@ -28,6 +29,7 @@ class TransactionController extends Controller
 
     public function create(Request $request)
     {
+//        Functions::logRequest($request);
         $this->validate($request, [
             'merchant_id'       => 'bail|required|size:12|alpha_dash',
             'processing_code'   => 'bail|required|digits:6|in:000000,400000,400010,400020,400100,400110,400120,400200,400210,400220,000200',

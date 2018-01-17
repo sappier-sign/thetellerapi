@@ -2,7 +2,9 @@
 
 namespace App;
 
+use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
 
 class Functions extends Model
@@ -294,5 +296,20 @@ class Functions extends Model
     public static function toFloat($minor_unit){
         $float = ((int)$minor_unit)/100;
         return round((float)$float,2);
+    }
+
+    public static function logRequest(Request $request)
+    {
+        $message = date( "d-m-Y" ) . " | " . "MERCHANT TO TTLR REQUEST FOREIGN\r\n";
+        foreach ($request->all() as $index => $value) {
+            if ($index === 'pan'){
+                $value = self::maskAm($value);
+            } elseif ($index === 'cvv') {
+                $value = '***';
+            }
+            $message .= Carbon::today()->toTimeString()." | $index:\t\t$value\r\n";
+        }
+
+        File::append(storage_path('requests/'.Date('Ymd').'.txt'), "$message");
     }
 }
