@@ -225,7 +225,7 @@ class Mtn extends Model
             if ($response['responseCode'] == '21VD') {
                 $timeOut = 80;
                 $try = 5;
-                sleep(15);
+                sleep(20);
 
                 // Loop for 60 seconds
                 while ($try < $timeOut) {
@@ -233,7 +233,7 @@ class Mtn extends Model
                     $response = $client->__soapCall('checkInvStatus', array($params));    // MAKE SOAP CALL
 
                     // Prepare and write the request data to our messages_logs.txt file
-//                    Functions::writeMTN( $header = "TTLR TO MTN REQUEST FOREIGN", $response );
+                    Functions::writeMTN( $header = "TTLR TO MTN REQUEST FOREIGN", $response );
 
                     //	PARSE VALUES OF SOAP RESPONSE OBJECT INTO AN ARRAY
                     $response = get_object_vars(get_object_vars($response)['return']);
