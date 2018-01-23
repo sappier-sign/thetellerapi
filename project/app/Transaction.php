@@ -227,9 +227,9 @@ class Transaction extends Model
             if ($transaction['fld_117'] === 'MTN') {
 
                 $mtn = new Mtn();
-                $result = Transaction::transactionResponse($mtn->credit($transaction['fld_103'], Functions::toFloat($transaction['fld_004']), $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
+                return Transaction::transactionResponse($mtn->credit($transaction['fld_103'], Functions::toFloat
+				($transaction['fld_004']), $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
 
-                return $result;
             } elseif ($transaction['fld_117'] === 'TGO') {
 
                 $tigo = new Tigo();

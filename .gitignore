@@ -1,5 +1,8 @@
 /project/vendor
 project/.idea
+project/storage
+all.txt
+*.csv
 /project/Homestead.json
 /project/Homestead.yaml
 .env
