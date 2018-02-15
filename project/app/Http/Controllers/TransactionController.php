@@ -176,8 +176,8 @@ class TransactionController extends Controller
 
         } elseif (in_array($request->input('processing_code'), $deposit_transactions)) { // If transaction type is funds transfer
 
-			if ($request->input('merchant_id') <> 'TTM-00000002') { // if the merchant is not theTeller then do not
-				// process the transfer
+			if (!in_array($request->input('merchant_id'), ['TTM-00000002', 'TTM-00000001', 'TTM-00000011'])) { // if the merchant is
+				// not theTeller then do not process the transfer
 				return array_merge($request->all(), ['status' => 'failed', 'code' => 900, 'reason' => 'transaction could not be completed']);
 			}
 
