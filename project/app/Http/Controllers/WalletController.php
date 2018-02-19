@@ -86,7 +86,7 @@ class WalletController extends Controller
 			];
 		}
 
-		return Wallet::encryptData($request);
+		return Wallet::encryptData($request->all());
 
 	}
 
@@ -98,7 +98,7 @@ class WalletController extends Controller
 			'user_id' => 'bail|required|size:12',
 			'merchant_id' => 'bail|required|size:12'
 		]);
-		return Wallet::updateWallet($request);
+		return Wallet::updateWallet($request->all());
 	}
 
 	/**

@@ -44,12 +44,11 @@ class Wallet extends Model
 		return Wallet::all();
 	}
 
-
-	/**
-	 * @param Request $request
-	 * @return string
-	 */
-	public static function encryptData(Request $request)
+    /**
+     * @param $request
+     * @return array
+     */
+    public static function encryptData($request)
 	{
 		if (self::walletExists($request)) {
 			return [
@@ -59,16 +58,16 @@ class Wallet extends Model
 			];
 		}
 
-		$data = json_encode($request->input('details'));
-		$encryption = openssl_encrypt($data, 'aes256', $request->input('pass_code'), 0,
-			Wallet::generateIv($request->input('pass_code')));
+		$data = json_encode($request['details']);
+		$encryption = openssl_encrypt($data, 'aes256', $request['pass_code'], 0,
+			Wallet::generateIv($request['pass_code']));
 
 		$wallet = new Wallet();
 		return $wallet->saveWallet(
-			$request->input('pass_code'),
-			$request->input('user_id'),
+			$request['pass_code'],
+			$request['user_id'],
 			$encryption,
-			$request->input('merchant_id'));
+			$request['merchant_id']);
 	}
 
 	public static function decryptData(Wallet $wallet)
@@ -248,16 +247,16 @@ class Wallet extends Model
 		return null;
 	}
 
-	public static function walletExists(Request $request)
+	public static function walletExists($request)
 	{
-		if (in_array($request->input('details')['wallet_name'], ['MAS', 'VIS'])) {
-			$wallet_number = substr($request->input('details')['wallet_number'], 0, 6) . '******' . substr
-				($request->input('details')['wallet_number'], -4);
+		if (in_array($request['details']['wallet_name'], ['MAS', 'VIS'])) {
+			$wallet_number = substr($request['details']['wallet_number'], 0, 6) . '******' . substr
+				($request['details']['wallet_number'], -4);
 		} else {
-			$wallet_number = $request->input('details')['wallet_number'];
+			$wallet_number = $request['details']['wallet_number'];
 		}
 
-		foreach (self::getAllWallets($request->input('merchant_id'), $request->input('user_id')) as $allWallet) {
+		foreach (self::getAllWallets($request['merchant_id'], $request['user_id']) as $allWallet) {
 			if ($allWallet['details']['wallet_number'] === $wallet_number) {
 				return true;
 			}
@@ -435,20 +434,20 @@ class Wallet extends Model
 		}
 	}
 
-	public static function updateWallet(Request $request)
+	public static function updateWallet($request)
 	{
-		$pass_code_matched = self::matchPassCode($request->input('user_id'), $request->input('merchant_id'),
-			$request->input('old_pass_code'));
+		$pass_code_matched = self::matchPassCode($request['user_id'], $request['merchant_id'],
+			$request['old_pass_code']);
 		if ($pass_code_matched) {
-			$wallets = Wallet::where('merchant_id', $request->input('merchant_id'))
-				->where('user_id', $request->input('user_id'))
+			$wallets = Wallet::where('merchant_id', $request['merchant_id'])
+				->where('user_id', $request['user_id'])
 				->get();
 
 			foreach ($wallets as $wallet) {
 				$details = self::decryptData($wallet);
-				$wallet->details = openssl_encrypt(json_encode($details), 'aes256', $request->input('new_pass_code'), 0,
-					Wallet::generateIv($request->input('new_pass_code')));
-				$wallet->pass_code = $request->input('new_pass_code') . md5(uniqid());
+				$wallet->details = openssl_encrypt(json_encode($details), 'aes256', $request['new_pass_code'], 0,
+					Wallet::generateIv($request['new_pass_code']));
+				$wallet->pass_code = $request['new_pass_code'] . md5(uniqid());
 				$wallet->save();
 			}
 
