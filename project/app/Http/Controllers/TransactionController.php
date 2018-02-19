@@ -9,10 +9,13 @@
 namespace App\Http\Controllers;
 
 use App\Functions;
+use App\Merchant;
 use App\Payswitch;
 use App\Transaction;
 use App\User;
+use App\Wallet;
 use Illuminate\Http\Request;
+use PhpParser\Node\Stmt\If_;
 
 class TransactionController extends Controller
 {
@@ -32,12 +35,13 @@ class TransactionController extends Controller
 //        Functions::logRequest($request);
         $this->validate($request, [
             'merchant_id'       => 'bail|required|size:12|alpha_dash',
-            'processing_code'   => 'bail|required|digits:6|in:000000,400000,400010,400020,400100,400110,400120,400200,400210,400220,000200',
+            'processing_code'   => 'bail|required|digits:6|in:000000,400000,400010,400020,400100,400110,400120,400200,400210,400220,404000,404010,404020,000200',
             'transaction_id'    => 'bail|required|digits:12',
             'desc'              => 'bail|required|min:10|max:100',
             'amount'            => 'bail|required|digits:12',
 
-            'r-switch'          => 'bail|required|in:TGO,MTN,ATL,MAS,VIS,VDF|size:3',
+            'pass_code'         => 'bail|size:32|required_if:r-switch,FLT',
+            'r-switch'          => 'bail|required|in:TGO,MTN,ATL,MAS,VIS,VDF,FLT|size:3',
             'voucher_code'      => 'bail|required_if:r-switch,VDF',
             'subscriber_number' => 'bail|required_if:processing_code,000200|required_if:processing_code,400200|min:10|max:12',
             '3d_url_response'   => 'bail|required_if:processing_code,000000|required_if:processing_code,000100|required_if:processing_code,400000|required_if:processing_code,400100|required_if:processing_code,400110|required_if:processing_code,400120|url',
@@ -63,8 +67,8 @@ class TransactionController extends Controller
 
         $actions                = explode(' ', User::where('user_name', $request->header('php-auth-user'))->first()->actions);
         $purchase_with_card     = ['000000', '000100'];
-        $deposit_transactions   = ['400000', '400010', '400100', '400110', '400120', '400200', '400210', '400220'];
-        $transaction_types      = ['000000', '000100', '400000', '400100', '400110', '400120'];
+        $deposit_transactions   = ['400000', '400010', '400100', '400110', '400120', '400200', '400210', '400220', '404000', '404010', '404020'];
+        $transaction_types      = ['000000', '000100', '400000', '400100', '400110', '400120', '404000', '404010', '404020'];
 
         if (is_null($request->header('Content-Type')) || $request->header('Content-Type') <> 'application/json') {
             return [
@@ -136,6 +140,7 @@ class TransactionController extends Controller
         $transaction['fld_103'] = $request->input('account_number', null);
         $transaction['fld_117'] = $request->input('account_issuer', null);
         $transaction['fld_123'] = null;
+
         # Set Reserved For Future Use Fields
         $transaction['rfu_001'] = $request->input('rfu_001', 'null');
         $transaction['rfu_002'] = $request->input('rfu_002', 'null');
@@ -176,8 +181,8 @@ class TransactionController extends Controller
 
         } elseif (in_array($request->input('processing_code'), $deposit_transactions)) { // If transaction type is funds transfer
 
-			if ($request->input('merchant_id') <> 'TTM-00000002') { // if the merchant is not theTeller then do not
-				// process the transfer
+			if (!in_array($request->input('merchant_id'), ['TTM-00000002', 'TTM-00000001', 'TTM-00000035'])) { // if the merchant is
+				// not theTeller then do not process the transfer
 				return array_merge($request->all(), ['status' => 'failed', 'code' => 900, 'reason' => 'transaction could not be completed']);
 			}
 
@@ -214,6 +219,39 @@ class TransactionController extends Controller
             } elseif (substr($request->input('processing_code'), 2, 2) === '02'){ // If From Account Type is Mobile Wallet
                 $transferred = Transaction::transfer($transaction, $request->input('transacted_amount', null));
                 $response = array_merge($request->all(), $transferred);
+            } elseif (substr($request->input('processing_code'), 2, 2) === '40') { /* If from Account is Merchant Float */
+                /* Get all wallets attached to merchant */
+                $wallet = Wallet::getAllWallets($request->input('merchant_id'), $request->input('merchant_id'));
+                /* Check if wallets were found */
+                if (count($wallet)) {
+                    /* Get merchant */
+                    $merchant = Merchant::where('merchant_id', $request->input('merchant_id'))->first();
+                    if (is_null($merchant)) {
+                        return [
+                            'status'    =>  'not found',
+                            'code'      =>  444,
+                            'reason'    =>  'merchant does not exists'
+                        ];
+                    }
+
+
+                    $decrypted_wallet = Wallet::decryptData(Wallet::where('wallet_id', $wallet[0]['wallet_id'])->first());
+                    $transaction['fld_002'] = $decrypted_wallet['wallet_number'];
+                    $transaction['cvv'] = substr($merchant->pass_code, -3);
+                    $transaction['fld_057'] = $decrypted_wallet['wallet_name'];
+                    $transaction['response_url'] = 'https://api.theteller.net';
+                    $transaction['expMonth'] = substr($decrypted_wallet['expiry_date'], 0, 2);
+                    $transaction['expYear'] = substr($decrypted_wallet['expiry_date'], -2);
+
+                    return array_merge($request->all(), Transaction::transfer($transaction));
+
+                } else { /* If wallet does not exist */
+                    return [
+                        'status'    =>  'not found',
+                        'code'      =>  444,
+                        'reason'    =>  'not wallets found'
+                    ];
+                }
             }
         }
 

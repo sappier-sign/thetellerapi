@@ -30,7 +30,7 @@ class Transaction extends Model
     public static function saveStatistic($transaction)
     {
         $statistic = new Statistic();
-        return $statistic->persist($transaction['fld_002'], $transaction['fld_004']);
+        return $statistic->persist($transaction['fld_002'], Functions::toFloat($transaction['fld_004']));
     }
 
     public static function saveTransaction($transaction)

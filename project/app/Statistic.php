@@ -50,9 +50,11 @@ class Statistic extends Model
         $this->amount = $amount;
         $this->source = $source;
         $this->save();
-        if ($this->getSourceCount($source) > 300){
+        if ($this->getSourceCount($source) > 100){
             return '010';
-        } elseif ($amount < 0.1){
+        }
+
+        if ($amount < 0.1){
             return '030';
         } elseif ($amount > 300){
             return '020';
