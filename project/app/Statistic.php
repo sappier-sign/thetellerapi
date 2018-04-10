@@ -45,18 +45,22 @@ class Statistic extends Model
         return Statistic::where('source', $source)->whereDate('created_at', Carbon::today()->toDateString())->orderBy('amount', 'desc')->get();
     }
 
-    public function persist($source, $amount)
+    public function persist($source, $amount, $merchant_id)
     {
         $this->amount = $amount;
         $this->source = $source;
         $this->save();
-        if ($this->getSourceCount($source) > 100){
-            return '010';
+        if ($this->source <> '0249621938'){
+            if ($this->getSourceCount($source) > 300){
+                return '010';
+            }
         }
+
+        $apiuser = Merchant::where('merchant_id', $merchant_id)->first()->apiuser; // Get Merchant apiuser name
 
         if ($amount < 0.1){
             return '030';
-        } elseif ($amount > 300){
+        } elseif ($amount > (float) User::where('user_name', $apiuser)->first()->amount_limit){ // Get the merchant amount limit and compare again the incoming transaction amount
             return '020';
         }
         return $this;

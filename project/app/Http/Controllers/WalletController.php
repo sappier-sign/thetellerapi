@@ -128,14 +128,14 @@ class WalletController extends Controller
 	public function pay(Request $request)
 	{
 		$this->validate($request, [
-			'merchant_id' => 'bail|required|size:12',
-			'user_id' => 'bail|required|size:12',
-			'processing_code' => 'bail|required|digits:6|in:000000,000100,000200',
-			'wallet_id' => 'bail|required|size:13|exists:ttm_wallets,wallet_id',
-			'amount' => 'bail|required|digits:12',
-			'desc' => 'bail|required|min:6',
-			'transaction_id' => 'bail|required|size:12',
-			'pass_code' => 'bail|required|size:32'
+			'merchant_id'       => 'bail|required|size:12',
+			'user_id'           => 'bail|required|size:12',
+			'processing_code'   => 'bail|required|digits:6|in:000000,000100,000200',
+			'wallet_id'         => 'bail|required|size:13|exists:ttm_wallets,wallet_id',
+			'amount'            => 'bail|required|digits:12',
+			'desc'              => 'bail|required|min:6',
+			'transaction_id'    => 'bail|required|size:12',
+			'pass_code'         => 'bail|required|size:32'
 		], [
 			'merchant_id.size' => 'Merchant id must be 12 characters long'
 		]);

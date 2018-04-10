@@ -279,9 +279,6 @@ class Mtn extends Model
         Functions::writeMTN($header = "TTLR TO MTN REQUEST FOREIGN", $params);
 
         $client = new SoapClient($this->url, $this->wsdl);
-
-        //wait for 8 seconds and check for status of the invoice
-        sleep(12);
         $response = $client->__soapCall('checkInvStatus', array($params));
 
         // Prepare and write the response data to our messages_logs.txt file

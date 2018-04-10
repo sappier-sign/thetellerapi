@@ -243,7 +243,14 @@ class TransactionController extends Controller
                     $transaction['expMonth'] = substr($decrypted_wallet['expiry_date'], 0, 2);
                     $transaction['expYear'] = substr($decrypted_wallet['expiry_date'], -2);
 
-                    return array_merge($request->all(), Transaction::transfer($transaction));
+                    $transfer = Transaction::transfer($transaction);
+
+                    if (isset($transfer['status']) && $transfer['status'] === 'vbv required'){
+                        $transfer['status'] = 'failed';
+                        $transfer['reason'] ='Merchant debit failed. Please contact support';
+                    }
+
+                    return array_merge($request->all(), $transfer);
 
                 } else { /* If wallet does not exist */
                     return [
