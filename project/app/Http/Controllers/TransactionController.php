@@ -139,6 +139,7 @@ class TransactionController extends Controller
 
         $transaction['fld_103'] = $request->input('account_number', null);
         $transaction['fld_117'] = $request->input('account_issuer', null);
+        $transaction['fld_041'] = $request->input('terminal_id', null);
         $transaction['fld_123'] = null;
 
         # Set Reserved For Future Use Fields

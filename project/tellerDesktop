@@ -1,14 +1,14 @@
 base_url: api.theteller.net/v1.1/desktop
-    uris:
-        endpoint: /login.do
-        method: POST
-        request:
-            - merchant_id
-            - password
-        response:
-            - status
-            - code
-            - api_key
-            - api_user
-            - merchant_id
-            - set_pin
+    endpoints:
+    login.do
+            method: POST
+            request:
+                - merchant_id
+                - password
+            response:
+                - status
+                - code
+                - api_key
+                - api_user
+                - merchant_id
+                - set_pin
