@@ -39,9 +39,9 @@ class Transaction extends Model
 
         if (is_null($r_switch)) {
             return [
-                'status'    =>  'error',
-                'code'      =>  441,
-                'reasons'   =>  'Unknown r-switch'. $transaction['fld_057']
+                'status' => 'error',
+                'code' => 441,
+                'reasons' => 'Unknown r-switch' . $transaction['fld_057']
             ];
         }
 
@@ -75,7 +75,7 @@ class Transaction extends Model
         }
 
         $trans = new Transaction();
-        $trans->fld_002 = ( (in_array($transaction['fld_057'], ['MAS', 'VIS']) ) && strtoupper(substr($transaction['fld_002'], 0, 3)) <> 'TTM') ? substr($transaction['fld_002'], 0, 6) . '******' . substr($transaction['fld_002'], 12) : $transaction['fld_002'];
+        $trans->fld_002 = ((in_array($transaction['fld_057'], ['MAS', 'VIS'])) && strtoupper(substr($transaction['fld_002'], 0, 3)) <> 'TTM') ? substr($transaction['fld_002'], 0, 6) . '******' . substr($transaction['fld_002'], 12) : $transaction['fld_002'];
         $trans->fld_003 = $transaction['fld_003'];
         $trans->fld_004 = $transaction['fld_004'];
         $trans->fld_009 = $transaction['fld_009'];
@@ -214,7 +214,7 @@ class Transaction extends Model
                 'code' => '030',
                 'reason' => 'Transactions below GHS 0.10 are not allowed!'
             ];
-        }  elseif ($purchase['code'] === 441) {
+        } elseif ($purchase['code'] === 441) {
             return $purchase;
         }
         return $response = [
@@ -239,7 +239,7 @@ class Transaction extends Model
 
                 $mtn = new Mtn();
                 return Transaction::transactionResponse($mtn->credit($transaction['fld_103'], Functions::toFloat
-				($transaction['fld_004']), $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
+                ($transaction['fld_004']), $transaction['fld_011']), $transaction['fld_037'], $transaction['fld_042']);
 
             } elseif ($transaction['fld_117'] === 'TGO') {
 
@@ -323,20 +323,18 @@ class Transaction extends Model
 
         } else { // if unknown route switch
             return [
-                'status'    =>  'error',
-                'code'  =>  441,
-                'reason'    =>  'unknown payment source ' . $transaction['fld_057']
+                'status' => 'error',
+                'code' => 441,
+                'reason' => 'unknown payment source ' . $transaction['fld_057']
             ];
         }
     }
 
     public static function transactionResponse($response, $id, $merchant_id)
     {
-        $transaction = Transaction::where('fld_037', $id)->where('fld_042', $merchant_id)->where('fld_038', '<>', '000')->first();
+        $transaction = Transaction::where('fld_037', $id)->where('fld_042', $merchant_id)->where('fld_039', '<>', '000')->first();
 
         if (!is_null($transaction)) {
-
-//            $transaction = Transaction::where('fld_037', $id)->where('fld_042', $merchant_id)->where('fld_039', '101')->first();
 
             $sponsor = null;
 
@@ -499,6 +497,16 @@ class Transaction extends Model
                         'status' => 'network busy',
                         'code' => 107,
                         'reason' => 'USSD is busy, please try again later!'
+                    ];
+                    break;
+                case 114:
+                    $transaction->fld_038 = $sponsor . $response[0];
+                    $transaction->fld_039 = '100';
+                    $transaction->save();
+                    return [
+                        'status' => 'error',
+                        'code' => 114,
+                        'reason' => 'Invalid Voucher code'
                     ];
                     break;
 
@@ -720,6 +728,14 @@ class Transaction extends Model
                     'status' => 'Declined',
                     'code' => '030',
                     'reason' => 'Transaction amount below GHS 0.10 are not allowed.'
+                ];
+                break;
+
+            case 114:
+                return [
+                    'status' => 'error',
+                    'code' => 114,
+                    'reason' => 'Invalid Voucher code'
                 ];
                 break;
 

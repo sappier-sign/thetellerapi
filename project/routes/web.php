@@ -98,3 +98,9 @@ $app->group(['prefix' => 'pos'], function ($app){
         return $transactionController->create($request);
     }]); // zend_extension=/usr/lib64/php/modules/xdebug.so
 });
+
+$app->group(['prefix' => 'corporate'], function ($app){
+    $app->post('login', function (\Illuminate\Http\Request $request){
+        \Illuminate\Support\Facades\Log::info(json_encode($request->all()));
+    });
+});
