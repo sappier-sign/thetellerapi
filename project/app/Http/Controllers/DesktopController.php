@@ -8,26 +8,45 @@
 
 namespace App\Http\Controllers;
 
-
+use App\Merchant;
+use Firebase\JWT\JWT;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 
 class DesktopController extends Controller
 {
+    private $request;
 
-    public function login(Request $request)
+    public function __construct(Request $request)
     {
-        $this->validate($request, [
+        $this->request = $request;
+    }
+
+    private function jwt(Merchant $merchant)
+    {
+        $payload = [
+            'iss' => 'theteller-api',
+            'sub' => $merchant->id,
+            'iat' => time(),
+            'exp' => time() + 60 * 60
+        ];
+
+        return JWT::encode($payload, env('JWT_SECRET'));
+    }
+
+    public function login()
+    {
+        $this->validate($this->request, [
             'merchant_id' => 'bail|required|exists:users,merchant_id',
             'password' => 'bail|required|min:6'
         ]);
 
-        $user = DB::table('users')->where('merchant_id', $request->input('merchant_id'))->first();
+        $user = Merchant::where('merchant_id', $this->request->input('merchant_id'))->first();
 
         if ($user <> null) {
 
-            if (Hash::check($request->input('password'), $user->password)) {
+            if (Hash::check($this->request->input('password'), $user->password)) {
 
                 $api_user = DB::table('api_users')->where('user_name', $user->apiuser)->first();
 
@@ -41,7 +60,8 @@ class DesktopController extends Controller
                         'api_key' => $api_user->user_name,
                         'api_user' => $api_user->api_key,
                         'merchant_id' => $user->merchant_id,
-                        'set_pin' => $pin
+                        'set_pin' => $pin,
+                        'token' => $this->jwt($user)
                     ], 200,['Content-Type: application/json']);
 
                 } else {
@@ -69,18 +89,18 @@ class DesktopController extends Controller
         }
     }
 
-    public function verifyPin(Request $request)
+    public function verifyPin()
     {
-        $this->validate($request, [
+        $this->validate($this->request, [
             'merchant_id' => 'bail|required|exists:users,merchant_id',
             'password' => 'bail|required|min:6'
         ]);
 
-        $user = DB::table('users')->where('merchant_id', $request->input('merchant_id'))->first();
+        $user = DB::table('users')->where('merchant_id', $this->request->input('merchant_id'))->first();
 
         if ( $user <> null ) {
 
-            if ( Hash::check($request->input('pin'), $user->pin) ){
+            if ( Hash::check($this->request->input('pin'), $user->pin) ){
 
                 return response([
                     'status' => 'success',
@@ -108,18 +128,18 @@ class DesktopController extends Controller
         }
     }
 
-    public function setPin(Request $request)
+    public function setPin()
     {
-        $this->validate($request, [
+        $this->validate($this->request, [
             'merchant_id' => 'bail|required|exists:users,merchant_id',
             'pin'   =>  'bail|required|min:4'
         ]);
 
-        $user = DB::table('users')->where('merchant_id', $request->input('merchant_id'))->first();
+        $user = DB::table('users')->where('merchant_id', $this->request->input('merchant_id'))->first();
 
         if ($user <> null) {
 
-            $user->pin = Hash::make($request->input('pin'));
+            $user->pin = Hash::make($this->request->input('pin'));
 
             if ($user->save()) {
 
@@ -149,17 +169,17 @@ class DesktopController extends Controller
         }
     }
 
-    public function transfer(Request $request)
+    public function transfer()
     {
         return 'transfer';
     }
 
-    public function payment(Request $request)
+    public function payment()
     {
         return 'payment';
     }
 
-    public function transactions(Request $request)
+    public function transactions()
     {
         return 'transactions';
     }
