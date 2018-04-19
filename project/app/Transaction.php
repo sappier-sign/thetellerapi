@@ -84,6 +84,7 @@ class Transaction extends Model
         $trans->fld_014 = $transaction['fld_014'];
         $trans->fld_037 = $transaction['fld_037'];
         $trans->fld_038 = 'pending';
+        $trans->fld_041 = $transaction['fld_041'];
         $trans->fld_042 = $transaction['fld_042'];
         $trans->fld_043 = Merchant::where('merchant_id', $transaction['fld_042'])->first()->company;
         $trans->fld_057 = $transaction['fld_057'];

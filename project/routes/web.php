@@ -100,7 +100,13 @@ $app->group(['prefix' => 'pos'], function ($app){
 });
 
 $app->group(['prefix' => 'corporate'], function ($app){
-    $app->post('login', function (\Illuminate\Http\Request $request){
+    $app->post('login.do', function (\Illuminate\Http\Request $request){
         \Illuminate\Support\Facades\Log::info(json_encode($request->all()));
     });
+
+    $app->post('verify.pin', 'DesktopController@verifyPin');
+    $app->post('set.pin', 'DesktopController@setPin');
+    $app->get('transactions', 'DesktopController@getTransactions');
+    $app->post('payment.do', 'DesktopController@payemnt');
+    $app->post('transfer.do', 'DesktopController@transfer');
 });

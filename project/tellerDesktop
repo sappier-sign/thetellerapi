@@ -1,6 +1,6 @@
 base_url: api.theteller.net/v1.1/desktop
     endpoints:
-    login.do
+        login.do:
             method: POST
             request:
                 - merchant_id
@@ -12,3 +12,29 @@ base_url: api.theteller.net/v1.1/desktop
                 - api_user
                 - merchant_id
                 - set_pin
+        verify.pin:
+            method: POST
+            request:
+                - merchant_id
+                - pin
+            response:
+                - status
+                - code
+                - reason
+        set.pin:
+            method: POST
+            request:
+                - merchant_id
+                - pin
+            response:
+                - status
+                - code
+                - code
+                - set_pin
+        transactions:
+            method: POST
+            response:
+                - status
+                - code
+                - transafers[]
+                - payments[]
