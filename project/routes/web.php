@@ -99,11 +99,8 @@ $app->group(['prefix' => 'pos'], function ($app){
     }]); // zend_extension=/usr/lib64/php/modules/xdebug.so
 });
 
-$app->group(['prefix' => 'corporate'], function ($app){
-    $app->post('login.do', function (\Illuminate\Http\Request $request){
-        \Illuminate\Support\Facades\Log::info(json_encode($request->all()));
-    });
-
+$app->group(['prefix' => 'desktop'], function ($app){
+    $app->post('login.do', 'DesktopController@login');
     $app->post('verify.pin', 'DesktopController@verifyPin');
     $app->post('set.pin', 'DesktopController@setPin');
     $app->get('transactions', 'DesktopController@getTransactions');
