@@ -87,6 +87,7 @@
       <path value="$PROJECT_DIR$/project/vendor/doctrine/collections" />
       <path value="$PROJECT_DIR$/project/vendor/doctrine/common" />
       <path value="$PROJECT_DIR$/project/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/project/vendor/symfony/polyfill-php70" />
     </include_path>
   </component>
   <component name="PhpProjectServersManager">

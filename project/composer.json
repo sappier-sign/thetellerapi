@@ -9,8 +9,7 @@
         "laravel/lumen-framework": "5.4.*",
         "vlucas/phpdotenv": "~2.2",
         "laravel/tinker": "^1.0",
-        "bupt1987/html-parser": "^3.0",
-        "firebase/php-jwt": "^5.0"
+        "bupt1987/html-parser": "^3.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

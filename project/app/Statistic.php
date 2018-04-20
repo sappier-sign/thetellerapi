@@ -28,7 +28,7 @@ class Statistic extends Model
 
     public function setSourceAttribute($value)
     {
-        if (count($value) > 10){
+        if (strlen($value) > 10){
             $this->attributes['source'] = Functions::maskAm($value);
         } else {
             $this->attributes['source'] = $value;

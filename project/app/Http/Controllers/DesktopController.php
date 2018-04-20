@@ -32,7 +32,7 @@ class DesktopController extends Controller
             'exp' => time() + 60 * 60
         ];
 
-        return JWT::encode($payload, env('JWT_SECRET'));
+//        return JWT::encode($payload, env('JWT_SECRET'));
     }
 
     public function login()
@@ -56,7 +56,7 @@ class DesktopController extends Controller
 
                     return response([
                         'status' => 'success',
-                        'code' => '000',
+                        'code' => 1000,
                         'api_key' => $api_user->user_name,
                         'api_user' => $api_user->api_key,
                         'merchant_id' => $user->merchant_id,
