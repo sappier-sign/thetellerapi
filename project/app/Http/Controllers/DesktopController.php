@@ -8,11 +8,15 @@
 
 namespace App\Http\Controllers;
 
+use App\Jobs\MerchantLoginCommand;
 use App\Merchant;
 use Firebase\JWT\JWT;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Bus;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Validation\UnauthorizedException;
 
 class DesktopController extends Controller
 {
@@ -42,49 +46,34 @@ class DesktopController extends Controller
             'password' => 'bail|required|min:6'
         ]);
 
-        $user = Merchant::where('merchant_id', $this->request->input('merchant_id'))->first();
+        try {
+            $job = new MerchantLoginCommand($this->request);
+            dispatch($job);
 
-        if ($user <> null) {
+            return response([
+                'status' => 'success',
+                'code' => 1000,
+                'set_pin' => 0,
+                'token' => null
+            ], 200, ['Content-Type: application/json']);
 
-            if (Hash::check($this->request->input('password'), $user->password)) {
-
-                $api_user = DB::table('api_users')->where('user_name', $user->apiuser)->first();
-
-                if ($api_user <> null) {
-
-                    $pin = ( $user->pin ) ? 0 : 1;
-
-                    return response([
-                        'status' => 'success',
-                        'code' => 1000,
-                        'api_key' => $api_user->user_name,
-                        'api_user' => $api_user->api_key,
-                        'merchant_id' => $user->merchant_id,
-                        'set_pin' => $pin,
-                        'token' => $this->jwt($user)
-                    ], 200,['Content-Type: application/json']);
-
-                } else {
-                    return response([
-                        'status' => 'failed',
-                        'code' => '401',
-                        'reason' => 'API credentials not found'
-                    ], 400);
-                }
-
-            } else {
-                return response([
-                    'status' => 'failed',
-                    'code' => '401',
-                    'reason' => 'credentials mismatch'
-                ], 400);
-            }
-
-        } else {
+        } catch (UnauthorizedException $exception) {
             return response([
                 'status' => 'failed',
                 'code' => '401',
-                'reason' => 'user not found'
+                'reason' => $exception->getMessage()
+            ], 400);
+        } catch (ModelNotFoundException $exception) {
+            return response([
+                'status' => 'failed',
+                'code' => '401',
+                'reason' => $exception->getMessage()
+            ], 400);
+        } catch (\Exception $exception) {
+            return response([
+                'status' => 'failed',
+                'code' => '401',
+                'reason' => 'something very bad happened. Kindly try soon!'
             ], 400);
         }
     }
