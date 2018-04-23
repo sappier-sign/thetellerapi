@@ -88,6 +88,7 @@
       <path value="$PROJECT_DIR$/project/vendor/doctrine/common" />
       <path value="$PROJECT_DIR$/project/vendor/doctrine/cache" />
       <path value="$PROJECT_DIR$/project/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/project/vendor/firebase/php-jwt" />
     </include_path>
   </component>
   <component name="PhpProjectServersManager">
