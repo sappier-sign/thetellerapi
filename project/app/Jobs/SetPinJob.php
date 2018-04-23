@@ -41,7 +41,7 @@ class SetPinJob extends \Illuminate\Queue\Jobs\Job
 
     public function handle()
     {
-        $token = $this->request->input('token');
+        $token = explode(' ', $this->request->header('Authorization'))[1];
         $data = get_object_vars(JWT::decode($token, env('JWT_SECRET'), ['HS512']));
 
         if ( isset($data['sub']) ) {

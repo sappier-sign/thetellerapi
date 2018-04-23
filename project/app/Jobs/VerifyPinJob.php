@@ -11,14 +11,12 @@ namespace App\Jobs;
 
 use App\Merchant;
 use Firebase\JWT\JWT;
-use http\Exception\UnexpectedValueException;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 
 class VerifyPinJob extends \Illuminate\Queue\Jobs\Job
 {
     private $request;
-    private $data;
 
     public function __construct(Request $request)
     {
@@ -27,12 +25,13 @@ class VerifyPinJob extends \Illuminate\Queue\Jobs\Job
 
     public function handle()
     {
-        $data = JWT::decode($this->request->input('token'), env('JWT_SECRET'), ['HS512']);
-        $this->data = get_object_vars($data);
-        $merchant = Merchant::where('merchant_id', $this->request->input('pin'), $this->data['sub'])->first();
+        $token = explode(' ', $this->request->header('Authorization'))[1];
+        $data = get_object_vars(JWT::decode($token, env('JWT_SECRET'), ['HS512']));
+
+        $merchant = Merchant::where('merchant_id', $data['sub'])->first();
 
         if (!Hash::check($this->request->input('pin'), $merchant->pin)) {
-            throw new UnexpectedValueException('wrong pin', 401);
+            throw new \UnexpectedValueException('wrong pin', 401, null);
         }
     }
 

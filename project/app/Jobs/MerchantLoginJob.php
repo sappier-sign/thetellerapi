@@ -32,7 +32,7 @@ class MerchantLoginJob extends \Illuminate\Queue\Jobs\Job
      */
     public function getMerchant()
     {
-        return $this->merchant;
+        return $this->user;
     }
 
     public function isSetPin()

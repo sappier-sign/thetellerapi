@@ -67,7 +67,8 @@ $app->singleton(
 
  $app->routeMiddleware([
      'auth' => App\Http\Middleware\AuthApiUser::class,
-     'authpos'  => App\Http\Middleware\AuthPos::class
+     'authpos'  => App\Http\Middleware\AuthPos::class,
+     'merchantbearer' => App\Http\Middleware\AuthMerchant::class
 //     'auth' => App\Http\Middleware\Authenticate::class
  ]);
 

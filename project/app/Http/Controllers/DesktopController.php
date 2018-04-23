@@ -8,20 +8,18 @@
 
 namespace App\Http\Controllers;
 
-use App\Jobs\MerchantLoginCommand;
 use App\Jobs\MerchantLoginJob;
 use App\Jobs\SetPinJob;
 use App\Jobs\VerifyPinJob;
+use App\Transaction;
+use Carbon\Carbon;
 use Firebase\JWT\ExpiredException;
 use Firebase\JWT\JWT;
 use Firebase\JWT\SignatureInvalidException;
 use http\Exception\BadConversionException;
 use http\Exception\RuntimeException;
-use Illuminate\Auth\AuthenticationException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\UnauthorizedException;
 use InvalidArgumentException;
 use UnexpectedValueException;
@@ -29,18 +27,26 @@ use UnexpectedValueException;
 class DesktopController extends Controller
 {
     private $request;
+    private $merchant_id;
 
     public function __construct(Request $request)
     {
         $this->request = $request;
     }
 
+    public function setMerchantId()
+    {
+        $token = explode(' ', $this->request->header('Authorization'))[1];
+        $this->merchant_id = get_object_vars(JWT::decode($token, env('JWT_SECRET'), ['HS512']))['sub'];
+        return $this;
+    }
 
-    private function jwt()
+
+    private function jwt($merchant_id = null)
     {
         $payload = [
             'iss' => 'theteller-api',
-            'sub' => $this->request->merchant_id,
+            'sub' => ( $merchant_id <> null )? $merchant_id : $this->merchant_id,
             'iat' => time(),
             'exp' => time() + 60 * 60
         ];
@@ -63,7 +69,7 @@ class DesktopController extends Controller
                 'status' => 'success',
                 'code' => 1000,
                 'set_pin' => $job->isSetPin(),
-                'token' => $this->jwt()
+                'token' => $this->jwt($job->getMerchant()->merchant_id)
             ], 200, ['Content-Type: application/json']);
 
         } catch (UnauthorizedException $exception) {
@@ -91,7 +97,6 @@ class DesktopController extends Controller
     {
         $this->validate($this->request, [
             'pin' => 'bail|required|min:6',
-            'token' => 'bail|required'
         ]);
 
         try {
@@ -118,7 +123,6 @@ class DesktopController extends Controller
     public function setPin()
     {
         $this->validate($this->request, [
-            'token' => 'bail|required',
             'pin'   =>  'bail|required|min:4'
         ]);
 
@@ -193,9 +197,25 @@ class DesktopController extends Controller
         return 'payment';
     }
 
-    public function transactions()
+    public function GetTransactions()
     {
-        return 'transactions';
+        $payments = $transfers = [];
+
+        $transactions = Transaction::where('fld_042', $this->setMerchantId()->merchant_id)->whereDate('fld_012', Carbon::now()->toDateString())->get();
+
+        foreach ($transactions as $transaction) {
+
+            if ( substr($transaction->fld_003, 0, 2) === '00') {
+                array_push($payments, $transaction);
+            } else {
+                array_push($transfers, $transaction);
+            }
+        }
+
+        return [
+            "payments" => $payments,
+            "transfers" => $transfers
+        ];
     }
 
 }
