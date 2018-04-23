@@ -8,9 +8,6 @@ base_url: api.theteller.net/v1.1/desktop
             response:
                 - status
                 - code
-                - api_key
-                - api_user
-                - merchant_id
                 - set_pin
         verify.pin:
             method: POST

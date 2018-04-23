@@ -9,14 +9,22 @@
 namespace App\Http\Controllers;
 
 use App\Jobs\MerchantLoginCommand;
-use App\Merchant;
+use App\Jobs\MerchantLoginJob;
+use App\Jobs\SetPinJob;
+use App\Jobs\VerifyPinJob;
+use Firebase\JWT\ExpiredException;
 use Firebase\JWT\JWT;
+use Firebase\JWT\SignatureInvalidException;
+use http\Exception\BadConversionException;
+use http\Exception\RuntimeException;
+use Illuminate\Auth\AuthenticationException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Bus;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\UnauthorizedException;
+use InvalidArgumentException;
+use UnexpectedValueException;
 
 class DesktopController extends Controller
 {
@@ -27,16 +35,17 @@ class DesktopController extends Controller
         $this->request = $request;
     }
 
-    private function jwt(Merchant $merchant)
+
+    private function jwt()
     {
         $payload = [
             'iss' => 'theteller-api',
-            'sub' => $merchant->id,
+            'sub' => $this->request->merchant_id,
             'iat' => time(),
             'exp' => time() + 60 * 60
         ];
 
-//        return JWT::encode($payload, env('JWT_SECRET'));
+        return JWT::encode($payload, env('JWT_SECRET'), 'HS512');
     }
 
     public function login()
@@ -47,14 +56,14 @@ class DesktopController extends Controller
         ]);
 
         try {
-            $job = new MerchantLoginCommand($this->request);
+            $job = new MerchantLoginJob($this->request);
             dispatch($job);
 
             return response([
                 'status' => 'success',
                 'code' => 1000,
-                'set_pin' => 0,
-                'token' => null
+                'set_pin' => $job->isSetPin(),
+                'token' => $this->jwt()
             ], 200, ['Content-Type: application/json']);
 
         } catch (UnauthorizedException $exception) {
@@ -81,80 +90,96 @@ class DesktopController extends Controller
     public function verifyPin()
     {
         $this->validate($this->request, [
-            'merchant_id' => 'bail|required|exists:users,merchant_id',
-            'password' => 'bail|required|min:6'
+            'pin' => 'bail|required|min:6',
+            'token' => 'bail|required'
         ]);
 
-        $user = DB::table('users')->where('merchant_id', $this->request->input('merchant_id'))->first();
+        try {
 
-        if ( $user <> null ) {
-
-            if ( Hash::check($this->request->input('pin'), $user->pin) ){
-
-                return response([
-                    'status' => 'success',
-                    'code' => '000',
-                    'reason' => 'pin matched'
-                ], 200);
-
-            } else {
-
-                return response([
-                    'status' => 'failed',
-                    'code' => '403',
-                    'reason' => 'wrong pin'
-                ], 200);
-
-            }
-        } else {
+            $job = ( new VerifyPinJob($this->request) );
+            $this->dispatch($job);
 
             return response([
-                'status' => 'failed',
-                'code' => '401',
-                'reason' => 'user not found'
-            ], 400);
+                'status' => 'success',
+                'code' => 1000,
+                'reason' => 'pin matched',
+                'token' => $this->jwt()
+            ], 200);
 
+        } catch (\Exception $exception) {
+            return response([
+                'status' => 'failed',
+                'code' => '403',
+                'reason' => $exception->getMessage()
+            ], 200);
         }
     }
 
     public function setPin()
     {
         $this->validate($this->request, [
-            'merchant_id' => 'bail|required|exists:users,merchant_id',
+            'token' => 'bail|required',
             'pin'   =>  'bail|required|min:4'
         ]);
 
-        $user = DB::table('users')->where('merchant_id', $this->request->input('merchant_id'))->first();
+        try {
 
-        if ($user <> null) {
-
-            $user->pin = Hash::make($this->request->input('pin'));
-
-            if ($user->save()) {
-
-                return response([
-                    'status' => 'success',
-                    'code' => '000',
-                    'reason' => 'pin created'
-                ], 200);
-
-            } else {
-
-                return response([
-                    'status' => 'failed',
-                    'code' => '500',
-                    'reason' => 'pin creation failed'
-                ], 200);
-
-            }
-        } else {
-
+            $job = (new SetPinJob($this->request));
+            dispatch($job);
             return response([
-                'status' => 'failed',
-                'code' => '401',
-                'reason' => 'user not found'
+                'status' => 'success',
+                'code' => 1000,
+                'reason' => 'pin creation successful'
             ], 400);
 
+        } catch (ModelNotFoundException $exception) {
+            return response([
+                'status' => 'failed',
+                'code' => $exception->getCode(),
+                'reason' => $exception->getMessage()
+            ], 400);
+        } catch (BadConversionException $exception) {
+            return response([
+                'status' => 'error',
+                'code' => $exception->getCode(),
+                'reason' => $exception->getMessage()
+            ], 200);
+        } catch (RuntimeException $exception) {
+            return response([
+                'status' => 'error',
+                'code' => $exception->getCode(),
+                'reason' => $exception->getMessage()
+            ], 200);
+        } catch (SignatureInvalidException $exception) {
+            return response([
+                'status' => 'error',
+                'code' => $exception->getCode(),
+                'reason' => $exception->getMessage()
+            ], 200);
+        } catch (ExpiredException $exception) {
+            return response([
+                'status' => 'error',
+                'code' => $exception->getCode(),
+                'reason' => $exception->getMessage()
+            ], 200);
+        } catch (UnexpectedValueException $exception) {
+            return response([
+                'status' => 'error',
+                'code' => $exception->getCode(),
+                'reason' => $exception->getMessage()
+            ], 200);
+        } catch (InvalidArgumentException $exception) {
+            return response([
+                'status' => 'error',
+                'code' => $exception->getCode(),
+                'reason' => $exception->getMessage()
+            ], 200);
+        } catch (\Exception $exception) {
+            return response([
+                'status' => 'error',
+                'code' => $exception->getCode(),
+                'reason' => $exception->getMessage()
+            ], 200);
         }
     }
 

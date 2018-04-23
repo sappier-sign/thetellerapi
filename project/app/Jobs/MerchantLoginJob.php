@@ -16,7 +16,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\UnauthorizedException;
 
-class MerchantLoginCommand extends \Illuminate\Queue\Jobs\Job
+class MerchantLoginJob extends \Illuminate\Queue\Jobs\Job
 {
     private $user;
     private $merchant;
@@ -25,6 +25,19 @@ class MerchantLoginCommand extends \Illuminate\Queue\Jobs\Job
     public function __construct(Request $request)
     {
         $this->request = $request;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getMerchant()
+    {
+        return $this->merchant;
+    }
+
+    public function isSetPin()
+    {
+        return in_array($this->user->pin, [ null, '' ]);
     }
 
 
@@ -37,17 +50,10 @@ class MerchantLoginCommand extends \Illuminate\Queue\Jobs\Job
 
             if (Hash::check($this->request->input('password'), $this->user->password)) {
 
-                if ($this->merchant <> null) {
+                if ($this->merchant === null) {
 
-                    //
-
-                } else {
                     throw new UnauthorizedException('merchant not found!', 401);
-//                    return response([
-//                        'status' => 'failed',
-//                        'code' => '401',
-//                        'reason' => 'API credentials not found'
-//                    ], 400);
+
                 }
 
             } else {
