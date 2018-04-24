@@ -17,6 +17,70 @@
 
         protected $hidden = ['password', 'remember_token'];
 
+        public function setWalletBalanceAttribute($wallet_balance): Merchant
+        {
+            $this->attributes['wallet_balance'] = str_pad($wallet_balance, 12, '0', STR_PAD_LEFT);
+            return $this;
+        }
+
+        public function creditWallet($amount): array
+        {
+            $values = $this->convertToFloat($amount);
+            $balance = ( $values['old'] + $values['new'] ) * 100;
+            $this->setWalletBalanceAttribute($balance)->save();
+            return [
+                'status' => 'success',
+                'code' => '000',
+                'reason' => $this->getWalletBalanceAttribute()
+            ];
+        }
+
+        public function debitWallet($amount): array
+        {
+            $values = $this->convertToFloat($amount);
+            if ($values['new'] > $values['old']) {
+                return [
+                    'status' => 'fail',
+                    'code' => 400,
+                    'reason' => 'insufficient funds'
+                ];
+            }
+            $balance = ( $values['old'] - $values['new'] ) * 100;
+            $this->setWalletBalanceAttribute($balance)->save();
+
+            return [
+                'status' => 'success',
+                'code' => '000',
+                'reason' => $this->getWalletBalanceAttribute()
+            ];
+        }
+
+        private function convertToFloat($string): array
+        {
+            $old = $this->getWalletBalance();
+            $new = (int) $string / 100;
+            return ['old' => $old, 'new' => $new];
+        }
+
+        public function getWalletBalance(): float
+        {
+            $wallet_balance = $this->attributes['wallet_balance'];
+
+            $value = (int) $wallet_balance;
+
+            return $value / 100;
+        }
+
+        public function getWalletBalanceAttribute()
+        {
+            return $this->attributes['wallet_balance'];
+        }
+
+        public function user()
+        {
+            return $this->belongsTo(User::class, 'apiuser', 'user_name');
+        }
+
         public function terminals()
         {
             return $this->hasMany(Terminal::class, 'merchant_id', 'merchant_id');

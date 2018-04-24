@@ -31,4 +31,9 @@ class User extends Model implements AuthenticatableContract, AuthorizableContrac
     ];
 
     protected $table    =   'api_users';
+
+    public function merchant()
+    {
+        return $this->hasOne(Merchant::class, 'apiuser', 'user_name');
+    }
 }

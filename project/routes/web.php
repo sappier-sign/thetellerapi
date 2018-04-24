@@ -108,3 +108,9 @@ $app->group(['prefix' => 'desktop', 'middleware' => 'merchantbearer'], function 
     $app->post('payment.do', 'DesktopController@payemnt');
     $app->post('transfer.do', 'DesktopController@transfer');
 });
+
+$app->group(['prefix' => 'merchants', 'middleware' => 'settler'], function ($app) {
+    $app->post('debit.do', 'BalanceController@debit');
+    $app->post('credit.do', 'BalanceController@credit');
+    $app->get('{merchant_id}/balance', 'BalanceController@check');
+});
