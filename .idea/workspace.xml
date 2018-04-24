@@ -12,9 +12,6 @@
   <component name="ComposerSettings">
     <pharConfigPath>$PROJECT_DIR$/project/composer.json</pharConfigPath>
   </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/thetellerapi$thetellerapi.coverage" NAME="thetellerapi Coverage Results" MODIFIED="1512035883624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_DATA_SOURCES" value="true" />
@@ -307,12 +304,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" activateToolWindowBeforeRun="false" server_name="debugger" start_url="/thetellerapi" />
-    <configuration name="debug thetellerapi" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" activateToolWindowBeforeRun="false" server_name="debugger" start_url="/thetellerapi" />
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="RunManager" selected="PHP Web Page.TheTellerAPI">
+    <configuration name="Wallet.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/project/app/Wallet.php" />
+    <configuration name="TheTellerAPI" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="debugger" start_url="/thetellerapi" />
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="debugger" start_url="/thetellerapi" />
+    <list>
+      <item itemvalue="PHP Web Page.TheTellerAPI" />
+      <item itemvalue="PHP Script.Wallet.php" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.Wallet.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -620,7 +624,7 @@
           <SelectedNodes />
           <Categories>
             <Category>Columns</Category>
-            <Category>Key columns</Category>
+            <Category />
           </Categories>
           <SCOPE>All</SCOPE>
         </state>
@@ -682,7 +686,7 @@
           <SelectedNodes />
           <Categories>
             <Category>Columns</Category>
-            <Category>Key columns</Category>
+            <Category />
           </Categories>
           <SCOPE>All</SCOPE>
         </state>
