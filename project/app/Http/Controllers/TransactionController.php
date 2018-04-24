@@ -139,6 +139,7 @@ class TransactionController extends Controller
 
         $transaction['fld_103'] = $request->input('account_number', null);
         $transaction['fld_117'] = $request->input('account_issuer', null);
+        $transaction['fld_041'] = $request->input('terminal_id', null);
         $transaction['fld_123'] = null;
 
         # Set Reserved For Future Use Fields
@@ -243,7 +244,14 @@ class TransactionController extends Controller
                     $transaction['expMonth'] = substr($decrypted_wallet['expiry_date'], 0, 2);
                     $transaction['expYear'] = substr($decrypted_wallet['expiry_date'], -2);
 
-                    return array_merge($request->all(), Transaction::transfer($transaction));
+                    $transfer = Transaction::transfer($transaction);
+
+                    if (isset($transfer['status']) && $transfer['status'] === 'vbv required'){
+                        $transfer['status'] = 'failed';
+                        $transfer['reason'] ='Merchant debit failed. Please contact support';
+                    }
+
+                    return array_merge($request->all(), $transfer);
 
                 } else { /* If wallet does not exist */
                     return [
