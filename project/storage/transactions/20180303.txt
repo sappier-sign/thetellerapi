@@ -1,0 +1,90 @@
+03-03-2018 | TTLR TO ZENITH REQUEST FOREIGN
+08:27:52 | PaymentRequest
+08:27:52 | Merchant
+08:27:52 | GlobalPayID : ********
+08:27:52 | Card
+08:27:52 | CardNumber : 445824******2195
+08:27:52 | CardExpiryMonth : 07
+08:27:52 | CardExpiryYear : 21
+08:27:52 | CardCvv : ***
+08:27:52 | Payment
+08:27:52 | Description : 152010206958
+08:27:52 | ReferenceID : 152010206958
+08:27:52 | OrderID : 152010206958
+08:27:52 | Amount : 1
+08:27:52 | mode : Visa
+
+03-03-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+08:27:57 | PaymentResponse
+08:27:57 | Date : 3/3/2018
+08:27:57 | referenceID : 152010206958
+08:27:57 | PaymentStatus : APPROVED
+08:27:57 | Reason : transaction processed successfully
+08:27:57 | ResponseCode : 00
+08:27:57 | Mode : Visa
+08:27:57 | AuthID : 600316
+08:27:57 | Pan : 445824******2195
+
+03-03-2018 | TTLR TO MTN REQUEST FOREIGN
+08:27:59 | vendorID : ***
+08:27:59 | subscriberID : 0553241149
+08:27:59 | thirdpartyTransactionID : 152010206958
+08:27:59 | amount : 1
+08:27:59 | apiKey : ***********************
+
+03-03-2018 | MTN TO TLLR RESPONSE FOREIGN
+08:28:02 | return
+08:28:02 | responseCode : 01
+08:28:02 | responseMessage : Successfully processed transaction.
+08:28:02 | thirdpartyTransactionId : 152010206958
+
+03-03-2018 | TTLR TO ZENITH REQUEST FOREIGN
+08:29:18 | PaymentRequest
+08:29:18 | Merchant
+08:29:18 | GlobalPayID : ********
+08:29:18 | Card
+08:29:18 | CardNumber : 445824******2195
+08:29:18 | CardExpiryMonth : 07
+08:29:18 | CardExpiryYear : 21
+08:29:18 | CardCvv : ***
+08:29:18 | Payment
+08:29:18 | Description : 152072028096
+08:29:18 | ReferenceID : 152072028096
+08:29:18 | OrderID : 152072028096
+08:29:18 | Amount : 1
+08:29:18 | mode : Visa
+
+03-03-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+08:29:24 | PaymentResponse
+08:29:24 | Date : 3/3/2018
+08:29:24 | referenceID : 152072028096
+08:29:24 | PaymentStatus : APPROVED
+08:29:24 | Reason : transaction processed successfully
+08:29:24 | ResponseCode : 00
+08:29:24 | Mode : Visa
+08:29:24 | AuthID : 649317
+08:29:24 | Pan : 445824******2195
+
+03-03-2018 | TTLR TO MTN REQUEST FOREIGN
+08:29:26 | vendorID : ***
+08:29:26 | subscriberID : 0553241149
+08:29:26 | thirdpartyTransactionID : 152072028096
+08:29:26 | amount : 1
+08:29:26 | apiKey : ***********************
+
+03-03-2018 | MTN TO TLLR RESPONSE FOREIGN
+08:29:29 | return
+08:29:29 | responseCode : 01
+08:29:29 | responseMessage : Successfully processed transaction.
+08:29:29 | thirdpartyTransactionId : 152072028096
+
+03-03-2018 | TTLR TO MTN REQUEST FOREIGN
+22:21:30 | username : *********
+22:21:30 | password : *********
+22:21:30 | invoiceNo : 204115810
+
+03-03-2018 | MTN TO TTLR RESPONSE FOREIGN
+22:21:42 | return
+22:21:42 | responseCode : 21EX
+22:21:42 | responseMessage : Bill Failed
+

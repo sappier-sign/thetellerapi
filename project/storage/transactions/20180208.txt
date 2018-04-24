@@ -1,0 +1,674 @@
+08-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+09:10:05 | PaymentRequest
+09:10:05 | Merchant
+09:10:05 | GlobalPayID : ********
+09:10:05 | Card
+09:10:05 | CardNumber : 519911******0994
+09:10:05 | CardExpiryMonth : 03
+09:10:05 | CardExpiryYear : 20
+09:10:05 | CardCvv : ***
+09:10:05 | Payment
+09:10:05 | Description : 151882845090
+09:10:05 | ReferenceID : 151882845090
+09:10:05 | OrderID : 151882845090
+09:10:05 | Amount : 1
+09:10:05 | mode : Mastercard
+
+08-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+09:10:14 | PaymentResponse
+09:10:14 | Date : 2/8/2018
+09:10:14 | referenceID : 151882845090
+09:10:14 | PaymentStatus : APPROVED
+09:10:14 | Reason : Successful
+09:10:14 | ResponseCode : 0
+09:10:14 | Mode : Mastercard
+09:10:14 | AuthID : 
+09:10:14 | Pan : 
+
+08-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+09:38:41 | PaymentRequest
+09:38:41 | Merchant
+09:38:41 | GlobalPayID : ********
+09:38:41 | Card
+09:38:41 | CardNumber : 519911******0994
+09:38:41 | CardExpiryMonth : 03
+09:38:41 | CardExpiryYear : 20
+09:38:41 | CardCvv : ***
+09:38:41 | Payment
+09:38:41 | Description : 151802649750
+09:38:41 | ReferenceID : 151802649750
+09:38:41 | OrderID : 151802649750
+09:38:41 | Amount : 1
+09:38:41 | mode : Mastercard
+
+08-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+09:38:47 | PaymentResponse
+09:38:47 | Date : 2/8/2018
+09:38:47 | referenceID : 151802649750
+09:38:47 | PaymentStatus : APPROVED
+09:38:47 | Reason : Successful
+09:38:47 | ResponseCode : 0
+09:38:47 | Mode : Mastercard
+09:38:47 | AuthID : 
+09:38:47 | Pan : 
+
+08-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+09:51:34 | PaymentRequest
+09:51:34 | Merchant
+09:51:34 | GlobalPayID : ********
+09:51:34 | Card
+09:51:34 | CardNumber : 539941******7536
+09:51:34 | CardExpiryMonth : 08
+09:51:34 | CardExpiryYear : 20
+09:51:34 | CardCvv : ***
+09:51:34 | Payment
+09:51:34 | Description : 151894292100
+09:51:34 | ReferenceID : 151894292100
+09:51:34 | OrderID : 151894292100
+09:51:34 | Amount : 1
+09:51:34 | mode : Mastercard
+
+08-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+09:51:40 | PaymentResponse
+09:51:40 | Date : 2/8/2018
+09:51:40 | referenceID : 151894292100
+09:51:40 | PaymentStatus : APPROVED
+09:51:40 | Reason : Successful
+09:51:40 | ResponseCode : 0
+09:51:40 | Mode : Mastercard
+09:51:40 | AuthID : 
+09:51:40 | Pan : 
+
+08-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+10:43:26 | PaymentRequest
+10:43:26 | Merchant
+10:43:26 | GlobalPayID : ********
+10:43:26 | Card
+10:43:26 | CardNumber : 539983******0045
+10:43:26 | CardExpiryMonth : 11
+10:43:26 | CardExpiryYear : 18
+10:43:26 | CardCvv : ***
+10:43:26 | Payment
+10:43:26 | Description : 151801997079
+10:43:26 | ReferenceID : 151801997079
+10:43:26 | OrderID : 151801997079
+10:43:26 | Amount : 1
+10:43:26 | mode : Mastercard
+
+08-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+10:43:34 | PaymentResponse
+10:43:34 | Date : 2/8/2018
+10:43:34 | referenceID : 151801997079
+10:43:34 | PaymentStatus : APPROVED
+10:43:34 | Reason : Successful
+10:43:34 | ResponseCode : 0
+10:43:34 | Mode : Mastercard
+10:43:34 | AuthID : 
+10:43:34 | Pan : 
+
+08-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+11:13:01 | PaymentRequest
+11:13:01 | Merchant
+11:13:01 | GlobalPayID : ********
+11:13:01 | Card
+11:13:01 | CardNumber : 539983******0045
+11:13:01 | CardExpiryMonth : 11
+11:13:01 | CardExpiryYear : 18
+11:13:01 | CardCvv : ***
+11:13:01 | Payment
+11:13:01 | Description : 151810800099
+11:13:01 | ReferenceID : 151810800099
+11:13:01 | OrderID : 151810800099
+11:13:01 | Amount : 1
+11:13:01 | mode : Mastercard
+
+08-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+11:13:06 | PaymentResponse
+11:13:06 | Date : 2/8/2018
+11:13:06 | referenceID : 151810800099
+11:13:06 | PaymentStatus : APPROVED
+11:13:06 | Reason : Successful
+11:13:06 | ResponseCode : 0
+11:13:06 | Mode : Mastercard
+11:13:06 | AuthID : 
+11:13:06 | Pan : 
+
+08-02-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+14:11:34 | customer_number : 0292838801
+14:11:34 | merchant_number : **********
+14:11:34 | amount : 1
+14:11:34 | exttrid : 151855018904
+14:11:34 | reference : Paystack Paymen
+14:11:34 | nickname : PAYSWITCH
+14:11:34 | ts : 2018-02-08 14:11:34
+
+08-02-2018 | AIRTEL TTLR REPONSE FOREIGN
+14:12:05 | resp_code : 120
+14:12:05 | resp_desc : Unknown
+14:12:05 | trans_id : 151855018904
+14:12:05 | error_type : USSDGw
+
+08-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:13:57 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:13:57 | expiry : 2018-02-09
+15:13:57 | username : *********
+15:13:57 | password : *********
+15:13:57 | name : PaySwitch Company Ltd.
+15:13:57 | info : Paystack
+15:13:57 | amt : 1
+15:13:57 | mobile : 0542492130
+15:13:57 | billprompt : 2
+15:13:57 | thirdpartyID : 151801581105
+
+08-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+15:13:58 | return
+15:13:58 | responseCode : 0000
+15:13:58 | responseMessage : Accepted for Delivery 0542492130
+15:13:58 | invoiceNo : 204022115
+
+08-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:13:58 | username : *********
+15:13:58 | password : *********
+15:13:58 | invoiceNo : 204022115
+
+08-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+15:14:10 | return
+15:14:10 | responseCode : 21VD
+15:14:10 | responseMessage : Bill not paid...
+
+08-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:14:25 | return
+15:14:25 | responseCode : 21VD
+15:14:25 | responseMessage : Bill not paid...
+
+08-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:14:35 | return
+15:14:35 | responseCode : 0000
+15:14:35 | responseMessage : Bill found. Tracking ID: MTN185A7C695985589/2921950738
+
+08-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+15:22:54 | PaymentRequest
+15:22:54 | Merchant
+15:22:54 | GlobalPayID : ********
+15:22:54 | Card
+15:22:54 | CardNumber : 486039******0867
+15:22:54 | CardExpiryMonth : 02
+15:22:54 | CardExpiryYear : 22
+15:22:54 | CardCvv : ***
+15:22:54 | Payment
+15:22:54 | Description : 151801837140
+15:22:54 | ReferenceID : 151801837140
+15:22:54 | OrderID : 151801837140
+15:22:54 | Amount : 0.1
+15:22:54 | mode : Visa
+
+08-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+15:23:04 | PaymentResponse
+15:23:04 | Date : 2/8/2018
+15:23:04 | referenceID : 151801837140
+15:23:04 | PaymentStatus : APPROVED
+15:23:04 | Reason : transaction processed successfully
+15:23:04 | ResponseCode : 00
+15:23:04 | Mode : Visa
+15:23:04 | AuthID : 936168
+15:23:04 | Pan : 486039******0867
+
+08-02-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+15:23:05 | customer_number : 0265199262
+15:23:05 | merchant_number : **********
+15:23:05 | amount : 0.1
+15:23:05 | exttrid : 151801837140
+15:23:05 | reference : Test Payment of
+15:23:05 | ts : 2018-02-08 15:23:05
+
+08-02-2018 | AIRTEL TO TTLR REPONSE FOREIGN
+15:23:11 | resp_code : 200
+15:23:11 | resp_desc : You have sent GHC0.10 to SenanuFC262. Your new balance is GHC5998.83. Trans ID: CI180208.1523.C01031.
+15:23:11 | exttrid : 151801837140
+15:23:11 | refid : CI180208.1523.C01031
+
+08-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+15:34:21 | PaymentRequest
+15:34:21 | Merchant
+15:34:21 | GlobalPayID : ********
+15:34:21 | Card
+15:34:21 | CardNumber : 486039******0867
+15:34:21 | CardExpiryMonth : 02
+15:34:21 | CardExpiryYear : 22
+15:34:21 | CardCvv : ***
+15:34:21 | Payment
+15:34:21 | Description : 151866300347
+15:34:21 | ReferenceID : 151866300347
+15:34:21 | OrderID : 151866300347
+15:34:21 | Amount : 0.1
+15:34:21 | mode : Visa
+
+08-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+15:34:39 | PaymentResponse
+15:34:39 | Date : 2/8/2018
+15:34:39 | referenceID : 151866300347
+15:34:39 | PaymentStatus : APPROVED
+15:34:39 | Reason : transaction processed successfully
+15:34:39 | ResponseCode : 00
+15:34:39 | Mode : Visa
+15:34:39 | AuthID : 927169
+15:34:39 | Pan : 486039******0867
+
+08-02-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+15:34:39 | customer_number : 0262827189
+15:34:39 | merchant_number : **********
+15:34:39 | amount : 0.1
+15:34:39 | exttrid : 151866300347
+15:34:39 | reference : Test Payment of
+15:34:39 | ts : 2018-02-08 15:34:39
+
+08-02-2018 | AIRTEL TO TTLR REPONSE FOREIGN
+15:34:42 | resp_code : 200
+15:34:42 | resp_desc : You have sent GHC0.10 to 262827189. Your new balance is GHC5998.73. Trans ID: CI180208.1535.C01036.
+15:34:42 | exttrid : 151866300347
+15:34:42 | refid : CI180208.1535.C01036
+
+08-02-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+15:58:07 | customer_number : 0292838801
+15:58:07 | merchant_number : **********
+15:58:07 | amount : 1
+15:58:07 | exttrid : 151813083094
+15:58:07 | reference : Paystack Paymen
+15:58:07 | nickname : PAYSWITCH
+15:58:07 | ts : 2018-02-08 15:58:07
+
+08-02-2018 | AIRTEL TTLR REPONSE FOREIGN
+15:58:38 | resp_code : 120
+15:58:38 | resp_desc : Unknown
+15:58:38 | trans_id : 151813083094
+15:58:38 | error_type : USSDGw
+
+08-02-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+15:58:48 | customer_number : 0292838801
+15:58:48 | merchant_number : **********
+15:58:48 | amount : 1
+15:58:48 | exttrid : 151891060204
+15:58:48 | reference : Paystack Paymen
+15:58:48 | nickname : PAYSWITCH
+15:58:48 | ts : 2018-02-08 15:58:48
+
+08-02-2018 | AIRTEL TTLR REPONSE FOREIGN
+15:59:19 | resp_code : 120
+15:59:19 | resp_desc : Unknown
+15:59:19 | trans_id : 151891060204
+15:59:19 | error_type : USSDGw
+
+08-02-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+15:59:48 | customer_number : 0292838801
+15:59:48 | merchant_number : **********
+15:59:48 | amount : 1
+15:59:48 | exttrid : 151818070074
+15:59:48 | reference : Paystack Paymen
+15:59:48 | nickname : PAYSWITCH
+15:59:48 | ts : 2018-02-08 15:59:48
+
+08-02-2018 | AIRTEL TTLR REPONSE FOREIGN
+16:00:20 | resp_code : 120
+16:00:20 | resp_desc : Unknown
+16:00:20 | trans_id : 151818070074
+16:00:20 | error_type : USSDGw
+
+08-02-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+16:00:29 | customer_number : 0292838801
+16:00:29 | merchant_number : **********
+16:00:29 | amount : 1
+16:00:29 | exttrid : 151840044800
+16:00:29 | reference : Paystack Paymen
+16:00:29 | nickname : PAYSWITCH
+16:00:29 | ts : 2018-02-08 16:00:29
+
+08-02-2018 | AIRTEL TTLR REPONSE FOREIGN
+16:01:00 | resp_code : 120
+16:01:00 | resp_desc : Unknown
+16:01:00 | trans_id : 151840044800
+16:01:00 | error_type : USSDGw
+
+08-02-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+16:03:58 | customer_number : 0292838801
+16:03:58 | merchant_number : **********
+16:03:58 | amount : 1
+16:03:58 | exttrid : 151840750373
+16:03:58 | reference : Paystack Paymen
+16:03:58 | nickname : PAYSWITCH
+16:03:58 | ts : 2018-02-08 16:03:58
+
+08-02-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+16:04:35 | customer_number : 0292838801
+16:04:35 | merchant_number : **********
+16:04:35 | amount : 1
+16:04:35 | exttrid : 151843800039
+16:04:35 | reference : Paystack Paymen
+16:04:35 | nickname : PAYSWITCH
+16:04:35 | ts : 2018-02-08 16:04:35
+
+08-02-2018 | AIRTEL TTLR REPONSE FOREIGN
+16:04:36 | resp_code : 120
+16:04:36 | resp_desc : Unknown
+16:04:36 | trans_id : 151840750373
+16:04:36 | error_type : USSDGw
+
+08-02-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+16:05:17 | customer_number : 0292838801
+16:05:17 | merchant_number : **********
+16:05:17 | amount : 1
+16:05:17 | exttrid : 151880930266
+16:05:17 | reference : Paystack Paymen
+16:05:17 | nickname : PAYSWITCH
+16:05:17 | ts : 2018-02-08 16:05:17
+
+08-02-2018 | AIRTEL TTLR REPONSE FOREIGN
+16:05:20 | resp_code : 120
+16:05:20 | resp_desc : Unknown
+16:05:20 | trans_id : 151843800039
+16:05:20 | error_type : USSDGw
+
+08-02-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+16:05:50 | customer_number : 0292838801
+16:05:50 | merchant_number : **********
+16:05:50 | amount : 1
+16:05:50 | exttrid : 151809294078
+16:05:50 | reference : Paystack Paymen
+16:05:50 | nickname : PAYSWITCH
+16:05:50 | ts : 2018-02-08 16:05:50
+
+08-02-2018 | AIRTEL TTLR REPONSE FOREIGN
+16:05:58 | resp_code : 120
+16:05:58 | resp_desc : Unknown
+16:05:58 | trans_id : 151880930266
+16:05:58 | error_type : USSDGw
+
+08-02-2018 | AIRTEL TTLR REPONSE FOREIGN
+16:06:37 | resp_code : 120
+16:06:37 | resp_desc : Unknown
+16:06:37 | trans_id : 151809294078
+16:06:37 | error_type : USSDGw
+
+08-02-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+16:47:19 | customer_number : 0248574571
+16:47:19 | merchant_number : **********
+16:47:19 | amount : 1
+16:47:19 | exttrid : 151800741050
+16:47:19 | reference : Paystack Paymen
+16:47:19 | nickname : PAYSWITCH
+16:47:19 | ts : 2018-02-08 16:47:19
+
+08-02-2018 | AIRTEL TTLR REPONSE FOREIGN
+16:47:53 | resp_code : 101
+16:47:53 | resp_desc : MAP interface error
+16:47:53 | trans_id : 151800741050
+16:47:53 | error_type : USSDGw
+
+08-02-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+16:55:27 | customer_number : 0248574571
+16:55:27 | merchant_number : **********
+16:55:27 | amount : 1
+16:55:27 | exttrid : 151891071034
+16:55:27 | reference : Paystack Paymen
+16:55:27 | nickname : PAYSWITCH
+16:55:27 | ts : 2018-02-08 16:55:27
+
+08-02-2018 | AIRTEL TTLR REPONSE FOREIGN
+16:55:44 | resp_code : 121
+16:55:44 | resp_desc : Your request is in progress
+
+08-02-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+16:56:03 | customer_number : 0248574571
+16:56:03 | merchant_number : **********
+16:56:03 | amount : 1
+16:56:03 | exttrid : 151815000274
+16:56:03 | reference : Paystack Paymen
+16:56:03 | nickname : PAYSWITCH
+16:56:03 | ts : 2018-02-08 16:56:03
+
+08-02-2018 | AIRTEL TTLR REPONSE FOREIGN
+16:56:21 | resp_code : 121
+16:56:21 | resp_desc : Your request is in progress
+
+08-02-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+16:56:26 | customer_number : 0248574571
+16:56:26 | merchant_number : **********
+16:56:26 | amount : 1
+16:56:26 | exttrid : 151817014028
+16:56:26 | reference : Paystack Paymen
+16:56:26 | nickname : PAYSWITCH
+16:56:26 | ts : 2018-02-08 16:56:26
+
+08-02-2018 | AIRTEL TTLR REPONSE FOREIGN
+16:56:39 | resp_code : 101
+16:56:39 | resp_desc : MAP interface error
+16:56:39 | trans_id : 151817014028
+16:56:39 | error_type : USSDGw
+
+08-02-2018 | TTLR TO MTN REQUEST FOREIGN
+17:00:22 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:00:22 | expiry : 2018-02-09
+17:00:22 | username : *********
+17:00:22 | password : *********
+17:00:22 | name : PaySwitch Company Ltd.
+17:00:22 | info : Paystack
+17:00:22 | amt : 1
+17:00:22 | mobile : 0248574571
+17:00:22 | billprompt : 2
+17:00:22 | thirdpartyID : 151819708520
+
+08-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+17:00:22 | return
+17:00:22 | responseCode : 0000
+17:00:22 | responseMessage : Accepted for Delivery 0248574571
+17:00:22 | invoiceNo : 204023498
+
+08-02-2018 | TTLR TO MTN REQUEST FOREIGN
+17:00:22 | username : *********
+17:00:22 | password : *********
+17:00:22 | invoiceNo : 204023498
+
+08-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+17:00:35 | return
+17:00:35 | responseCode : 21VD
+17:00:35 | responseMessage : Bill not paid...
+
+08-02-2018 | TTLR TO MTN REQUEST FOREIGN
+17:00:50 | return
+17:00:50 | responseCode : 21VD
+17:00:50 | responseMessage : Bill not paid...
+
+08-02-2018 | TTLR TO MTN REQUEST FOREIGN
+17:01:00 | return
+17:01:00 | responseCode : 21VD
+17:01:00 | responseMessage : Bill not paid...
+
+08-02-2018 | TTLR TO MTN REQUEST FOREIGN
+17:01:10 | return
+17:01:10 | responseCode : 21VD
+17:01:10 | responseMessage : Bill not paid...
+
+08-02-2018 | TTLR TO MTN REQUEST FOREIGN
+17:01:20 | return
+17:01:20 | responseCode : 21VD
+17:01:20 | responseMessage : Bill not paid...
+
+08-02-2018 | TTLR TO MTN REQUEST FOREIGN
+17:01:30 | return
+17:01:30 | responseCode : 21VD
+17:01:30 | responseMessage : Bill not paid...
+
+08-02-2018 | TTLR TO MTN REQUEST FOREIGN
+17:01:40 | return
+17:01:40 | responseCode : 21VD
+17:01:40 | responseMessage : Bill not paid...
+
+08-02-2018 | TTLR TO MTN REQUEST FOREIGN
+17:01:50 | return
+17:01:50 | responseCode : 21VD
+17:01:50 | responseMessage : Bill not paid...
+
+08-02-2018 | TTLR TO MTN REQUEST FOREIGN
+17:02:00 | return
+17:02:00 | responseCode : 21VD
+17:02:00 | responseMessage : Bill not paid...
+
+08-02-2018 | TTLR TO MTN REQUEST FOREIGN
+17:04:33 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:04:33 | expiry : 2018-02-09
+17:04:33 | username : *********
+17:04:33 | password : *********
+17:04:33 | name : PaySwitch Company Ltd.
+17:04:33 | info : Paystack
+17:04:33 | amt : 1
+17:04:33 | mobile : 0248574571
+17:04:33 | billprompt : 2
+17:04:33 | thirdpartyID : 151805608512
+
+08-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+17:04:33 | return
+17:04:33 | responseCode : 0000
+17:04:33 | responseMessage : Accepted for Delivery 0248574571
+17:04:33 | invoiceNo : 204023544
+
+08-02-2018 | TTLR TO MTN REQUEST FOREIGN
+17:04:33 | username : *********
+17:04:33 | password : *********
+17:04:33 | invoiceNo : 204023544
+
+08-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+17:04:45 | return
+17:04:45 | responseCode : 21VD
+17:04:45 | responseMessage : Bill not paid...
+
+08-02-2018 | TTLR TO MTN REQUEST FOREIGN
+17:05:01 | return
+17:05:01 | responseCode : 0000
+17:05:01 | responseMessage : Bill found. Tracking ID: MTN185A7C8336B5D8C/2922700736
+
+08-02-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+19:54:02 | customer_number : 0248574571
+19:54:02 | merchant_number : **********
+19:54:02 | amount : 1
+19:54:02 | exttrid : 151835100610
+19:54:02 | reference : Paystack Paymen
+19:54:02 | nickname : PAYSWITCH
+19:54:02 | ts : 2018-02-08 19:54:02
+
+08-02-2018 | AIRTEL TTLR REPONSE FOREIGN
+19:54:21 | resp_code : 101
+19:54:21 | resp_desc : MAP interface error
+19:54:21 | trans_id : 151835100610
+19:54:21 | error_type : USSDGw
+
+08-02-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+19:54:37 | customer_number : 0248574571
+19:54:37 | merchant_number : **********
+19:54:37 | amount : 1
+19:54:37 | exttrid : 151898094086
+19:54:37 | reference : Paystack Paymen
+19:54:37 | nickname : PAYSWITCH
+19:54:37 | ts : 2018-02-08 19:54:37
+
+08-02-2018 | AIRTEL TTLR REPONSE FOREIGN
+19:54:51 | resp_code : 121
+19:54:51 | resp_desc : Your request is in progress
+
+08-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+20:09:14 | PaymentRequest
+20:09:14 | Merchant
+20:09:14 | GlobalPayID : ********
+20:09:14 | Card
+20:09:14 | CardNumber : 519911******0994
+20:09:14 | CardExpiryMonth : 03
+20:09:14 | CardExpiryYear : 20
+20:09:14 | CardCvv : ***
+20:09:14 | Payment
+20:09:14 | Description : 151808010010
+20:09:14 | ReferenceID : 151808010010
+20:09:14 | OrderID : 151808010010
+20:09:14 | Amount : 100
+20:09:14 | mode : Mastercard
+
+08-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+20:09:22 | PaymentResponse
+20:09:22 | Date : 2/8/2018
+20:09:22 | referenceID : 151808010010
+20:09:22 | PaymentStatus : DECLINED
+20:09:22 | Reason : Insufficient Funds
+20:09:22 | ResponseCode : 5
+20:09:22 | Mode : Mastercard
+20:09:22 | AuthID : 
+20:09:22 | Pan : 519911******0994
+
+08-02-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+22:37:21 | customer_number : 0267443610
+22:37:21 | merchant_number : **********
+22:37:21 | amount : 1
+22:37:21 | exttrid : 151801307553
+22:37:21 | reference : Paystack Paymen
+22:37:21 | nickname : PAYSWITCH
+22:37:21 | ts : 2018-02-08 22:37:21
+
+08-02-2018 | AIRTEL TTLR REPONSE FOREIGN
+22:37:23 | resp_code : 120
+22:37:23 | resp_desc : Unknown
+22:37:23 | trans_id : 151801307553
+22:37:23 | error_type : USSDGw
+
+08-02-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+22:37:52 | customer_number : 0267443610
+22:37:52 | merchant_number : **********
+22:37:52 | amount : 1
+22:37:52 | exttrid : 151800140362
+22:37:52 | reference : Paystack Paymen
+22:37:52 | nickname : PAYSWITCH
+22:37:52 | ts : 2018-02-08 22:37:52
+
+08-02-2018 | AIRTEL TTLR REPONSE FOREIGN
+22:37:55 | resp_code : 120
+22:37:55 | resp_desc : Unknown
+22:37:55 | trans_id : 151800140362
+22:37:55 | error_type : USSDGw
+
+08-02-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+22:40:16 | customer_number : 0267443610
+22:40:16 | merchant_number : **********
+22:40:16 | amount : 1
+22:40:16 | exttrid : 151825319009
+22:40:16 | reference : Paystack Paymen
+22:40:16 | nickname : PAYSWITCH
+22:40:16 | ts : 2018-02-08 22:40:16
+
+08-02-2018 | AIRTEL TTLR REPONSE FOREIGN
+22:40:17 | resp_code : 120
+22:40:17 | resp_desc : Unknown
+22:40:17 | trans_id : 151825319009
+22:40:17 | error_type : USSDGw
+
+08-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+23:05:26 | PaymentRequest
+23:05:26 | Merchant
+23:05:26 | GlobalPayID : ********
+23:05:26 | Card
+23:05:26 | CardNumber : 519911******0994
+23:05:26 | CardExpiryMonth : 03
+23:05:26 | CardExpiryYear : 20
+23:05:26 | CardCvv : ***
+23:05:26 | Payment
+23:05:26 | Description : 151836619300
+23:05:26 | ReferenceID : 151836619300
+23:05:26 | OrderID : 151836619300
+23:05:26 | Amount : 1
+23:05:26 | mode : Mastercard
+
+08-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+23:05:34 | PaymentResponse
+23:05:34 | Date : 2/8/2018
+23:05:34 | referenceID : 151836619300
+23:05:34 | PaymentStatus : APPROVED
+23:05:34 | Reason : Successful
+23:05:34 | ResponseCode : 0
+23:05:34 | Mode : Mastercard
+23:05:34 | AuthID : 362990
+23:05:34 | Pan : 519911******0994
+

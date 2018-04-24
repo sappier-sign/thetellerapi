@@ -1,0 +1,274 @@
+27-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+11:25:20 | PaymentRequest
+11:25:20 | Merchant
+11:25:20 | GlobalPayID : ********
+11:25:20 | Card
+11:25:20 | CardNumber : 445824******8454
+11:25:20 | CardExpiryMonth : 10
+11:25:20 | CardExpiryYear : 22
+11:25:20 | CardCvv : ***
+11:25:20 | Payment
+11:25:20 | Description : 151944770300
+11:25:20 | ReferenceID : 151944770300
+11:25:20 | OrderID : 151944770300
+11:25:20 | Amount : 0.24
+11:25:20 | mode : Visa
+
+27-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+11:25:31 | PaymentResponse
+11:25:31 | Date : 2/27/2018
+11:25:31 | referenceID : 151944770300
+11:25:31 | PaymentStatus : vbv required
+11:25:31 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20180227113027
+11:25:31 | ResponseCode : 
+11:25:31 | Mode : Visa
+11:25:31 | AuthID : 
+11:25:31 | Pan : 
+
+27-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+11:27:01 | status : 
+11:27:01 | refID : 151944770300
+11:27:01 | retCode : 250
+11:27:01 | dateTime : 2/27/2018 11:23:16 AM
+11:27:01 | productID : 
+11:27:01 | customerID : 
+11:27:01 | description : VBV_AUTHENTICATE_ERROR
+11:27:01 | AuthID : null
+11:27:01 | type : VisaAll
+11:27:01 | PAN : 445824******8454
+11:27:01 | amount : 0.24
+11:27:01 | currency : 936
+11:27:01 | TID : 
+11:27:01 | refundDate : 
+
+27-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+11:29:49 | PaymentRequest
+11:29:49 | Merchant
+11:29:49 | GlobalPayID : ********
+11:29:49 | Card
+11:29:49 | CardNumber : 445824******4210
+11:29:49 | CardExpiryMonth : 10
+11:29:49 | CardExpiryYear : 22
+11:29:49 | CardCvv : ***
+11:29:49 | Payment
+11:29:49 | Description : 151908153042
+11:29:49 | ReferenceID : 151908153042
+11:29:49 | OrderID : 151908153042
+11:29:49 | Amount : 0.5
+11:29:49 | mode : Visa
+
+27-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+11:30:00 | PaymentResponse
+11:30:00 | Date : 2/27/2018
+11:30:00 | referenceID : 151908153042
+11:30:00 | PaymentStatus : vbv required
+11:30:00 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20180227113455
+11:30:00 | ResponseCode : 
+11:30:00 | Mode : Visa
+11:30:00 | AuthID : 
+11:30:00 | Pan : 
+
+27-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+11:30:55 | status : 
+11:30:55 | refID : 151908153042
+11:30:55 | retCode : 250
+11:30:55 | dateTime : 2/27/2018 11:27:04 AM
+11:30:55 | productID : 
+11:30:55 | customerID : 
+11:30:55 | description : VBV_AUTHENTICATE_ERROR
+11:30:55 | AuthID : null
+11:30:55 | type : VisaAll
+11:30:55 | PAN : 445824******4210
+11:30:55 | amount : 0.50
+11:30:55 | currency : 936
+11:30:55 | TID : 
+11:30:55 | refundDate : 
+
+27-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+11:32:46 | PaymentRequest
+11:32:46 | Merchant
+11:32:46 | GlobalPayID : ********
+11:32:46 | Card
+11:32:46 | CardNumber : 445824******2195
+11:32:46 | CardExpiryMonth : 07
+11:32:46 | CardExpiryYear : 21
+11:32:46 | CardCvv : ***
+11:32:46 | Payment
+11:32:46 | Description : 151923093310
+11:32:46 | ReferenceID : 151923093310
+11:32:46 | OrderID : 151923093310
+11:32:46 | Amount : 0.43
+11:32:46 | mode : Visa
+
+27-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+11:32:50 | PaymentResponse
+11:32:50 | Date : 2/27/2018
+11:32:50 | referenceID : 151923093310
+11:32:50 | PaymentStatus : APPROVED
+11:32:50 | Reason : transaction processed successfully
+11:32:50 | ResponseCode : 00
+11:32:50 | Mode : Visa
+11:32:50 | AuthID : 003311
+11:32:50 | Pan : 445824******2195
+
+27-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+11:52:14 | PaymentRequest
+11:52:14 | Merchant
+11:52:14 | GlobalPayID : ********
+11:52:14 | Card
+11:52:14 | CardNumber : 486039******6810
+11:52:14 | CardExpiryMonth : 05
+11:52:14 | CardExpiryYear : 22
+11:52:14 | CardCvv : ***
+11:52:14 | Payment
+11:52:14 | Description : 151926555003
+11:52:14 | ReferenceID : 151926555003
+11:52:14 | OrderID : 151926555003
+11:52:14 | Amount : 0.1
+11:52:14 | mode : Visa
+
+27-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+11:52:23 | PaymentResponse
+11:52:23 | Date : 2/27/2018
+11:52:23 | referenceID : 151926555003
+11:52:23 | PaymentStatus : APPROVED
+11:52:23 | Reason : transaction processed successfully
+11:52:23 | ResponseCode : 00
+11:52:23 | Mode : Visa
+11:52:23 | AuthID : 326063
+11:52:23 | Pan : 486039******6810
+
+27-02-2018 | TTLR TO MTN REQUEST FOREIGN
+11:52:26 | vendorID : ***
+11:52:26 | subscriberID : 0243965066
+11:52:26 | thirdpartyTransactionID : 151926555003
+11:52:26 | amount : 0.1
+11:52:26 | apiKey : ***********************
+
+27-02-2018 | MTN TO TLLR RESPONSE FOREIGN
+11:52:30 | return
+11:52:30 | responseCode : 01
+11:52:30 | responseMessage : Successfully processed transaction.
+11:52:30 | thirdpartyTransactionId : 151926555003
+
+27-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+12:01:35 | PaymentRequest
+12:01:35 | Merchant
+12:01:35 | GlobalPayID : ********
+12:01:35 | Card
+12:01:35 | CardNumber : 445824******2195
+12:01:35 | CardExpiryMonth : 07
+12:01:35 | CardExpiryYear : 21
+12:01:35 | CardCvv : ***
+12:01:35 | Payment
+12:01:35 | Description : 151900681972
+12:01:35 | ReferenceID : 151900681972
+12:01:35 | OrderID : 151900681972
+12:01:35 | Amount : 1
+12:01:35 | mode : Visa
+
+27-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+12:01:49 | PaymentResponse
+12:01:49 | Date : 2/27/2018
+12:01:49 | referenceID : 151900681972
+12:01:49 | PaymentStatus : APPROVED
+12:01:49 | Reason : transaction processed successfully
+12:01:49 | ResponseCode : 00
+12:01:49 | Mode : Visa
+12:01:49 | AuthID : 221312
+12:01:49 | Pan : 445824******2195
+
+27-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+12:03:07 | PaymentRequest
+12:03:07 | Merchant
+12:03:07 | GlobalPayID : ********
+12:03:07 | Card
+12:03:07 | CardNumber : 445824******2195
+12:03:07 | CardExpiryMonth : 07
+12:03:07 | CardExpiryYear : 21
+12:03:07 | CardCvv : ***
+12:03:07 | Payment
+12:03:07 | Description : 151900068269
+12:03:07 | ReferenceID : 151900068269
+12:03:07 | OrderID : 151900068269
+12:03:07 | Amount : 1
+12:03:07 | mode : Visa
+
+27-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+12:03:11 | PaymentResponse
+12:03:11 | Date : 2/27/2018
+12:03:11 | referenceID : 151900068269
+12:03:11 | PaymentStatus : APPROVED
+12:03:11 | Reason : transaction processed successfully
+12:03:11 | ResponseCode : 00
+12:03:11 | Mode : Visa
+12:03:11 | AuthID : 154313
+12:03:11 | Pan : 445824******2195
+
+27-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+14:05:43 | PaymentRequest
+14:05:43 | Merchant
+14:05:43 | GlobalPayID : ********
+14:05:43 | Card
+14:05:43 | CardNumber : 445824******8454
+14:05:43 | CardExpiryMonth : 10
+14:05:43 | CardExpiryYear : 22
+14:05:43 | CardCvv : ***
+14:05:43 | Payment
+14:05:43 | Description : 151900553560
+14:05:43 | ReferenceID : 151900553560
+14:05:43 | OrderID : 151900553560
+14:05:43 | Amount : 0.14
+14:05:43 | mode : Visa
+
+27-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+14:06:06 | PaymentResponse
+14:06:06 | Date : 2/27/2018
+14:06:06 | referenceID : 151900553560
+14:06:06 | PaymentStatus : vbv required
+14:06:06 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20180227141103
+14:06:06 | ResponseCode : 
+14:06:06 | Mode : Visa
+14:06:06 | AuthID : 
+14:06:06 | Pan : 
+
+27-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+22:27:42 | PaymentRequest
+22:27:42 | Merchant
+22:27:42 | GlobalPayID : ********
+22:27:42 | Card
+22:27:42 | CardNumber : 445824******2195
+22:27:42 | CardExpiryMonth : 07
+22:27:42 | CardExpiryYear : 21
+22:27:42 | CardCvv : ***
+22:27:42 | Payment
+22:27:42 | Description : 151954993050
+22:27:42 | ReferenceID : 151954993050
+22:27:42 | OrderID : 151954993050
+22:27:42 | Amount : 1
+22:27:42 | mode : Visa
+
+27-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+22:27:49 | PaymentResponse
+22:27:49 | Date : 2/27/2018
+22:27:49 | referenceID : 151954993050
+22:27:49 | PaymentStatus : APPROVED
+22:27:49 | Reason : transaction processed successfully
+22:27:49 | ResponseCode : 00
+22:27:49 | Mode : Visa
+22:27:49 | AuthID : 966315
+22:27:49 | Pan : 445824******2195
+
+27-02-2018 | TTLR TO MTN REQUEST FOREIGN
+22:27:51 | vendorID : ***
+22:27:51 | subscriberID : 0553241149
+22:27:51 | thirdpartyTransactionID : 151954993050
+22:27:51 | amount : 1
+22:27:51 | apiKey : ***********************
+
+27-02-2018 | MTN TO TLLR RESPONSE FOREIGN
+22:27:59 | return
+22:27:59 | responseCode : 01
+22:27:59 | responseMessage : Successfully processed transaction.
+22:27:59 | thirdpartyTransactionId : 151954993050
+

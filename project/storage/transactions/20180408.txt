@@ -1,0 +1,152 @@
+08-04-2018 | TTLR TO MTN REQUEST FOREIGN
+12:32:45 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+12:32:45 | expiry : 2018-04-09
+12:32:45 | username : *********
+12:32:45 | password : *********
+12:32:45 | name : PaySwitch Company Ltd.
+12:32:45 | info : Paystack
+12:32:45 | amt : 1
+12:32:45 | mobile : 0551234987
+12:32:45 | billprompt : 2
+12:32:45 | thirdpartyID : 152355911008
+
+08-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+12:32:46 | return
+12:32:46 | responseCode : 0000
+12:32:46 | responseMessage : Accepted for Delivery 0551234987
+12:32:46 | invoiceNo : 204615189
+
+08-04-2018 | TTLR TO MTN REQUEST FOREIGN
+12:32:46 | username : *********
+12:32:46 | password : *********
+12:32:46 | invoiceNo : 204615189
+
+08-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+12:32:58 | return
+12:32:58 | responseCode : 515
+12:32:58 | responseMessage : User account not registered on Mobile Money
+
+08-04-2018 | TTLR TO MTN REQUEST FOREIGN
+21:08:24 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+21:08:24 | expiry : 2018-04-09
+21:08:24 | username : *********
+21:08:24 | password : *********
+21:08:24 | name : PaySwitch Company Ltd.
+21:08:24 | info : TheTeller App
+21:08:24 | amt : 100
+21:08:24 | mobile : 0244331750
+21:08:24 | billprompt : 2
+21:08:24 | thirdpartyID : 152300764042
+
+08-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+21:08:24 | return
+21:08:24 | responseCode : 0000
+21:08:24 | responseMessage : Accepted for Delivery 0244331750
+21:08:24 | invoiceNo : 204619837
+
+08-04-2018 | TTLR TO MTN REQUEST FOREIGN
+21:08:24 | username : *********
+21:08:24 | password : *********
+21:08:24 | invoiceNo : 204619837
+
+08-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+21:08:36 | return
+21:08:36 | responseCode : 21VD
+21:08:36 | responseMessage : Bill not paid...
+
+08-04-2018 | TTLR TO MTN REQUEST FOREIGN
+21:08:52 | return
+21:08:52 | responseCode : 21VD
+21:08:52 | responseMessage : Bill not paid...
+
+08-04-2018 | TTLR TO MTN REQUEST FOREIGN
+21:09:02 | return
+21:09:02 | responseCode : 21VD
+21:09:02 | responseMessage : Bill not paid...
+
+08-04-2018 | TTLR TO MTN REQUEST FOREIGN
+21:09:12 | return
+21:09:12 | responseCode : 0000
+21:09:12 | responseMessage : Bill found. Tracking ID: MTN185ACA84EEED7B2/3260844033
+
+08-04-2018 | TTLR VODAFONE REQUEST FOREIGN
+21:09:12 | TOKEN : ******************
+21:09:12 | RESULTURL : https://api.theteller.net/v1.1/vodafone/response
+21:09:12 | VFPIN : ************
+21:09:12 | PHONENUMBER : 0244331750
+21:09:12 | AMOUNT : 100
+21:09:12 | VENDORCODE : ****
+21:09:12 | TRANSACTIONID : 152300764042
+
+08-04-2018 | VODAFONE TTLR RESPONSE FOREIGN
+21:09:14 | statusCode : 0
+21:09:14 | statusMessage : Accept the service request successfully.
+21:09:14 | ext_trans_id : AG_20180408_000051d0fc2c71ba749e
+
+08-04-2018 | VODAFONE TTLR RESPONSE FOREIGN
+21:09:15 | resultCode : 2002
+21:09:15 | resultMessage : The initiator is not allowed to send this transaction.
+21:09:15 | transactionID : AG_20180408_000051d0fc2c71ba749e
+
+08-04-2018 | TTLR TO MTN REQUEST FOREIGN
+21:10:13 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+21:10:13 | expiry : 2018-04-09
+21:10:13 | username : *********
+21:10:13 | password : *********
+21:10:13 | name : PaySwitch Company Ltd.
+21:10:13 | info : TheTeller App
+21:10:13 | amt : 1
+21:10:13 | mobile : 0244331750
+21:10:13 | billprompt : 2
+21:10:13 | thirdpartyID : 152357419006
+
+08-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+21:10:14 | return
+21:10:14 | responseCode : 0000
+21:10:14 | responseMessage : Accepted for Delivery 0244331750
+21:10:14 | invoiceNo : 204619852
+
+08-04-2018 | TTLR TO MTN REQUEST FOREIGN
+21:10:14 | username : *********
+21:10:14 | password : *********
+21:10:14 | invoiceNo : 204619852
+
+08-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+21:10:26 | return
+21:10:26 | responseCode : 21VD
+21:10:26 | responseMessage : Bill not paid...
+
+08-04-2018 | TTLR TO MTN REQUEST FOREIGN
+21:10:41 | return
+21:10:41 | responseCode : 21VD
+21:10:41 | responseMessage : Bill not paid...
+
+08-04-2018 | TTLR TO MTN REQUEST FOREIGN
+21:10:51 | return
+21:10:51 | responseCode : 21VD
+21:10:51 | responseMessage : Bill not paid...
+
+08-04-2018 | TTLR TO MTN REQUEST FOREIGN
+21:11:01 | return
+21:11:01 | responseCode : 0000
+21:11:01 | responseMessage : Bill found. Tracking ID: MTN185ACA855B44ACE/3260849854
+
+08-04-2018 | TTLR VODAFONE REQUEST FOREIGN
+21:11:01 | TOKEN : ******************
+21:11:01 | RESULTURL : https://api.theteller.net/v1.1/vodafone/response
+21:11:01 | VFPIN : ************
+21:11:01 | PHONENUMBER : 0244331750
+21:11:01 | AMOUNT : 1
+21:11:01 | VENDORCODE : ****
+21:11:01 | TRANSACTIONID : 152357419006
+
+08-04-2018 | VODAFONE TTLR RESPONSE FOREIGN
+21:11:03 | statusCode : 0
+21:11:03 | statusMessage : Accept the service request successfully.
+21:11:03 | ext_trans_id : AG_20180408_00006dabc9b9cbac3d9e
+
+08-04-2018 | VODAFONE TTLR RESPONSE FOREIGN
+21:11:04 | resultCode : 2002
+21:11:04 | resultMessage : The initiator is not allowed to send this transaction.
+21:11:04 | transactionID : AG_20180408_00006dabc9b9cbac3d9e
+

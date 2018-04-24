@@ -1,0 +1,309 @@
+07-03-2018 | TTLR TO TIGO REQUEST FOREIGN
+02:28:52 | DEBUGFLAG : true
+02:28:52 | TRANSACTIONID : Pay001
+02:28:52 | COUNTRY : GHA
+02:28:52 | CORRELATIONID : Pay01
+02:28:52 | MSISDN : 233277092929
+02:28:52 | MSISDN : 233276203025
+02:28:52 | PAYMENTREFERENCE : 152000237511
+02:28:52 | EXTERNALCATEGORY : default
+02:28:52 | EXTERNALCHANNEL : default
+02:28:52 | MERCHANTNAME : payswitch
+02:28:52 | ITEMNAME : PaySwitch Company Ltd.
+02:28:52 | AMOUNT : 0.2
+02:28:52 | MINUTESTOEXPIRE : 2
+02:28:52 | NOTIFICATIONCHANNEL : 2
+
+07-03-2018 | TIGO TO TTLR RESPONSE FOREIGN
+02:28:55 | SOATRANSACTIONID : 1ce22071-6be8-43fc-9c22-dd86b9174883
+02:28:55 | CORRELATIONID : Pay01
+02:28:55 | STATUS : OK
+02:28:55 | CODE : purchaseinitiate-3022-0001-S
+02:28:55 | DESCRIPTION : Your payment request has been initiated.
+02:28:55 | PAYMENTID : 1749454
+02:28:55 | PAYMENTREFERENCE : 152000237511
+
+07-03-2018 | TTLR TO TIGO REQUEST FOREIGN
+02:31:47 | DEBUGFLAG : true
+02:31:47 | TRANSACTIONID : Pay001
+02:31:47 | COUNTRY : GHA
+02:31:47 | CORRELATIONID : Pay01
+02:31:47 | MSISDN : 233277092928
+02:31:47 | MSISDN : 233276203025
+02:31:47 | PAYMENTREFERENCE : 152004181090
+02:31:47 | EXTERNALCATEGORY : default
+02:31:47 | EXTERNALCHANNEL : default
+02:31:47 | MERCHANTNAME : payswitch
+02:31:47 | ITEMNAME : PaySwitch Company Ltd.
+02:31:47 | AMOUNT : 0.2
+02:31:47 | MINUTESTOEXPIRE : 2
+02:31:47 | NOTIFICATIONCHANNEL : 2
+
+07-03-2018 | TIGO TO TTLR RESPONSE FOREIGN
+02:33:49 |  : soapenv:Server
+02:33:49 |  : Error in assertion processing
+02:33:49 |  : https://accessgw.tigo.com.gh:8443/live/PurchaseInitiate
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+02:33:49 | DETAILMESSAGE : Requestor address 45.33.67.234 is not allowed
+
+07-03-2018 | TTLR TO MTN REQUEST FOREIGN
+13:14:06 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:14:06 | expiry : 2018-03-08
+13:14:06 | username : *********
+13:14:06 | password : *********
+13:14:06 | name : PaySwitch Company Ltd.
+13:14:06 | info : TheTeller App
+13:14:06 | amt : 0.1
+13:14:06 | mobile : 0556783436
+13:14:06 | billprompt : 2
+13:14:06 | thirdpartyID : 152050052709
+
+07-03-2018 | MTN TO TTLR RESPONSE FOREIGN
+13:14:07 | return
+13:14:07 | responseCode : 0000
+13:14:07 | responseMessage : Accepted for Delivery 0556783436
+13:14:07 | invoiceNo : 204263153
+
+07-03-2018 | TTLR TO MTN REQUEST FOREIGN
+13:14:07 | username : *********
+13:14:07 | password : *********
+13:14:07 | invoiceNo : 204263153
+
+07-03-2018 | MTN TO TTLR RESPONSE FOREIGN
+13:14:19 | return
+13:14:19 | responseCode : 21VD
+13:14:19 | responseMessage : Bill not paid...
+
+07-03-2018 | TTLR TO MTN REQUEST FOREIGN
+13:14:34 | return
+13:14:34 | responseCode : 21VD
+13:14:34 | responseMessage : Bill not paid...
+
+07-03-2018 | TTLR TO MTN REQUEST FOREIGN
+13:14:44 | return
+13:14:44 | responseCode : 21VD
+13:14:44 | responseMessage : Bill not paid...
+
+07-03-2018 | TTLR TO MTN REQUEST FOREIGN
+13:14:54 | return
+13:14:54 | responseCode : 21VD
+13:14:54 | responseMessage : Bill not paid...
+
+07-03-2018 | TTLR TO MTN REQUEST FOREIGN
+13:15:04 | return
+13:15:04 | responseCode : 21VD
+13:15:04 | responseMessage : Bill not paid...
+
+07-03-2018 | TTLR TO MTN REQUEST FOREIGN
+13:15:14 | return
+13:15:14 | responseCode : 21VD
+13:15:14 | responseMessage : Bill not paid...
+
+07-03-2018 | TTLR TO MTN REQUEST FOREIGN
+13:15:24 | return
+13:15:24 | responseCode : 21VD
+13:15:24 | responseMessage : Bill not paid...
+
+07-03-2018 | TTLR TO MTN REQUEST FOREIGN
+13:15:34 | return
+13:15:34 | responseCode : 21VD
+13:15:34 | responseMessage : Bill not paid...
+
+07-03-2018 | TTLR TO MTN REQUEST FOREIGN
+13:15:45 | return
+13:15:45 | responseCode : 21VD
+13:15:45 | responseMessage : Bill not paid...
+
+07-03-2018 | TTLR TO MTN REQUEST FOREIGN
+13:20:04 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:20:04 | expiry : 2018-03-08
+13:20:04 | username : *********
+13:20:04 | password : *********
+13:20:04 | name : PaySwitch Company Ltd.
+13:20:04 | info : TheTeller App
+13:20:04 | amt : 0.49
+13:20:04 | mobile : 0556783436
+13:20:04 | billprompt : 2
+13:20:04 | thirdpartyID : 152043590607
+
+07-03-2018 | MTN TO TTLR RESPONSE FOREIGN
+13:20:04 | return
+13:20:04 | responseCode : 0000
+13:20:04 | responseMessage : Accepted for Delivery 0556783436
+13:20:04 | invoiceNo : 204263211
+
+07-03-2018 | TTLR TO MTN REQUEST FOREIGN
+13:20:04 | username : *********
+13:20:04 | password : *********
+13:20:04 | invoiceNo : 204263211
+
+07-03-2018 | MTN TO TTLR RESPONSE FOREIGN
+13:20:17 | return
+13:20:17 | responseCode : 21VD
+13:20:17 | responseMessage : Bill not paid...
+
+07-03-2018 | TTLR TO MTN REQUEST FOREIGN
+13:20:32 | return
+13:20:32 | responseCode : 21VD
+13:20:32 | responseMessage : Bill not paid...
+
+07-03-2018 | TTLR TO MTN REQUEST FOREIGN
+13:20:42 | return
+13:20:42 | responseCode : 0000
+13:20:42 | responseMessage : Bill found. Tracking ID: MTN185A9FE71FD9977/3073594524
+
+07-03-2018 | TTLR TO MTN REQUEST FOREIGN
+13:22:51 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:22:51 | expiry : 2018-03-08
+13:22:51 | username : *********
+13:22:51 | password : *********
+13:22:51 | name : PaySwitch Company Ltd.
+13:22:51 | info : TheTeller App
+13:22:51 | amt : 0.37
+13:22:51 | mobile : 0556783436
+13:22:51 | billprompt : 2
+13:22:51 | thirdpartyID : 152014009397
+
+07-03-2018 | MTN TO TTLR RESPONSE FOREIGN
+13:22:51 | return
+13:22:51 | responseCode : 0000
+13:22:51 | responseMessage : Accepted for Delivery 0556783436
+13:22:51 | invoiceNo : 204263246
+
+07-03-2018 | TTLR TO MTN REQUEST FOREIGN
+13:22:51 | username : *********
+13:22:51 | password : *********
+13:22:51 | invoiceNo : 204263246
+
+07-03-2018 | MTN TO TTLR RESPONSE FOREIGN
+13:23:04 | return
+13:23:04 | responseCode : 21VD
+13:23:04 | responseMessage : Bill not paid...
+
+07-03-2018 | TTLR TO MTN REQUEST FOREIGN
+13:23:19 | return
+13:23:19 | responseCode : 21VD
+13:23:19 | responseMessage : Bill not paid...
+
+07-03-2018 | TTLR TO MTN REQUEST FOREIGN
+13:23:29 | return
+13:23:29 | responseCode : 0000
+13:23:29 | responseMessage : Bill found. Tracking ID: MTN185A9FE7C908A26/3073611600
+
+07-03-2018 | TTLR TO ZENITH REQUEST FOREIGN
+13:35:43 | PaymentRequest
+13:35:43 | Merchant
+13:35:43 | GlobalPayID : ********
+13:35:43 | Card
+13:35:43 | CardNumber : 445824******2195
+13:35:43 | CardExpiryMonth : 07
+13:35:43 | CardExpiryYear : 21
+13:35:43 | CardCvv : ***
+13:35:43 | Payment
+13:35:43 | Description : 152069004766
+13:35:43 | ReferenceID : 152069004766
+13:35:43 | OrderID : 152069004766
+13:35:43 | Amount : 1
+13:35:43 | mode : Visa
+
+07-03-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+13:35:54 | PaymentResponse
+13:35:54 | Date : 3/7/2018
+13:35:54 | referenceID : 152069004766
+13:35:54 | PaymentStatus : DECLINED
+13:35:54 | Reason : Declined by Bank
+13:35:54 | ResponseCode : 96
+13:35:54 | Mode : Visa
+13:35:54 | AuthID : 
+13:35:54 | Pan : 445824******2195
+
+07-03-2018 | TTLR TO MTN REQUEST FOREIGN
+13:37:35 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:37:35 | expiry : 2018-03-08
+13:37:35 | username : *********
+13:37:35 | password : *********
+13:37:35 | name : PaySwitch Company Ltd.
+13:37:35 | info : TheTeller App
+13:37:35 | amt : 1
+13:37:35 | mobile : 0556783436
+13:37:35 | billprompt : 2
+13:37:35 | thirdpartyID : 152009439207
+
+07-03-2018 | MTN TO TTLR RESPONSE FOREIGN
+13:37:35 | return
+13:37:35 | responseCode : 0000
+13:37:35 | responseMessage : Accepted for Delivery 0556783436
+13:37:35 | invoiceNo : 204263395
+
+07-03-2018 | TTLR TO MTN REQUEST FOREIGN
+13:37:35 | username : *********
+13:37:35 | password : *********
+13:37:35 | invoiceNo : 204263395
+
+07-03-2018 | MTN TO TTLR RESPONSE FOREIGN
+13:37:47 | return
+13:37:47 | responseCode : 21VD
+13:37:47 | responseMessage : Bill not paid...
+
+07-03-2018 | TTLR TO MTN REQUEST FOREIGN
+13:38:02 | return
+13:38:02 | responseCode : 0000
+13:38:02 | responseMessage : Bill found. Tracking ID: MTN185A9FEB356A47F/3073701456
+

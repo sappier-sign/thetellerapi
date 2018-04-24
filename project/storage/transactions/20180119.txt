@@ -1,0 +1,75 @@
+19-01-2018 | TTLR TO MTN REQUEST FOREIGN
+14:31:59 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:31:59 | expiry : 2018-01-20
+14:31:59 | username : *********
+14:31:59 | password : *********
+14:31:59 | name : PaySwitch Company Ltd.
+14:31:59 | info : TheTeller App
+14:31:59 | amt : 0.1
+14:31:59 | mobile : 0550053932
+14:31:59 | billprompt : 2
+14:31:59 | thirdpartyID : 151697310506
+
+19-01-2018 | MTN TO TTLR RESPONSE FOREIGN
+14:32:00 | return
+14:32:00 | responseCode : 0000
+14:32:00 | responseMessage : Accepted for Delivery 0550053932
+14:32:00 | invoiceNo : 203566704
+
+19-01-2018 | TTLR TO MTN REQUEST FOREIGN
+14:32:00 | username : *********
+14:32:00 | password : *********
+14:32:00 | invoiceNo : 203566704
+
+19-01-2018 | MTN TO TTLR RESPONSE FOREIGN
+14:32:12 | return
+14:32:12 | responseCode : 21VD
+14:32:12 | responseMessage : Bill not paid...
+
+19-01-2018 | TTLR TO MTN REQUEST FOREIGN
+14:32:27 | return
+14:32:27 | responseCode : 21VD
+14:32:27 | responseMessage : Bill not paid...
+
+19-01-2018 | TTLR TO MTN REQUEST FOREIGN
+14:32:37 | return
+14:32:37 | responseCode : 21VD
+14:32:37 | responseMessage : Bill not paid...
+
+19-01-2018 | TTLR TO MTN REQUEST FOREIGN
+14:32:47 | return
+14:32:47 | responseCode : 0000
+14:32:47 | responseMessage : Bill found. Tracking ID: MTN185A620185B2273/2803258107
+
+19-01-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+14:32:47 | customer_number : 0263581279
+14:32:47 | merchant_number : **********
+14:32:47 | amount : 0.1
+14:32:47 | exttrid : 151697310506
+14:32:47 | reference : Mobile Money Tr
+14:32:47 | ts : 2018-01-19 14:32:47
+
+19-01-2018 | AIRTEL TO TTLR REPONSE FOREIGN
+14:32:51 | resp_code : 200
+14:32:51 | resp_desc : You have sent GHC0.10 to Jaguar279. Your new balance is GHC5938.66. Trans ID: CI180119.1433.C04982.
+14:32:51 | exttrid : 151697310506
+14:32:51 | refid : CI180119.1433.C04982
+
+19-01-2018 | TTLR TO ZENITH REQUEST FOREIGN
+19:52:38 | PaymentRequest
+19:52:38 | Merchant
+19:52:38 | GlobalPayID : ********
+19:52:38 | Card
+19:52:38 | CardNumber : 484680******1232
+19:52:38 | CardExpiryMonth : 01
+19:52:38 | CardExpiryYear : 21
+19:52:38 | CardCvv : ***
+19:52:38 | Payment
+19:52:38 | Description : 151650911000
+19:52:38 | ReferenceID : 151650911000
+19:52:38 | OrderID : 151650911000
+19:52:38 | Amount : 0.26
+19:52:38 | mode : Visa
+
+19-01-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+

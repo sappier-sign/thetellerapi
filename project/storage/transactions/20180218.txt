@@ -1,0 +1,135 @@
+18-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+13:56:20 | PaymentRequest
+13:56:20 | Merchant
+13:56:20 | GlobalPayID : ********
+13:56:20 | Card
+13:56:20 | CardNumber : 445824******4210
+13:56:20 | CardExpiryMonth : 10
+13:56:20 | CardExpiryYear : 22
+13:56:20 | CardCvv : ***
+13:56:20 | Payment
+13:56:20 | Description : 151803127203
+13:56:20 | ReferenceID : 151803127203
+13:56:20 | OrderID : 151803127203
+13:56:20 | Amount : 1
+13:56:20 | mode : Visa
+
+18-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+13:56:29 | PaymentResponse
+13:56:29 | Date : 2/18/2018
+13:56:29 | referenceID : 151803127203
+13:56:29 | PaymentStatus : vbv required
+13:56:29 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20180218140038
+13:56:29 | ResponseCode : 
+13:56:29 | Mode : Visa
+13:56:29 | AuthID : 
+13:56:29 | Pan : 
+
+18-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+14:48:12 | PaymentRequest
+14:48:12 | Merchant
+14:48:12 | GlobalPayID : ********
+14:48:12 | Card
+14:48:12 | CardNumber : 445824******4210
+14:48:12 | CardExpiryMonth : 10
+14:48:12 | CardExpiryYear : 22
+14:48:12 | CardCvv : ***
+14:48:12 | Payment
+14:48:12 | Description : 151803268030
+14:48:12 | ReferenceID : 151803268030
+14:48:12 | OrderID : 151803268030
+14:48:12 | Amount : 1
+14:48:12 | mode : Visa
+
+18-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+14:48:20 | PaymentResponse
+14:48:20 | Date : 2/18/2018
+14:48:20 | referenceID : 151803268030
+14:48:20 | PaymentStatus : vbv required
+14:48:20 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20180218145229
+14:48:20 | ResponseCode : 
+14:48:20 | Mode : Visa
+14:48:20 | AuthID : 
+14:48:20 | Pan : 
+
+18-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+14:58:54 | PaymentRequest
+14:58:54 | Merchant
+14:58:54 | GlobalPayID : ********
+14:58:54 | Card
+14:58:54 | CardNumber : 445824******4210
+14:58:54 | CardExpiryMonth : 10
+14:58:54 | CardExpiryYear : 22
+14:58:54 | CardCvv : ***
+14:58:54 | Payment
+14:58:54 | Description : 151885068940
+14:58:54 | ReferenceID : 151885068940
+14:58:54 | OrderID : 151885068940
+14:58:54 | Amount : 1
+14:58:54 | mode : Visa
+
+18-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+14:59:02 | PaymentResponse
+14:59:02 | Date : 2/18/2018
+14:59:02 | referenceID : 151885068940
+14:59:02 | PaymentStatus : vbv required
+14:59:02 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20180218150311
+14:59:02 | ResponseCode : 
+14:59:02 | Mode : Visa
+14:59:02 | AuthID : 
+14:59:02 | Pan : 
+
+18-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+14:59:23 | PaymentRequest
+14:59:23 | Merchant
+14:59:23 | GlobalPayID : ********
+14:59:23 | Card
+14:59:23 | CardNumber : 445824******4210
+14:59:23 | CardExpiryMonth : 10
+14:59:23 | CardExpiryYear : 22
+14:59:23 | CardCvv : ***
+14:59:23 | Payment
+14:59:23 | Description : 151845080670
+14:59:23 | ReferenceID : 151845080670
+14:59:23 | OrderID : 151845080670
+14:59:23 | Amount : 1
+14:59:23 | mode : Visa
+
+18-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+14:59:30 | PaymentResponse
+14:59:30 | Date : 2/18/2018
+14:59:30 | referenceID : 151845080670
+14:59:30 | PaymentStatus : vbv required
+14:59:30 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20180218150339
+14:59:30 | ResponseCode : 
+14:59:30 | Mode : Visa
+14:59:30 | AuthID : 
+14:59:30 | Pan : 
+
+18-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+15:22:33 | PaymentRequest
+15:22:33 | Merchant
+15:22:33 | GlobalPayID : ********
+15:22:33 | Card
+15:22:33 | CardNumber : 445824******4210
+15:22:33 | CardExpiryMonth : 10
+15:22:33 | CardExpiryYear : 22
+15:22:33 | CardCvv : ***
+15:22:33 | Payment
+15:22:33 | Description : 151803049908
+15:22:33 | ReferenceID : 151803049908
+15:22:33 | OrderID : 151803049908
+15:22:33 | Amount : 1
+15:22:33 | mode : Visa
+
+18-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+15:22:41 | PaymentResponse
+15:22:41 | Date : 2/18/2018
+15:22:41 | referenceID : 151803049908
+15:22:41 | PaymentStatus : vbv required
+15:22:41 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20180218152650
+15:22:41 | ResponseCode : 
+15:22:41 | Mode : Visa
+15:22:41 | AuthID : 
+15:22:41 | Pan : 
+

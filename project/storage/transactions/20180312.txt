@@ -1,0 +1,78 @@
+12-03-2018 | TTLR TO MTN REQUEST FOREIGN
+15:39:11 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:39:11 | expiry : 2018-03-13
+15:39:11 | username : *********
+15:39:11 | password : *********
+15:39:11 | name : PaySwitch Company Ltd.
+15:39:11 | info : TheTeller App
+15:39:11 | amt : 50.5
+15:39:11 | mobile : 0249621938
+15:39:11 | billprompt : 2
+15:39:11 | thirdpartyID : 152034907074
+
+12-03-2018 | MTN TO TTLR RESPONSE FOREIGN
+15:39:11 | return
+15:39:11 | responseCode : 0000
+15:39:11 | responseMessage : Accepted for Delivery 0249621938
+15:39:11 | invoiceNo : 204307247
+
+12-03-2018 | TTLR TO MTN REQUEST FOREIGN
+15:39:11 | username : *********
+15:39:11 | password : *********
+15:39:11 | invoiceNo : 204307247
+
+12-03-2018 | MTN TO TTLR RESPONSE FOREIGN
+15:39:23 | return
+15:39:23 | responseCode : 21VD
+15:39:23 | responseMessage : Bill not paid...
+
+12-03-2018 | TTLR TO MTN REQUEST FOREIGN
+15:39:38 | return
+15:39:38 | responseCode : 21VD
+15:39:38 | responseMessage : Bill not paid...
+
+12-03-2018 | TTLR TO MTN REQUEST FOREIGN
+15:39:49 | return
+15:39:49 | responseCode : 0000
+15:39:49 | responseMessage : Bill found. Tracking ID: MTN185AA69F3F7CF62/3102677875
+
+12-03-2018 | TTLR TO MTN REQUEST FOREIGN
+15:39:54 | vendorID : ***
+15:39:54 | subscriberID : 0244385321
+15:39:54 | thirdpartyTransactionID : 152034907074
+15:39:54 | amount : 50.5
+15:39:54 | apiKey : ***********************
+
+12-03-2018 | MTN TO TLLR RESPONSE FOREIGN
+15:40:00 | return
+15:40:00 | responseCode : 01
+15:40:00 | responseMessage : Successfully processed transaction.
+15:40:00 | thirdpartyTransactionId : 152034907074
+
+12-03-2018 | TTLR TO ZENITH REQUEST FOREIGN
+17:01:27 | PaymentRequest
+17:01:27 | Merchant
+17:01:27 | GlobalPayID : ********
+17:01:27 | Card
+17:01:27 | CardNumber : 439957******8651
+17:01:27 | CardExpiryMonth : 11
+17:01:27 | CardExpiryYear : 22
+17:01:27 | CardCvv : ***
+17:01:27 | Payment
+17:01:27 | Description : 152005080247
+17:01:27 | ReferenceID : 152005080247
+17:01:27 | OrderID : 152005080247
+17:01:27 | Amount : 1
+17:01:27 | mode : Visa
+
+12-03-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+17:01:35 | PaymentResponse
+17:01:35 | Date : 3/12/2018
+17:01:35 | referenceID : 152005080247
+17:01:35 | PaymentStatus : vbv required
+17:01:35 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20180312170719
+17:01:35 | ResponseCode : 
+17:01:35 | Mode : Visa
+17:01:35 | AuthID : 
+17:01:35 | Pan : 
+

@@ -1,0 +1,54 @@
+24-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+12:47:50 | PaymentRequest
+12:47:50 | Merchant
+12:47:50 | GlobalPayID : ********
+12:47:50 | Card
+12:47:50 | CardNumber : 517805******4728
+12:47:50 | CardExpiryMonth : 07
+12:47:50 | CardExpiryYear : 22
+12:47:50 | CardCvv : ***
+12:47:50 | Payment
+12:47:50 | Description : 151902918025
+12:47:50 | ReferenceID : 151902918025
+12:47:50 | OrderID : 151902918025
+12:47:50 | Amount : 100
+12:47:50 | mode : Mastercard
+
+24-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+12:47:57 | PaymentResponse
+12:47:57 | Date : 2/24/2018
+12:47:57 | referenceID : 151902918025
+12:47:57 | PaymentStatus : APPROVED
+12:47:57 | Reason : Successful
+12:47:57 | ResponseCode : 0
+12:47:57 | Mode : Mastercard
+12:47:57 | AuthID : 02721Z
+12:47:57 | Pan : 517805******4728
+
+24-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+13:05:37 | PaymentRequest
+13:05:37 | Merchant
+13:05:37 | GlobalPayID : ********
+13:05:37 | Card
+13:05:37 | CardNumber : 522628******3882
+13:05:37 | CardExpiryMonth : 01
+13:05:37 | CardExpiryYear : 22
+13:05:37 | CardCvv : ***
+13:05:37 | Payment
+13:05:37 | Description : 151962235100
+13:05:37 | ReferenceID : 151962235100
+13:05:37 | OrderID : 151962235100
+13:05:37 | Amount : 100
+13:05:37 | mode : Mastercard
+
+24-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+13:05:44 | PaymentResponse
+13:05:44 | Date : 2/24/2018
+13:05:44 | referenceID : 151962235100
+13:05:44 | PaymentStatus : DECLINED
+13:05:44 | Reason : Insufficient Funds
+13:05:44 | ResponseCode : 5
+13:05:44 | Mode : Mastercard
+13:05:44 | AuthID : 
+13:05:44 | Pan : 522628******3882
+

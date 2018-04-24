@@ -1,0 +1,27 @@
+11-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+09:45:38 | PaymentRequest
+09:45:38 | Merchant
+09:45:38 | GlobalPayID : ********
+09:45:38 | Card
+09:45:38 | CardNumber : 539941******7536
+09:45:38 | CardExpiryMonth : 08
+09:45:38 | CardExpiryYear : 20
+09:45:38 | CardCvv : ***
+09:45:38 | Payment
+09:45:38 | Description : 151803720321
+09:45:38 | ReferenceID : 151803720321
+09:45:38 | OrderID : 151803720321
+09:45:38 | Amount : 1
+09:45:38 | mode : Mastercard
+
+11-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+09:45:46 | PaymentResponse
+09:45:46 | Date : 2/11/2018
+09:45:46 | referenceID : 151803720321
+09:45:46 | PaymentStatus : APPROVED
+09:45:46 | Reason : Successful
+09:45:46 | ResponseCode : 0
+09:45:46 | Mode : Mastercard
+09:45:46 | AuthID : 70F01F
+09:45:46 | Pan : 539941******7536
+

@@ -1,0 +1,1250 @@
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+08:51:21 | PaymentRequest
+08:51:21 | Merchant
+08:51:21 | GlobalPayID : ********
+08:51:21 | Card
+08:51:21 | CardNumber : 444569******1974
+08:51:21 | CardExpiryMonth : 08
+08:51:21 | CardExpiryYear : 22
+08:51:21 | CardCvv : ***
+08:51:21 | Payment
+08:51:21 | Description : 151458004364
+08:51:21 | ReferenceID : 151458004364
+08:51:21 | OrderID : 151458004364
+08:51:21 | Amount : 1
+08:51:21 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+08:51:26 | PaymentResponse
+08:51:26 | Date : 12/24/2017
+08:51:26 | referenceID : 151458004364
+08:51:26 | PaymentStatus : APPROVED
+08:51:26 | Reason : transaction processed successfully
+08:51:26 | ResponseCode : 00
+08:51:26 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+08:54:45 | PaymentRequest
+08:54:45 | Merchant
+08:54:45 | GlobalPayID : ********
+08:54:45 | Card
+08:54:45 | CardNumber : 404214******0671
+08:54:45 | CardExpiryMonth : 04
+08:54:45 | CardExpiryYear : 20
+08:54:45 | CardCvv : ***
+08:54:45 | Payment
+08:54:45 | Description : 151403120960
+08:54:45 | ReferenceID : 151403120960
+08:54:45 | OrderID : 151403120960
+08:54:45 | Amount : 1
+08:54:45 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+08:54:48 | PaymentResponse
+08:54:48 | Date : 12/24/2017
+08:54:48 | referenceID : 151403120960
+08:54:48 | PaymentStatus : vbv required
+08:54:48 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224085720
+08:54:48 | ResponseCode : 
+08:54:48 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+08:55:59 | PaymentRequest
+08:55:59 | Merchant
+08:55:59 | GlobalPayID : ********
+08:55:59 | Card
+08:55:59 | CardNumber : 404214******0671
+08:55:59 | CardExpiryMonth : 04
+08:55:59 | CardExpiryYear : 20
+08:55:59 | CardCvv : ***
+08:55:59 | Payment
+08:55:59 | Description : 151424052300
+08:55:59 | ReferenceID : 151424052300
+08:55:59 | OrderID : 151424052300
+08:55:59 | Amount : 1
+08:55:59 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+08:56:03 | PaymentResponse
+08:56:03 | Date : 12/24/2017
+08:56:03 | referenceID : 151424052300
+08:56:03 | PaymentStatus : vbv required
+08:56:03 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224085834
+08:56:03 | ResponseCode : 
+08:56:03 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+08:59:45 | PaymentRequest
+08:59:45 | Merchant
+08:59:45 | GlobalPayID : ********
+08:59:45 | Card
+08:59:45 | CardNumber : 404214******0671
+08:59:45 | CardExpiryMonth : 04
+08:59:45 | CardExpiryYear : 20
+08:59:45 | CardCvv : ***
+08:59:45 | Payment
+08:59:45 | Description : 151400474520
+08:59:45 | ReferenceID : 151400474520
+08:59:45 | OrderID : 151400474520
+08:59:45 | Amount : 1
+08:59:45 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+08:59:48 | PaymentResponse
+08:59:48 | Date : 12/24/2017
+08:59:48 | referenceID : 151400474520
+08:59:48 | PaymentStatus : vbv required
+08:59:48 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224090220
+08:59:48 | ResponseCode : 
+08:59:48 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+09:05:06 | PaymentRequest
+09:05:06 | Merchant
+09:05:06 | GlobalPayID : ********
+09:05:06 | Card
+09:05:06 | CardNumber : 404214******0671
+09:05:06 | CardExpiryMonth : 04
+09:05:06 | CardExpiryYear : 20
+09:05:06 | CardCvv : ***
+09:05:06 | Payment
+09:05:06 | Description : 151481601078
+09:05:06 | ReferenceID : 151481601078
+09:05:06 | OrderID : 151481601078
+09:05:06 | Amount : 1
+09:05:06 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+09:05:10 | PaymentResponse
+09:05:10 | Date : 12/24/2017
+09:05:10 | referenceID : 151481601078
+09:05:10 | PaymentStatus : vbv required
+09:05:10 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224090741
+09:05:10 | ResponseCode : 
+09:05:10 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+09:15:03 | PaymentRequest
+09:15:03 | Merchant
+09:15:03 | GlobalPayID : ********
+09:15:03 | Card
+09:15:03 | CardNumber : 404214******0671
+09:15:03 | CardExpiryMonth : 04
+09:15:03 | CardExpiryYear : 20
+09:15:03 | CardCvv : ***
+09:15:03 | Payment
+09:15:03 | Description : 151460003020
+09:15:03 | ReferenceID : 151460003020
+09:15:03 | OrderID : 151460003020
+09:15:03 | Amount : 4.04
+09:15:03 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+09:15:09 | PaymentResponse
+09:15:09 | Date : 12/24/2017
+09:15:09 | referenceID : 151460003020
+09:15:09 | PaymentStatus : vbv required
+09:15:09 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224091737
+09:15:09 | ResponseCode : 
+09:15:09 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+09:17:01 | PaymentRequest
+09:17:01 | Merchant
+09:17:01 | GlobalPayID : ********
+09:17:01 | Card
+09:17:01 | CardNumber : 404214******0671
+09:17:01 | CardExpiryMonth : 04
+09:17:01 | CardExpiryYear : 20
+09:17:01 | CardCvv : ***
+09:17:01 | Payment
+09:17:01 | Description : 151447861030
+09:17:01 | ReferenceID : 151447861030
+09:17:01 | OrderID : 151447861030
+09:17:01 | Amount : 4.04
+09:17:01 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+09:17:05 | PaymentResponse
+09:17:05 | Date : 12/24/2017
+09:17:05 | referenceID : 151447861030
+09:17:05 | PaymentStatus : vbv required
+09:17:05 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224091936
+09:17:05 | ResponseCode : 
+09:17:05 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+09:29:19 | PaymentRequest
+09:29:19 | Merchant
+09:29:19 | GlobalPayID : ********
+09:29:19 | Card
+09:29:19 | CardNumber : 404214******0671
+09:29:19 | CardExpiryMonth : 04
+09:29:19 | CardExpiryYear : 20
+09:29:19 | CardCvv : ***
+09:29:19 | Payment
+09:29:19 | Description : 151405612590
+09:29:19 | ReferenceID : 151405612590
+09:29:19 | OrderID : 151405612590
+09:29:19 | Amount : 4.04
+09:29:19 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+09:29:22 | PaymentResponse
+09:29:22 | Date : 12/24/2017
+09:29:22 | referenceID : 151405612590
+09:29:22 | PaymentStatus : vbv required
+09:29:22 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224093153
+09:29:22 | ResponseCode : 
+09:29:22 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+10:00:22 | PaymentRequest
+10:00:22 | Merchant
+10:00:22 | GlobalPayID : ********
+10:00:22 | Card
+10:00:22 | CardNumber : 406929******5084
+10:00:22 | CardExpiryMonth : 10
+10:00:22 | CardExpiryYear : 21
+10:00:22 | CardCvv : ***
+10:00:22 | Payment
+10:00:22 | Description : 151470086585
+10:00:22 | ReferenceID : 151470086585
+10:00:22 | OrderID : 151470086585
+10:00:22 | Amount : 1
+10:00:22 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+10:00:28 | PaymentResponse
+10:00:28 | Date : 12/24/2017
+10:00:28 | referenceID : 151470086585
+10:00:28 | PaymentStatus : APPROVED
+10:00:28 | Reason : transaction processed successfully
+10:00:28 | ResponseCode : 00
+10:00:28 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+12:23:19 | PaymentRequest
+12:23:19 | Merchant
+12:23:19 | GlobalPayID : ********
+12:23:19 | Card
+12:23:19 | CardNumber : 406929******5084
+12:23:19 | CardExpiryMonth : 10
+12:23:19 | CardExpiryYear : 21
+12:23:19 | CardCvv : ***
+12:23:19 | Payment
+12:23:19 | Description : 151420031297
+12:23:19 | ReferenceID : 151420031297
+12:23:19 | OrderID : 151420031297
+12:23:19 | Amount : 1
+12:23:19 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+12:23:24 | PaymentResponse
+12:23:24 | Date : 12/24/2017
+12:23:24 | referenceID : 151420031297
+12:23:24 | PaymentStatus : APPROVED
+12:23:24 | Reason : transaction processed successfully
+12:23:24 | ResponseCode : 00
+12:23:24 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+17:03:50 | PaymentRequest
+17:03:50 | Merchant
+17:03:50 | GlobalPayID : ********
+17:03:50 | Card
+17:03:50 | CardNumber : 449632******5929
+17:03:50 | CardExpiryMonth : 04
+17:03:50 | CardExpiryYear : 20
+17:03:50 | CardCvv : ***
+17:03:50 | Payment
+17:03:50 | Description : 151403780759
+17:03:50 | ReferenceID : 151403780759
+17:03:50 | OrderID : 151403780759
+17:03:50 | Amount : 1
+17:03:50 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+17:03:54 | PaymentResponse
+17:03:54 | Date : 12/24/2017
+17:03:54 | referenceID : 151403780759
+17:03:54 | PaymentStatus : vbv required
+17:03:54 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224170625
+17:03:54 | ResponseCode : 
+17:03:54 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+17:04:04 | PaymentRequest
+17:04:04 | Merchant
+17:04:04 | GlobalPayID : ********
+17:04:04 | Card
+17:04:04 | CardNumber : 449632******5929
+17:04:04 | CardExpiryMonth : 04
+17:04:04 | CardExpiryYear : 20
+17:04:04 | CardCvv : ***
+17:04:04 | Payment
+17:04:04 | Description : 151459002079
+17:04:04 | ReferenceID : 151459002079
+17:04:04 | OrderID : 151459002079
+17:04:04 | Amount : 1
+17:04:04 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+17:04:08 | PaymentResponse
+17:04:08 | Date : 12/24/2017
+17:04:08 | referenceID : 151459002079
+17:04:08 | PaymentStatus : vbv required
+17:04:08 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224170639
+17:04:08 | ResponseCode : 
+17:04:08 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+17:06:48 | PaymentRequest
+17:06:48 | Merchant
+17:06:48 | GlobalPayID : ********
+17:06:48 | Card
+17:06:48 | CardNumber : 449632******5929
+17:06:48 | CardExpiryMonth : 04
+17:06:48 | CardExpiryYear : 20
+17:06:48 | CardCvv : ***
+17:06:48 | Payment
+17:06:48 | Description : 151448050006
+17:06:48 | ReferenceID : 151448050006
+17:06:48 | OrderID : 151448050006
+17:06:48 | Amount : 1
+17:06:48 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+17:06:51 | PaymentResponse
+17:06:51 | Date : 12/24/2017
+17:06:51 | referenceID : 151448050006
+17:06:51 | PaymentStatus : vbv required
+17:06:51 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224170922
+17:06:51 | ResponseCode : 
+17:06:51 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+17:07:23 | PaymentRequest
+17:07:23 | Merchant
+17:07:23 | GlobalPayID : ********
+17:07:23 | Card
+17:07:23 | CardNumber : 449632******5929
+17:07:23 | CardExpiryMonth : 04
+17:07:23 | CardExpiryYear : 20
+17:07:23 | CardCvv : ***
+17:07:23 | Payment
+17:07:23 | Description : 151422901006
+17:07:23 | ReferenceID : 151422901006
+17:07:23 | OrderID : 151422901006
+17:07:23 | Amount : 1
+17:07:23 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+17:07:26 | PaymentResponse
+17:07:26 | Date : 12/24/2017
+17:07:26 | referenceID : 151422901006
+17:07:26 | PaymentStatus : vbv required
+17:07:26 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224170958
+17:07:26 | ResponseCode : 
+17:07:26 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+17:07:36 | PaymentRequest
+17:07:36 | Merchant
+17:07:36 | GlobalPayID : ********
+17:07:36 | Card
+17:07:36 | CardNumber : 449632******5929
+17:07:36 | CardExpiryMonth : 04
+17:07:36 | CardExpiryYear : 20
+17:07:36 | CardCvv : ***
+17:07:36 | Payment
+17:07:36 | Description : 151460602381
+17:07:36 | ReferenceID : 151460602381
+17:07:36 | OrderID : 151460602381
+17:07:36 | Amount : 1
+17:07:36 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+17:07:39 | PaymentResponse
+17:07:39 | Date : 12/24/2017
+17:07:39 | referenceID : 151460602381
+17:07:39 | PaymentStatus : vbv required
+17:07:39 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224171011
+17:07:39 | ResponseCode : 
+17:07:39 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+17:08:00 | PaymentRequest
+17:08:00 | Merchant
+17:08:00 | GlobalPayID : ********
+17:08:00 | Card
+17:08:00 | CardNumber : 449632******5929
+17:08:00 | CardExpiryMonth : 04
+17:08:00 | CardExpiryYear : 20
+17:08:00 | CardCvv : ***
+17:08:00 | Payment
+17:08:00 | Description : 151430670869
+17:08:00 | ReferenceID : 151430670869
+17:08:00 | OrderID : 151430670869
+17:08:00 | Amount : 1
+17:08:00 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+17:08:03 | PaymentResponse
+17:08:03 | Date : 12/24/2017
+17:08:03 | referenceID : 151430670869
+17:08:03 | PaymentStatus : vbv required
+17:08:03 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224171035
+17:08:03 | ResponseCode : 
+17:08:03 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+17:10:46 | PaymentRequest
+17:10:46 | Merchant
+17:10:46 | GlobalPayID : ********
+17:10:46 | Card
+17:10:46 | CardNumber : 449632******5929
+17:10:46 | CardExpiryMonth : 04
+17:10:46 | CardExpiryYear : 20
+17:10:46 | CardCvv : ***
+17:10:46 | Payment
+17:10:46 | Description : 151470503690
+17:10:46 | ReferenceID : 151470503690
+17:10:46 | OrderID : 151470503690
+17:10:46 | Amount : 1
+17:10:46 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+17:10:50 | PaymentResponse
+17:10:50 | Date : 12/24/2017
+17:10:50 | referenceID : 151470503690
+17:10:50 | PaymentStatus : vbv required
+17:10:50 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224171321
+17:10:50 | ResponseCode : 
+17:10:50 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+17:10:53 | PaymentRequest
+17:10:53 | Merchant
+17:10:53 | GlobalPayID : ********
+17:10:53 | Card
+17:10:53 | CardNumber : 449632******5929
+17:10:53 | CardExpiryMonth : 04
+17:10:53 | CardExpiryYear : 20
+17:10:53 | CardCvv : ***
+17:10:53 | Payment
+17:10:53 | Description : 151470476807
+17:10:53 | ReferenceID : 151470476807
+17:10:53 | OrderID : 151470476807
+17:10:53 | Amount : 1
+17:10:53 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+17:10:57 | PaymentResponse
+17:10:57 | Date : 12/24/2017
+17:10:57 | referenceID : 151470476807
+17:10:57 | PaymentStatus : vbv required
+17:10:57 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224171328
+17:10:57 | ResponseCode : 
+17:10:57 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+17:11:50 | PaymentRequest
+17:11:50 | Merchant
+17:11:50 | GlobalPayID : ********
+17:11:50 | Card
+17:11:50 | CardNumber : 449632******5929
+17:11:50 | CardExpiryMonth : 04
+17:11:50 | CardExpiryYear : 20
+17:11:50 | CardCvv : ***
+17:11:50 | Payment
+17:11:50 | Description : 151405460041
+17:11:50 | ReferenceID : 151405460041
+17:11:50 | OrderID : 151405460041
+17:11:50 | Amount : 1
+17:11:50 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+17:11:54 | PaymentResponse
+17:11:54 | Date : 12/24/2017
+17:11:54 | referenceID : 151405460041
+17:11:54 | PaymentStatus : vbv required
+17:11:54 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224171425
+17:11:54 | ResponseCode : 
+17:11:54 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+17:12:25 | PaymentRequest
+17:12:25 | Merchant
+17:12:25 | GlobalPayID : ********
+17:12:25 | Card
+17:12:25 | CardNumber : 449632******5929
+17:12:25 | CardExpiryMonth : 04
+17:12:25 | CardExpiryYear : 20
+17:12:25 | CardCvv : ***
+17:12:25 | Payment
+17:12:25 | Description : 151405630700
+17:12:25 | ReferenceID : 151405630700
+17:12:25 | OrderID : 151405630700
+17:12:25 | Amount : 1
+17:12:25 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+17:12:29 | PaymentResponse
+17:12:29 | Date : 12/24/2017
+17:12:29 | referenceID : 151405630700
+17:12:29 | PaymentStatus : vbv required
+17:12:29 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224171500
+17:12:29 | ResponseCode : 
+17:12:29 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+17:15:45 | PaymentRequest
+17:15:45 | Merchant
+17:15:45 | GlobalPayID : ********
+17:15:45 | Card
+17:15:45 | CardNumber : 449632******5929
+17:15:45 | CardExpiryMonth : 04
+17:15:45 | CardExpiryYear : 20
+17:15:45 | CardCvv : ***
+17:15:45 | Payment
+17:15:45 | Description : 151432914400
+17:15:45 | ReferenceID : 151432914400
+17:15:45 | OrderID : 151432914400
+17:15:45 | Amount : 1
+17:15:45 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+17:15:49 | PaymentResponse
+17:15:49 | Date : 12/24/2017
+17:15:49 | referenceID : 151432914400
+17:15:49 | PaymentStatus : vbv required
+17:15:49 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224171819
+17:15:49 | ResponseCode : 
+17:15:49 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+17:17:19 | PaymentRequest
+17:17:19 | Merchant
+17:17:19 | GlobalPayID : ********
+17:17:19 | Card
+17:17:19 | CardNumber : 449632******5929
+17:17:19 | CardExpiryMonth : 04
+17:17:19 | CardExpiryYear : 20
+17:17:19 | CardCvv : ***
+17:17:19 | Payment
+17:17:19 | Description : 151442100308
+17:17:19 | ReferenceID : 151442100308
+17:17:19 | OrderID : 151442100308
+17:17:19 | Amount : 1
+17:17:19 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+17:17:22 | PaymentResponse
+17:17:22 | Date : 12/24/2017
+17:17:22 | referenceID : 151442100308
+17:17:22 | PaymentStatus : vbv required
+17:17:22 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224171953
+17:17:22 | ResponseCode : 
+17:17:22 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+17:17:31 | PaymentRequest
+17:17:31 | Merchant
+17:17:31 | GlobalPayID : ********
+17:17:31 | Card
+17:17:31 | CardNumber : 449632******5929
+17:17:31 | CardExpiryMonth : 04
+17:17:31 | CardExpiryYear : 20
+17:17:31 | CardCvv : ***
+17:17:31 | Payment
+17:17:31 | Description : 151437065041
+17:17:31 | ReferenceID : 151437065041
+17:17:31 | OrderID : 151437065041
+17:17:31 | Amount : 1
+17:17:31 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+17:17:34 | PaymentResponse
+17:17:34 | Date : 12/24/2017
+17:17:34 | referenceID : 151437065041
+17:17:34 | PaymentStatus : vbv required
+17:17:34 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224172006
+17:17:34 | ResponseCode : 
+17:17:34 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+17:18:05 | PaymentRequest
+17:18:05 | Merchant
+17:18:05 | GlobalPayID : ********
+17:18:05 | Card
+17:18:05 | CardNumber : 449632******5929
+17:18:05 | CardExpiryMonth : 04
+17:18:05 | CardExpiryYear : 20
+17:18:05 | CardCvv : ***
+17:18:05 | Payment
+17:18:05 | Description : 151425258020
+17:18:05 | ReferenceID : 151425258020
+17:18:05 | OrderID : 151425258020
+17:18:05 | Amount : 1
+17:18:05 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+17:18:08 | PaymentResponse
+17:18:08 | Date : 12/24/2017
+17:18:08 | referenceID : 151425258020
+17:18:08 | PaymentStatus : vbv required
+17:18:08 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224172040
+17:18:08 | ResponseCode : 
+17:18:08 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+17:20:33 | PaymentRequest
+17:20:33 | Merchant
+17:20:33 | GlobalPayID : ********
+17:20:33 | Card
+17:20:33 | CardNumber : 449632******5929
+17:20:33 | CardExpiryMonth : 04
+17:20:33 | CardExpiryYear : 20
+17:20:33 | CardCvv : ***
+17:20:33 | Payment
+17:20:33 | Description : 151400976039
+17:20:33 | ReferenceID : 151400976039
+17:20:33 | OrderID : 151400976039
+17:20:33 | Amount : 1
+17:20:33 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+17:20:37 | PaymentResponse
+17:20:37 | Date : 12/24/2017
+17:20:37 | referenceID : 151400976039
+17:20:37 | PaymentStatus : vbv required
+17:20:37 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224172308
+17:20:37 | ResponseCode : 
+17:20:37 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+17:22:07 | PaymentRequest
+17:22:07 | Merchant
+17:22:07 | GlobalPayID : ********
+17:22:07 | Card
+17:22:07 | CardNumber : 449632******5929
+17:22:07 | CardExpiryMonth : 04
+17:22:07 | CardExpiryYear : 20
+17:22:07 | CardCvv : ***
+17:22:07 | Payment
+17:22:07 | Description : 151418022950
+17:22:07 | ReferenceID : 151418022950
+17:22:07 | OrderID : 151418022950
+17:22:07 | Amount : 1
+17:22:07 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+17:22:10 | PaymentResponse
+17:22:10 | Date : 12/24/2017
+17:22:10 | referenceID : 151418022950
+17:22:10 | PaymentStatus : vbv required
+17:22:10 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224172441
+17:22:10 | ResponseCode : 
+17:22:10 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+17:38:47 | PaymentRequest
+17:38:47 | Merchant
+17:38:47 | GlobalPayID : ********
+17:38:47 | Card
+17:38:47 | CardNumber : 449632******5929
+17:38:47 | CardExpiryMonth : 04
+17:38:47 | CardExpiryYear : 20
+17:38:47 | CardCvv : ***
+17:38:47 | Payment
+17:38:47 | Description : 151428607710
+17:38:47 | ReferenceID : 151428607710
+17:38:47 | OrderID : 151428607710
+17:38:47 | Amount : 1
+17:38:47 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+17:38:50 | PaymentResponse
+17:38:50 | Date : 12/24/2017
+17:38:50 | referenceID : 151428607710
+17:38:50 | PaymentStatus : vbv required
+17:38:50 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224174122
+17:38:50 | ResponseCode : 
+17:38:50 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+17:39:45 | PaymentRequest
+17:39:45 | Merchant
+17:39:45 | GlobalPayID : ********
+17:39:45 | Card
+17:39:45 | CardNumber : 449632******5929
+17:39:45 | CardExpiryMonth : 04
+17:39:45 | CardExpiryYear : 20
+17:39:45 | CardCvv : ***
+17:39:45 | Payment
+17:39:45 | Description : 151410890426
+17:39:45 | ReferenceID : 151410890426
+17:39:45 | OrderID : 151410890426
+17:39:45 | Amount : 1
+17:39:45 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+17:39:48 | PaymentResponse
+17:39:48 | Date : 12/24/2017
+17:39:48 | referenceID : 151410890426
+17:39:48 | PaymentStatus : vbv required
+17:39:48 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224174220
+17:39:48 | ResponseCode : 
+17:39:48 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+17:40:31 | PaymentRequest
+17:40:31 | Merchant
+17:40:31 | GlobalPayID : ********
+17:40:31 | Card
+17:40:31 | CardNumber : 449632******5929
+17:40:31 | CardExpiryMonth : 04
+17:40:31 | CardExpiryYear : 20
+17:40:31 | CardCvv : ***
+17:40:31 | Payment
+17:40:31 | Description : 151460020102
+17:40:31 | ReferenceID : 151460020102
+17:40:31 | OrderID : 151460020102
+17:40:31 | Amount : 1
+17:40:31 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+17:40:34 | PaymentResponse
+17:40:34 | Date : 12/24/2017
+17:40:34 | referenceID : 151460020102
+17:40:34 | PaymentStatus : vbv required
+17:40:34 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224174305
+17:40:34 | ResponseCode : 
+17:40:34 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+17:41:09 | PaymentRequest
+17:41:09 | Merchant
+17:41:09 | GlobalPayID : ********
+17:41:09 | Card
+17:41:09 | CardNumber : 449632******5929
+17:41:09 | CardExpiryMonth : 04
+17:41:09 | CardExpiryYear : 20
+17:41:09 | CardCvv : ***
+17:41:09 | Payment
+17:41:09 | Description : 151420302558
+17:41:09 | ReferenceID : 151420302558
+17:41:09 | OrderID : 151420302558
+17:41:09 | Amount : 1
+17:41:09 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+17:41:13 | PaymentResponse
+17:41:13 | Date : 12/24/2017
+17:41:13 | referenceID : 151420302558
+17:41:13 | PaymentStatus : vbv required
+17:41:13 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224174343
+17:41:13 | ResponseCode : 
+17:41:13 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+17:41:49 | PaymentRequest
+17:41:49 | Merchant
+17:41:49 | GlobalPayID : ********
+17:41:49 | Card
+17:41:49 | CardNumber : 449632******5929
+17:41:49 | CardExpiryMonth : 04
+17:41:49 | CardExpiryYear : 20
+17:41:49 | CardCvv : ***
+17:41:49 | Payment
+17:41:49 | Description : 151458032401
+17:41:49 | ReferenceID : 151458032401
+17:41:49 | OrderID : 151458032401
+17:41:49 | Amount : 1
+17:41:49 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+17:41:53 | PaymentResponse
+17:41:53 | Date : 12/24/2017
+17:41:53 | referenceID : 151458032401
+17:41:53 | PaymentStatus : vbv required
+17:41:53 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224174423
+17:41:53 | ResponseCode : 
+17:41:53 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+17:42:32 | PaymentRequest
+17:42:32 | Merchant
+17:42:32 | GlobalPayID : ********
+17:42:32 | Card
+17:42:32 | CardNumber : 449632******5929
+17:42:32 | CardExpiryMonth : 04
+17:42:32 | CardExpiryYear : 20
+17:42:32 | CardCvv : ***
+17:42:32 | Payment
+17:42:32 | Description : 151400044997
+17:42:32 | ReferenceID : 151400044997
+17:42:32 | OrderID : 151400044997
+17:42:32 | Amount : 1
+17:42:32 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+17:42:35 | PaymentResponse
+17:42:35 | Date : 12/24/2017
+17:42:35 | referenceID : 151400044997
+17:42:35 | PaymentStatus : vbv required
+17:42:35 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224174506
+17:42:35 | ResponseCode : 
+17:42:35 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+17:43:13 | PaymentRequest
+17:43:13 | Merchant
+17:43:13 | GlobalPayID : ********
+17:43:13 | Card
+17:43:13 | CardNumber : 449632******5929
+17:43:13 | CardExpiryMonth : 04
+17:43:13 | CardExpiryYear : 20
+17:43:13 | CardCvv : ***
+17:43:13 | Payment
+17:43:13 | Description : 151466485700
+17:43:13 | ReferenceID : 151466485700
+17:43:13 | OrderID : 151466485700
+17:43:13 | Amount : 1
+17:43:13 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+17:43:17 | PaymentResponse
+17:43:17 | Date : 12/24/2017
+17:43:17 | referenceID : 151466485700
+17:43:17 | PaymentStatus : vbv required
+17:43:17 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224174548
+17:43:17 | ResponseCode : 
+17:43:17 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+17:43:50 | PaymentRequest
+17:43:50 | Merchant
+17:43:50 | GlobalPayID : ********
+17:43:50 | Card
+17:43:50 | CardNumber : 449632******5929
+17:43:50 | CardExpiryMonth : 04
+17:43:50 | CardExpiryYear : 20
+17:43:50 | CardCvv : ***
+17:43:50 | Payment
+17:43:50 | Description : 151409051545
+17:43:50 | ReferenceID : 151409051545
+17:43:50 | OrderID : 151409051545
+17:43:50 | Amount : 1
+17:43:50 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+17:43:53 | PaymentResponse
+17:43:53 | Date : 12/24/2017
+17:43:53 | referenceID : 151409051545
+17:43:53 | PaymentStatus : vbv required
+17:43:53 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224174624
+17:43:53 | ResponseCode : 
+17:43:53 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+17:45:24 | PaymentRequest
+17:45:24 | Merchant
+17:45:24 | GlobalPayID : ********
+17:45:24 | Card
+17:45:24 | CardNumber : 449632******5929
+17:45:24 | CardExpiryMonth : 04
+17:45:24 | CardExpiryYear : 20
+17:45:24 | CardCvv : ***
+17:45:24 | Payment
+17:45:24 | Description : 151421889007
+17:45:24 | ReferenceID : 151421889007
+17:45:24 | OrderID : 151421889007
+17:45:24 | Amount : 1
+17:45:24 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+17:45:27 | PaymentResponse
+17:45:27 | Date : 12/24/2017
+17:45:27 | referenceID : 151421889007
+17:45:27 | PaymentStatus : vbv required
+17:45:27 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224174759
+17:45:27 | ResponseCode : 
+17:45:27 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+17:46:32 | PaymentRequest
+17:46:32 | Merchant
+17:46:32 | GlobalPayID : ********
+17:46:32 | Card
+17:46:32 | CardNumber : 449632******5929
+17:46:32 | CardExpiryMonth : 04
+17:46:32 | CardExpiryYear : 20
+17:46:32 | CardCvv : ***
+17:46:32 | Payment
+17:46:32 | Description : 151444439600
+17:46:32 | ReferenceID : 151444439600
+17:46:32 | OrderID : 151444439600
+17:46:32 | Amount : 1
+17:46:32 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+17:46:36 | PaymentResponse
+17:46:36 | Date : 12/24/2017
+17:46:36 | referenceID : 151444439600
+17:46:36 | PaymentStatus : vbv required
+17:46:36 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224174907
+17:46:36 | ResponseCode : 
+17:46:36 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+17:47:24 | PaymentRequest
+17:47:24 | Merchant
+17:47:24 | GlobalPayID : ********
+17:47:24 | Card
+17:47:24 | CardNumber : 449632******5929
+17:47:24 | CardExpiryMonth : 04
+17:47:24 | CardExpiryYear : 20
+17:47:24 | CardCvv : ***
+17:47:24 | Payment
+17:47:24 | Description : 151402180915
+17:47:24 | ReferenceID : 151402180915
+17:47:24 | OrderID : 151402180915
+17:47:24 | Amount : 1
+17:47:24 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+17:47:28 | PaymentResponse
+17:47:28 | Date : 12/24/2017
+17:47:28 | referenceID : 151402180915
+17:47:28 | PaymentStatus : vbv required
+17:47:28 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224174959
+17:47:28 | ResponseCode : 
+17:47:28 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+17:49:03 | PaymentRequest
+17:49:03 | Merchant
+17:49:03 | GlobalPayID : ********
+17:49:03 | Card
+17:49:03 | CardNumber : 449632******5929
+17:49:03 | CardExpiryMonth : 04
+17:49:03 | CardExpiryYear : 20
+17:49:03 | CardCvv : ***
+17:49:03 | Payment
+17:49:03 | Description : 151482005008
+17:49:03 | ReferenceID : 151482005008
+17:49:03 | OrderID : 151482005008
+17:49:03 | Amount : 1
+17:49:03 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+17:49:06 | PaymentResponse
+17:49:06 | Date : 12/24/2017
+17:49:06 | referenceID : 151482005008
+17:49:06 | PaymentStatus : vbv required
+17:49:06 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224175137
+17:49:06 | ResponseCode : 
+17:49:06 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+17:49:30 | PaymentRequest
+17:49:30 | Merchant
+17:49:30 | GlobalPayID : ********
+17:49:30 | Card
+17:49:30 | CardNumber : 449632******5929
+17:49:30 | CardExpiryMonth : 04
+17:49:30 | CardExpiryYear : 20
+17:49:30 | CardCvv : ***
+17:49:30 | Payment
+17:49:30 | Description : 151406022040
+17:49:30 | ReferenceID : 151406022040
+17:49:30 | OrderID : 151406022040
+17:49:30 | Amount : 1
+17:49:30 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+17:49:33 | PaymentResponse
+17:49:33 | Date : 12/24/2017
+17:49:33 | referenceID : 151406022040
+17:49:33 | PaymentStatus : vbv required
+17:49:33 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224175204
+17:49:33 | ResponseCode : 
+17:49:33 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+17:50:22 | PaymentRequest
+17:50:22 | Merchant
+17:50:22 | GlobalPayID : ********
+17:50:22 | Card
+17:50:22 | CardNumber : 449632******5929
+17:50:22 | CardExpiryMonth : 04
+17:50:22 | CardExpiryYear : 20
+17:50:22 | CardCvv : ***
+17:50:22 | Payment
+17:50:22 | Description : 151401084881
+17:50:22 | ReferenceID : 151401084881
+17:50:22 | OrderID : 151401084881
+17:50:22 | Amount : 1
+17:50:22 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+17:50:25 | PaymentResponse
+17:50:25 | Date : 12/24/2017
+17:50:25 | referenceID : 151401084881
+17:50:25 | PaymentStatus : vbv required
+17:50:25 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224175256
+17:50:25 | ResponseCode : 
+17:50:25 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+18:38:19 | PaymentRequest
+18:38:19 | Merchant
+18:38:19 | GlobalPayID : ********
+18:38:19 | Card
+18:38:19 | CardNumber : 445808******9118
+18:38:19 | CardExpiryMonth : 08
+18:38:19 | CardExpiryYear : 19
+18:38:19 | CardCvv : ***
+18:38:19 | Payment
+18:38:19 | Description : 151431630070
+18:38:19 | ReferenceID : 151431630070
+18:38:19 | OrderID : 151431630070
+18:38:19 | Amount : 1
+18:38:19 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+18:38:23 | PaymentResponse
+18:38:23 | Date : 12/24/2017
+18:38:23 | referenceID : 151431630070
+18:38:23 | PaymentStatus : vbv required
+18:38:23 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224184053
+18:38:23 | ResponseCode : 
+18:38:23 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+18:41:23 | PaymentRequest
+18:41:23 | Merchant
+18:41:23 | GlobalPayID : ********
+18:41:23 | Card
+18:41:23 | CardNumber : 445808******9118
+18:41:23 | CardExpiryMonth : 08
+18:41:23 | CardExpiryYear : 19
+18:41:23 | CardCvv : ***
+18:41:23 | Payment
+18:41:23 | Description : 151410025154
+18:41:23 | ReferenceID : 151410025154
+18:41:23 | OrderID : 151410025154
+18:41:23 | Amount : 1
+18:41:23 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+18:41:26 | PaymentResponse
+18:41:26 | Date : 12/24/2017
+18:41:26 | referenceID : 151410025154
+18:41:26 | PaymentStatus : vbv required
+18:41:26 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224184357
+18:41:26 | ResponseCode : 
+18:41:26 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+18:41:57 | PaymentRequest
+18:41:57 | Merchant
+18:41:57 | GlobalPayID : ********
+18:41:57 | Card
+18:41:57 | CardNumber : 445808******9118
+18:41:57 | CardExpiryMonth : 08
+18:41:57 | CardExpiryYear : 19
+18:41:57 | CardCvv : ***
+18:41:57 | Payment
+18:41:57 | Description : 151400903046
+18:41:57 | ReferenceID : 151400903046
+18:41:57 | OrderID : 151400903046
+18:41:57 | Amount : 1
+18:41:57 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+18:42:01 | PaymentResponse
+18:42:01 | Date : 12/24/2017
+18:42:01 | referenceID : 151400903046
+18:42:01 | PaymentStatus : vbv required
+18:42:01 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224184432
+18:42:01 | ResponseCode : 
+18:42:01 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+18:42:26 | PaymentRequest
+18:42:26 | Merchant
+18:42:26 | GlobalPayID : ********
+18:42:26 | Card
+18:42:26 | CardNumber : 445808******9118
+18:42:26 | CardExpiryMonth : 08
+18:42:26 | CardExpiryYear : 19
+18:42:26 | CardCvv : ***
+18:42:26 | Payment
+18:42:26 | Description : 151411081600
+18:42:26 | ReferenceID : 151411081600
+18:42:26 | OrderID : 151411081600
+18:42:26 | Amount : 1
+18:42:26 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+18:42:30 | PaymentResponse
+18:42:30 | Date : 12/24/2017
+18:42:30 | referenceID : 151411081600
+18:42:30 | PaymentStatus : vbv required
+18:42:30 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224184501
+18:42:30 | ResponseCode : 
+18:42:30 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+18:43:08 | PaymentRequest
+18:43:08 | Merchant
+18:43:08 | GlobalPayID : ********
+18:43:08 | Card
+18:43:08 | CardNumber : 445808******9118
+18:43:08 | CardExpiryMonth : 08
+18:43:08 | CardExpiryYear : 19
+18:43:08 | CardCvv : ***
+18:43:08 | Payment
+18:43:08 | Description : 151409912060
+18:43:08 | ReferenceID : 151409912060
+18:43:08 | OrderID : 151409912060
+18:43:08 | Amount : 1
+18:43:08 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+18:43:11 | PaymentResponse
+18:43:11 | Date : 12/24/2017
+18:43:11 | referenceID : 151409912060
+18:43:11 | PaymentStatus : vbv required
+18:43:11 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224184542
+18:43:11 | ResponseCode : 
+18:43:11 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+18:45:36 | PaymentRequest
+18:45:36 | Merchant
+18:45:36 | GlobalPayID : ********
+18:45:36 | Card
+18:45:36 | CardNumber : 445808******9118
+18:45:36 | CardExpiryMonth : 08
+18:45:36 | CardExpiryYear : 19
+18:45:36 | CardCvv : ***
+18:45:36 | Payment
+18:45:36 | Description : 151471059300
+18:45:36 | ReferenceID : 151471059300
+18:45:36 | OrderID : 151471059300
+18:45:36 | Amount : 1
+18:45:36 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+18:45:40 | PaymentResponse
+18:45:40 | Date : 12/24/2017
+18:45:40 | referenceID : 151471059300
+18:45:40 | PaymentStatus : vbv required
+18:45:40 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224184811
+18:45:40 | ResponseCode : 
+18:45:40 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+18:46:14 | PaymentRequest
+18:46:14 | Merchant
+18:46:14 | GlobalPayID : ********
+18:46:14 | Card
+18:46:14 | CardNumber : 445808******9118
+18:46:14 | CardExpiryMonth : 08
+18:46:14 | CardExpiryYear : 19
+18:46:14 | CardCvv : ***
+18:46:14 | Payment
+18:46:14 | Description : 151499079604
+18:46:14 | ReferenceID : 151499079604
+18:46:14 | OrderID : 151499079604
+18:46:14 | Amount : 1
+18:46:14 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+18:46:18 | PaymentResponse
+18:46:18 | Date : 12/24/2017
+18:46:18 | referenceID : 151499079604
+18:46:18 | PaymentStatus : vbv required
+18:46:18 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224184849
+18:46:18 | ResponseCode : 
+18:46:18 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+18:49:05 | PaymentRequest
+18:49:05 | Merchant
+18:49:05 | GlobalPayID : ********
+18:49:05 | Card
+18:49:05 | CardNumber : 445808******9118
+18:49:05 | CardExpiryMonth : 08
+18:49:05 | CardExpiryYear : 19
+18:49:05 | CardCvv : ***
+18:49:05 | Payment
+18:49:05 | Description : 151490014677
+18:49:05 | ReferenceID : 151490014677
+18:49:05 | OrderID : 151490014677
+18:49:05 | Amount : 1
+18:49:05 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+18:49:09 | PaymentResponse
+18:49:09 | Date : 12/24/2017
+18:49:09 | referenceID : 151490014677
+18:49:09 | PaymentStatus : vbv required
+18:49:09 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224185140
+18:49:09 | ResponseCode : 
+18:49:09 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+18:49:25 | PaymentRequest
+18:49:25 | Merchant
+18:49:25 | GlobalPayID : ********
+18:49:25 | Card
+18:49:25 | CardNumber : 445808******9118
+18:49:25 | CardExpiryMonth : 08
+18:49:25 | CardExpiryYear : 19
+18:49:25 | CardCvv : ***
+18:49:25 | Payment
+18:49:25 | Description : 151450291450
+18:49:25 | ReferenceID : 151450291450
+18:49:25 | OrderID : 151450291450
+18:49:25 | Amount : 1
+18:49:25 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+18:49:28 | PaymentResponse
+18:49:28 | Date : 12/24/2017
+18:49:28 | referenceID : 151450291450
+18:49:28 | PaymentStatus : vbv required
+18:49:28 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224185159
+18:49:28 | ResponseCode : 
+18:49:28 | Mode : Visa
+
+24-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+18:50:49 | PaymentRequest
+18:50:49 | Merchant
+18:50:49 | GlobalPayID : ********
+18:50:49 | Card
+18:50:49 | CardNumber : 445808******9118
+18:50:49 | CardExpiryMonth : 08
+18:50:49 | CardExpiryYear : 19
+18:50:49 | CardCvv : ***
+18:50:49 | Payment
+18:50:49 | Description : 151402434003
+18:50:49 | ReferenceID : 151402434003
+18:50:49 | OrderID : 151402434003
+18:50:49 | Amount : 1
+18:50:49 | mode : Visa
+
+24-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+18:50:52 | PaymentResponse
+18:50:52 | Date : 12/24/2017
+18:50:52 | referenceID : 151402434003
+18:50:52 | PaymentStatus : vbv required
+18:50:52 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171224185323
+18:50:52 | ResponseCode : 
+18:50:52 | Mode : Visa
+

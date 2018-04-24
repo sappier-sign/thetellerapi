@@ -1,0 +1,4343 @@
+24-11-2017 | TTLR TO ZENITH REQUEST FOREIGN
+05:13:47 | PaymentRequest
+05:13:47 | Merchant
+05:13:47 | GlobalPayID : ********
+05:13:47 | Card
+05:13:47 | CardNumber : 557199******3613
+05:13:47 | CardExpiryMonth : 01
+05:13:47 | CardExpiryYear : 20
+05:13:47 | CardCvv : ***
+05:13:47 | Payment
+05:13:47 | Description : 151100505510
+05:13:47 | ReferenceID : 151100505510
+05:13:47 | OrderID : 151100505510
+05:13:47 | Amount : 3
+05:13:47 | mode : Mastercard
+
+24-11-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+05:13:54 | PaymentResponse
+05:13:54 | Date : 11/24/2017
+05:13:54 | referenceID : 151100505510
+05:13:54 | PaymentStatus : APPROVED
+05:13:54 | Reason : Successful
+05:13:54 | ResponseCode : 0
+05:13:54 | Mode : Mastercard
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+06:03:41 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+06:03:41 | expiry : 2017-11-25
+06:03:41 | username : *********
+06:03:41 | password : *********
+06:03:41 | name : PaySwitch Company Ltd.
+06:03:41 | info : Eze Moni
+06:03:41 | amt : 0.01
+06:03:41 | mobile : 0551373909
+06:03:41 | billprompt : 2
+06:03:41 | thirdpartyID : 151174753000
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+06:03:41 | return
+06:03:41 | responseCode : 0000
+06:03:41 | responseMessage : Accepted for Delivery 0551373909
+06:03:41 | invoiceNo : 202904547
+
+24-11-2017 | TTLR TO ZENITH REQUEST FOREIGN
+09:10:01 | PaymentRequest
+09:10:01 | Merchant
+09:10:01 | GlobalPayID : ********
+09:10:01 | Card
+09:10:01 | CardNumber : 545441******3258
+09:10:01 | CardExpiryMonth : 02
+09:10:01 | CardExpiryYear : 20
+09:10:01 | CardCvv : ***
+09:10:01 | Payment
+09:10:01 | Description : 151167951100
+09:10:01 | ReferenceID : 151167951100
+09:10:01 | OrderID : 151167951100
+09:10:01 | Amount : 50
+09:10:01 | mode : Mastercard
+
+24-11-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+09:10:07 | PaymentResponse
+09:10:07 | Date : 11/24/2017
+09:10:07 | referenceID : 151167951100
+09:10:07 | PaymentStatus : APPROVED
+09:10:07 | Reason : Successful
+09:10:07 | ResponseCode : 0
+09:10:07 | Mode : Mastercard
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+09:10:11 | vendorID : ***
+09:10:11 | subscriberID : 0545231748
+09:10:11 | thirdpartyTransactionID : 151167951100
+09:10:11 | amount : 50
+09:10:11 | apiKey : ***********************
+
+24-11-2017 | MTN TO TLLR RESPONSE FOREIGN
+09:10:13 | return
+09:10:13 | responseCode : 01
+09:10:13 | responseMessage : Successfully processed transaction.
+09:10:13 | thirdpartyTransactionId : 151167951100
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+09:19:33 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+09:19:33 | expiry : 2017-11-25
+09:19:33 | username : *********
+09:19:33 | password : *********
+09:19:33 | name : PaySwitch Company Ltd.
+09:19:33 | info : TheTeller App
+09:19:33 | amt : 70.7
+09:19:33 | mobile : 0249621938
+09:19:33 | billprompt : 2
+09:19:33 | thirdpartyID : 151103779007
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+09:19:33 | return
+09:19:33 | responseCode : 0000
+09:19:33 | responseMessage : Accepted for Delivery 0249621938
+09:19:33 | invoiceNo : 202906392
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+09:20:43 | vendorID : ***
+09:20:43 | subscriberID : 0556274000
+09:20:43 | thirdpartyTransactionID : 151103779007
+09:20:43 | amount : 70.7
+09:20:43 | apiKey : ***********************
+
+24-11-2017 | MTN TO TLLR RESPONSE FOREIGN
+09:20:45 | return
+09:20:45 | responseCode : 01
+09:20:45 | responseMessage : Successfully processed transaction.
+09:20:45 | thirdpartyTransactionId : 151103779007
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+11:50:03 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+11:50:03 | expiry : 2017-11-25
+11:50:03 | username : *********
+11:50:03 | password : *********
+11:50:03 | name : PaySwitch Company Ltd.
+11:50:03 | info : TheTeller App
+11:50:03 | amt : 300
+11:50:03 | mobile : 0543500833
+11:50:03 | billprompt : 2
+11:50:03 | thirdpartyID : 151104060395
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+11:50:03 | return
+11:50:03 | responseCode : 0000
+11:50:03 | responseMessage : Accepted for Delivery 0543500833
+11:50:03 | invoiceNo : 202908867
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+11:56:16 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+11:56:16 | expiry : 2017-11-25
+11:56:16 | username : *********
+11:56:16 | password : *********
+11:56:16 | name : PaySwitch Company Ltd.
+11:56:16 | info : Enterprise Insurance
+11:56:16 | amt : 0.1
+11:56:16 | mobile : 0243730779
+11:56:16 | billprompt : 2
+11:56:16 | thirdpartyID : 151100813740
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+11:56:17 | return
+11:56:17 | responseCode : 0000
+11:56:17 | responseMessage : Accepted for Delivery 0243730779
+11:56:17 | invoiceNo : 202908979
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+12:42:28 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+12:42:28 | expiry : 2017-11-25
+12:42:28 | username : *********
+12:42:28 | password : *********
+12:42:28 | name : PaySwitch Company Ltd.
+12:42:28 | info : Eze Moni
+12:42:28 | amt : 280
+12:42:28 | mobile : 0242949531
+12:42:28 | billprompt : 2
+12:42:28 | thirdpartyID : 151146208560
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+12:42:28 | return
+12:42:28 | responseCode : 0000
+12:42:28 | responseMessage : Accepted for Delivery 0242949531
+12:42:28 | invoiceNo : 202909859
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+12:44:08 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+12:44:08 | expiry : 2017-11-25
+12:44:08 | username : *********
+12:44:08 | password : *********
+12:44:08 | name : PaySwitch Company Ltd.
+12:44:08 | info : Eze Moni
+12:44:08 | amt : 1
+12:44:08 | mobile : 0544520451
+12:44:08 | billprompt : 2
+12:44:08 | thirdpartyID : 151108777034
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+12:44:08 | return
+12:44:08 | responseCode : 0000
+12:44:08 | responseMessage : Accepted for Delivery 0544520451
+12:44:08 | invoiceNo : 202909891
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+12:46:28 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+12:46:28 | expiry : 2017-11-25
+12:46:28 | username : *********
+12:46:28 | password : *********
+12:46:28 | name : PaySwitch Company Ltd.
+12:46:28 | info : Eze Moni
+12:46:28 | amt : 5
+12:46:28 | mobile : 0244491041
+12:46:28 | billprompt : 2
+12:46:28 | thirdpartyID : 151141043027
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+12:46:29 | return
+12:46:29 | responseCode : 0000
+12:46:29 | responseMessage : Accepted for Delivery 0244491041
+12:46:29 | invoiceNo : 202909930
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+12:48:59 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+12:48:59 | expiry : 2017-11-25
+12:48:59 | username : *********
+12:48:59 | password : *********
+12:48:59 | name : PaySwitch Company Ltd.
+12:48:59 | info : Eze Moni
+12:48:59 | amt : 1
+12:48:59 | mobile : 0544520451
+12:48:59 | billprompt : 2
+12:48:59 | thirdpartyID : 151116070165
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+12:48:59 | return
+12:48:59 | responseCode : 0000
+12:48:59 | responseMessage : Accepted for Delivery 0544520451
+12:48:59 | invoiceNo : 202909969
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+12:49:28 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+12:49:28 | expiry : 2017-11-25
+12:49:28 | username : *********
+12:49:28 | password : *********
+12:49:28 | name : PaySwitch Company Ltd.
+12:49:28 | info : Eze Moni
+12:49:28 | amt : 0.01
+12:49:28 | mobile : 0559899451
+12:49:28 | billprompt : 2
+12:49:28 | thirdpartyID : 151147400365
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+12:49:28 | return
+12:49:28 | responseCode : 0000
+12:49:28 | responseMessage : Accepted for Delivery 0559899451
+12:49:28 | invoiceNo : 202909976
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+12:51:18 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+12:51:18 | expiry : 2017-11-25
+12:51:18 | username : *********
+12:51:18 | password : *********
+12:51:18 | name : PaySwitch Company Ltd.
+12:51:18 | info : Eze Moni
+12:51:18 | amt : 2
+12:51:18 | mobile : 0550140560
+12:51:18 | billprompt : 2
+12:51:18 | thirdpartyID : 151109847880
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+12:51:19 | return
+12:51:19 | responseCode : 0000
+12:51:19 | responseMessage : Accepted for Delivery 0550140560
+12:51:19 | invoiceNo : 202909998
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+12:52:59 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+12:52:59 | expiry : 2017-11-25
+12:52:59 | username : *********
+12:52:59 | password : *********
+12:52:59 | name : PaySwitch Company Ltd.
+12:52:59 | info : Eze Moni
+12:52:59 | amt : 2
+12:52:59 | mobile : 0550140560
+12:52:59 | billprompt : 2
+12:52:59 | thirdpartyID : 151100730595
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+12:52:59 | return
+12:52:59 | responseCode : 0000
+12:52:59 | responseMessage : Accepted for Delivery 0550140560
+12:52:59 | invoiceNo : 202910023
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+12:55:28 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+12:55:28 | expiry : 2017-11-25
+12:55:28 | username : *********
+12:55:28 | password : *********
+12:55:28 | name : PaySwitch Company Ltd.
+12:55:28 | info : Eze Moni
+12:55:28 | amt : 1
+12:55:28 | mobile : 0244377530
+12:55:28 | billprompt : 2
+12:55:28 | thirdpartyID : 151133905305
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+12:55:28 | return
+12:55:28 | responseCode : 0000
+12:55:28 | responseMessage : Accepted for Delivery 0244377530
+12:55:28 | invoiceNo : 202910065
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+12:59:50 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+12:59:50 | expiry : 2017-11-25
+12:59:50 | username : *********
+12:59:50 | password : *********
+12:59:50 | name : PaySwitch Company Ltd.
+12:59:50 | info : Eze Moni
+12:59:50 | amt : 500
+12:59:50 | mobile : 0242160880
+12:59:50 | billprompt : 2
+12:59:50 | thirdpartyID : 151109167605
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+12:59:50 | return
+12:59:50 | responseCode : 0000
+12:59:50 | responseMessage : Accepted for Delivery 0242160880
+12:59:50 | invoiceNo : 202910128
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:01:49 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:01:49 | expiry : 2017-11-25
+13:01:49 | username : *********
+13:01:49 | password : *********
+13:01:49 | name : PaySwitch Company Ltd.
+13:01:49 | info : Eze Moni
+13:01:49 | amt : 500
+13:01:49 | mobile : 0242160880
+13:01:49 | billprompt : 2
+13:01:49 | thirdpartyID : 151159500340
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:01:49 | return
+13:01:49 | responseCode : 0000
+13:01:49 | responseMessage : Accepted for Delivery 0242160880
+13:01:49 | invoiceNo : 202910163
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:03:32 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:03:32 | expiry : 2017-11-25
+13:03:32 | username : *********
+13:03:32 | password : *********
+13:03:32 | name : PaySwitch Company Ltd.
+13:03:32 | info : Eze Moni
+13:03:32 | amt : 0.05
+13:03:32 | mobile : 0246956604
+13:03:32 | billprompt : 2
+13:03:32 | thirdpartyID : 151100309890
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:03:33 | return
+13:03:33 | responseCode : 0000
+13:03:33 | responseMessage : Accepted for Delivery 0246956604
+13:03:33 | invoiceNo : 202910189
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:04:02 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:04:02 | expiry : 2017-11-25
+13:04:02 | username : *********
+13:04:02 | password : *********
+13:04:02 | name : PaySwitch Company Ltd.
+13:04:02 | info : Eze Moni
+13:04:02 | amt : 100
+13:04:02 | mobile : 0245014655
+13:04:02 | billprompt : 2
+13:04:02 | thirdpartyID : 151169020484
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:04:02 | return
+13:04:02 | responseCode : 0000
+13:04:02 | responseMessage : Accepted for Delivery 0245014655
+13:04:02 | invoiceNo : 202910204
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:05:47 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:05:47 | expiry : 2017-11-25
+13:05:47 | username : *********
+13:05:47 | password : *********
+13:05:47 | name : PaySwitch Company Ltd.
+13:05:47 | info : Eze Moni
+13:05:47 | amt : 500
+13:05:47 | mobile : 0244845424
+13:05:47 | billprompt : 2
+13:05:47 | thirdpartyID : 151100719039
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:05:48 | return
+13:05:48 | responseCode : 0000
+13:05:48 | responseMessage : Accepted for Delivery 0244845424
+13:05:48 | invoiceNo : 202910231
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:08:18 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:08:18 | expiry : 2017-11-25
+13:08:18 | username : *********
+13:08:18 | password : *********
+13:08:18 | name : PaySwitch Company Ltd.
+13:08:18 | info : Eze Moni
+13:08:18 | amt : 280
+13:08:18 | mobile : 0243051396
+13:08:18 | billprompt : 2
+13:08:18 | thirdpartyID : 151140772802
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:08:18 | return
+13:08:18 | responseCode : 0000
+13:08:18 | responseMessage : Accepted for Delivery 0243051396
+13:08:18 | invoiceNo : 202910271
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:10:45 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:10:45 | expiry : 2017-11-25
+13:10:45 | username : *********
+13:10:45 | password : *********
+13:10:45 | name : PaySwitch Company Ltd.
+13:10:45 | info : Eze Moni
+13:10:45 | amt : 500
+13:10:45 | mobile : 0243051355
+13:10:45 | billprompt : 2
+13:10:45 | thirdpartyID : 151130034727
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:10:45 | return
+13:10:45 | responseCode : 0000
+13:10:45 | responseMessage : Accepted for Delivery 0243051355
+13:10:45 | invoiceNo : 202910321
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:12:25 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:12:25 | expiry : 2017-11-25
+13:12:25 | username : *********
+13:12:25 | password : *********
+13:12:25 | name : PaySwitch Company Ltd.
+13:12:25 | info : Eze Moni
+13:12:25 | amt : 1480
+13:12:25 | mobile : 0249728099
+13:12:25 | billprompt : 2
+13:12:25 | thirdpartyID : 151100804067
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:12:25 | return
+13:12:25 | responseCode : 0000
+13:12:25 | responseMessage : Accepted for Delivery 0249728099
+13:12:25 | invoiceNo : 202910356
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:14:06 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:14:06 | expiry : 2017-11-25
+13:14:06 | username : *********
+13:14:06 | password : *********
+13:14:06 | name : PaySwitch Company Ltd.
+13:14:06 | info : Eze Moni
+13:14:06 | amt : 500
+13:14:06 | mobile : 0244160862
+13:14:06 | billprompt : 2
+13:14:06 | thirdpartyID : 151103430804
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:14:06 | return
+13:14:06 | responseCode : 0000
+13:14:06 | responseMessage : Accepted for Delivery 0244160862
+13:14:06 | invoiceNo : 202910393
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:16:27 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:16:27 | expiry : 2017-11-25
+13:16:27 | username : *********
+13:16:27 | password : *********
+13:16:27 | name : PaySwitch Company Ltd.
+13:16:27 | info : Eze Moni
+13:16:27 | amt : 230
+13:16:27 | mobile : 0243051343
+13:16:27 | billprompt : 2
+13:16:27 | thirdpartyID : 151151062040
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:16:27 | return
+13:16:27 | responseCode : 0000
+13:16:27 | responseMessage : Accepted for Delivery 0243051343
+13:16:27 | invoiceNo : 202910442
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:18:07 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:18:07 | expiry : 2017-11-25
+13:18:07 | username : *********
+13:18:07 | password : *********
+13:18:07 | name : PaySwitch Company Ltd.
+13:18:07 | info : Eze Moni
+13:18:07 | amt : 600
+13:18:07 | mobile : 0244845516
+13:18:07 | billprompt : 2
+13:18:07 | thirdpartyID : 151141700080
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:18:08 | return
+13:18:08 | responseCode : 0000
+13:18:08 | responseMessage : Accepted for Delivery 0244845516
+13:18:08 | invoiceNo : 202910471
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:19:47 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:19:47 | expiry : 2017-11-25
+13:19:47 | username : *********
+13:19:47 | password : *********
+13:19:47 | name : PaySwitch Company Ltd.
+13:19:47 | info : Eze Moni
+13:19:47 | amt : 190
+13:19:47 | mobile : 0243051398
+13:19:47 | billprompt : 2
+13:19:47 | thirdpartyID : 151108501610
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:19:48 | return
+13:19:48 | responseCode : 0000
+13:19:48 | responseMessage : Accepted for Delivery 0243051398
+13:19:48 | invoiceNo : 202910514
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:21:28 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:21:28 | expiry : 2017-11-25
+13:21:28 | username : *********
+13:21:28 | password : *********
+13:21:28 | name : PaySwitch Company Ltd.
+13:21:28 | info : Eze Moni
+13:21:28 | amt : 600
+13:21:28 | mobile : 0244845516
+13:21:28 | billprompt : 2
+13:21:28 | thirdpartyID : 151103150802
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:21:28 | return
+13:21:28 | responseCode : 0000
+13:21:28 | responseMessage : Accepted for Delivery 0244845516
+13:21:28 | invoiceNo : 202910541
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:23:08 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:23:08 | expiry : 2017-11-25
+13:23:08 | username : *********
+13:23:08 | password : *********
+13:23:08 | name : PaySwitch Company Ltd.
+13:23:08 | info : Eze Moni
+13:23:08 | amt : 1000
+13:23:08 | mobile : 0244150993
+13:23:08 | billprompt : 2
+13:23:08 | thirdpartyID : 151100676540
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:23:08 | return
+13:23:08 | responseCode : 0000
+13:23:08 | responseMessage : Accepted for Delivery 0244150993
+13:23:08 | invoiceNo : 202910570
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:24:51 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:24:51 | expiry : 2017-11-25
+13:24:51 | username : *********
+13:24:51 | password : *********
+13:24:51 | name : PaySwitch Company Ltd.
+13:24:51 | info : Eze Moni
+13:24:51 | amt : 1000
+13:24:51 | mobile : 0242160898
+13:24:51 | billprompt : 2
+13:24:51 | thirdpartyID : 151103280026
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:24:51 | return
+13:24:51 | responseCode : 0000
+13:24:51 | responseMessage : Accepted for Delivery 0242160898
+13:24:51 | invoiceNo : 202910596
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:27:06 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:27:06 | expiry : 2017-11-25
+13:27:06 | username : *********
+13:27:06 | password : *********
+13:27:06 | name : PaySwitch Company Ltd.
+13:27:06 | info : Eze Moni
+13:27:06 | amt : 300
+13:27:06 | mobile : 0245014655
+13:27:06 | billprompt : 2
+13:27:06 | thirdpartyID : 151138003545
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:27:06 | return
+13:27:06 | responseCode : 0000
+13:27:06 | responseMessage : Accepted for Delivery 0245014655
+13:27:06 | invoiceNo : 202910637
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:28:47 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:28:47 | expiry : 2017-11-25
+13:28:47 | username : *********
+13:28:47 | password : *********
+13:28:47 | name : PaySwitch Company Ltd.
+13:28:47 | info : Eze Moni
+13:28:47 | amt : 1000
+13:28:47 | mobile : 0244150993
+13:28:47 | billprompt : 2
+13:28:47 | thirdpartyID : 151104330833
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:28:47 | return
+13:28:47 | responseCode : 0000
+13:28:47 | responseMessage : Accepted for Delivery 0244150993
+13:28:47 | invoiceNo : 202910659
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:30:28 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:30:28 | expiry : 2017-11-25
+13:30:28 | username : *********
+13:30:28 | password : *********
+13:30:28 | name : PaySwitch Company Ltd.
+13:30:28 | info : Eze Moni
+13:30:28 | amt : 600
+13:30:28 | mobile : 0244845516
+13:30:28 | billprompt : 2
+13:30:28 | thirdpartyID : 151144021042
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:30:28 | return
+13:30:28 | responseCode : 0000
+13:30:28 | responseMessage : Accepted for Delivery 0244845516
+13:30:28 | invoiceNo : 202910689
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:32:09 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:32:09 | expiry : 2017-11-25
+13:32:09 | username : *********
+13:32:09 | password : *********
+13:32:09 | name : PaySwitch Company Ltd.
+13:32:09 | info : Eze Moni
+13:32:09 | amt : 1000
+13:32:09 | mobile : 0244150693
+13:32:09 | billprompt : 2
+13:32:09 | thirdpartyID : 151134030401
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:32:09 | return
+13:32:09 | responseCode : 0000
+13:32:09 | responseMessage : Accepted for Delivery 0244150693
+13:32:09 | invoiceNo : 202910713
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:32:23 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:32:23 | expiry : 2017-11-25
+13:32:23 | username : *********
+13:32:23 | password : *********
+13:32:23 | name : PaySwitch Company Ltd.
+13:32:23 | info : Eze Moni
+13:32:23 | amt : 1100
+13:32:23 | mobile : 0243443077
+13:32:23 | billprompt : 2
+13:32:23 | thirdpartyID : 151115340510
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:32:23 | return
+13:32:23 | responseCode : 0000
+13:32:23 | responseMessage : Accepted for Delivery 0243443077
+13:32:23 | invoiceNo : 202910717
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:34:03 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:34:03 | expiry : 2017-11-25
+13:34:03 | username : *********
+13:34:03 | password : *********
+13:34:03 | name : PaySwitch Company Ltd.
+13:34:03 | info : Eze Moni
+13:34:03 | amt : 1000
+13:34:03 | mobile : 0244150993
+13:34:03 | billprompt : 2
+13:34:03 | thirdpartyID : 151105070017
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:34:03 | return
+13:34:03 | responseCode : 0000
+13:34:03 | responseMessage : Accepted for Delivery 0244150993
+13:34:03 | invoiceNo : 202910753
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:36:23 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:36:23 | expiry : 2017-11-25
+13:36:23 | username : *********
+13:36:23 | password : *********
+13:36:23 | name : PaySwitch Company Ltd.
+13:36:23 | info : Eze Moni
+13:36:23 | amt : 200
+13:36:23 | mobile : 0249223038
+13:36:23 | billprompt : 2
+13:36:23 | thirdpartyID : 151100084223
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:36:24 | return
+13:36:24 | responseCode : 0000
+13:36:24 | responseMessage : Accepted for Delivery 0249223038
+13:36:24 | invoiceNo : 202910790
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:38:04 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:38:04 | expiry : 2017-11-25
+13:38:04 | username : *********
+13:38:04 | password : *********
+13:38:04 | name : PaySwitch Company Ltd.
+13:38:04 | info : Eze Moni
+13:38:04 | amt : 1000
+13:38:04 | mobile : 0244150993
+13:38:04 | billprompt : 2
+13:38:04 | thirdpartyID : 151192570480
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:38:04 | return
+13:38:04 | responseCode : 0000
+13:38:04 | responseMessage : Accepted for Delivery 0244150993
+13:38:04 | invoiceNo : 202910818
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:39:44 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:39:44 | expiry : 2017-11-25
+13:39:44 | username : *********
+13:39:44 | password : *********
+13:39:44 | name : PaySwitch Company Ltd.
+13:39:44 | info : Eze Moni
+13:39:44 | amt : 980
+13:39:44 | mobile : 0247529927
+13:39:44 | billprompt : 2
+13:39:44 | thirdpartyID : 151110304906
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:39:45 | return
+13:39:45 | responseCode : 0000
+13:39:45 | responseMessage : Accepted for Delivery 0247529927
+13:39:45 | invoiceNo : 202910849
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:41:26 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:41:26 | expiry : 2017-11-25
+13:41:26 | username : *********
+13:41:26 | password : *********
+13:41:26 | name : PaySwitch Company Ltd.
+13:41:26 | info : Eze Moni
+13:41:26 | amt : 1000
+13:41:26 | mobile : 0244150993
+13:41:26 | billprompt : 2
+13:41:26 | thirdpartyID : 151162720809
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:41:26 | return
+13:41:26 | responseCode : 0000
+13:41:26 | responseMessage : Accepted for Delivery 0244150993
+13:41:26 | invoiceNo : 202910878
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:43:07 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:43:07 | expiry : 2017-11-25
+13:43:07 | username : *********
+13:43:07 | password : *********
+13:43:07 | name : PaySwitch Company Ltd.
+13:43:07 | info : Eze Moni
+13:43:07 | amt : 800
+13:43:07 | mobile : 0244466254
+13:43:07 | billprompt : 2
+13:43:07 | thirdpartyID : 151173007082
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:43:07 | return
+13:43:07 | responseCode : 0000
+13:43:07 | responseMessage : Accepted for Delivery 0244466254
+13:43:07 | invoiceNo : 202910915
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:44:47 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:44:47 | expiry : 2017-11-25
+13:44:47 | username : *********
+13:44:47 | password : *********
+13:44:47 | name : PaySwitch Company Ltd.
+13:44:47 | info : Eze Moni
+13:44:47 | amt : 1000
+13:44:47 | mobile : 0244150993
+13:44:47 | billprompt : 2
+13:44:47 | thirdpartyID : 151140940988
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:44:48 | return
+13:44:48 | responseCode : 0000
+13:44:48 | responseMessage : Accepted for Delivery 0244150993
+13:44:48 | invoiceNo : 202910941
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:47:12 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:47:12 | expiry : 2017-11-25
+13:47:12 | username : *********
+13:47:12 | password : *********
+13:47:12 | name : PaySwitch Company Ltd.
+13:47:12 | info : Eze Moni
+13:47:12 | amt : 500
+13:47:12 | mobile : 0243608031
+13:47:12 | billprompt : 2
+13:47:12 | thirdpartyID : 151120176980
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:47:12 | return
+13:47:12 | responseCode : 0000
+13:47:12 | responseMessage : Accepted for Delivery 0243608031
+13:47:12 | invoiceNo : 202910978
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:48:52 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:48:52 | expiry : 2017-11-25
+13:48:52 | username : *********
+13:48:52 | password : *********
+13:48:52 | name : PaySwitch Company Ltd.
+13:48:52 | info : Eze Moni
+13:48:52 | amt : 1000
+13:48:52 | mobile : 0244310253
+13:48:52 | billprompt : 2
+13:48:52 | thirdpartyID : 151106652302
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:48:52 | return
+13:48:52 | responseCode : 0000
+13:48:52 | responseMessage : Accepted for Delivery 0244310253
+13:48:52 | invoiceNo : 202911006
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:50:33 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:50:33 | expiry : 2017-11-25
+13:50:33 | username : *********
+13:50:33 | password : *********
+13:50:33 | name : PaySwitch Company Ltd.
+13:50:33 | info : Eze Moni
+13:50:33 | amt : 180
+13:50:33 | mobile : 0249223038
+13:50:33 | billprompt : 2
+13:50:33 | thirdpartyID : 151181301908
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:50:33 | return
+13:50:33 | responseCode : 0000
+13:50:33 | responseMessage : Accepted for Delivery 0249223038
+13:50:33 | invoiceNo : 202911038
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:52:13 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:52:13 | expiry : 2017-11-25
+13:52:13 | username : *********
+13:52:13 | password : *********
+13:52:13 | name : PaySwitch Company Ltd.
+13:52:13 | info : Eze Moni
+13:52:13 | amt : 500
+13:52:13 | mobile : 0243608031
+13:52:13 | billprompt : 2
+13:52:13 | thirdpartyID : 151171604905
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:52:14 | return
+13:52:14 | responseCode : 0000
+13:52:14 | responseMessage : Accepted for Delivery 0243608031
+13:52:14 | invoiceNo : 202911063
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:54:50 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:54:50 | expiry : 2017-11-25
+13:54:50 | username : *********
+13:54:50 | password : *********
+13:54:50 | name : PaySwitch Company Ltd.
+13:54:50 | info : Eze Moni
+13:54:50 | amt : 180
+13:54:50 | mobile : 0249223038
+13:54:50 | billprompt : 2
+13:54:50 | thirdpartyID : 151101790380
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:54:51 | return
+13:54:51 | responseCode : 0000
+13:54:51 | responseMessage : Accepted for Delivery 0249223038
+13:54:51 | invoiceNo : 202911113
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:56:30 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:56:30 | expiry : 2017-11-25
+13:56:30 | username : *********
+13:56:30 | password : *********
+13:56:30 | name : PaySwitch Company Ltd.
+13:56:30 | info : Eze Moni
+13:56:30 | amt : 980
+13:56:30 | mobile : 0247529927
+13:56:30 | billprompt : 2
+13:56:30 | thirdpartyID : 151132988004
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:56:31 | return
+13:56:31 | responseCode : 0000
+13:56:31 | responseMessage : Accepted for Delivery 0247529927
+13:56:31 | invoiceNo : 202911140
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:58:11 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:58:11 | expiry : 2017-11-25
+13:58:11 | username : *********
+13:58:11 | password : *********
+13:58:11 | name : PaySwitch Company Ltd.
+13:58:11 | info : Eze Moni
+13:58:11 | amt : 500
+13:58:11 | mobile : 0243608031
+13:58:11 | billprompt : 2
+13:58:11 | thirdpartyID : 151150402893
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:58:11 | return
+13:58:11 | responseCode : 0000
+13:58:11 | responseMessage : Accepted for Delivery 0243608031
+13:58:11 | invoiceNo : 202911171
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+13:59:53 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:59:53 | expiry : 2017-11-25
+13:59:53 | username : *********
+13:59:53 | password : *********
+13:59:53 | name : PaySwitch Company Ltd.
+13:59:53 | info : Eze Moni
+13:59:53 | amt : 500
+13:59:53 | mobile : 0243608031
+13:59:53 | billprompt : 2
+13:59:53 | thirdpartyID : 151138330033
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+13:59:53 | return
+13:59:53 | responseCode : 0000
+13:59:53 | responseMessage : Accepted for Delivery 0243608031
+13:59:53 | invoiceNo : 202911194
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:01:33 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:01:33 | expiry : 2017-11-25
+14:01:33 | username : *********
+14:01:33 | password : *********
+14:01:33 | name : PaySwitch Company Ltd.
+14:01:33 | info : Eze Moni
+14:01:33 | amt : 500
+14:01:33 | mobile : 0243608031
+14:01:33 | billprompt : 2
+14:01:33 | thirdpartyID : 151160800012
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:01:34 | return
+14:01:34 | responseCode : 0000
+14:01:34 | responseMessage : Accepted for Delivery 0243608031
+14:01:34 | invoiceNo : 202911227
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:03:14 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:03:14 | expiry : 2017-11-25
+14:03:14 | username : *********
+14:03:14 | password : *********
+14:03:14 | name : PaySwitch Company Ltd.
+14:03:14 | info : Eze Moni
+14:03:14 | amt : 500
+14:03:14 | mobile : 0243608031
+14:03:14 | billprompt : 2
+14:03:14 | thirdpartyID : 151156955002
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:03:14 | return
+14:03:14 | responseCode : 0000
+14:03:14 | responseMessage : Accepted for Delivery 0243608031
+14:03:14 | invoiceNo : 202911260
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:05:57 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:05:57 | expiry : 2017-11-25
+14:05:57 | username : *********
+14:05:57 | password : *********
+14:05:57 | name : PaySwitch Company Ltd.
+14:05:57 | info : Eze Moni
+14:05:57 | amt : 180
+14:05:57 | mobile : 0219223038
+14:05:57 | billprompt : 2
+14:05:57 | thirdpartyID : 151160504063
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:05:57 | return
+14:05:57 | responseCode : 0000
+14:05:57 | responseMessage : Accepted for Delivery 0219223038
+14:05:57 | invoiceNo : 202911303
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:06:51 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:06:51 | expiry : 2017-11-25
+14:06:51 | username : *********
+14:06:51 | password : *********
+14:06:51 | name : PaySwitch Company Ltd.
+14:06:51 | info : Eze Moni
+14:06:51 | amt : 540
+14:06:51 | mobile : 0249692331
+14:06:51 | billprompt : 2
+14:06:51 | thirdpartyID : 151135100789
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:06:52 | return
+14:06:52 | responseCode : 0000
+14:06:52 | responseMessage : Accepted for Delivery 0249692331
+14:06:52 | invoiceNo : 202911315
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:08:36 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:08:36 | expiry : 2017-11-25
+14:08:36 | username : *********
+14:08:36 | password : *********
+14:08:36 | name : PaySwitch Company Ltd.
+14:08:36 | info : Eze Moni
+14:08:36 | amt : 180
+14:08:36 | mobile : 0249223038
+14:08:36 | billprompt : 2
+14:08:36 | thirdpartyID : 151145047600
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:08:36 | return
+14:08:36 | responseCode : 0000
+14:08:36 | responseMessage : Accepted for Delivery 0249223038
+14:08:36 | invoiceNo : 202911345
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:09:56 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:09:56 | expiry : 2017-11-25
+14:09:56 | username : *********
+14:09:56 | password : *********
+14:09:56 | name : PaySwitch Company Ltd.
+14:09:56 | info : Eze Moni
+14:09:56 | amt : 180
+14:09:56 | mobile : 0249223038
+14:09:56 | billprompt : 2
+14:09:56 | thirdpartyID : 151194000965
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:09:56 | return
+14:09:56 | responseCode : 0000
+14:09:56 | responseMessage : Accepted for Delivery 0249223038
+14:09:56 | invoiceNo : 202911376
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:11:37 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:11:37 | expiry : 2017-11-25
+14:11:37 | username : *********
+14:11:37 | password : *********
+14:11:37 | name : PaySwitch Company Ltd.
+14:11:37 | info : Eze Moni
+14:11:37 | amt : 1000
+14:11:37 | mobile : 0244023150
+14:11:37 | billprompt : 2
+14:11:37 | thirdpartyID : 151110900908
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:11:37 | return
+14:11:37 | responseCode : 0000
+14:11:37 | responseMessage : Accepted for Delivery 0244023150
+14:11:37 | invoiceNo : 202911408
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:13:28 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:13:28 | expiry : 2017-11-25
+14:13:28 | username : *********
+14:13:28 | password : *********
+14:13:28 | name : PaySwitch Company Ltd.
+14:13:28 | info : Eze Moni
+14:13:28 | amt : 2000
+14:13:28 | mobile : 0244023150
+14:13:28 | billprompt : 2
+14:13:28 | thirdpartyID : 151120041513
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:13:28 | return
+14:13:28 | responseCode : 0000
+14:13:28 | responseMessage : Accepted for Delivery 0244023150
+14:13:28 | invoiceNo : 202911431
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:15:09 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:15:09 | expiry : 2017-11-25
+14:15:09 | username : *********
+14:15:09 | password : *********
+14:15:09 | name : PaySwitch Company Ltd.
+14:15:09 | info : Eze Moni
+14:15:09 | amt : 2000
+14:15:09 | mobile : 0244023150
+14:15:09 | billprompt : 2
+14:15:09 | thirdpartyID : 151108940023
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:15:10 | return
+14:15:10 | responseCode : 0000
+14:15:10 | responseMessage : Accepted for Delivery 0244023150
+14:15:10 | invoiceNo : 202911453
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:16:51 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:16:51 | expiry : 2017-11-25
+14:16:51 | username : *********
+14:16:51 | password : *********
+14:16:51 | name : PaySwitch Company Ltd.
+14:16:51 | info : Eze Moni
+14:16:51 | amt : 2000
+14:16:51 | mobile : 0244023150
+14:16:51 | billprompt : 2
+14:16:51 | thirdpartyID : 151110047299
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:16:52 | return
+14:16:52 | responseCode : 0000
+14:16:52 | responseMessage : Accepted for Delivery 0244023150
+14:16:52 | invoiceNo : 202911485
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:20:19 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:20:19 | expiry : 2017-11-25
+14:20:19 | username : *********
+14:20:19 | password : *********
+14:20:19 | name : PaySwitch Company Ltd.
+14:20:19 | info : Eze Moni
+14:20:19 | amt : 2000
+14:20:19 | mobile : 0244023150
+14:20:19 | billprompt : 2
+14:20:19 | thirdpartyID : 151122450708
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:20:19 | return
+14:20:19 | responseCode : 0000
+14:20:19 | responseMessage : Accepted for Delivery 0244023150
+14:20:19 | invoiceNo : 202911545
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:22:00 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:22:00 | expiry : 2017-11-25
+14:22:00 | username : *********
+14:22:00 | password : *********
+14:22:00 | name : PaySwitch Company Ltd.
+14:22:00 | info : Eze Moni
+14:22:00 | amt : 300
+14:22:00 | mobile : 0244845525
+14:22:00 | billprompt : 2
+14:22:00 | thirdpartyID : 151121007645
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:22:00 | return
+14:22:00 | responseCode : 0000
+14:22:00 | responseMessage : Accepted for Delivery 0244845525
+14:22:00 | invoiceNo : 202911579
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:23:41 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:23:41 | expiry : 2017-11-25
+14:23:41 | username : *********
+14:23:41 | password : *********
+14:23:41 | name : PaySwitch Company Ltd.
+14:23:41 | info : Eze Moni
+14:23:41 | amt : 860
+14:23:41 | mobile : 0242136450
+14:23:41 | billprompt : 2
+14:23:41 | thirdpartyID : 151105001711
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:23:41 | return
+14:23:41 | responseCode : 0000
+14:23:41 | responseMessage : Accepted for Delivery 0242136450
+14:23:41 | invoiceNo : 202911612
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:25:21 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:25:21 | expiry : 2017-11-25
+14:25:21 | username : *********
+14:25:21 | password : *********
+14:25:21 | name : PaySwitch Company Ltd.
+14:25:21 | info : Eze Moni
+14:25:21 | amt : 300
+14:25:21 | mobile : 0244845525
+14:25:21 | billprompt : 2
+14:25:21 | thirdpartyID : 151101906018
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:25:22 | return
+14:25:22 | responseCode : 0000
+14:25:22 | responseMessage : Accepted for Delivery 0244845525
+14:25:22 | invoiceNo : 202911638
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:26:22 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:26:22 | expiry : 2017-11-25
+14:26:22 | username : *********
+14:26:22 | password : *********
+14:26:22 | name : PaySwitch Company Ltd.
+14:26:22 | info : Eze Moni
+14:26:22 | amt : 300
+14:26:22 | mobile : 0244845525
+14:26:22 | billprompt : 2
+14:26:22 | thirdpartyID : 151180799407
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:26:23 | return
+14:26:23 | responseCode : 0000
+14:26:23 | responseMessage : Accepted for Delivery 0244845525
+14:26:23 | invoiceNo : 202911651
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:28:05 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:28:05 | expiry : 2017-11-25
+14:28:05 | username : *********
+14:28:05 | password : *********
+14:28:05 | name : PaySwitch Company Ltd.
+14:28:05 | info : Eze Moni
+14:28:05 | amt : 2000
+14:28:05 | mobile : 0246788212
+14:28:05 | billprompt : 2
+14:28:05 | thirdpartyID : 151170417100
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:28:05 | return
+14:28:05 | responseCode : 0000
+14:28:05 | responseMessage : Accepted for Delivery 0246788212
+14:28:05 | invoiceNo : 202911679
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:29:46 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:29:46 | expiry : 2017-11-25
+14:29:46 | username : *********
+14:29:46 | password : *********
+14:29:46 | name : PaySwitch Company Ltd.
+14:29:46 | info : Eze Moni
+14:29:46 | amt : 2000
+14:29:46 | mobile : 0246788212
+14:29:46 | billprompt : 2
+14:29:46 | thirdpartyID : 151158822200
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:29:46 | return
+14:29:46 | responseCode : 0000
+14:29:46 | responseMessage : Accepted for Delivery 0246788212
+14:29:46 | invoiceNo : 202911701
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:32:08 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:32:08 | expiry : 2017-11-25
+14:32:08 | username : *********
+14:32:08 | password : *********
+14:32:08 | name : PaySwitch Company Ltd.
+14:32:08 | info : Eze Moni
+14:32:08 | amt : 0.01
+14:32:08 | mobile : 0246407141
+14:32:08 | billprompt : 2
+14:32:08 | thirdpartyID : 151170650343
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:32:08 | return
+14:32:08 | responseCode : 0000
+14:32:08 | responseMessage : Accepted for Delivery 0246407141
+14:32:08 | invoiceNo : 202911739
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:33:54 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:33:54 | expiry : 2017-11-25
+14:33:54 | username : *********
+14:33:54 | password : *********
+14:33:54 | name : PaySwitch Company Ltd.
+14:33:54 | info : Eze Moni
+14:33:54 | amt : 1500
+14:33:54 | mobile : 0242160824
+14:33:54 | billprompt : 2
+14:33:54 | thirdpartyID : 151104015250
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:33:54 | return
+14:33:54 | responseCode : 0000
+14:33:54 | responseMessage : Accepted for Delivery 0242160824
+14:33:54 | invoiceNo : 202911773
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:36:29 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:36:29 | expiry : 2017-11-25
+14:36:29 | username : *********
+14:36:29 | password : *********
+14:36:29 | name : PaySwitch Company Ltd.
+14:36:29 | info : Eze Moni
+14:36:29 | amt : 800
+14:36:29 | mobile : 0245198600
+14:36:29 | billprompt : 2
+14:36:29 | thirdpartyID : 151107539403
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:36:29 | return
+14:36:29 | responseCode : 0000
+14:36:29 | responseMessage : Accepted for Delivery 0245198600
+14:36:29 | invoiceNo : 202911838
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:38:10 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:38:10 | expiry : 2017-11-25
+14:38:10 | username : *********
+14:38:10 | password : *********
+14:38:10 | name : PaySwitch Company Ltd.
+14:38:10 | info : Eze Moni
+14:38:10 | amt : 100
+14:38:10 | mobile : 0243051380
+14:38:10 | billprompt : 2
+14:38:10 | thirdpartyID : 151149500086
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:38:10 | return
+14:38:10 | responseCode : 0000
+14:38:10 | responseMessage : Accepted for Delivery 0243051380
+14:38:10 | invoiceNo : 202911874
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:39:50 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:39:50 | expiry : 2017-11-25
+14:39:50 | username : *********
+14:39:50 | password : *********
+14:39:50 | name : PaySwitch Company Ltd.
+14:39:50 | info : Eze Moni
+14:39:50 | amt : 90
+14:39:50 | mobile : 0244845525
+14:39:50 | billprompt : 2
+14:39:50 | thirdpartyID : 151130890038
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:39:50 | return
+14:39:50 | responseCode : 0000
+14:39:50 | responseMessage : Accepted for Delivery 0244845525
+14:39:50 | invoiceNo : 202911911
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:40:34 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:40:34 | expiry : 2017-11-25
+14:40:34 | username : *********
+14:40:34 | password : *********
+14:40:34 | name : PaySwitch Company Ltd.
+14:40:34 | info : Eze Moni
+14:40:34 | amt : 800.88
+14:40:34 | mobile : 0245198600
+14:40:34 | billprompt : 2
+14:40:34 | thirdpartyID : 151164547030
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:40:34 | return
+14:40:34 | responseCode : 0000
+14:40:34 | responseMessage : Accepted for Delivery 0245198600
+14:40:34 | invoiceNo : 202911932
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:42:14 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:42:14 | expiry : 2017-11-25
+14:42:14 | username : *********
+14:42:14 | password : *********
+14:42:14 | name : PaySwitch Company Ltd.
+14:42:14 | info : Eze Moni
+14:42:14 | amt : 90
+14:42:14 | mobile : 0244845525
+14:42:14 | billprompt : 2
+14:42:14 | thirdpartyID : 151114090750
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:42:14 | return
+14:42:14 | responseCode : 0000
+14:42:14 | responseMessage : Accepted for Delivery 0244845525
+14:42:14 | invoiceNo : 202911962
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:43:55 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:43:55 | expiry : 2017-11-25
+14:43:55 | username : *********
+14:43:55 | password : *********
+14:43:55 | name : PaySwitch Company Ltd.
+14:43:55 | info : Eze Moni
+14:43:55 | amt : 500
+14:43:55 | mobile : 0243608022
+14:43:55 | billprompt : 2
+14:43:55 | thirdpartyID : 151108954790
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:43:55 | return
+14:43:55 | responseCode : 0000
+14:43:55 | responseMessage : Accepted for Delivery 0243608022
+14:43:55 | invoiceNo : 202912001
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:45:40 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:45:40 | expiry : 2017-11-25
+14:45:40 | username : *********
+14:45:40 | password : *********
+14:45:40 | name : PaySwitch Company Ltd.
+14:45:40 | info : Eze Moni
+14:45:40 | amt : 90
+14:45:40 | mobile : 0244845525
+14:45:40 | billprompt : 2
+14:45:40 | thirdpartyID : 151150027942
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:45:40 | return
+14:45:40 | responseCode : 0000
+14:45:40 | responseMessage : Accepted for Delivery 0244845525
+14:45:40 | invoiceNo : 202912034
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:47:22 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:47:22 | expiry : 2017-11-25
+14:47:22 | username : *********
+14:47:22 | password : *********
+14:47:22 | name : PaySwitch Company Ltd.
+14:47:22 | info : Eze Moni
+14:47:22 | amt : 1500
+14:47:22 | mobile : 0242160824
+14:47:22 | billprompt : 2
+14:47:22 | thirdpartyID : 151107530866
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:47:22 | return
+14:47:22 | responseCode : 0000
+14:47:22 | responseMessage : Accepted for Delivery 0242160824
+14:47:22 | invoiceNo : 202912066
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:49:07 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:49:07 | expiry : 2017-11-25
+14:49:07 | username : *********
+14:49:07 | password : *********
+14:49:07 | name : PaySwitch Company Ltd.
+14:49:07 | info : Eze Moni
+14:49:07 | amt : 1500
+14:49:07 | mobile : 0242160824
+14:49:07 | billprompt : 2
+14:49:07 | thirdpartyID : 151106507570
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:49:07 | return
+14:49:07 | responseCode : 0000
+14:49:07 | responseMessage : Accepted for Delivery 0242160824
+14:49:07 | invoiceNo : 202912091
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:50:48 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:50:48 | expiry : 2017-11-25
+14:50:48 | username : *********
+14:50:48 | password : *********
+14:50:48 | name : PaySwitch Company Ltd.
+14:50:48 | info : Eze Moni
+14:50:48 | amt : 500
+14:50:48 | mobile : 0243681906
+14:50:48 | billprompt : 2
+14:50:48 | thirdpartyID : 151159007555
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:50:49 | return
+14:50:49 | responseCode : 0000
+14:50:49 | responseMessage : Accepted for Delivery 0243681906
+14:50:49 | invoiceNo : 202912125
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:52:31 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:52:31 | expiry : 2017-11-25
+14:52:31 | username : *********
+14:52:31 | password : *********
+14:52:31 | name : PaySwitch Company Ltd.
+14:52:31 | info : Eze Moni
+14:52:31 | amt : 500
+14:52:31 | mobile : 0243681906
+14:52:31 | billprompt : 2
+14:52:31 | thirdpartyID : 151197305204
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:52:31 | return
+14:52:31 | responseCode : 0000
+14:52:31 | responseMessage : Accepted for Delivery 0243681906
+14:52:31 | invoiceNo : 202912141
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:54:12 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:54:12 | expiry : 2017-11-25
+14:54:12 | username : *********
+14:54:12 | password : *********
+14:54:12 | name : PaySwitch Company Ltd.
+14:54:12 | info : Eze Moni
+14:54:12 | amt : 900
+14:54:12 | mobile : 0245198634
+14:54:12 | billprompt : 2
+14:54:12 | thirdpartyID : 151130077453
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:54:13 | return
+14:54:13 | responseCode : 0000
+14:54:13 | responseMessage : Accepted for Delivery 0245198634
+14:54:13 | invoiceNo : 202912180
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:55:54 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:55:54 | expiry : 2017-11-25
+14:55:54 | username : *********
+14:55:54 | password : *********
+14:55:54 | name : PaySwitch Company Ltd.
+14:55:54 | info : Eze Moni
+14:55:54 | amt : 900
+14:55:54 | mobile : 0245198634
+14:55:54 | billprompt : 2
+14:55:54 | thirdpartyID : 151110380214
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:55:54 | return
+14:55:54 | responseCode : 0000
+14:55:54 | responseMessage : Accepted for Delivery 0245198634
+14:55:54 | invoiceNo : 202912213
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:57:36 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:57:36 | expiry : 2017-11-25
+14:57:36 | username : *********
+14:57:36 | password : *********
+14:57:36 | name : PaySwitch Company Ltd.
+14:57:36 | info : Eze Moni
+14:57:36 | amt : 900
+14:57:36 | mobile : 0245198634
+14:57:36 | billprompt : 2
+14:57:36 | thirdpartyID : 151102095079
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:57:37 | return
+14:57:37 | responseCode : 0000
+14:57:37 | responseMessage : Accepted for Delivery 0245198634
+14:57:37 | invoiceNo : 202912245
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+14:59:18 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:59:18 | expiry : 2017-11-25
+14:59:18 | username : *********
+14:59:18 | password : *********
+14:59:18 | name : PaySwitch Company Ltd.
+14:59:18 | info : Eze Moni
+14:59:18 | amt : 900
+14:59:18 | mobile : 0245198634
+14:59:18 | billprompt : 2
+14:59:18 | thirdpartyID : 151111916060
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+14:59:18 | return
+14:59:18 | responseCode : 0000
+14:59:18 | responseMessage : Accepted for Delivery 0245198634
+14:59:18 | invoiceNo : 202912272
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:01:01 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:01:01 | expiry : 2017-11-25
+15:01:01 | username : *********
+15:01:01 | password : *********
+15:01:01 | name : PaySwitch Company Ltd.
+15:01:01 | info : Eze Moni
+15:01:01 | amt : 900
+15:01:01 | mobile : 0245198634
+15:01:01 | billprompt : 2
+15:01:01 | thirdpartyID : 151164071904
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:01:02 | return
+15:01:02 | responseCode : 0000
+15:01:02 | responseMessage : Accepted for Delivery 0245198634
+15:01:02 | invoiceNo : 202912299
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:04:00 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:04:00 | expiry : 2017-11-25
+15:04:00 | username : *********
+15:04:00 | password : *********
+15:04:00 | name : PaySwitch Company Ltd.
+15:04:00 | info : Eze Moni
+15:04:00 | amt : 500
+15:04:00 | mobile : 0243681906
+15:04:00 | billprompt : 2
+15:04:00 | thirdpartyID : 151100037767
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:04:00 | return
+15:04:00 | responseCode : 0000
+15:04:00 | responseMessage : Accepted for Delivery 0243681906
+15:04:00 | invoiceNo : 202912347
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:05:42 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:05:42 | expiry : 2017-11-25
+15:05:42 | username : *********
+15:05:42 | password : *********
+15:05:42 | name : PaySwitch Company Ltd.
+15:05:42 | info : Eze Moni
+15:05:42 | amt : 380
+15:05:42 | mobile : 0245000465
+15:05:42 | billprompt : 2
+15:05:42 | thirdpartyID : 151195090081
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:05:42 | return
+15:05:42 | responseCode : 0000
+15:05:42 | responseMessage : Accepted for Delivery 0245000465
+15:05:42 | invoiceNo : 202912377
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:07:22 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:07:22 | expiry : 2017-11-25
+15:07:22 | username : *********
+15:07:22 | password : *********
+15:07:22 | name : PaySwitch Company Ltd.
+15:07:22 | info : Eze Moni
+15:07:22 | amt : 300
+15:07:22 | mobile : 0559899451
+15:07:22 | billprompt : 2
+15:07:22 | thirdpartyID : 151169702004
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:07:22 | return
+15:07:22 | responseCode : 0000
+15:07:22 | responseMessage : Accepted for Delivery 0559899451
+15:07:22 | invoiceNo : 202912415
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:09:02 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:09:02 | expiry : 2017-11-25
+15:09:02 | username : *********
+15:09:02 | password : *********
+15:09:02 | name : PaySwitch Company Ltd.
+15:09:02 | info : Eze Moni
+15:09:02 | amt : 500
+15:09:02 | mobile : 0243681906
+15:09:02 | billprompt : 2
+15:09:02 | thirdpartyID : 151198033501
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:09:02 | return
+15:09:02 | responseCode : 0000
+15:09:02 | responseMessage : Accepted for Delivery 0243681906
+15:09:02 | invoiceNo : 202912454
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:10:42 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:10:42 | expiry : 2017-11-25
+15:10:42 | username : *********
+15:10:42 | password : *********
+15:10:42 | name : PaySwitch Company Ltd.
+15:10:42 | info : Eze Moni
+15:10:42 | amt : 500
+15:10:42 | mobile : 0243681906
+15:10:42 | billprompt : 2
+15:10:42 | thirdpartyID : 151104063300
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:10:42 | return
+15:10:42 | responseCode : 0000
+15:10:42 | responseMessage : Accepted for Delivery 0243681906
+15:10:42 | invoiceNo : 202912485
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:12:23 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:12:23 | expiry : 2017-11-25
+15:12:23 | username : *********
+15:12:23 | password : *********
+15:12:23 | name : PaySwitch Company Ltd.
+15:12:23 | info : Eze Moni
+15:12:23 | amt : 900
+15:12:23 | mobile : 0245198634
+15:12:23 | billprompt : 2
+15:12:23 | thirdpartyID : 151185621020
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:12:23 | return
+15:12:23 | responseCode : 0000
+15:12:23 | responseMessage : Accepted for Delivery 0245198634
+15:12:23 | invoiceNo : 202912513
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:14:04 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:14:04 | expiry : 2017-11-25
+15:14:04 | username : *********
+15:14:04 | password : *********
+15:14:04 | name : PaySwitch Company Ltd.
+15:14:04 | info : Eze Moni
+15:14:04 | amt : 900
+15:14:04 | mobile : 0245198634
+15:14:04 | billprompt : 2
+15:14:04 | thirdpartyID : 151181605320
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:14:04 | return
+15:14:04 | responseCode : 0000
+15:14:04 | responseMessage : Accepted for Delivery 0245198634
+15:14:04 | invoiceNo : 202912544
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:15:45 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:15:45 | expiry : 2017-11-25
+15:15:45 | username : *********
+15:15:45 | password : *********
+15:15:45 | name : PaySwitch Company Ltd.
+15:15:45 | info : Eze Moni
+15:15:45 | amt : 900
+15:15:45 | mobile : 0245198634
+15:15:45 | billprompt : 2
+15:15:45 | thirdpartyID : 151100630997
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:15:45 | return
+15:15:45 | responseCode : 0000
+15:15:45 | responseMessage : Accepted for Delivery 0245198634
+15:15:45 | invoiceNo : 202912585
+
+24-11-2017 | TTLR VODAFONE REQUEST FOREIGN
+15:16:36 | TOKEN : ******************
+15:16:36 | RESULTURL : https://api.theteller.net/v1.1/vodafone/response
+15:16:36 | VFPIN : ************
+15:16:36 | VOUCHERCODE : 904377
+15:16:36 | PHONENUMBER : 0506327253
+15:16:36 | AMOUNT : 0.1
+15:16:36 | VENDORCODE : ****
+15:16:36 | TRANSACTIONID : 151173096620
+
+24-11-2017 | VODAFONE TTLR RESPONSE FOREIGN
+15:16:38 | statusCode : 0
+15:16:38 | statusMessage : Accept the service request successfully.
+15:16:38 | ext_trans_id : AG_20171124_00005a1bcf7e90a6ce06
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:17:25 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:17:25 | expiry : 2017-11-25
+15:17:25 | username : *********
+15:17:25 | password : *********
+15:17:25 | name : PaySwitch Company Ltd.
+15:17:25 | info : Eze Moni
+15:17:25 | amt : 900
+15:17:25 | mobile : 0245198634
+15:17:25 | billprompt : 2
+15:17:25 | thirdpartyID : 151176030020
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:17:25 | return
+15:17:25 | responseCode : 0000
+15:17:25 | responseMessage : Accepted for Delivery 0245198634
+15:17:25 | invoiceNo : 202912615
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:19:08 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:19:08 | expiry : 2017-11-25
+15:19:08 | username : *********
+15:19:08 | password : *********
+15:19:08 | name : PaySwitch Company Ltd.
+15:19:08 | info : Eze Moni
+15:19:08 | amt : 900
+15:19:08 | mobile : 0245198634
+15:19:08 | billprompt : 2
+15:19:08 | thirdpartyID : 151121387060
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:19:08 | return
+15:19:08 | responseCode : 0000
+15:19:08 | responseMessage : Accepted for Delivery 0245198634
+15:19:08 | invoiceNo : 202912644
+
+24-11-2017 | TTLR VODAFONE REQUEST FOREIGN
+15:19:19 | TOKEN : ******************
+15:19:19 | RESULTURL : https://api.theteller.net/v1.1/vodafone/response
+15:19:19 | VFPIN : ************
+15:19:19 | VOUCHERCODE : 904377
+15:19:19 | PHONENUMBER : 0506327253
+15:19:19 | AMOUNT : 0.1
+15:19:19 | VENDORCODE : ****
+15:19:19 | TRANSACTIONID : 151104440333
+
+24-11-2017 | VODAFONE TTLR RESPONSE FOREIGN
+15:19:20 | statusCode : 0
+15:19:20 | statusMessage : Accept the service request successfully.
+15:19:20 | ext_trans_id : AG_20171124_000077fb0a3179689247
+
+24-11-2017 | VODAFONE TTLR RESPONSE FOREIGN
+15:19:22 | resultCode : 2001
+15:19:22 | resultMessage : Initiator authentication error.
+15:19:22 | transactionID : AG_20171124_000077fb0a3179689247
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:20:48 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:20:48 | expiry : 2017-11-25
+15:20:48 | username : *********
+15:20:48 | password : *********
+15:20:48 | name : PaySwitch Company Ltd.
+15:20:48 | info : Eze Moni
+15:20:48 | amt : 900
+15:20:48 | mobile : 0245198634
+15:20:48 | billprompt : 2
+15:20:48 | thirdpartyID : 151182200941
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:20:49 | return
+15:20:49 | responseCode : 0000
+15:20:49 | responseMessage : Accepted for Delivery 0245198634
+15:20:49 | invoiceNo : 202912676
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:22:29 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:22:29 | expiry : 2017-11-25
+15:22:29 | username : *********
+15:22:29 | password : *********
+15:22:29 | name : PaySwitch Company Ltd.
+15:22:29 | info : Eze Moni
+15:22:29 | amt : 900
+15:22:29 | mobile : 0245198634
+15:22:29 | billprompt : 2
+15:22:29 | thirdpartyID : 151100326209
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:22:29 | return
+15:22:29 | responseCode : 0000
+15:22:29 | responseMessage : Accepted for Delivery 0245198634
+15:22:29 | invoiceNo : 202912706
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:24:10 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:24:10 | expiry : 2017-11-25
+15:24:10 | username : *********
+15:24:10 | password : *********
+15:24:10 | name : PaySwitch Company Ltd.
+15:24:10 | info : Eze Moni
+15:24:10 | amt : 0.02
+15:24:10 | mobile : 0548083005
+15:24:10 | billprompt : 2
+15:24:10 | thirdpartyID : 151163837030
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:24:10 | return
+15:24:10 | responseCode : 0000
+15:24:10 | responseMessage : Accepted for Delivery 0548083005
+15:24:10 | invoiceNo : 202912749
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:25:51 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:25:51 | expiry : 2017-11-25
+15:25:51 | username : *********
+15:25:51 | password : *********
+15:25:51 | name : PaySwitch Company Ltd.
+15:25:51 | info : Eze Moni
+15:25:51 | amt : 0.02
+15:25:51 | mobile : 0548083005
+15:25:51 | billprompt : 2
+15:25:51 | thirdpartyID : 151100280447
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:25:51 | return
+15:25:51 | responseCode : 11SY
+15:25:51 | responseMessage : Could not save invoice
+15:25:51 | invoiceNo : 
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:26:49 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:26:49 | expiry : 2017-11-25
+15:26:49 | username : *********
+15:26:49 | password : *********
+15:26:49 | name : PaySwitch Company Ltd.
+15:26:49 | info : Eze Moni
+15:26:49 | amt : 130
+15:26:49 | mobile : 0243051380
+15:26:49 | billprompt : 2
+15:26:49 | thirdpartyID : 151103370904
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:26:49 | return
+15:26:49 | responseCode : 0000
+15:26:49 | responseMessage : Accepted for Delivery 0243051380
+15:26:49 | invoiceNo : 202912788
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:28:29 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:28:29 | expiry : 2017-11-25
+15:28:29 | username : *********
+15:28:29 | password : *********
+15:28:29 | name : PaySwitch Company Ltd.
+15:28:29 | info : Eze Moni
+15:28:29 | amt : 130
+15:28:29 | mobile : 0243051380
+15:28:29 | billprompt : 2
+15:28:29 | thirdpartyID : 151120734590
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:28:29 | return
+15:28:29 | responseCode : 0000
+15:28:29 | responseMessage : Accepted for Delivery 0243051380
+15:28:29 | invoiceNo : 202912811
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:30:59 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:30:59 | expiry : 2017-11-25
+15:30:59 | username : *********
+15:30:59 | password : *********
+15:30:59 | name : PaySwitch Company Ltd.
+15:30:59 | info : Eze Moni
+15:30:59 | amt : 100
+15:30:59 | mobile : 0244160802
+15:30:59 | billprompt : 2
+15:30:59 | thirdpartyID : 151107600801
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:31:00 | return
+15:31:00 | responseCode : 0000
+15:31:00 | responseMessage : Accepted for Delivery 0244160802
+15:31:00 | invoiceNo : 202912855
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:32:40 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:32:40 | expiry : 2017-11-25
+15:32:40 | username : *********
+15:32:40 | password : *********
+15:32:40 | name : PaySwitch Company Ltd.
+15:32:40 | info : Eze Moni
+15:32:40 | amt : 130
+15:32:40 | mobile : 0243051380
+15:32:40 | billprompt : 2
+15:32:40 | thirdpartyID : 151121930072
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:32:40 | return
+15:32:40 | responseCode : 0000
+15:32:40 | responseMessage : Accepted for Delivery 0243051380
+15:32:40 | invoiceNo : 202912889
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:34:20 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:34:20 | expiry : 2017-11-25
+15:34:20 | username : *********
+15:34:20 | password : *********
+15:34:20 | name : PaySwitch Company Ltd.
+15:34:20 | info : Eze Moni
+15:34:20 | amt : 130
+15:34:20 | mobile : 0243051380
+15:34:20 | billprompt : 2
+15:34:20 | thirdpartyID : 151190057098
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:34:20 | return
+15:34:20 | responseCode : 0000
+15:34:20 | responseMessage : Accepted for Delivery 0243051380
+15:34:20 | invoiceNo : 202912927
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:36:01 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:36:01 | expiry : 2017-11-25
+15:36:01 | username : *********
+15:36:01 | password : *********
+15:36:01 | name : PaySwitch Company Ltd.
+15:36:01 | info : Eze Moni
+15:36:01 | amt : 100
+15:36:01 | mobile : 0244160802
+15:36:01 | billprompt : 2
+15:36:01 | thirdpartyID : 151157021630
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:36:01 | return
+15:36:01 | responseCode : 0000
+15:36:01 | responseMessage : Accepted for Delivery 0244160802
+15:36:01 | invoiceNo : 202912974
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:37:42 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:37:42 | expiry : 2017-11-25
+15:37:42 | username : *********
+15:37:42 | password : *********
+15:37:42 | name : PaySwitch Company Ltd.
+15:37:42 | info : Eze Moni
+15:37:42 | amt : 100
+15:37:42 | mobile : 0244160802
+15:37:42 | billprompt : 2
+15:37:42 | thirdpartyID : 151105906010
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:37:42 | return
+15:37:42 | responseCode : 0000
+15:37:42 | responseMessage : Accepted for Delivery 0244160802
+15:37:42 | invoiceNo : 202913008
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:40:23 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:40:23 | expiry : 2017-11-25
+15:40:23 | username : *********
+15:40:23 | password : *********
+15:40:23 | name : PaySwitch Company Ltd.
+15:40:23 | info : Eze Moni
+15:40:23 | amt : 100
+15:40:23 | mobile : 0249814485
+15:40:23 | billprompt : 2
+15:40:23 | thirdpartyID : 151100650137
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:40:23 | return
+15:40:23 | responseCode : 0000
+15:40:23 | responseMessage : Accepted for Delivery 0249814485
+15:40:23 | invoiceNo : 202913065
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:42:04 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:42:04 | expiry : 2017-11-25
+15:42:04 | username : *********
+15:42:04 | password : *********
+15:42:04 | name : PaySwitch Company Ltd.
+15:42:04 | info : Eze Moni
+15:42:04 | amt : 780
+15:42:04 | mobile : 0243884406
+15:42:04 | billprompt : 2
+15:42:04 | thirdpartyID : 151108118480
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:42:04 | return
+15:42:04 | responseCode : 0000
+15:42:04 | responseMessage : Accepted for Delivery 0243884406
+15:42:04 | invoiceNo : 202913100
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:43:44 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:43:44 | expiry : 2017-11-25
+15:43:44 | username : *********
+15:43:44 | password : *********
+15:43:44 | name : PaySwitch Company Ltd.
+15:43:44 | info : Eze Moni
+15:43:44 | amt : 1
+15:43:44 | mobile : 0548060109
+15:43:44 | billprompt : 2
+15:43:44 | thirdpartyID : 151105715000
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:43:44 | return
+15:43:44 | responseCode : 0000
+15:43:44 | responseMessage : Accepted for Delivery 0548060109
+15:43:44 | invoiceNo : 202913126
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+15:46:49 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:46:49 | expiry : 2017-11-25
+15:46:49 | username : *********
+15:46:49 | password : *********
+15:46:49 | name : PaySwitch Company Ltd.
+15:46:49 | info : Eze Moni
+15:46:49 | amt : 1
+15:46:49 | mobile : 0548090106
+15:46:49 | billprompt : 2
+15:46:49 | thirdpartyID : 151102708391
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+15:46:50 | return
+15:46:50 | responseCode : 0000
+15:46:50 | responseMessage : Accepted for Delivery 0548090106
+15:46:50 | invoiceNo : 202913202
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:04:28 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:04:28 | expiry : 2017-11-25
+16:04:28 | username : *********
+16:04:28 | password : *********
+16:04:28 | name : PaySwitch Company Ltd.
+16:04:28 | info : Eze Moni
+16:04:28 | amt : 100
+16:04:28 | mobile : 0249814485
+16:04:28 | billprompt : 2
+16:04:28 | thirdpartyID : 151152025180
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:04:28 | return
+16:04:28 | responseCode : 0000
+16:04:28 | responseMessage : Accepted for Delivery 0249814485
+16:04:28 | invoiceNo : 202913567
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:06:08 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:06:08 | expiry : 2017-11-25
+16:06:08 | username : *********
+16:06:08 | password : *********
+16:06:08 | name : PaySwitch Company Ltd.
+16:06:08 | info : Eze Moni
+16:06:08 | amt : 640
+16:06:08 | mobile : 0243108499
+16:06:08 | billprompt : 2
+16:06:08 | thirdpartyID : 151178030210
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:06:08 | return
+16:06:08 | responseCode : 0000
+16:06:08 | responseMessage : Accepted for Delivery 0243108499
+16:06:08 | invoiceNo : 202913597
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:07:24 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:07:24 | expiry : 2017-11-25
+16:07:24 | username : *********
+16:07:24 | password : *********
+16:07:24 | name : PaySwitch Company Ltd.
+16:07:24 | info : Eze Moni
+16:07:24 | amt : 100
+16:07:24 | mobile : 0249814485
+16:07:24 | billprompt : 2
+16:07:24 | thirdpartyID : 151105833007
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:07:24 | return
+16:07:24 | responseCode : 0000
+16:07:24 | responseMessage : Accepted for Delivery 0249814485
+16:07:24 | invoiceNo : 202913622
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:09:05 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:09:05 | expiry : 2017-11-25
+16:09:05 | username : *********
+16:09:05 | password : *********
+16:09:05 | name : PaySwitch Company Ltd.
+16:09:05 | info : Eze Moni
+16:09:05 | amt : 600
+16:09:05 | mobile : 0245705646
+16:09:05 | billprompt : 2
+16:09:05 | thirdpartyID : 151117007730
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:09:05 | return
+16:09:05 | responseCode : 0000
+16:09:05 | responseMessage : Accepted for Delivery 0245705646
+16:09:05 | invoiceNo : 202913652
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:10:48 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:10:48 | expiry : 2017-11-25
+16:10:48 | username : *********
+16:10:48 | password : *********
+16:10:48 | name : PaySwitch Company Ltd.
+16:10:48 | info : Eze Moni
+16:10:48 | amt : 600
+16:10:48 | mobile : 0245705646
+16:10:48 | billprompt : 2
+16:10:48 | thirdpartyID : 151140294700
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:10:49 | return
+16:10:49 | responseCode : 0000
+16:10:49 | responseMessage : Accepted for Delivery 0245705646
+16:10:49 | invoiceNo : 202913691
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:12:30 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:12:30 | expiry : 2017-11-25
+16:12:30 | username : *********
+16:12:30 | password : *********
+16:12:30 | name : PaySwitch Company Ltd.
+16:12:30 | info : Eze Moni
+16:12:30 | amt : 600
+16:12:30 | mobile : 0245705646
+16:12:30 | billprompt : 2
+16:12:30 | thirdpartyID : 151130360005
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:12:30 | return
+16:12:30 | responseCode : 0000
+16:12:30 | responseMessage : Accepted for Delivery 0245705646
+16:12:30 | invoiceNo : 202913723
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:14:49 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:14:49 | expiry : 2017-11-25
+16:14:49 | username : *********
+16:14:49 | password : *********
+16:14:49 | name : PaySwitch Company Ltd.
+16:14:49 | info : Eze Moni
+16:14:49 | amt : 100
+16:14:49 | mobile : 0249814485
+16:14:49 | billprompt : 2
+16:14:49 | thirdpartyID : 151110878057
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:14:49 | return
+16:14:49 | responseCode : 0000
+16:14:49 | responseMessage : Accepted for Delivery 0249814485
+16:14:49 | invoiceNo : 202913765
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:16:29 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:16:29 | expiry : 2017-11-25
+16:16:29 | username : *********
+16:16:29 | password : *********
+16:16:29 | name : PaySwitch Company Ltd.
+16:16:29 | info : Eze Moni
+16:16:29 | amt : 640
+16:16:29 | mobile : 0243108499
+16:16:29 | billprompt : 2
+16:16:29 | thirdpartyID : 151150770283
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:16:30 | return
+16:16:30 | responseCode : 0000
+16:16:30 | responseMessage : Accepted for Delivery 0243108499
+16:16:30 | invoiceNo : 202913798
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:17:55 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:17:55 | expiry : 2017-11-25
+16:17:55 | username : *********
+16:17:55 | password : *********
+16:17:55 | name : PaySwitch Company Ltd.
+16:17:55 | info : Eze Moni
+16:17:55 | amt : 100
+16:17:55 | mobile : 0249814485
+16:17:55 | billprompt : 2
+16:17:55 | thirdpartyID : 151103900728
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:17:56 | return
+16:17:56 | responseCode : 0000
+16:17:56 | responseMessage : Accepted for Delivery 0249814485
+16:17:56 | invoiceNo : 202913829
+
+24-11-2017 | TTLR VODAFONE REQUEST FOREIGN
+16:18:32 | TOKEN : ******************
+16:18:32 | RESULTURL : https://api.theteller.net/v1.1/vodafone/response
+16:18:32 | VFPIN : ************
+16:18:32 | VOUCHERCODE : 445533
+16:18:32 | PHONENUMBER : 0506327253
+16:18:32 | AMOUNT : 0.1
+16:18:32 | VENDORCODE : ****
+16:18:32 | TRANSACTIONID : 151170157070
+
+24-11-2017 | VODAFONE TTLR RESPONSE FOREIGN
+16:18:34 | statusCode : 0
+16:18:34 | statusMessage : Accept the service request successfully.
+16:18:34 | ext_trans_id : AG_20171124_000046b4cd939a0b95e5
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:20:53 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:20:53 | expiry : 2017-11-25
+16:20:53 | username : *********
+16:20:53 | password : *********
+16:20:53 | name : PaySwitch Company Ltd.
+16:20:53 | info : Eze Moni
+16:20:53 | amt : 100
+16:20:53 | mobile : 0249814485
+16:20:53 | billprompt : 2
+16:20:53 | thirdpartyID : 151109309400
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:20:53 | return
+16:20:53 | responseCode : 0000
+16:20:53 | responseMessage : Accepted for Delivery 0249814485
+16:20:53 | invoiceNo : 202913888
+
+24-11-2017 | TTLR VODAFONE REQUEST FOREIGN
+16:21:29 | TOKEN : ******************
+16:21:29 | RESULTURL : https://api.theteller.net/v1.1/vodafone/response
+16:21:29 | VFPIN : ************
+16:21:29 | VOUCHERCODE : 159269
+16:21:29 | PHONENUMBER : 0202009320
+16:21:29 | AMOUNT : 0.1
+16:21:29 | VENDORCODE : ****
+16:21:29 | TRANSACTIONID : 151181601602
+
+24-11-2017 | VODAFONE TTLR RESPONSE FOREIGN
+16:21:30 | statusCode : 0
+16:21:30 | statusMessage : Accept the service request successfully.
+16:21:30 | ext_trans_id : AG_20171124_00005feed74aeb5e190f
+
+24-11-2017 | VODAFONE TTLR RESPONSE FOREIGN
+16:21:31 | resultCode : 2002
+16:21:31 | resultMessage : The initiator is not allowed to send this transaction.
+16:21:31 | transactionID : AG_20171124_00005feed74aeb5e190f
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:22:33 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:22:33 | expiry : 2017-11-25
+16:22:33 | username : *********
+16:22:33 | password : *********
+16:22:33 | name : PaySwitch Company Ltd.
+16:22:33 | info : Eze Moni
+16:22:33 | amt : 400
+16:22:33 | mobile : 0245198627
+16:22:33 | billprompt : 2
+16:22:33 | thirdpartyID : 151150602077
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:22:33 | return
+16:22:33 | responseCode : 0000
+16:22:33 | responseMessage : Accepted for Delivery 0245198627
+16:22:33 | invoiceNo : 202913929
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:24:14 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:24:14 | expiry : 2017-11-25
+16:24:14 | username : *********
+16:24:14 | password : *********
+16:24:14 | name : PaySwitch Company Ltd.
+16:24:14 | info : Eze Moni
+16:24:14 | amt : 1400
+16:24:14 | mobile : 0244177910
+16:24:14 | billprompt : 2
+16:24:14 | thirdpartyID : 151151439020
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:24:15 | return
+16:24:15 | responseCode : 0000
+16:24:15 | responseMessage : Accepted for Delivery 0244177910
+16:24:15 | invoiceNo : 202913959
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:25:55 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:25:55 | expiry : 2017-11-25
+16:25:55 | username : *********
+16:25:55 | password : *********
+16:25:55 | name : PaySwitch Company Ltd.
+16:25:55 | info : Eze Moni
+16:25:55 | amt : 400
+16:25:55 | mobile : 0245198627
+16:25:55 | billprompt : 2
+16:25:55 | thirdpartyID : 151143350049
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:25:55 | return
+16:25:55 | responseCode : 11SY
+16:25:55 | responseMessage : Could not save invoice
+16:25:55 | invoiceNo : 
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:26:09 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:26:09 | expiry : 2017-11-25
+16:26:09 | username : *********
+16:26:09 | password : *********
+16:26:09 | name : PaySwitch Company Ltd.
+16:26:09 | info : Eze Moni
+16:26:09 | amt : 200
+16:26:09 | mobile : 0244429910
+16:26:09 | billprompt : 2
+16:26:09 | thirdpartyID : 151165000594
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:26:09 | return
+16:26:09 | responseCode : 0000
+16:26:09 | responseMessage : Accepted for Delivery 0244429910
+16:26:09 | invoiceNo : 202913982
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:27:50 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:27:50 | expiry : 2017-11-25
+16:27:50 | username : *********
+16:27:50 | password : *********
+16:27:50 | name : PaySwitch Company Ltd.
+16:27:50 | info : Eze Moni
+16:27:50 | amt : 400
+16:27:50 | mobile : 0245198627
+16:27:50 | billprompt : 2
+16:27:50 | thirdpartyID : 151183150320
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:27:50 | return
+16:27:50 | responseCode : 0000
+16:27:50 | responseMessage : Accepted for Delivery 0245198627
+16:27:50 | invoiceNo : 202914012
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:30:15 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:30:15 | expiry : 2017-11-25
+16:30:15 | username : *********
+16:30:15 | password : *********
+16:30:15 | name : PaySwitch Company Ltd.
+16:30:15 | info : Eze Moni
+16:30:15 | amt : 100
+16:30:15 | mobile : 0249814485
+16:30:15 | billprompt : 2
+16:30:15 | thirdpartyID : 151170313700
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:30:15 | return
+16:30:15 | responseCode : 0000
+16:30:15 | responseMessage : Accepted for Delivery 0249814485
+16:30:15 | invoiceNo : 202914054
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:31:56 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:31:56 | expiry : 2017-11-25
+16:31:56 | username : *********
+16:31:56 | password : *********
+16:31:56 | name : PaySwitch Company Ltd.
+16:31:56 | info : Eze Moni
+16:31:56 | amt : 0.01
+16:31:56 | mobile : 0548087685
+16:31:56 | billprompt : 2
+16:31:56 | thirdpartyID : 151150440283
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:31:56 | return
+16:31:56 | responseCode : 0000
+16:31:56 | responseMessage : Accepted for Delivery 0548087685
+16:31:56 | invoiceNo : 202914083
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:33:36 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:33:36 | expiry : 2017-11-25
+16:33:36 | username : *********
+16:33:36 | password : *********
+16:33:36 | name : PaySwitch Company Ltd.
+16:33:36 | info : Eze Moni
+16:33:36 | amt : 200
+16:33:36 | mobile : 0244079503
+16:33:36 | billprompt : 2
+16:33:36 | thirdpartyID : 151190775800
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:33:37 | return
+16:33:37 | responseCode : 0000
+16:33:37 | responseMessage : Accepted for Delivery 0244079503
+16:33:37 | invoiceNo : 202914114
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:35:19 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:35:19 | expiry : 2017-11-25
+16:35:19 | username : *********
+16:35:19 | password : *********
+16:35:19 | name : PaySwitch Company Ltd.
+16:35:19 | info : Eze Moni
+16:35:19 | amt : 400
+16:35:19 | mobile : 0243751510
+16:35:19 | billprompt : 2
+16:35:19 | thirdpartyID : 151173507960
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:35:20 | return
+16:35:20 | responseCode : 0000
+16:35:20 | responseMessage : Accepted for Delivery 0243751510
+16:35:20 | invoiceNo : 202914142
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:38:32 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:38:32 | expiry : 2017-11-25
+16:38:32 | username : *********
+16:38:32 | password : *********
+16:38:32 | name : PaySwitch Company Ltd.
+16:38:32 | info : Eze Moni
+16:38:32 | amt : 1200
+16:38:32 | mobile : 0246225137
+16:38:32 | billprompt : 2
+16:38:32 | thirdpartyID : 151176003902
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:38:32 | return
+16:38:32 | responseCode : 0000
+16:38:32 | responseMessage : Accepted for Delivery 0246225137
+16:38:32 | invoiceNo : 202914202
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:40:34 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:40:34 | expiry : 2017-11-25
+16:40:34 | username : *********
+16:40:34 | password : *********
+16:40:34 | name : PaySwitch Company Ltd.
+16:40:34 | info : Eze Moni
+16:40:34 | amt : 1200
+16:40:34 | mobile : 0246225137
+16:40:34 | billprompt : 2
+16:40:34 | thirdpartyID : 151100801301
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:40:34 | return
+16:40:34 | responseCode : 0000
+16:40:34 | responseMessage : Accepted for Delivery 0246225137
+16:40:34 | invoiceNo : 202914238
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:42:14 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:42:14 | expiry : 2017-11-25
+16:42:14 | username : *********
+16:42:14 | password : *********
+16:42:14 | name : PaySwitch Company Ltd.
+16:42:14 | info : Eze Moni
+16:42:14 | amt : 200
+16:42:14 | mobile : 0244150941
+16:42:14 | billprompt : 2
+16:42:14 | thirdpartyID : 151105140113
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:42:14 | return
+16:42:14 | responseCode : 0000
+16:42:14 | responseMessage : Accepted for Delivery 0244150941
+16:42:14 | invoiceNo : 202914252
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:43:26 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:43:26 | expiry : 2017-11-25
+16:43:26 | username : *********
+16:43:26 | password : *********
+16:43:26 | name : PaySwitch Company Ltd.
+16:43:26 | info : Eze Moni
+16:43:26 | amt : 500
+16:43:26 | mobile : 0243051367
+16:43:26 | billprompt : 2
+16:43:26 | thirdpartyID : 151138479500
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:43:26 | return
+16:43:26 | responseCode : 0000
+16:43:26 | responseMessage : Accepted for Delivery 0243051367
+16:43:26 | invoiceNo : 202914271
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:45:08 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:45:08 | expiry : 2017-11-25
+16:45:08 | username : *********
+16:45:08 | password : *********
+16:45:08 | name : PaySwitch Company Ltd.
+16:45:08 | info : Eze Moni
+16:45:08 | amt : 1200
+16:45:08 | mobile : 0246225137
+16:45:08 | billprompt : 2
+16:45:08 | thirdpartyID : 151140404004
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:45:08 | return
+16:45:08 | responseCode : 0000
+16:45:08 | responseMessage : Accepted for Delivery 0246225137
+16:45:08 | invoiceNo : 202914307
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:46:35 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:46:35 | expiry : 2017-11-25
+16:46:35 | username : *********
+16:46:35 | password : *********
+16:46:35 | name : PaySwitch Company Ltd.
+16:46:35 | info : Eze Moni
+16:46:35 | amt : 799
+16:46:35 | mobile : 0244177941
+16:46:35 | billprompt : 2
+16:46:35 | thirdpartyID : 151110099244
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:46:35 | return
+16:46:35 | responseCode : 0000
+16:46:35 | responseMessage : Accepted for Delivery 0244177941
+16:46:35 | invoiceNo : 202914330
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:48:16 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:48:16 | expiry : 2017-11-25
+16:48:16 | username : *********
+16:48:16 | password : *********
+16:48:16 | name : PaySwitch Company Ltd.
+16:48:16 | info : Eze Moni
+16:48:16 | amt : 100
+16:48:16 | mobile : 0249814485
+16:48:16 | billprompt : 2
+16:48:16 | thirdpartyID : 151102827080
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:48:16 | return
+16:48:16 | responseCode : 0000
+16:48:16 | responseMessage : Accepted for Delivery 0249814485
+16:48:16 | invoiceNo : 202914358
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:49:56 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:49:56 | expiry : 2017-11-25
+16:49:56 | username : *********
+16:49:56 | password : *********
+16:49:56 | name : PaySwitch Company Ltd.
+16:49:56 | info : Eze Moni
+16:49:56 | amt : 840
+16:49:56 | mobile : 0243605605
+16:49:56 | billprompt : 2
+16:49:56 | thirdpartyID : 151152038280
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:49:56 | return
+16:49:56 | responseCode : 0000
+16:49:56 | responseMessage : Accepted for Delivery 0243605605
+16:49:56 | invoiceNo : 202914396
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:52:25 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:52:25 | expiry : 2017-11-25
+16:52:25 | username : *********
+16:52:25 | password : *********
+16:52:25 | name : PaySwitch Company Ltd.
+16:52:25 | info : Eze Moni
+16:52:25 | amt : 840
+16:52:25 | mobile : 0243605605
+16:52:25 | billprompt : 2
+16:52:25 | thirdpartyID : 151188420920
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:52:25 | return
+16:52:25 | responseCode : 0000
+16:52:25 | responseMessage : Accepted for Delivery 0243605605
+16:52:25 | invoiceNo : 202914457
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:54:06 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:54:06 | expiry : 2017-11-25
+16:54:06 | username : *********
+16:54:06 | password : *********
+16:54:06 | name : PaySwitch Company Ltd.
+16:54:06 | info : Eze Moni
+16:54:06 | amt : 700
+16:54:06 | mobile : 0244377530
+16:54:06 | billprompt : 2
+16:54:06 | thirdpartyID : 151108649057
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:54:06 | return
+16:54:06 | responseCode : 0000
+16:54:06 | responseMessage : Accepted for Delivery 0244377530
+16:54:06 | invoiceNo : 202914485
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:54:36 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:54:36 | expiry : 2017-11-25
+16:54:36 | username : *********
+16:54:36 | password : *********
+16:54:36 | name : PaySwitch Company Ltd.
+16:54:36 | info : Eze Moni
+16:54:36 | amt : 1200
+16:54:36 | mobile : 0246225137
+16:54:36 | billprompt : 2
+16:54:36 | thirdpartyID : 151103223016
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:54:36 | return
+16:54:36 | responseCode : 0000
+16:54:36 | responseMessage : Accepted for Delivery 0246225137
+16:54:36 | invoiceNo : 202914500
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:56:16 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:56:16 | expiry : 2017-11-25
+16:56:16 | username : *********
+16:56:16 | password : *********
+16:56:16 | name : PaySwitch Company Ltd.
+16:56:16 | info : Eze Moni
+16:56:16 | amt : 30
+16:56:16 | mobile : 0246705878
+16:56:16 | billprompt : 2
+16:56:16 | thirdpartyID : 151150090537
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:56:16 | return
+16:56:16 | responseCode : 0000
+16:56:16 | responseMessage : Accepted for Delivery 0246705878
+16:56:16 | invoiceNo : 202914531
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+16:57:56 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:57:56 | expiry : 2017-11-25
+16:57:56 | username : *********
+16:57:56 | password : *********
+16:57:56 | name : PaySwitch Company Ltd.
+16:57:56 | info : Eze Moni
+16:57:56 | amt : 500
+16:57:56 | mobile : 0244988675
+16:57:56 | billprompt : 2
+16:57:56 | thirdpartyID : 151150009418
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+16:57:57 | return
+16:57:57 | responseCode : 0000
+16:57:57 | responseMessage : Accepted for Delivery 0244988675
+16:57:57 | invoiceNo : 202914569
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:00:21 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:00:21 | expiry : 2017-11-25
+17:00:21 | username : *********
+17:00:21 | password : *********
+17:00:21 | name : PaySwitch Company Ltd.
+17:00:21 | info : Eze Moni
+17:00:21 | amt : 800
+17:00:21 | mobile : 0244681964
+17:00:21 | billprompt : 2
+17:00:21 | thirdpartyID : 151195220606
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:00:21 | return
+17:00:21 | responseCode : 0000
+17:00:21 | responseMessage : Accepted for Delivery 0244681964
+17:00:21 | invoiceNo : 202914614
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:02:01 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:02:01 | expiry : 2017-11-25
+17:02:01 | username : *********
+17:02:01 | password : *********
+17:02:01 | name : PaySwitch Company Ltd.
+17:02:01 | info : Eze Moni
+17:02:01 | amt : 840
+17:02:01 | mobile : 0243605605
+17:02:01 | billprompt : 2
+17:02:01 | thirdpartyID : 151175209760
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:02:01 | return
+17:02:01 | responseCode : 0000
+17:02:01 | responseMessage : Accepted for Delivery 0243605605
+17:02:01 | invoiceNo : 202914648
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:04:41 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:04:41 | expiry : 2017-11-25
+17:04:41 | username : *********
+17:04:41 | password : *********
+17:04:41 | name : PaySwitch Company Ltd.
+17:04:41 | info : Eze Moni
+17:04:41 | amt : 1
+17:04:41 | mobile : 0548090106
+17:04:41 | billprompt : 2
+17:04:41 | thirdpartyID : 151123340007
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:04:41 | return
+17:04:41 | responseCode : 0000
+17:04:41 | responseMessage : Accepted for Delivery 0548090106
+17:04:41 | invoiceNo : 202914712
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:06:21 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:06:21 | expiry : 2017-11-25
+17:06:21 | username : *********
+17:06:21 | password : *********
+17:06:21 | name : PaySwitch Company Ltd.
+17:06:21 | info : Eze Moni
+17:06:21 | amt : 840
+17:06:21 | mobile : 0243605605
+17:06:21 | billprompt : 2
+17:06:21 | thirdpartyID : 151109590026
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:06:21 | return
+17:06:21 | responseCode : 0000
+17:06:21 | responseMessage : Accepted for Delivery 0243605605
+17:06:21 | invoiceNo : 202914752
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:08:02 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:08:02 | expiry : 2017-11-25
+17:08:02 | username : *********
+17:08:02 | password : *********
+17:08:02 | name : PaySwitch Company Ltd.
+17:08:02 | info : Eze Moni
+17:08:02 | amt : 99.99
+17:08:02 | mobile : 0244071700
+17:08:02 | billprompt : 2
+17:08:02 | thirdpartyID : 151101858390
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:08:02 | return
+17:08:02 | responseCode : 0000
+17:08:02 | responseMessage : Accepted for Delivery 0244071700
+17:08:02 | invoiceNo : 202914783
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:10:38 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:10:38 | expiry : 2017-11-25
+17:10:38 | username : *********
+17:10:38 | password : *********
+17:10:38 | name : PaySwitch Company Ltd.
+17:10:38 | info : Eze Moni
+17:10:38 | amt : 99.99
+17:10:38 | mobile : 0244177900
+17:10:38 | billprompt : 2
+17:10:38 | thirdpartyID : 151135014104
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:10:38 | return
+17:10:38 | responseCode : 0000
+17:10:38 | responseMessage : Accepted for Delivery 0244177900
+17:10:38 | invoiceNo : 202914835
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:12:18 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:12:18 | expiry : 2017-11-25
+17:12:18 | username : *********
+17:12:18 | password : *********
+17:12:18 | name : PaySwitch Company Ltd.
+17:12:18 | info : Eze Moni
+17:12:18 | amt : 30
+17:12:18 | mobile : 0553559351
+17:12:18 | billprompt : 2
+17:12:18 | thirdpartyID : 151130047734
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:12:19 | return
+17:12:19 | responseCode : 0000
+17:12:19 | responseMessage : Accepted for Delivery 0553559351
+17:12:19 | invoiceNo : 202914868
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:13:58 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:13:58 | expiry : 2017-11-25
+17:13:58 | username : *********
+17:13:58 | password : *********
+17:13:58 | name : PaySwitch Company Ltd.
+17:13:58 | info : Eze Moni
+17:13:58 | amt : 500
+17:13:58 | mobile : 0245668974
+17:13:58 | billprompt : 2
+17:13:58 | thirdpartyID : 151110757810
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:13:58 | return
+17:13:58 | responseCode : 0000
+17:13:58 | responseMessage : Accepted for Delivery 0245668974
+17:13:58 | invoiceNo : 202914901
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:15:39 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:15:39 | expiry : 2017-11-25
+17:15:39 | username : *********
+17:15:39 | password : *********
+17:15:39 | name : PaySwitch Company Ltd.
+17:15:39 | info : Eze Moni
+17:15:39 | amt : 50.55
+17:15:39 | mobile : 0244071700
+17:15:39 | billprompt : 2
+17:15:39 | thirdpartyID : 151120950363
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:15:39 | return
+17:15:39 | responseCode : 0000
+17:15:39 | responseMessage : Accepted for Delivery 0244071700
+17:15:39 | invoiceNo : 202914934
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:17:20 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:17:20 | expiry : 2017-11-25
+17:17:20 | username : *********
+17:17:20 | password : *********
+17:17:20 | name : PaySwitch Company Ltd.
+17:17:20 | info : Eze Moni
+17:17:20 | amt : 800
+17:17:20 | mobile : 0242240034
+17:17:20 | billprompt : 2
+17:17:20 | thirdpartyID : 151160900881
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:17:21 | return
+17:17:21 | responseCode : 0000
+17:17:21 | responseMessage : Accepted for Delivery 0242240034
+17:17:21 | invoiceNo : 202914969
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:19:01 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:19:01 | expiry : 2017-11-25
+17:19:01 | username : *********
+17:19:01 | password : *********
+17:19:01 | name : PaySwitch Company Ltd.
+17:19:01 | info : Eze Moni
+17:19:01 | amt : 500
+17:19:01 | mobile : 0245668974
+17:19:01 | billprompt : 2
+17:19:01 | thirdpartyID : 151124604800
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:19:01 | return
+17:19:01 | responseCode : 0000
+17:19:01 | responseMessage : Accepted for Delivery 0245668974
+17:19:01 | invoiceNo : 202914988
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:21:39 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:21:39 | expiry : 2017-11-25
+17:21:39 | username : *********
+17:21:39 | password : *********
+17:21:39 | name : PaySwitch Company Ltd.
+17:21:39 | info : Eze Moni
+17:21:39 | amt : 840
+17:21:39 | mobile : 0243605605
+17:21:39 | billprompt : 2
+17:21:39 | thirdpartyID : 151115092880
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:21:39 | return
+17:21:39 | responseCode : 0000
+17:21:39 | responseMessage : Accepted for Delivery 0243605605
+17:21:39 | invoiceNo : 202915021
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:23:19 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:23:19 | expiry : 2017-11-25
+17:23:19 | username : *********
+17:23:19 | password : *********
+17:23:19 | name : PaySwitch Company Ltd.
+17:23:19 | info : Eze Moni
+17:23:19 | amt : 699
+17:23:19 | mobile : 0248995441
+17:23:19 | billprompt : 2
+17:23:19 | thirdpartyID : 151164002350
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:23:19 | return
+17:23:19 | responseCode : 0000
+17:23:19 | responseMessage : Accepted for Delivery 0248995441
+17:23:19 | invoiceNo : 202915062
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:24:59 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:24:59 | expiry : 2017-11-25
+17:24:59 | username : *********
+17:24:59 | password : *********
+17:24:59 | name : PaySwitch Company Ltd.
+17:24:59 | info : Eze Moni
+17:24:59 | amt : 300
+17:24:59 | mobile : 0247741293
+17:24:59 | billprompt : 2
+17:24:59 | thirdpartyID : 151189991070
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:25:00 | return
+17:25:00 | responseCode : 0000
+17:25:00 | responseMessage : Accepted for Delivery 0247741293
+17:25:00 | invoiceNo : 202915089
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:26:40 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:26:40 | expiry : 2017-11-25
+17:26:40 | username : *********
+17:26:40 | password : *********
+17:26:40 | name : PaySwitch Company Ltd.
+17:26:40 | info : Eze Moni
+17:26:40 | amt : 2000
+17:26:40 | mobile : 0246663284
+17:26:40 | billprompt : 2
+17:26:40 | thirdpartyID : 151100210037
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:26:40 | return
+17:26:40 | responseCode : 0000
+17:26:40 | responseMessage : Accepted for Delivery 0246663284
+17:26:40 | invoiceNo : 202915121
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:28:20 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:28:20 | expiry : 2017-11-25
+17:28:20 | username : *********
+17:28:20 | password : *********
+17:28:20 | name : PaySwitch Company Ltd.
+17:28:20 | info : Eze Moni
+17:28:20 | amt : 99
+17:28:20 | mobile : 0244177955
+17:28:20 | billprompt : 2
+17:28:20 | thirdpartyID : 151102500840
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:28:21 | return
+17:28:21 | responseCode : 0000
+17:28:21 | responseMessage : Accepted for Delivery 0244177955
+17:28:21 | invoiceNo : 202915142
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:30:01 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:30:01 | expiry : 2017-11-25
+17:30:01 | username : *********
+17:30:01 | password : *********
+17:30:01 | name : PaySwitch Company Ltd.
+17:30:01 | info : Eze Moni
+17:30:01 | amt : 840
+17:30:01 | mobile : 0243605605
+17:30:01 | billprompt : 2
+17:30:01 | thirdpartyID : 151172000066
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:30:01 | return
+17:30:01 | responseCode : 0000
+17:30:01 | responseMessage : Accepted for Delivery 0243605605
+17:30:01 | invoiceNo : 202915171
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:31:42 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:31:42 | expiry : 2017-11-25
+17:31:42 | username : *********
+17:31:42 | password : *********
+17:31:42 | name : PaySwitch Company Ltd.
+17:31:42 | info : Eze Moni
+17:31:42 | amt : 300
+17:31:42 | mobile : 0247741293
+17:31:42 | billprompt : 2
+17:31:42 | thirdpartyID : 151156670520
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:31:42 | return
+17:31:42 | responseCode : 0000
+17:31:42 | responseMessage : Accepted for Delivery 0247741293
+17:31:42 | invoiceNo : 202915202
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:33:25 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:33:25 | expiry : 2017-11-25
+17:33:25 | username : *********
+17:33:25 | password : *********
+17:33:25 | name : PaySwitch Company Ltd.
+17:33:25 | info : Eze Moni
+17:33:25 | amt : 288.88
+17:33:25 | mobile : 0244569001
+17:33:25 | billprompt : 2
+17:33:25 | thirdpartyID : 151120000029
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:33:25 | return
+17:33:25 | responseCode : 0000
+17:33:25 | responseMessage : Accepted for Delivery 0244569001
+17:33:25 | invoiceNo : 202915229
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:35:05 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:35:05 | expiry : 2017-11-25
+17:35:05 | username : *********
+17:35:05 | password : *********
+17:35:05 | name : PaySwitch Company Ltd.
+17:35:05 | info : Eze Moni
+17:35:05 | amt : 390
+17:35:05 | mobile : 0247741285
+17:35:05 | billprompt : 2
+17:35:05 | thirdpartyID : 151153260107
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:35:06 | return
+17:35:06 | responseCode : 0000
+17:35:06 | responseMessage : Accepted for Delivery 0247741285
+17:35:06 | invoiceNo : 202915256
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:37:26 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:37:26 | expiry : 2017-11-25
+17:37:26 | username : *********
+17:37:26 | password : *********
+17:37:26 | name : PaySwitch Company Ltd.
+17:37:26 | info : Eze Moni
+17:37:26 | amt : 1200
+17:37:26 | mobile : 0246225137
+17:37:26 | billprompt : 2
+17:37:26 | thirdpartyID : 151100060941
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:37:26 | return
+17:37:26 | responseCode : 0000
+17:37:26 | responseMessage : Accepted for Delivery 0246225137
+17:37:26 | invoiceNo : 202915289
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:39:07 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:39:07 | expiry : 2017-11-25
+17:39:07 | username : *********
+17:39:07 | password : *********
+17:39:07 | name : PaySwitch Company Ltd.
+17:39:07 | info : Eze Moni
+17:39:07 | amt : 600
+17:39:07 | mobile : 0244681982
+17:39:07 | billprompt : 2
+17:39:07 | thirdpartyID : 151109451030
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:39:07 | return
+17:39:07 | responseCode : 0000
+17:39:07 | responseMessage : Accepted for Delivery 0244681982
+17:39:07 | invoiceNo : 202915314
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:40:47 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:40:47 | expiry : 2017-11-25
+17:40:47 | username : *********
+17:40:47 | password : *********
+17:40:47 | name : PaySwitch Company Ltd.
+17:40:47 | info : Eze Moni
+17:40:47 | amt : 840
+17:40:47 | mobile : 0243605605
+17:40:47 | billprompt : 2
+17:40:47 | thirdpartyID : 151129037060
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:40:47 | return
+17:40:47 | responseCode : 0000
+17:40:47 | responseMessage : Accepted for Delivery 0243605605
+17:40:47 | invoiceNo : 202915344
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:42:30 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:42:30 | expiry : 2017-11-25
+17:42:30 | username : *********
+17:42:30 | password : *********
+17:42:30 | name : PaySwitch Company Ltd.
+17:42:30 | info : Eze Moni
+17:42:30 | amt : 1500
+17:42:30 | mobile : 0246518453
+17:42:30 | billprompt : 2
+17:42:30 | thirdpartyID : 151140433709
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:42:30 | return
+17:42:30 | responseCode : 0000
+17:42:30 | responseMessage : Accepted for Delivery 0246518453
+17:42:30 | invoiceNo : 202915382
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:44:10 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:44:10 | expiry : 2017-11-25
+17:44:10 | username : *********
+17:44:10 | password : *********
+17:44:10 | name : PaySwitch Company Ltd.
+17:44:10 | info : Eze Moni
+17:44:10 | amt : 1500
+17:44:10 | mobile : 0246518453
+17:44:10 | billprompt : 2
+17:44:10 | thirdpartyID : 151107595820
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:44:11 | return
+17:44:11 | responseCode : 0000
+17:44:11 | responseMessage : Accepted for Delivery 0246518453
+17:44:11 | invoiceNo : 202915419
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:45:51 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:45:51 | expiry : 2017-11-25
+17:45:51 | username : *********
+17:45:51 | password : *********
+17:45:51 | name : PaySwitch Company Ltd.
+17:45:51 | info : Eze Moni
+17:45:51 | amt : 1500
+17:45:51 | mobile : 0245608453
+17:45:51 | billprompt : 2
+17:45:51 | thirdpartyID : 151103909090
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:45:51 | return
+17:45:51 | responseCode : 0000
+17:45:51 | responseMessage : Accepted for Delivery 0245608453
+17:45:51 | invoiceNo : 202915446
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:47:32 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:47:32 | expiry : 2017-11-25
+17:47:32 | username : *********
+17:47:32 | password : *********
+17:47:32 | name : PaySwitch Company Ltd.
+17:47:32 | info : Eze Moni
+17:47:32 | amt : 1500
+17:47:32 | mobile : 0245608453
+17:47:32 | billprompt : 2
+17:47:32 | thirdpartyID : 151140846200
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:47:32 | return
+17:47:32 | responseCode : 0000
+17:47:32 | responseMessage : Accepted for Delivery 0245608453
+17:47:32 | invoiceNo : 202915476
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:49:13 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:49:13 | expiry : 2017-11-25
+17:49:13 | username : *********
+17:49:13 | password : *********
+17:49:13 | name : PaySwitch Company Ltd.
+17:49:13 | info : Eze Moni
+17:49:13 | amt : 1500
+17:49:13 | mobile : 0245608453
+17:49:13 | billprompt : 2
+17:49:13 | thirdpartyID : 151103655101
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:49:13 | return
+17:49:13 | responseCode : 0000
+17:49:13 | responseMessage : Accepted for Delivery 0245608453
+17:49:13 | invoiceNo : 202915504
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:50:53 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:50:53 | expiry : 2017-11-25
+17:50:53 | username : *********
+17:50:53 | password : *********
+17:50:53 | name : PaySwitch Company Ltd.
+17:50:53 | info : Eze Moni
+17:50:53 | amt : 1500
+17:50:53 | mobile : 0245608453
+17:50:53 | billprompt : 2
+17:50:53 | thirdpartyID : 151124050706
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:50:53 | return
+17:50:53 | responseCode : 0000
+17:50:53 | responseMessage : Accepted for Delivery 0245608453
+17:50:53 | invoiceNo : 202915545
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:52:34 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:52:34 | expiry : 2017-11-25
+17:52:34 | username : *********
+17:52:34 | password : *********
+17:52:34 | name : PaySwitch Company Ltd.
+17:52:34 | info : Eze Moni
+17:52:34 | amt : 1500
+17:52:34 | mobile : 0245608453
+17:52:34 | billprompt : 2
+17:52:34 | thirdpartyID : 151130095608
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:52:35 | return
+17:52:35 | responseCode : 0000
+17:52:35 | responseMessage : Accepted for Delivery 0245608453
+17:52:35 | invoiceNo : 202915579
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:56:23 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:56:23 | expiry : 2017-11-25
+17:56:23 | username : *********
+17:56:23 | password : *********
+17:56:23 | name : PaySwitch Company Ltd.
+17:56:23 | info : Eze Moni
+17:56:23 | amt : 840
+17:56:23 | mobile : 0243605605
+17:56:23 | billprompt : 2
+17:56:23 | thirdpartyID : 151106005888
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:56:24 | return
+17:56:24 | responseCode : 0000
+17:56:24 | responseMessage : Accepted for Delivery 0243605605
+17:56:24 | invoiceNo : 202915635
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:58:04 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:58:04 | expiry : 2017-11-25
+17:58:04 | username : *********
+17:58:04 | password : *********
+17:58:04 | name : PaySwitch Company Ltd.
+17:58:04 | info : Eze Moni
+17:58:04 | amt : 1
+17:58:04 | mobile : 0544843017
+17:58:04 | billprompt : 2
+17:58:04 | thirdpartyID : 151117067590
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:58:05 | return
+17:58:05 | responseCode : 0000
+17:58:05 | responseMessage : Accepted for Delivery 0544843017
+17:58:05 | invoiceNo : 202915663
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+17:59:46 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:59:46 | expiry : 2017-11-25
+17:59:46 | username : *********
+17:59:46 | password : *********
+17:59:46 | name : PaySwitch Company Ltd.
+17:59:46 | info : Eze Moni
+17:59:46 | amt : 1
+17:59:46 | mobile : 0544843017
+17:59:46 | billprompt : 2
+17:59:46 | thirdpartyID : 151184900787
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+17:59:47 | return
+17:59:47 | responseCode : 0000
+17:59:47 | responseMessage : Accepted for Delivery 0544843017
+17:59:47 | invoiceNo : 202915685
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:01:27 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:01:27 | expiry : 2017-11-25
+18:01:27 | username : *********
+18:01:27 | password : *********
+18:01:27 | name : PaySwitch Company Ltd.
+18:01:27 | info : Eze Moni
+18:01:27 | amt : 840
+18:01:27 | mobile : 0243605605
+18:01:27 | billprompt : 2
+18:01:27 | thirdpartyID : 151173540300
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:01:27 | return
+18:01:27 | responseCode : 0000
+18:01:27 | responseMessage : Accepted for Delivery 0243605605
+18:01:27 | invoiceNo : 202915706
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:03:16 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:03:16 | expiry : 2017-11-25
+18:03:16 | username : *********
+18:03:16 | password : *********
+18:03:16 | name : PaySwitch Company Ltd.
+18:03:16 | info : Eze Moni
+18:03:16 | amt : 259
+18:03:16 | mobile : 0247741272
+18:03:16 | billprompt : 2
+18:03:16 | thirdpartyID : 151150770710
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:03:16 | return
+18:03:16 | responseCode : 0000
+18:03:16 | responseMessage : Accepted for Delivery 0247741272
+18:03:16 | invoiceNo : 202915732
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:04:57 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:04:57 | expiry : 2017-11-25
+18:04:57 | username : *********
+18:04:57 | password : *********
+18:04:57 | name : PaySwitch Company Ltd.
+18:04:57 | info : Eze Moni
+18:04:57 | amt : 1
+18:04:57 | mobile : 0544843017
+18:04:57 | billprompt : 2
+18:04:57 | thirdpartyID : 151100811950
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:04:57 | return
+18:04:57 | responseCode : 0000
+18:04:57 | responseMessage : Accepted for Delivery 0544843017
+18:04:57 | invoiceNo : 202915753
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:07:25 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:07:25 | expiry : 2017-11-25
+18:07:25 | username : *********
+18:07:25 | password : *********
+18:07:25 | name : PaySwitch Company Ltd.
+18:07:25 | info : Eze Moni
+18:07:25 | amt : 1
+18:07:25 | mobile : 0544843017
+18:07:25 | billprompt : 2
+18:07:25 | thirdpartyID : 151170307602
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:07:25 | return
+18:07:25 | responseCode : 0000
+18:07:25 | responseMessage : Accepted for Delivery 0544843017
+18:07:25 | invoiceNo : 202915800
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:09:06 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:09:06 | expiry : 2017-11-25
+18:09:06 | username : *********
+18:09:06 | password : *********
+18:09:06 | name : PaySwitch Company Ltd.
+18:09:06 | info : Eze Moni
+18:09:06 | amt : 840
+18:09:06 | mobile : 0243605605
+18:09:06 | billprompt : 2
+18:09:06 | thirdpartyID : 151158005001
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:09:06 | return
+18:09:06 | responseCode : 0000
+18:09:06 | responseMessage : Accepted for Delivery 0243605605
+18:09:06 | invoiceNo : 202915827
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:10:46 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:10:46 | expiry : 2017-11-25
+18:10:46 | username : *********
+18:10:46 | password : *********
+18:10:46 | name : PaySwitch Company Ltd.
+18:10:46 | info : Eze Moni
+18:10:46 | amt : 600
+18:10:46 | mobile : 0243681931
+18:10:46 | billprompt : 2
+18:10:46 | thirdpartyID : 151100013981
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:10:47 | return
+18:10:47 | responseCode : 0000
+18:10:47 | responseMessage : Accepted for Delivery 0243681931
+18:10:47 | invoiceNo : 202915858
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:12:27 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:12:27 | expiry : 2017-11-25
+18:12:27 | username : *********
+18:12:27 | password : *********
+18:12:27 | name : PaySwitch Company Ltd.
+18:12:27 | info : Eze Moni
+18:12:27 | amt : 259
+18:12:27 | mobile : 0247741272
+18:12:27 | billprompt : 2
+18:12:27 | thirdpartyID : 151154900830
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:12:27 | return
+18:12:27 | responseCode : 0000
+18:12:27 | responseMessage : Accepted for Delivery 0247741272
+18:12:27 | invoiceNo : 202915887
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:14:08 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:14:08 | expiry : 2017-11-25
+18:14:08 | username : *********
+18:14:08 | password : *********
+18:14:08 | name : PaySwitch Company Ltd.
+18:14:08 | info : Eze Moni
+18:14:08 | amt : 1
+18:14:08 | mobile : 0544843017
+18:14:08 | billprompt : 2
+18:14:08 | thirdpartyID : 151160067826
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:14:09 | return
+18:14:09 | responseCode : 0000
+18:14:09 | responseMessage : Accepted for Delivery 0544843017
+18:14:09 | invoiceNo : 202915913
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:15:49 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:15:49 | expiry : 2017-11-25
+18:15:49 | username : *********
+18:15:49 | password : *********
+18:15:49 | name : PaySwitch Company Ltd.
+18:15:49 | info : Eze Moni
+18:15:49 | amt : 259
+18:15:49 | mobile : 0247741272
+18:15:49 | billprompt : 2
+18:15:49 | thirdpartyID : 151103403124
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:15:49 | return
+18:15:49 | responseCode : 0000
+18:15:49 | responseMessage : Accepted for Delivery 0247741272
+18:15:49 | invoiceNo : 202915945
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:17:32 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:17:32 | expiry : 2017-11-25
+18:17:32 | username : *********
+18:17:32 | password : *********
+18:17:32 | name : PaySwitch Company Ltd.
+18:17:32 | info : Eze Moni
+18:17:32 | amt : 500
+18:17:32 | mobile : 0246225148
+18:17:32 | billprompt : 2
+18:17:32 | thirdpartyID : 151105570062
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:17:32 | return
+18:17:32 | responseCode : 0000
+18:17:32 | responseMessage : Accepted for Delivery 0246225148
+18:17:32 | invoiceNo : 202915980
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:19:13 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:19:13 | expiry : 2017-11-25
+18:19:13 | username : *********
+18:19:13 | password : *********
+18:19:13 | name : PaySwitch Company Ltd.
+18:19:13 | info : Eze Moni
+18:19:13 | amt : 500
+18:19:13 | mobile : 0246225148
+18:19:13 | billprompt : 2
+18:19:13 | thirdpartyID : 151190745401
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:19:13 | return
+18:19:13 | responseCode : 0000
+18:19:13 | responseMessage : Accepted for Delivery 0246225148
+18:19:13 | invoiceNo : 202916003
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:21:48 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:21:48 | expiry : 2017-11-25
+18:21:48 | username : *********
+18:21:48 | password : *********
+18:21:48 | name : PaySwitch Company Ltd.
+18:21:48 | info : Eze Moni
+18:21:48 | amt : 259
+18:21:48 | mobile : 0247741272
+18:21:48 | billprompt : 2
+18:21:48 | thirdpartyID : 151100104766
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:21:48 | return
+18:21:48 | responseCode : 0000
+18:21:48 | responseMessage : Accepted for Delivery 0247741272
+18:21:48 | invoiceNo : 202916046
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:23:28 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:23:28 | expiry : 2017-11-25
+18:23:28 | username : *********
+18:23:28 | password : *********
+18:23:28 | name : PaySwitch Company Ltd.
+18:23:28 | info : Eze Moni
+18:23:28 | amt : 1
+18:23:28 | mobile : 0544843017
+18:23:28 | billprompt : 2
+18:23:28 | thirdpartyID : 151122402009
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:23:28 | return
+18:23:28 | responseCode : 0000
+18:23:28 | responseMessage : Accepted for Delivery 0544843017
+18:23:28 | invoiceNo : 202916073
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:25:09 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:25:09 | expiry : 2017-11-25
+18:25:09 | username : *********
+18:25:09 | password : *********
+18:25:09 | name : PaySwitch Company Ltd.
+18:25:09 | info : Eze Moni
+18:25:09 | amt : 259
+18:25:09 | mobile : 0247741272
+18:25:09 | billprompt : 2
+18:25:09 | thirdpartyID : 151120763000
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:25:09 | return
+18:25:09 | responseCode : 0000
+18:25:09 | responseMessage : Accepted for Delivery 0247741272
+18:25:09 | invoiceNo : 202916107
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:26:50 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:26:50 | expiry : 2017-11-25
+18:26:50 | username : *********
+18:26:50 | password : *********
+18:26:50 | name : PaySwitch Company Ltd.
+18:26:50 | info : Eze Moni
+18:26:50 | amt : 259
+18:26:50 | mobile : 0247721272
+18:26:50 | billprompt : 2
+18:26:50 | thirdpartyID : 151191036609
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:26:50 | return
+18:26:50 | responseCode : 0000
+18:26:50 | responseMessage : Accepted for Delivery 0247721272
+18:26:50 | invoiceNo : 202916144
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:27:04 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:27:04 | expiry : 2017-11-25
+18:27:04 | username : *********
+18:27:04 | password : *********
+18:27:04 | name : PaySwitch Company Ltd.
+18:27:04 | info : Eze Moni
+18:27:04 | amt : 1
+18:27:04 | mobile : 0544843017
+18:27:04 | billprompt : 2
+18:27:04 | thirdpartyID : 151167758500
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:27:04 | return
+18:27:04 | responseCode : 0000
+18:27:04 | responseMessage : Accepted for Delivery 0544843017
+18:27:04 | invoiceNo : 202916152
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:28:56 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:28:56 | expiry : 2017-11-25
+18:28:56 | username : *********
+18:28:56 | password : *********
+18:28:56 | name : PaySwitch Company Ltd.
+18:28:56 | info : Eze Moni
+18:28:56 | amt : 255
+18:28:56 | mobile : 0247741272
+18:28:56 | billprompt : 2
+18:28:56 | thirdpartyID : 151199011904
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:28:56 | return
+18:28:56 | responseCode : 0000
+18:28:56 | responseMessage : Accepted for Delivery 0247741272
+18:28:56 | invoiceNo : 202916193
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:32:14 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:32:14 | expiry : 2017-11-25
+18:32:14 | username : *********
+18:32:14 | password : *********
+18:32:14 | name : PaySwitch Company Ltd.
+18:32:14 | info : Eze Moni
+18:32:14 | amt : 90
+18:32:14 | mobile : 0244177959
+18:32:14 | billprompt : 2
+18:32:14 | thirdpartyID : 151108807040
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:32:14 | return
+18:32:14 | responseCode : 0000
+18:32:14 | responseMessage : Accepted for Delivery 0244177959
+18:32:14 | invoiceNo : 202916249
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:34:57 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:34:57 | expiry : 2017-11-25
+18:34:57 | username : *********
+18:34:57 | password : *********
+18:34:57 | name : PaySwitch Company Ltd.
+18:34:57 | info : Eze Moni
+18:34:57 | amt : 90
+18:34:57 | mobile : 0244177959
+18:34:57 | billprompt : 2
+18:34:57 | thirdpartyID : 151101040503
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:34:57 | return
+18:34:57 | responseCode : 0000
+18:34:57 | responseMessage : Accepted for Delivery 0244177959
+18:34:57 | invoiceNo : 202916277
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:36:39 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:36:39 | expiry : 2017-11-25
+18:36:39 | username : *********
+18:36:39 | password : *********
+18:36:39 | name : PaySwitch Company Ltd.
+18:36:39 | info : Eze Moni
+18:36:39 | amt : 10
+18:36:39 | mobile : 0244177959
+18:36:39 | billprompt : 2
+18:36:39 | thirdpartyID : 151120192770
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:36:39 | return
+18:36:39 | responseCode : 0000
+18:36:39 | responseMessage : Accepted for Delivery 0244177959
+18:36:39 | invoiceNo : 202916299
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:37:35 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:37:35 | expiry : 2017-11-25
+18:37:35 | username : *********
+18:37:35 | password : *********
+18:37:35 | name : PaySwitch Company Ltd.
+18:37:35 | info : Eze Moni
+18:37:35 | amt : 0.11
+18:37:35 | mobile : 0244533614
+18:37:35 | billprompt : 2
+18:37:35 | thirdpartyID : 151153106540
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:37:35 | return
+18:37:35 | responseCode : 0000
+18:37:35 | responseMessage : Accepted for Delivery 0244533614
+18:37:35 | invoiceNo : 202916306
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:39:16 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:39:16 | expiry : 2017-11-25
+18:39:16 | username : *********
+18:39:16 | password : *********
+18:39:16 | name : PaySwitch Company Ltd.
+18:39:16 | info : Eze Moni
+18:39:16 | amt : 20
+18:39:16 | mobile : 0244177959
+18:39:16 | billprompt : 2
+18:39:16 | thirdpartyID : 151168375400
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:39:16 | return
+18:39:16 | responseCode : 0000
+18:39:16 | responseMessage : Accepted for Delivery 0244177959
+18:39:16 | invoiceNo : 202916328
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:39:58 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:39:58 | expiry : 2017-11-25
+18:39:58 | username : *********
+18:39:58 | password : *********
+18:39:58 | name : PaySwitch Company Ltd.
+18:39:58 | info : Eze Moni
+18:39:58 | amt : 0.5
+18:39:58 | mobile : 0244177959
+18:39:58 | billprompt : 2
+18:39:58 | thirdpartyID : 151140606304
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:39:58 | return
+18:39:58 | responseCode : 0000
+18:39:58 | responseMessage : Accepted for Delivery 0244177959
+18:39:58 | invoiceNo : 202916341
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:41:44 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:41:44 | expiry : 2017-11-25
+18:41:44 | username : *********
+18:41:44 | password : *********
+18:41:44 | name : PaySwitch Company Ltd.
+18:41:44 | info : Eze Moni
+18:41:44 | amt : 0.14
+18:41:44 | mobile : 0244177959
+18:41:44 | billprompt : 2
+18:41:44 | thirdpartyID : 151130842201
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:41:44 | return
+18:41:44 | responseCode : 0000
+18:41:44 | responseMessage : Accepted for Delivery 0244177959
+18:41:44 | invoiceNo : 202916366
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:44:24 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:44:24 | expiry : 2017-11-25
+18:44:24 | username : *********
+18:44:24 | password : *********
+18:44:24 | name : PaySwitch Company Ltd.
+18:44:24 | info : Eze Moni
+18:44:24 | amt : 0.14
+18:44:24 | mobile : 0244177959
+18:44:24 | billprompt : 2
+18:44:24 | thirdpartyID : 151183509074
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:44:24 | return
+18:44:24 | responseCode : 0000
+18:44:24 | responseMessage : Accepted for Delivery 0244177959
+18:44:24 | invoiceNo : 202916412
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:45:42 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:45:42 | expiry : 2017-11-25
+18:45:42 | username : *********
+18:45:42 | password : *********
+18:45:42 | name : PaySwitch Company Ltd.
+18:45:42 | info : Eze Moni
+18:45:42 | amt : 30
+18:45:42 | mobile : 0244177959
+18:45:42 | billprompt : 2
+18:45:42 | thirdpartyID : 151140205081
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:45:42 | return
+18:45:42 | responseCode : 0000
+18:45:42 | responseMessage : Accepted for Delivery 0244177959
+18:45:42 | invoiceNo : 202916425
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:47:15 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:47:15 | expiry : 2017-11-25
+18:47:15 | username : *********
+18:47:15 | password : *********
+18:47:15 | name : PaySwitch Company Ltd.
+18:47:15 | info : Eze Moni
+18:47:15 | amt : 30
+18:47:15 | mobile : 0244177959
+18:47:15 | billprompt : 2
+18:47:15 | thirdpartyID : 151104137016
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:47:15 | return
+18:47:15 | responseCode : 0000
+18:47:15 | responseMessage : Accepted for Delivery 0244177959
+18:47:15 | invoiceNo : 202916445
+
+24-11-2017 | TTLR TO ZENITH REQUEST FOREIGN
+18:50:13 | PaymentRequest
+18:50:13 | Merchant
+18:50:13 | GlobalPayID : ********
+18:50:13 | Card
+18:50:13 | CardNumber : 414720******9972
+18:50:13 | CardExpiryMonth : 12
+18:50:13 | CardExpiryYear : 19
+18:50:13 | CardCvv : ***
+18:50:13 | Payment
+18:50:13 | Description : 151110437708
+18:50:13 | ReferenceID : 151110437708
+18:50:13 | OrderID : 151110437708
+18:50:13 | Amount : 10
+18:50:13 | mode : Visa
+
+24-11-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+18:50:16 | PaymentResponse
+18:50:16 | Date : 11/24/2017
+18:50:16 | referenceID : 151110437708
+18:50:16 | PaymentStatus : vbv required
+18:50:16 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171124185232
+18:50:16 | ResponseCode : 
+18:50:16 | Mode : Visa
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:50:18 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:50:18 | expiry : 2017-11-25
+18:50:18 | username : *********
+18:50:18 | password : *********
+18:50:18 | name : PaySwitch Company Ltd.
+18:50:18 | info : Eze Moni
+18:50:18 | amt : 20
+18:50:18 | mobile : 0244177959
+18:50:18 | billprompt : 2
+18:50:18 | thirdpartyID : 151140256210
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:50:18 | return
+18:50:18 | responseCode : 0000
+18:50:18 | responseMessage : Accepted for Delivery 0244177959
+18:50:18 | invoiceNo : 202916497
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:51:59 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:51:59 | expiry : 2017-11-25
+18:51:59 | username : *********
+18:51:59 | password : *********
+18:51:59 | name : PaySwitch Company Ltd.
+18:51:59 | info : Eze Moni
+18:51:59 | amt : 840
+18:51:59 | mobile : 0243605605
+18:51:59 | billprompt : 2
+18:51:59 | thirdpartyID : 151180550968
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:51:59 | return
+18:51:59 | responseCode : 0000
+18:51:59 | responseMessage : Accepted for Delivery 0243605605
+18:51:59 | invoiceNo : 202916533
+
+24-11-2017 | TTLR TO ZENITH REQUEST FOREIGN
+18:53:39 | PaymentRequest
+18:53:39 | Merchant
+18:53:39 | GlobalPayID : ********
+18:53:39 | Card
+18:53:39 | CardNumber : 481582******0610
+18:53:39 | CardExpiryMonth : 05
+18:53:39 | CardExpiryYear : 20
+18:53:39 | CardCvv : ***
+18:53:39 | Payment
+18:53:39 | Description : 151103288806
+18:53:39 | ReferenceID : 151103288806
+18:53:39 | OrderID : 151103288806
+18:53:39 | Amount : 10
+18:53:39 | mode : Visa
+
+24-11-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+18:53:42 | PaymentResponse
+18:53:42 | Date : 11/24/2017
+18:53:42 | referenceID : 151103288806
+18:53:42 | PaymentStatus : vbv required
+18:53:42 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171124185558
+18:53:42 | ResponseCode : 
+18:53:42 | Mode : Visa
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:53:43 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:53:43 | expiry : 2017-11-25
+18:53:43 | username : *********
+18:53:43 | password : *********
+18:53:43 | name : PaySwitch Company Ltd.
+18:53:43 | info : Eze Moni
+18:53:43 | amt : 0.02
+18:53:43 | mobile : 0244177959
+18:53:43 | billprompt : 2
+18:53:43 | thirdpartyID : 151132701840
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:53:43 | return
+18:53:43 | responseCode : 0000
+18:53:43 | responseMessage : Accepted for Delivery 0244177959
+18:53:43 | invoiceNo : 202916561
+
+24-11-2017 | TTLR TO ZENITH REQUEST FOREIGN
+18:55:45 | PaymentRequest
+18:55:45 | Merchant
+18:55:45 | GlobalPayID : ********
+18:55:45 | Card
+18:55:45 | CardNumber : 414720******9972
+18:55:45 | CardExpiryMonth : 12
+18:55:45 | CardExpiryYear : 19
+18:55:45 | CardCvv : ***
+18:55:45 | Payment
+18:55:45 | Description : 151133006860
+18:55:45 | ReferenceID : 151133006860
+18:55:45 | OrderID : 151133006860
+18:55:45 | Amount : 5
+18:55:45 | mode : Visa
+
+24-11-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+18:55:48 | PaymentResponse
+18:55:48 | Date : 11/24/2017
+18:55:48 | referenceID : 151133006860
+18:55:48 | PaymentStatus : vbv required
+18:55:48 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171124185804
+18:55:48 | ResponseCode : 
+18:55:48 | Mode : Visa
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:56:00 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:56:00 | expiry : 2017-11-25
+18:56:00 | username : *********
+18:56:00 | password : *********
+18:56:00 | name : PaySwitch Company Ltd.
+18:56:00 | info : Eze Moni
+18:56:00 | amt : 0.11
+18:56:00 | mobile : 0244533614
+18:56:00 | billprompt : 2
+18:56:00 | thirdpartyID : 151103553057
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:56:00 | return
+18:56:00 | responseCode : 0000
+18:56:00 | responseMessage : Accepted for Delivery 0244533614
+18:56:00 | invoiceNo : 202916592
+
+24-11-2017 | TTLR TO ZENITH REQUEST FOREIGN
+18:57:40 | PaymentRequest
+18:57:40 | Merchant
+18:57:40 | GlobalPayID : ********
+18:57:40 | Card
+18:57:40 | CardNumber : 410039******0259
+18:57:40 | CardExpiryMonth : 07
+18:57:40 | CardExpiryYear : 20
+18:57:40 | CardCvv : ***
+18:57:40 | Payment
+18:57:40 | Description : 151186590003
+18:57:40 | ReferenceID : 151186590003
+18:57:40 | OrderID : 151186590003
+18:57:40 | Amount : 6
+18:57:40 | mode : Visa
+
+24-11-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+18:57:43 | PaymentResponse
+18:57:43 | Date : 11/24/2017
+18:57:43 | referenceID : 151186590003
+18:57:43 | PaymentStatus : vbv required
+18:57:43 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20171124185959
+18:57:43 | ResponseCode : 
+18:57:43 | Mode : Visa
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+18:58:58 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:58:58 | expiry : 2017-11-25
+18:58:58 | username : *********
+18:58:58 | password : *********
+18:58:58 | name : PaySwitch Company Ltd.
+18:58:58 | info : Eze Moni
+18:58:58 | amt : 400
+18:58:58 | mobile : 0541786848
+18:58:58 | billprompt : 2
+18:58:58 | thirdpartyID : 151100410015
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+18:58:58 | return
+18:58:58 | responseCode : 0000
+18:58:58 | responseMessage : Accepted for Delivery 0541786848
+18:58:58 | invoiceNo : 202916631
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+19:13:04 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+19:13:04 | expiry : 2017-11-25
+19:13:04 | username : *********
+19:13:04 | password : *********
+19:13:04 | name : PaySwitch Company Ltd.
+19:13:04 | info : Eze Moni
+19:13:04 | amt : 0.01
+19:13:04 | mobile : 0246407141
+19:13:04 | billprompt : 2
+19:13:04 | thirdpartyID : 151100415517
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+19:13:04 | return
+19:13:04 | responseCode : 0000
+19:13:04 | responseMessage : Accepted for Delivery 0246407141
+19:13:04 | invoiceNo : 202916849
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+19:17:36 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+19:17:36 | expiry : 2017-11-25
+19:17:36 | username : *********
+19:17:36 | password : *********
+19:17:36 | name : PaySwitch Company Ltd.
+19:17:36 | info : Eze Moni
+19:17:36 | amt : 20
+19:17:36 | mobile : 0244377530
+19:17:36 | billprompt : 2
+19:17:36 | thirdpartyID : 151100010906
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+19:17:36 | return
+19:17:36 | responseCode : 0000
+19:17:36 | responseMessage : Accepted for Delivery 0244377530
+19:17:36 | invoiceNo : 202916908
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+19:25:39 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+19:25:39 | expiry : 2017-11-25
+19:25:39 | username : *********
+19:25:39 | password : *********
+19:25:39 | name : PaySwitch Company Ltd.
+19:25:39 | info : Eze Moni
+19:25:39 | amt : 100
+19:25:39 | mobile : 0249814485
+19:25:39 | billprompt : 2
+19:25:39 | thirdpartyID : 151131964800
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+19:25:39 | return
+19:25:39 | responseCode : 0000
+19:25:39 | responseMessage : Accepted for Delivery 0249814485
+19:25:39 | invoiceNo : 202917028
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+19:48:03 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+19:48:03 | expiry : 2017-11-25
+19:48:03 | username : *********
+19:48:03 | password : *********
+19:48:03 | name : PaySwitch Company Ltd.
+19:48:03 | info : Eze Moni
+19:48:03 | amt : 840
+19:48:03 | mobile : 0243605605
+19:48:03 | billprompt : 2
+19:48:03 | thirdpartyID : 151110740554
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+19:48:04 | return
+19:48:04 | responseCode : 0000
+19:48:04 | responseMessage : Accepted for Delivery 0243605605
+19:48:04 | invoiceNo : 202917350
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+19:50:23 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+19:50:23 | expiry : 2017-11-25
+19:50:23 | username : *********
+19:50:23 | password : *********
+19:50:23 | name : PaySwitch Company Ltd.
+19:50:23 | info : Eze Moni
+19:50:23 | amt : 50
+19:50:23 | mobile : 0553559351
+19:50:23 | billprompt : 2
+19:50:23 | thirdpartyID : 151109227190
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+19:50:24 | return
+19:50:24 | responseCode : 0000
+19:50:24 | responseMessage : Accepted for Delivery 0553559351
+19:50:24 | invoiceNo : 202917383
+
+24-11-2017 | TTLR TO AIRTEL REQUEST FOREIGN
+20:31:16 | customer_number : 0268088071
+20:31:16 | merchant_number : **********
+20:31:16 | amount : 200
+20:31:16 | exttrid : 151130040634
+20:31:16 | reference : Send money to s
+20:31:16 | nickname : PAYSWITCH
+20:31:16 | ts : 2017-11-24 20:31:16
+
+24-11-2017 | AIRTEL TTLR REPONSE FOREIGN
+20:31:29 | resp_code : 121
+20:31:29 | resp_desc : Your request is in progress
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+20:31:43 | vendorID : ***
+20:31:43 | subscriberID : 0557915470
+20:31:43 | thirdpartyTransactionID : 151130040634
+20:31:43 | amount : 200
+20:31:43 | apiKey : ***********************
+
+24-11-2017 | MTN TO TLLR RESPONSE FOREIGN
+20:31:45 | return
+20:31:45 | responseCode : 01
+20:31:45 | responseMessage : Successfully processed transaction.
+20:31:45 | thirdpartyTransactionId : 151130040634
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+20:45:10 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+20:45:10 | expiry : 2017-11-25
+20:45:10 | username : *********
+20:45:10 | password : *********
+20:45:10 | name : PaySwitch Company Ltd.
+20:45:10 | info : Eze Moni
+20:45:10 | amt : 100
+20:45:10 | mobile : 0249817485
+20:45:10 | billprompt : 2
+20:45:10 | thirdpartyID : 151100421081
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+20:45:11 | return
+20:45:11 | responseCode : 0000
+20:45:11 | responseMessage : Accepted for Delivery 0249817485
+20:45:11 | invoiceNo : 202918257
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+20:55:36 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+20:55:36 | expiry : 2017-11-25
+20:55:36 | username : *********
+20:55:36 | password : *********
+20:55:36 | name : PaySwitch Company Ltd.
+20:55:36 | info : Eze Moni
+20:55:36 | amt : 1777.77
+20:55:36 | mobile : 0243631154
+20:55:36 | billprompt : 2
+20:55:36 | thirdpartyID : 151150038000
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+20:55:36 | return
+20:55:36 | responseCode : 0000
+20:55:36 | responseMessage : Accepted for Delivery 0243631154
+20:55:36 | invoiceNo : 202918439
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+20:57:31 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+20:57:31 | expiry : 2017-11-25
+20:57:31 | username : *********
+20:57:31 | password : *********
+20:57:31 | name : PaySwitch Company Ltd.
+20:57:31 | info : Eze Moni
+20:57:31 | amt : 1777.77
+20:57:31 | mobile : 0243631154
+20:57:31 | billprompt : 2
+20:57:31 | thirdpartyID : 151100629669
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+20:57:32 | return
+20:57:32 | responseCode : 0000
+20:57:32 | responseMessage : Accepted for Delivery 0243631154
+20:57:32 | invoiceNo : 202918472
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+21:02:54 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+21:02:54 | expiry : 2017-11-25
+21:02:54 | username : *********
+21:02:54 | password : *********
+21:02:54 | name : PaySwitch Company Ltd.
+21:02:54 | info : Eze Moni
+21:02:54 | amt : 100
+21:02:54 | mobile : 0249814485
+21:02:54 | billprompt : 2
+21:02:54 | thirdpartyID : 151104640366
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+21:02:54 | return
+21:02:54 | responseCode : 0000
+21:02:54 | responseMessage : Accepted for Delivery 0249814485
+21:02:54 | invoiceNo : 202918558
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+21:18:58 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+21:18:58 | expiry : 2017-11-25
+21:18:58 | username : *********
+21:18:58 | password : *********
+21:18:58 | name : PaySwitch Company Ltd.
+21:18:58 | info : Eze Moni
+21:18:58 | amt : 777.77
+21:18:58 | mobile : 0242806221
+21:18:58 | billprompt : 2
+21:18:58 | thirdpartyID : 151157427060
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+21:18:58 | return
+21:18:58 | responseCode : 0000
+21:18:58 | responseMessage : Accepted for Delivery 0242806221
+21:18:58 | invoiceNo : 202918806
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+21:22:25 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+21:22:25 | expiry : 2017-11-25
+21:22:25 | username : *********
+21:22:25 | password : *********
+21:22:25 | name : PaySwitch Company Ltd.
+21:22:25 | info : Eze Moni
+21:22:25 | amt : 1
+21:22:25 | mobile : 0544520451
+21:22:25 | billprompt : 2
+21:22:25 | thirdpartyID : 151197007562
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+21:22:26 | return
+21:22:26 | responseCode : 0000
+21:22:26 | responseMessage : Accepted for Delivery 0544520451
+21:22:26 | invoiceNo : 202918864
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+21:26:47 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+21:26:47 | expiry : 2017-11-25
+21:26:47 | username : *********
+21:26:47 | password : *********
+21:26:47 | name : PaySwitch Company Ltd.
+21:26:47 | info : Eze Moni
+21:26:47 | amt : 1500
+21:26:47 | mobile : 0245975102
+21:26:47 | billprompt : 2
+21:26:47 | thirdpartyID : 151189439000
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+21:26:47 | return
+21:26:47 | responseCode : 0000
+21:26:47 | responseMessage : Accepted for Delivery 0245975102
+21:26:47 | invoiceNo : 202918936
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+21:37:45 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+21:37:45 | expiry : 2017-11-25
+21:37:45 | username : *********
+21:37:45 | password : *********
+21:37:45 | name : PaySwitch Company Ltd.
+21:37:45 | info : Eze Moni
+21:37:45 | amt : 710
+21:37:45 | mobile : 0242806221
+21:37:45 | billprompt : 2
+21:37:45 | thirdpartyID : 151105400504
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+21:37:45 | return
+21:37:45 | responseCode : 0000
+21:37:45 | responseMessage : Accepted for Delivery 0242806221
+21:37:45 | invoiceNo : 202919113
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+22:28:47 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+22:28:47 | expiry : 2017-11-25
+22:28:47 | username : *********
+22:28:47 | password : *********
+22:28:47 | name : PaySwitch Company Ltd.
+22:28:47 | info : Eze Moni
+22:28:47 | amt : 100
+22:28:47 | mobile : 0249811585
+22:28:47 | billprompt : 2
+22:28:47 | thirdpartyID : 151103916084
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+22:28:48 | return
+22:28:48 | responseCode : 0000
+22:28:48 | responseMessage : Accepted for Delivery 0249811585
+22:28:48 | invoiceNo : 202919853
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+22:43:33 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+22:43:33 | expiry : 2017-11-25
+22:43:33 | username : *********
+22:43:33 | password : *********
+22:43:33 | name : PaySwitch Company Ltd.
+22:43:33 | info : Eze Moni
+22:43:33 | amt : 0.1
+22:43:33 | mobile : 0242451084
+22:43:33 | billprompt : 2
+22:43:33 | thirdpartyID : 151160302678
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+22:43:33 | return
+22:43:33 | responseCode : 0000
+22:43:33 | responseMessage : Accepted for Delivery 0242451084
+22:43:33 | invoiceNo : 202920056
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+23:00:04 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+23:00:04 | expiry : 2017-11-25
+23:00:04 | username : *********
+23:00:04 | password : *********
+23:00:04 | name : PaySwitch Company Ltd.
+23:00:04 | info : Eze Moni
+23:00:04 | amt : 0.11
+23:00:04 | mobile : 0242451084
+23:00:04 | billprompt : 2
+23:00:04 | thirdpartyID : 151102402327
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+23:00:04 | return
+23:00:04 | responseCode : 0000
+23:00:04 | responseMessage : Accepted for Delivery 0242451084
+23:00:04 | invoiceNo : 202920302
+
+24-11-2017 | TTLR TO ZENITH REQUEST FOREIGN
+23:18:05 | PaymentRequest
+23:18:05 | Merchant
+23:18:05 | GlobalPayID : ********
+23:18:05 | Card
+23:18:05 | CardNumber : 558158******3645
+23:18:05 | CardExpiryMonth : 02
+23:18:05 | CardExpiryYear : 20
+23:18:05 | CardCvv : ***
+23:18:05 | Payment
+23:18:05 | Description : 151181042079
+23:18:05 | ReferenceID : 151181042079
+23:18:05 | OrderID : 151181042079
+23:18:05 | Amount : 10
+23:18:05 | mode : Mastercard
+
+24-11-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+23:18:12 | PaymentResponse
+23:18:12 | Date : 11/24/2017
+23:18:12 | referenceID : 151181042079
+23:18:12 | PaymentStatus : APPROVED
+23:18:12 | Reason : Successful
+23:18:12 | ResponseCode : 0
+23:18:12 | Mode : Mastercard
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+23:28:30 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+23:28:30 | expiry : 2017-11-25
+23:28:30 | username : *********
+23:28:30 | password : *********
+23:28:30 | name : PaySwitch Company Ltd.
+23:28:30 | info : Eze Moni
+23:28:30 | amt : 1
+23:28:30 | mobile : 0240876439
+23:28:30 | billprompt : 2
+23:28:30 | thirdpartyID : 151101710047
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+23:28:30 | return
+23:28:30 | responseCode : 0000
+23:28:30 | responseMessage : Accepted for Delivery 0240876439
+23:28:30 | invoiceNo : 202920638
+
+24-11-2017 | TTLR TO ZENITH REQUEST FOREIGN
+23:35:55 | PaymentRequest
+23:35:55 | Merchant
+23:35:55 | GlobalPayID : ********
+23:35:55 | Card
+23:35:55 | CardNumber : 531632******6084
+23:35:55 | CardExpiryMonth : 05
+23:35:55 | CardExpiryYear : 20
+23:35:55 | CardCvv : ***
+23:35:55 | Payment
+23:35:55 | Description : 151149358005
+23:35:55 | ReferenceID : 151149358005
+23:35:55 | OrderID : 151149358005
+23:35:55 | Amount : 300
+23:35:55 | mode : Mastercard
+
+24-11-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+23:36:00 | PaymentResponse
+23:36:00 | Date : 11/24/2017
+23:36:00 | referenceID : 151149358005
+23:36:00 | PaymentStatus : DECLINED
+23:36:00 | Reason : Bank Declined Transaction
+23:36:00 | ResponseCode : 2
+23:36:00 | Mode : Mastercard
+
+24-11-2017 | TTLR TO ZENITH REQUEST FOREIGN
+23:37:30 | PaymentRequest
+23:37:30 | Merchant
+23:37:30 | GlobalPayID : ********
+23:37:30 | Card
+23:37:30 | CardNumber : 552497******8978
+23:37:30 | CardExpiryMonth : 07
+23:37:30 | CardExpiryYear : 18
+23:37:30 | CardCvv : ***
+23:37:30 | Payment
+23:37:30 | Description : 151162870004
+23:37:30 | ReferenceID : 151162870004
+23:37:30 | OrderID : 151162870004
+23:37:30 | Amount : 300
+23:37:30 | mode : Mastercard
+
+24-11-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+23:37:33 | PaymentResponse
+23:37:33 | Date : 11/24/2017
+23:37:33 | referenceID : 151162870004
+23:37:33 | PaymentStatus : DECLINED
+23:37:33 | Reason : Bank Declined Transaction
+23:37:33 | ResponseCode : 2
+23:37:33 | Mode : Mastercard
+
+24-11-2017 | TTLR TO MTN REQUEST FOREIGN
+23:37:58 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+23:37:58 | expiry : 2017-11-25
+23:37:58 | username : *********
+23:37:58 | password : *********
+23:37:58 | name : PaySwitch Company Ltd.
+23:37:58 | info : Eze Moni
+23:37:58 | amt : 500
+23:37:58 | mobile : 0243051355
+23:37:58 | billprompt : 2
+23:37:58 | thirdpartyID : 151176700016
+
+24-11-2017 | MTN TO TTLR RESPONSE FOREIGN
+23:37:59 | return
+23:37:59 | responseCode : 0000
+23:37:59 | responseMessage : Accepted for Delivery 0243051355
+23:37:59 | invoiceNo : 202920726
+

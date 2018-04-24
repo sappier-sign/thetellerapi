@@ -1,0 +1,270 @@
+23-01-2018 | TTLR TO ZENITH REQUEST FOREIGN
+15:38:50 | PaymentRequest
+15:38:50 | Merchant
+15:38:50 | GlobalPayID : ********
+15:38:50 | Card
+15:38:50 | CardNumber : 413102******6242
+15:38:50 | CardExpiryMonth : 08
+15:38:50 | CardExpiryYear : 19
+15:38:50 | CardCvv : ***
+15:38:50 | Payment
+15:38:50 | Description : 151656306003
+15:38:50 | ReferenceID : 151656306003
+15:38:50 | OrderID : 151656306003
+15:38:50 | Amount : 12.05
+15:38:50 | mode : Visa
+
+23-01-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+15:38:56 | PaymentResponse
+15:38:56 | Date : 1/23/2018
+15:38:56 | referenceID : 151656306003
+15:38:56 | PaymentStatus : DECLINED
+15:38:56 | Reason : Declined by Bank
+15:38:56 | ResponseCode : 96
+15:38:56 | Mode : Visa
+15:38:56 | AuthID : 
+15:38:56 | Pan : 
+
+23-01-2018 | TTLR TO ZENITH REQUEST FOREIGN
+15:41:45 | PaymentRequest
+15:41:45 | Merchant
+15:41:45 | GlobalPayID : ********
+15:41:45 | Card
+15:41:45 | CardNumber : 413102******6242
+15:41:45 | CardExpiryMonth : 08
+15:41:45 | CardExpiryYear : 19
+15:41:45 | CardCvv : ***
+15:41:45 | Payment
+15:41:45 | Description : 151615652300
+15:41:45 | ReferenceID : 151615652300
+15:41:45 | OrderID : 151615652300
+15:41:45 | Amount : 12.05
+15:41:45 | mode : Visa
+
+23-01-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+15:41:51 | PaymentResponse
+15:41:51 | Date : 1/23/2018
+15:41:51 | referenceID : 151615652300
+15:41:51 | PaymentStatus : APPROVED
+15:41:51 | Reason : transaction processed successfully
+15:41:51 | ResponseCode : 00
+15:41:51 | Mode : Visa
+15:41:51 | AuthID : 
+15:41:51 | Pan : 
+
+23-01-2018 | TTLR TO ZENITH REQUEST FOREIGN
+15:41:58 | PaymentRequest
+15:41:58 | Merchant
+15:41:58 | GlobalPayID : ********
+15:41:58 | Card
+15:41:58 | CardNumber : 406910******8859
+15:41:58 | CardExpiryMonth : 04
+15:41:58 | CardExpiryYear : 20
+15:41:58 | CardCvv : ***
+15:41:58 | Payment
+15:41:58 | Description : 151630001634
+15:41:58 | ReferenceID : 151630001634
+15:41:58 | OrderID : 151630001634
+15:41:58 | Amount : 4.01
+15:41:58 | mode : Visa
+
+23-01-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+15:42:04 | PaymentResponse
+15:42:04 | Date : 1/23/2018
+15:42:04 | referenceID : 151630001634
+15:42:04 | PaymentStatus : APPROVED
+15:42:04 | Reason : transaction processed successfully
+15:42:04 | ResponseCode : 00
+15:42:04 | Mode : Visa
+15:42:04 | AuthID : 
+15:42:04 | Pan : 
+
+23-01-2018 | TTLR TO ZENITH REQUEST FOREIGN
+16:24:19 | PaymentRequest
+16:24:19 | Merchant
+16:24:19 | GlobalPayID : ********
+16:24:19 | Card
+16:24:19 | CardNumber : 406910******8859
+16:24:19 | CardExpiryMonth : 04
+16:24:19 | CardExpiryYear : 20
+16:24:19 | CardCvv : ***
+16:24:19 | Payment
+16:24:19 | Description : 151650004057
+16:24:19 | ReferenceID : 151650004057
+16:24:19 | OrderID : 151650004057
+16:24:19 | Amount : 4.01
+16:24:19 | mode : Visa
+
+23-01-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+16:24:27 | PaymentResponse
+16:24:27 | Date : 1/23/2018
+16:24:27 | referenceID : 151650004057
+16:24:27 | PaymentStatus : APPROVED
+16:24:27 | Reason : transaction processed successfully
+16:24:27 | ResponseCode : 00
+16:24:27 | Mode : Visa
+16:24:27 | AuthID : 
+16:24:27 | Pan : 
+
+23-01-2018 | TTLR TO ZENITH REQUEST FOREIGN
+16:38:11 | PaymentRequest
+16:38:11 | Merchant
+16:38:11 | GlobalPayID : ********
+16:38:11 | Card
+16:38:11 | CardNumber : 413102******6242
+16:38:11 | CardExpiryMonth : 08
+16:38:11 | CardExpiryYear : 19
+16:38:11 | CardCvv : ***
+16:38:11 | Payment
+16:38:11 | Description : 151690410083
+16:38:11 | ReferenceID : 151690410083
+16:38:11 | OrderID : 151690410083
+16:38:11 | Amount : 12.05
+16:38:11 | mode : Visa
+
+23-01-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+16:38:18 | PaymentResponse
+16:38:18 | Date : 1/23/2018
+16:38:18 | referenceID : 151690410083
+16:38:18 | PaymentStatus : APPROVED
+16:38:18 | Reason : transaction processed successfully
+16:38:18 | ResponseCode : 00
+16:38:18 | Mode : Visa
+16:38:18 | AuthID : 
+16:38:18 | Pan : 
+
+23-01-2018 | TTLR TO ZENITH REQUEST FOREIGN
+16:39:44 | PaymentRequest
+16:39:44 | Merchant
+16:39:44 | GlobalPayID : ********
+16:39:44 | Card
+16:39:44 | CardNumber : 406910******8859
+16:39:44 | CardExpiryMonth : 04
+16:39:44 | CardExpiryYear : 20
+16:39:44 | CardCvv : ***
+16:39:44 | Payment
+16:39:44 | Description : 151689252600
+16:39:44 | ReferenceID : 151689252600
+16:39:44 | OrderID : 151689252600
+16:39:44 | Amount : 4.01
+16:39:44 | mode : Visa
+
+23-01-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+16:39:52 | PaymentResponse
+16:39:52 | Date : 1/23/2018
+16:39:52 | referenceID : 151689252600
+16:39:52 | PaymentStatus : APPROVED
+16:39:52 | Reason : transaction processed successfully
+16:39:52 | ResponseCode : 00
+16:39:52 | Mode : Visa
+16:39:52 | AuthID : 
+16:39:52 | Pan : 
+
+23-01-2018 | TTLR TO ZENITH REQUEST FOREIGN
+16:45:54 | PaymentRequest
+16:45:54 | Merchant
+16:45:54 | GlobalPayID : ********
+16:45:54 | Card
+16:45:54 | CardNumber : 413102******6242
+16:45:54 | CardExpiryMonth : 08
+16:45:54 | CardExpiryYear : 19
+16:45:54 | CardCvv : ***
+16:45:54 | Payment
+16:45:54 | Description : 151610229670
+16:45:54 | ReferenceID : 151610229670
+16:45:54 | OrderID : 151610229670
+16:45:54 | Amount : 12.05
+16:45:54 | mode : Visa
+
+23-01-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+16:46:00 | PaymentResponse
+16:46:00 | Date : 1/23/2018
+16:46:00 | referenceID : 151610229670
+16:46:00 | PaymentStatus : APPROVED
+16:46:00 | Reason : transaction processed successfully
+16:46:00 | ResponseCode : 00
+16:46:00 | Mode : Visa
+16:46:00 | AuthID : 
+16:46:00 | Pan : 
+
+23-01-2018 | TTLR TO ZENITH REQUEST FOREIGN
+16:51:56 | PaymentRequest
+16:51:56 | Merchant
+16:51:56 | GlobalPayID : ********
+16:51:56 | Card
+16:51:56 | CardNumber : 413102******6242
+16:51:56 | CardExpiryMonth : 08
+16:51:56 | CardExpiryYear : 19
+16:51:56 | CardCvv : ***
+16:51:56 | Payment
+16:51:56 | Description : 151605301171
+16:51:56 | ReferenceID : 151605301171
+16:51:56 | OrderID : 151605301171
+16:51:56 | Amount : 7.03
+16:51:56 | mode : Visa
+
+23-01-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+16:52:02 | PaymentResponse
+16:52:02 | Date : 1/23/2018
+16:52:02 | referenceID : 151605301171
+16:52:02 | PaymentStatus : APPROVED
+16:52:02 | Reason : transaction processed successfully
+16:52:02 | ResponseCode : 00
+16:52:02 | Mode : Visa
+16:52:02 | AuthID : 
+16:52:02 | Pan : 
+
+23-01-2018 | TTLR TO ZENITH REQUEST FOREIGN
+17:03:17 | PaymentRequest
+17:03:17 | Merchant
+17:03:17 | GlobalPayID : ********
+17:03:17 | Card
+17:03:17 | CardNumber : 413102******6242
+17:03:17 | CardExpiryMonth : 08
+17:03:17 | CardExpiryYear : 19
+17:03:17 | CardCvv : ***
+17:03:17 | Payment
+17:03:17 | Description : 151690893008
+17:03:17 | ReferenceID : 151690893008
+17:03:17 | OrderID : 151690893008
+17:03:17 | Amount : 12.05
+17:03:17 | mode : Visa
+
+23-01-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+17:03:23 | PaymentResponse
+17:03:23 | Date : 1/23/2018
+17:03:23 | referenceID : 151690893008
+17:03:23 | PaymentStatus : APPROVED
+17:03:23 | Reason : transaction processed successfully
+17:03:23 | ResponseCode : 00
+17:03:23 | Mode : Visa
+17:03:23 | AuthID : 
+17:03:23 | Pan : 
+
+23-01-2018 | TTLR TO ZENITH REQUEST FOREIGN
+17:12:40 | PaymentRequest
+17:12:40 | Merchant
+17:12:40 | GlobalPayID : ********
+17:12:40 | Card
+17:12:40 | CardNumber : 413102******6242
+17:12:40 | CardExpiryMonth : 08
+17:12:40 | CardExpiryYear : 19
+17:12:40 | CardCvv : ***
+17:12:40 | Payment
+17:12:40 | Description : 151670502052
+17:12:40 | ReferenceID : 151670502052
+17:12:40 | OrderID : 151670502052
+17:12:40 | Amount : 7.03
+17:12:40 | mode : Visa
+
+23-01-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+17:12:46 | PaymentResponse
+17:12:46 | Date : 1/23/2018
+17:12:46 | referenceID : 151670502052
+17:12:46 | PaymentStatus : APPROVED
+17:12:46 | Reason : transaction processed successfully
+17:12:46 | ResponseCode : 00
+17:12:46 | Mode : Visa
+17:12:46 | AuthID : 
+17:12:46 | Pan : 
+

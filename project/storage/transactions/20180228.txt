@@ -1,0 +1,74 @@
+28-02-2018 | TTLR TO MTN REQUEST FOREIGN
+18:25:50 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:25:50 | expiry : 2018-03-01
+18:25:50 | username : *********
+18:25:50 | password : *********
+18:25:50 | name : PaySwitch Company Ltd.
+18:25:50 | info : Enterprise Insurance
+18:25:50 | amt : 0.1
+18:25:50 | mobile : 0243746328
+18:25:50 | billprompt : 2
+18:25:50 | thirdpartyID : 151913590907
+
+28-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+18:25:50 | return
+18:25:50 | responseCode : 11SY
+18:25:50 | responseMessage : Could not save invoice
+18:25:50 | invoiceNo : 
+
+28-02-2018 | TTLR TO MTN REQUEST FOREIGN
+18:36:49 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:36:49 | expiry : 2018-03-01
+18:36:49 | username : *********
+18:36:49 | password : *********
+18:36:49 | name : PaySwitch Company Ltd.
+18:36:49 | info : Enterprise Insurance
+18:36:49 | amt : 0.1
+18:36:49 | mobile : 0243746328
+18:36:49 | billprompt : 2
+18:36:49 | thirdpartyID : 151900504830
+
+28-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+18:36:49 | return
+18:36:49 | responseCode : 0000
+18:36:49 | responseMessage : Accepted for Delivery 0243746328
+18:36:49 | invoiceNo : 204201560
+
+28-02-2018 | TTLR TO MTN REQUEST FOREIGN
+18:37:00 | username : *********
+18:37:00 | password : *********
+18:37:00 | invoiceNo : 204201560
+
+28-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+18:37:12 | return
+18:37:12 | responseCode : 21VD
+18:37:12 | responseMessage : Bill not paid...
+
+28-02-2018 | TTLR TO MTN REQUEST FOREIGN
+18:38:12 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:38:12 | expiry : 2018-03-01
+18:38:12 | username : *********
+18:38:12 | password : *********
+18:38:12 | name : PaySwitch Company Ltd.
+18:38:12 | info : Enterprise Insurance
+18:38:12 | amt : 0.1
+18:38:12 | mobile : 0243746328
+18:38:12 | billprompt : 2
+18:38:12 | thirdpartyID : 151990330393
+
+28-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+18:38:13 | return
+18:38:13 | responseCode : 0000
+18:38:13 | responseMessage : Accepted for Delivery 0243746328
+18:38:13 | invoiceNo : 204201582
+
+28-02-2018 | TTLR TO MTN REQUEST FOREIGN
+18:39:00 | username : *********
+18:39:00 | password : *********
+18:39:00 | invoiceNo : 204201582
+
+28-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+18:39:12 | return
+18:39:12 | responseCode : 0000
+18:39:12 | responseMessage : Bill found. Tracking ID: MTN185A96F72B14549/3034678542
+

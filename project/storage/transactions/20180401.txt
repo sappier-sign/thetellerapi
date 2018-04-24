@@ -1,0 +1,94 @@
+01-04-2018 | TTLR TO ZENITH REQUEST FOREIGN
+09:30:37 | PaymentRequest
+09:30:37 | Merchant
+09:30:37 | GlobalPayID : ********
+09:30:37 | Card
+09:30:37 | CardNumber : 519911******0994
+09:30:37 | CardExpiryMonth : 03
+09:30:37 | CardExpiryYear : 20
+09:30:37 | CardCvv : ***
+09:30:37 | Payment
+09:30:37 | Description : 152200642008
+09:30:37 | ReferenceID : 152200642008
+09:30:37 | OrderID : 152200642008
+09:30:37 | Amount : 1
+09:30:37 | mode : Mastercard
+
+01-04-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+09:30:48 | PaymentResponse
+09:30:48 | Date : 4/1/2018
+09:30:48 | referenceID : 152200642008
+09:30:48 | PaymentStatus : APPROVED
+09:30:48 | Reason : Successful
+09:30:48 | ResponseCode : 0
+09:30:48 | Mode : Mastercard
+09:30:48 | AuthID : 609811
+09:30:48 | Pan : 519911******0994
+
+01-04-2018 | TTLR TO ZENITH REQUEST FOREIGN
+09:42:18 | PaymentRequest
+09:42:18 | Merchant
+09:42:18 | GlobalPayID : ********
+09:42:18 | Card
+09:42:18 | CardNumber : 413102******6825
+09:42:18 | CardExpiryMonth : 01
+09:42:18 | CardExpiryYear : 20
+09:42:18 | CardCvv : ***
+09:42:18 | Payment
+09:42:18 | Description : 152226063200
+09:42:18 | ReferenceID : 152226063200
+09:42:18 | OrderID : 152226063200
+09:42:18 | Amount : 20
+09:42:18 | mode : Visa
+
+01-04-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+09:42:24 | PaymentResponse
+09:42:24 | Date : 4/1/2018
+09:42:24 | referenceID : 152226063200
+09:42:24 | PaymentStatus : APPROVED
+09:42:24 | Reason : transaction processed successfully
+09:42:24 | ResponseCode : 00
+09:42:24 | Mode : Visa
+09:42:24 | AuthID : 882382
+09:42:24 | Pan : 413102******6825
+
+01-04-2018 | TTLR TO TIGO REQUEST FOREIGN
+20:18:49 | DEBUGFLAG : true
+20:18:49 | TRANSACTIONID : Pay001
+20:18:49 | COUNTRY : GHA
+20:18:49 | CORRELATIONID : Pay01
+20:18:49 | MSISDN : 233245656633
+20:18:49 | MSISDN : 233276203025
+20:18:49 | PAYMENTREFERENCE : 152290039793
+20:18:49 | EXTERNALCATEGORY : default
+20:18:49 | EXTERNALCHANNEL : default
+20:18:49 | MERCHANTNAME : payswitch
+20:18:49 | ITEMNAME : PaySwitch Company Ltd.
+20:18:49 | AMOUNT : 5
+20:18:49 | MINUTESTOEXPIRE : 2
+20:18:49 | NOTIFICATIONCHANNEL : 2
+
+01-04-2018 | TIGO TO TTLR RESPONSE FOREIGN
+20:18:53 | SOATRANSACTIONID : 3650cfa1-a458-42ae-bd54-88eff86eed7f
+20:18:53 | CORRELATIONID : Pay01
+20:18:53 | STATUS : OK
+20:18:53 | CODE : purchaseinitiate-3022-0001-S
+20:18:53 | DESCRIPTION : Your payment request has been initiated.
+20:18:53 | PAYMENTID : 1812976
+20:18:53 | PAYMENTREFERENCE : 152290039793
+
+01-04-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+20:25:37 | customer_number : 0261081045
+20:25:37 | merchant_number : **********
+20:25:37 | amount : 5
+20:25:37 | exttrid : 152262906400
+20:25:37 | reference : Gomani Mobile W
+20:25:37 | nickname : PAYSWITCH
+20:25:37 | ts : 2018-04-01 20:25:37
+
+01-04-2018 | AIRTEL TTLR REPONSE FOREIGN
+20:26:20 | resp_code : 100
+20:26:20 | resp_desc : Timeout
+20:26:20 | trans_id : 152262906400
+20:26:20 | error_type : USSDGw
+

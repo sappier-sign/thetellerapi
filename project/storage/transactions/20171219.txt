@@ -1,0 +1,30 @@
+19-12-2017 | TTLR VODAFONE REQUEST FOREIGN
+10:33:00 | TOKEN : ******************
+10:33:00 | RESULTURL : https://api.theteller.net/v1.1/vodafone/response
+10:33:00 | VFPIN : ************
+10:33:00 | VOUCHERCODE : 760626
+10:33:00 | PHONENUMBER : 0506327253
+10:33:00 | AMOUNT : 0.1
+10:33:00 | VENDORCODE : ****
+10:33:00 | TRANSACTIONID : 151376005900
+
+19-12-2017 | VODAFONE TTLR RESPONSE FOREIGN
+10:33:05 | statusCode : 0
+10:33:05 | statusMessage : Accept the service request successfully.
+10:33:05 | ext_trans_id : AG_20171219_000074f117246ab2c3c9
+
+19-12-2017 | TTLR VODAFONE REQUEST FOREIGN
+13:48:13 | TOKEN : ******************
+13:48:13 | RESULTURL : https://api.theteller.net/v1.1/vodafone/response
+13:48:13 | VFPIN : ************
+13:48:13 | VOUCHERCODE : 760626
+13:48:13 | PHONENUMBER : 0506327253
+13:48:13 | AMOUNT : 0.1
+13:48:13 | VENDORCODE : ****
+13:48:13 | TRANSACTIONID : 151388020395
+
+19-12-2017 | VODAFONE TTLR RESPONSE FOREIGN
+13:48:16 | statusCode : 0
+13:48:16 | statusMessage : Accept the service request successfully.
+13:48:16 | ext_trans_id : AG_20171219_000057d398a47f2cba1b
+

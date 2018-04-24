@@ -1,0 +1,167 @@
+03-04-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+09:27:58 | customer_number : 0265561345
+09:27:58 | merchant_number : **********
+09:27:58 | amount : 0.1
+09:27:58 | exttrid : 152203799006
+09:27:58 | reference : Mobile_money
+09:27:58 | nickname : PAYSWITCH
+09:27:58 | ts : 2018-04-03 09:27:58
+
+03-04-2018 | AIRTEL TTLR REPONSE FOREIGN
+09:28:02 | resp_code : 116
+09:28:02 | resp_desc : USSD busy
+09:28:02 | trans_id : 152203799006
+09:28:02 | error_type : USSDGw
+
+03-04-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+09:38:19 | customer_number : 0265561345
+09:38:19 | merchant_number : **********
+09:38:19 | amount : 0.1
+09:38:19 | exttrid : 152235538040
+09:38:19 | reference : Mobile_money
+09:38:19 | nickname : PAYSWITCH
+09:38:19 | ts : 2018-04-03 09:38:19
+
+03-04-2018 | AIRTEL TTLR REPONSE FOREIGN
+09:38:52 | resp_code : 121
+09:38:52 | resp_desc : Your request is in progress
+
+03-04-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+12:13:19 | customer_number : 0265561345
+12:13:19 | merchant_number : **********
+12:13:19 | amount : 0.1
+12:13:19 | exttrid : 152200048006
+12:13:19 | reference : Mobile_money
+12:13:19 | nickname : PAYSWITCH
+12:13:19 | ts : 2018-04-03 12:13:19
+
+03-04-2018 | AIRTEL TTLR REPONSE FOREIGN
+12:13:52 | resp_code : 121
+12:13:52 | resp_desc : Your request is in progress
+
+03-04-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+12:24:53 | customer_number : 0265561345
+12:24:53 | merchant_number : **********
+12:24:53 | amount : 0.1
+12:24:53 | exttrid : 152246840804
+12:24:53 | reference : Mobile_money
+12:24:53 | nickname : PAYSWITCH
+12:24:53 | ts : 2018-04-03 12:24:53
+
+03-04-2018 | AIRTEL TTLR REPONSE FOREIGN
+12:25:00 | resp_code : 116
+12:25:00 | resp_desc : USSD busy
+12:25:00 | trans_id : 152246840804
+12:25:00 | error_type : USSDGw
+
+03-04-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+12:27:12 | customer_number : 0265561345
+12:27:12 | merchant_number : **********
+12:27:12 | amount : 0.1
+12:27:12 | exttrid : 152200906500
+12:27:12 | reference : Mobile_money
+12:27:12 | nickname : PAYSWITCH
+12:27:12 | ts : 2018-04-03 12:27:12
+
+03-04-2018 | AIRTEL TTLR REPONSE FOREIGN
+12:27:15 | resp_code : 116
+12:27:15 | resp_desc : USSD busy
+12:27:15 | trans_id : 152200906500
+12:27:15 | error_type : USSDGw
+
+03-04-2018 | TTLR TO MTN REQUEST FOREIGN
+12:31:41 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+12:31:41 | expiry : 2018-04-04
+12:31:41 | username : *********
+12:31:41 | password : *********
+12:31:41 | name : PaySwitch Company Ltd.
+12:31:41 | info : Enterprise Insurance
+12:31:41 | amt : 0.1
+12:31:41 | mobile : 0242705452
+12:31:41 | billprompt : 2
+12:31:41 | thirdpartyID : 152260609790
+
+03-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+12:31:41 | return
+12:31:41 | responseCode : 0000
+12:31:41 | responseMessage : Accepted for Delivery 0242705452
+12:31:41 | invoiceNo : 204560396
+
+03-04-2018 | TTLR TO MTN REQUEST FOREIGN
+12:32:02 | username : *********
+12:32:02 | password : *********
+12:32:02 | invoiceNo : 204560396
+
+03-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+12:32:14 | return
+12:32:14 | responseCode : 0000
+12:32:14 | responseMessage : Bill found. Tracking ID: MTN185AC37440679E4/3228625900
+
+03-04-2018 | TTLR TO TIGO REQUEST FOREIGN
+12:33:57 | DEBUGFLAG : true
+12:33:57 | TRANSACTIONID : Pay001
+12:33:57 | COUNTRY : GHA
+12:33:57 | CORRELATIONID : Pay01
+12:33:57 | MSISDN : 233578087440
+12:33:57 | MSISDN : 233276203025
+12:33:57 | PAYMENTREFERENCE : 152283000115
+12:33:57 | EXTERNALCATEGORY : default
+12:33:57 | EXTERNALCHANNEL : default
+12:33:57 | MERCHANTNAME : payswitch
+12:33:57 | ITEMNAME : PaySwitch Company Ltd.
+12:33:57 | AMOUNT : 0.1
+12:33:57 | MINUTESTOEXPIRE : 2
+12:33:57 | NOTIFICATIONCHANNEL : 2
+
+03-04-2018 | TIGO TO TTLR RESPONSE FOREIGN
+12:33:59 | SOATRANSACTIONID : 555b3706-5909-419a-8ff3-5305771508dd
+12:33:59 | CORRELATIONID : Pay01
+12:33:59 | STATUS : OK
+12:33:59 | CODE : purchaseinitiate-3022-0001-S
+12:33:59 | DESCRIPTION : Your payment request has been initiated.
+12:33:59 | PAYMENTID : 1823781
+12:33:59 | PAYMENTREFERENCE : 152283000115
+
+03-04-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+12:39:00 | customer_number : 0265561345
+12:39:00 | merchant_number : **********
+12:39:00 | amount : 0.1
+12:39:00 | exttrid : 152227781030
+12:39:00 | reference : Mobile_money
+12:39:00 | nickname : PAYSWITCH
+12:39:00 | ts : 2018-04-03 12:39:00
+
+03-04-2018 | AIRTEL TTLR REPONSE FOREIGN
+12:40:01 | resp_code : 100
+12:40:01 | resp_desc : Timeout
+12:40:01 | trans_id : 152227781030
+12:40:01 | error_type : USSDGw
+
+03-04-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+12:41:23 | customer_number : 0265561345
+12:41:23 | merchant_number : **********
+12:41:23 | amount : 0.1
+12:41:23 | exttrid : 152286060180
+12:41:23 | reference : Mobile_money
+12:41:23 | nickname : PAYSWITCH
+12:41:23 | ts : 2018-04-03 12:41:23
+
+03-04-2018 | AIRTEL TTLR REPONSE FOREIGN
+12:41:25 | resp_code : 116
+12:41:25 | resp_desc : USSD busy
+12:41:25 | trans_id : 152286060180
+12:41:25 | error_type : USSDGw
+
+03-04-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+15:09:44 | customer_number : 0265561345
+15:09:44 | merchant_number : **********
+15:09:44 | amount : 0.1
+15:09:44 | exttrid : 152201360041
+15:09:44 | reference : Mobile_money
+15:09:44 | nickname : PAYSWITCH
+15:09:44 | ts : 2018-04-03 15:09:44
+
+03-04-2018 | AIRTEL TTLR REPONSE FOREIGN
+15:10:12 | resp_code : 121
+15:10:12 | resp_desc : Your request is in progress
+

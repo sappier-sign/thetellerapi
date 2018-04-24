@@ -1,0 +1,265 @@
+24-01-2018 | TTLR VODAFONE REQUEST FOREIGN
+14:29:36 | TOKEN : ******************
+14:29:36 | RESULTURL : https://api.theteller.net/v1.1/vodafone/response
+14:29:36 | VFPIN : ************
+14:29:36 | VOUCHERCODE : 730354
+14:29:36 | PHONENUMBER : 0202009320
+14:29:36 | AMOUNT : 0.1
+14:29:36 | VENDORCODE : ****
+14:29:36 | TRANSACTIONID : 151608755660
+
+24-01-2018 | VODAFONE TTLR RESPONSE FOREIGN
+14:29:39 | statusCode : 0
+14:29:39 | statusMessage : Accept the service request successfully.
+14:29:39 | ext_trans_id : AG_20180124_00007e87c74934ed70db
+
+24-01-2018 | VODAFONE TTLR RESPONSE FOREIGN
+14:29:40 | resultCode : 2001
+14:29:40 | resultMessage : Initiator authentication error.
+14:29:40 | transactionID : AG_20180124_00007e87c74934ed70db
+
+24-01-2018 | TTLR VODAFONE REQUEST FOREIGN
+14:31:02 | TOKEN : ******************
+14:31:02 | RESULTURL : https://api.theteller.net/v1.1/vodafone/response
+14:31:02 | VFPIN : ************
+14:31:02 | VOUCHERCODE : 730354
+14:31:02 | PHONENUMBER : 0202009320
+14:31:02 | AMOUNT : 0.1
+14:31:02 | VENDORCODE : ****
+14:31:02 | TRANSACTIONID : 151640699230
+
+24-01-2018 | VODAFONE TTLR RESPONSE FOREIGN
+14:31:04 | statusCode : 0
+14:31:04 | statusMessage : Accept the service request successfully.
+14:31:04 | ext_trans_id : AG_20180124_000071c2d29a23d3502d
+
+24-01-2018 | VODAFONE TTLR RESPONSE FOREIGN
+14:31:04 | resultCode : 2002
+14:31:04 | resultMessage : Receiver invalid.
+14:31:04 | transactionID : AG_20180124_000071c2d29a23d3502d
+
+24-01-2018 | TTLR VODAFONE REQUEST FOREIGN
+14:32:58 | TOKEN : ******************
+14:32:58 | RESULTURL : https://api.theteller.net/v1.1/vodafone/response
+14:32:58 | VFPIN : ************
+14:32:58 | VOUCHERCODE : 730354
+14:32:58 | PHONENUMBER : 0506327253
+14:32:58 | AMOUNT : 0.1
+14:32:58 | VENDORCODE : ****
+14:32:58 | TRANSACTIONID : 151665004705
+
+24-01-2018 | VODAFONE TTLR RESPONSE FOREIGN
+14:32:59 | statusCode : 0
+14:32:59 | statusMessage : Accept the service request successfully.
+14:32:59 | ext_trans_id : AG_20180124_000052b4f2ac43dd70f6
+
+24-01-2018 | VODAFONE TTLR RESPONSE FOREIGN
+14:33:00 | resultCode : 2002
+14:33:00 | resultMessage : Receiver invalid.
+14:33:00 | transactionID : AG_20180124_000052b4f2ac43dd70f6
+
+24-01-2018 | TTLR VODAFONE REQUEST FOREIGN
+14:34:07 | TOKEN : ******************
+14:34:07 | RESULTURL : https://api.theteller.net/v1.1/vodafone/response
+14:34:07 | VFPIN : ************
+14:34:07 | VOUCHERCODE : 409274
+14:34:07 | PHONENUMBER : 0506327253
+14:34:07 | AMOUNT : 0.1
+14:34:07 | VENDORCODE : ****
+14:34:07 | TRANSACTIONID : 151601068462
+
+24-01-2018 | VODAFONE TTLR RESPONSE FOREIGN
+14:34:08 | statusCode : 0
+14:34:08 | statusMessage : Accept the service request successfully.
+14:34:08 | ext_trans_id : AG_20180124_000077a595f427dafa9b
+
+24-01-2018 | VODAFONE TTLR RESPONSE FOREIGN
+14:34:09 | resultCode : 2001
+14:34:09 | resultMessage : Initiator authentication error.
+14:34:09 | transactionID : AG_20180124_000077a595f427dafa9b
+
+24-01-2018 | TTLR VODAFONE REQUEST FOREIGN
+14:36:58 | TOKEN : ******************
+14:36:58 | RESULTURL : https://api.theteller.net/v1.1/vodafone/response
+14:36:58 | VFPIN : ************
+14:36:58 | VOUCHERCODE : 755171
+14:36:58 | PHONENUMBER : 0202009320
+14:36:58 | AMOUNT : 0.1
+14:36:58 | VENDORCODE : ****
+14:36:58 | TRANSACTIONID : 151642930087
+
+24-01-2018 | VODAFONE TTLR RESPONSE FOREIGN
+14:37:00 | statusCode : 0
+14:37:00 | statusMessage : Accept the service request successfully.
+14:37:00 | ext_trans_id : AG_20180124_00005c8876aa37649089
+
+24-01-2018 | VODAFONE TTLR RESPONSE FOREIGN
+14:37:01 | resultCode : 2001
+14:37:01 | resultMessage : Initiator authentication error.
+14:37:01 | transactionID : AG_20180124_00005c8876aa37649089
+
+24-01-2018 | TTLR VODAFONE REQUEST FOREIGN
+14:38:51 | TOKEN : ******************
+14:38:51 | RESULTURL : https://api.theteller.net/v1.1/vodafone/response
+14:38:51 | VFPIN : ************
+14:38:51 | VOUCHERCODE : 755171
+14:38:51 | PHONENUMBER : 0202009320
+14:38:51 | AMOUNT : 0.1
+14:38:51 | VENDORCODE : ****
+14:38:51 | TRANSACTIONID : 151697320074
+
+24-01-2018 | VODAFONE TTLR RESPONSE FOREIGN
+14:38:53 | statusCode : 0
+14:38:53 | statusMessage : Accept the service request successfully.
+14:38:53 | ext_trans_id : AG_20180124_000067e4b2aaccb944fc
+
+24-01-2018 | VODAFONE TTLR RESPONSE FOREIGN
+14:38:53 | resultCode : 2001
+14:38:53 | resultMessage : Initiator authentication error.
+14:38:53 | transactionID : AG_20180124_000067e4b2aaccb944fc
+
+24-01-2018 | TTLR VODAFONE REQUEST FOREIGN
+14:50:05 | TOKEN : ******************
+14:50:05 | RESULTURL : https://api.theteller.net/v1.1/vodafone/response
+14:50:05 | VFPIN : ************
+14:50:05 | VOUCHERCODE : 755171
+14:50:05 | PHONENUMBER : 0202009320
+14:50:05 | AMOUNT : 0.1
+14:50:05 | VENDORCODE : ****
+14:50:05 | TRANSACTIONID : 151639590905
+
+24-01-2018 | VODAFONE TTLR RESPONSE FOREIGN
+14:50:07 | statusCode : 0
+14:50:07 | statusMessage : Accept the service request successfully.
+14:50:07 | ext_trans_id : AG_20180124_00005e2220030ed92b70
+
+24-01-2018 | VODAFONE TTLR RESPONSE FOREIGN
+14:50:08 | resultCode : 2002
+14:50:08 | resultMessage : Receiver invalid.
+14:50:08 | transactionID : AG_20180124_00005e2220030ed92b70
+
+24-01-2018 | TTLR VODAFONE REQUEST FOREIGN
+14:51:27 | TOKEN : ******************
+14:51:27 | RESULTURL : https://api.theteller.net/v1.1/vodafone/response
+14:51:27 | VFPIN : ************
+14:51:27 | VOUCHERCODE : 667293
+14:51:27 | PHONENUMBER : 0506327253
+14:51:27 | AMOUNT : 0.1
+14:51:27 | VENDORCODE : ****
+14:51:27 | TRANSACTIONID : 151615005731
+
+24-01-2018 | VODAFONE TTLR RESPONSE FOREIGN
+14:51:28 | statusCode : 0
+14:51:28 | statusMessage : Accept the service request successfully.
+14:51:28 | ext_trans_id : AG_20180124_000061ca8ec49ebab6c2
+
+24-01-2018 | VODAFONE TTLR RESPONSE FOREIGN
+14:51:29 | resultCode : 0
+14:51:29 | resultMessage : The service request is processed successfully.
+14:51:29 | transactionID : AG_20180124_000061ca8ec49ebab6c2
+
+24-01-2018 | TTLR VODAFONE REQUEST FOREIGN
+15:51:23 | TOKEN : ******************
+15:51:23 | RESULTURL : https://api.theteller.net/v1.1/vodafone/response
+15:51:23 | VFPIN : ************
+15:51:23 | VOUCHERCODE : 163304
+15:51:23 | PHONENUMBER : 0506327253
+15:51:23 | AMOUNT : 0.1
+15:51:23 | VENDORCODE : ****
+15:51:23 | TRANSACTIONID : 151679405070
+
+24-01-2018 | VODAFONE TTLR RESPONSE FOREIGN
+15:51:26 | statusCode : 0
+15:51:26 | statusMessage : Accept the service request successfully.
+15:51:26 | ext_trans_id : AG_20180124_00004132011d2211f129
+
+24-01-2018 | VODAFONE TTLR RESPONSE FOREIGN
+15:51:27 | resultCode : 2002
+15:51:27 | resultMessage : Receiver invalid.
+15:51:27 | transactionID : AG_20180124_00004132011d2211f129
+
+24-01-2018 | TTLR TO MTN REQUEST FOREIGN
+15:54:38 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:54:38 | expiry : 2018-01-25
+15:54:38 | username : *********
+15:54:38 | password : *********
+15:54:38 | name : PaySwitch Company Ltd.
+15:54:38 | info : TheTeller App
+15:54:38 | amt : 0.1
+15:54:38 | mobile : 0550053932
+15:54:38 | billprompt : 2
+15:54:38 | thirdpartyID : 151679309410
+
+24-01-2018 | MTN TO TTLR RESPONSE FOREIGN
+15:54:39 | return
+15:54:39 | responseCode : 0000
+15:54:39 | responseMessage : Accepted for Delivery 0550053932
+15:54:39 | invoiceNo : 203710943
+
+24-01-2018 | TTLR TO MTN REQUEST FOREIGN
+15:54:39 | username : *********
+15:54:39 | password : *********
+15:54:39 | invoiceNo : 203710943
+
+24-01-2018 | MTN TO TTLR RESPONSE FOREIGN
+15:54:51 | return
+15:54:51 | responseCode : 21VD
+15:54:51 | responseMessage : Bill not paid...
+
+24-01-2018 | TTLR TO MTN REQUEST FOREIGN
+15:55:06 | return
+15:55:06 | responseCode : 0000
+15:55:06 | responseMessage : Bill found. Tracking ID: MTN185A68AC539E0CD/2828704395
+
+24-01-2018 | TTLR VODAFONE REQUEST FOREIGN
+15:55:06 | TOKEN : ******************
+15:55:06 | RESULTURL : https://api.theteller.net/v1.1/vodafone/response
+15:55:06 | VFPIN : ************
+15:55:06 | PHONENUMBER : 0550053932
+15:55:06 | AMOUNT : 0.1
+15:55:06 | VENDORCODE : ****
+15:55:06 | TRANSACTIONID : 151679309410
+
+24-01-2018 | VODAFONE TTLR RESPONSE FOREIGN
+15:55:07 | statusCode : 0
+15:55:07 | statusMessage : Accept the service request successfully.
+15:55:07 | ext_trans_id : AG_20180124_00007f6a892444a17463
+
+24-01-2018 | VODAFONE TTLR RESPONSE FOREIGN
+15:55:08 | resultCode : 2002
+15:55:08 | resultMessage : The initiator is not allowed to send this transaction.
+15:55:08 | transactionID : AG_20180124_00007f6a892444a17463
+
+24-01-2018 | TTLR VODAFONE REQUEST FOREIGN
+16:00:17 | TOKEN : ******************
+16:00:17 | RESULTURL : https://api.theteller.net/v1.1/vodafone/response
+16:00:17 | VFPIN : ************
+16:00:17 | VOUCHERCODE : 171119
+16:00:17 | PHONENUMBER : 0506327253
+16:00:17 | AMOUNT : 0.1
+16:00:17 | VENDORCODE : ****
+16:00:17 | TRANSACTIONID : 151607490069
+
+24-01-2018 | VODAFONE TTLR RESPONSE FOREIGN
+16:00:19 | statusCode : 0
+16:00:19 | statusMessage : Accept the service request successfully.
+16:00:19 | ext_trans_id : AG_20180124_000057fb6b7cb9904c88
+
+24-01-2018 | VODAFONE TTLR RESPONSE FOREIGN
+16:00:20 | resultCode : 0
+16:00:20 | resultMessage : The service request is processed successfully.
+16:00:20 | transactionID : AG_20180124_000057fb6b7cb9904c88
+
+24-01-2018 | TTLR TO MTN REQUEST FOREIGN
+16:00:22 | vendorID : ***
+16:00:22 | subscriberID : 0550053932
+16:00:22 | thirdpartyTransactionID : 151607490069
+16:00:22 | amount : 0.1
+16:00:22 | apiKey : ***********************
+
+24-01-2018 | MTN TO TLLR RESPONSE FOREIGN
+16:00:25 | return
+16:00:25 | responseCode : 01
+16:00:25 | responseMessage : Successfully processed transaction.
+16:00:25 | thirdpartyTransactionId : 151607490069
+

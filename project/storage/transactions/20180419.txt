@@ -1,0 +1,4896 @@
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+07:49:13 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+07:49:13 | expiry : 2018-04-20
+07:49:13 | username : *********
+07:49:13 | password : *********
+07:49:13 | name : PaySwitch Company Ltd.
+07:49:13 | info : Paystack
+07:49:13 | amt : 1
+07:49:13 | mobile : 0556783436
+07:49:13 | billprompt : 2
+07:49:13 | thirdpartyID : 152470880829
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+07:49:13 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+07:49:13 | expiry : 2018-04-20
+07:49:13 | username : *********
+07:49:13 | password : *********
+07:49:13 | name : PaySwitch Company Ltd.
+07:49:13 | info : Paystack
+07:49:13 | amt : 1
+07:49:13 | mobile : 0553241149
+07:49:13 | billprompt : 2
+07:49:13 | thirdpartyID : 152409025130
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+07:49:14 | return
+07:49:14 | responseCode : 0000
+07:49:14 | responseMessage : Accepted for Delivery 0556783436
+07:49:14 | invoiceNo : 204739551
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+07:49:14 | username : *********
+07:49:14 | password : *********
+07:49:14 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+07:49:14 | return
+07:49:14 | responseCode : 0000
+07:49:14 | responseMessage : Accepted for Delivery 0553241149
+07:49:14 | invoiceNo : 204739552
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+07:49:14 | username : *********
+07:49:14 | password : *********
+07:49:14 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+07:49:14 | return
+07:49:14 | responseCode : 21VD
+07:49:14 | responseMessage : Bill not paid...
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+07:49:14 | return
+07:49:14 | responseCode : 21VD
+07:49:14 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+07:49:34 | username : *********
+07:49:34 | password : *********
+07:49:34 | invoiceNo : 204739551
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+07:49:34 | username : *********
+07:49:34 | password : *********
+07:49:34 | invoiceNo : 204739552
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+07:49:43 | username : *********
+07:49:43 | password : *********
+07:49:43 | invoiceNo : 204739552
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+07:49:43 | username : *********
+07:49:43 | password : *********
+07:49:43 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+07:49:44 | return
+07:49:44 | responseCode : 21VD
+07:49:44 | responseMessage : Bill not paid...
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+07:49:44 | return
+07:49:44 | responseCode : 21VD
+07:49:44 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+07:49:54 | username : *********
+07:49:54 | password : *********
+07:49:54 | invoiceNo : 204739551
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+07:49:54 | username : *********
+07:49:54 | password : *********
+07:49:54 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+07:49:54 | return
+07:49:54 | responseCode : 21VD
+07:49:54 | responseMessage : Bill not paid...
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+07:49:54 | return
+07:49:54 | responseCode : 21VD
+07:49:54 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:00 | username : *********
+08:05:00 | password : *********
+08:05:00 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:00 | return
+08:05:00 | responseCode : 100
+08:05:00 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:01 | username : *********
+08:05:01 | password : *********
+08:05:01 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:01 | return
+08:05:01 | responseCode : 100
+08:05:01 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:01 | username : *********
+08:05:01 | password : *********
+08:05:01 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:02 | return
+08:05:02 | responseCode : 100
+08:05:02 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:02 | username : *********
+08:05:02 | password : *********
+08:05:02 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:02 | return
+08:05:02 | responseCode : 100
+08:05:02 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:03 | username : *********
+08:05:03 | password : *********
+08:05:03 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:03 | return
+08:05:03 | responseCode : 100
+08:05:03 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:03 | username : *********
+08:05:03 | password : *********
+08:05:03 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:03 | return
+08:05:03 | responseCode : 100
+08:05:03 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:04 | username : *********
+08:05:04 | password : *********
+08:05:04 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:04 | return
+08:05:04 | responseCode : 100
+08:05:04 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:04 | username : *********
+08:05:04 | password : *********
+08:05:04 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:04 | return
+08:05:04 | responseCode : 100
+08:05:04 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:05 | username : *********
+08:05:05 | password : *********
+08:05:05 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:05 | return
+08:05:05 | responseCode : 100
+08:05:05 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:05 | username : *********
+08:05:05 | password : *********
+08:05:05 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:06 | return
+08:05:06 | responseCode : 100
+08:05:06 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:06 | username : *********
+08:05:06 | password : *********
+08:05:06 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:06 | return
+08:05:06 | responseCode : 100
+08:05:06 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:07 | username : *********
+08:05:07 | password : *********
+08:05:07 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:07 | return
+08:05:07 | responseCode : 100
+08:05:07 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:07 | username : *********
+08:05:07 | password : *********
+08:05:07 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:07 | return
+08:05:07 | responseCode : 100
+08:05:07 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:08 | username : *********
+08:05:08 | password : *********
+08:05:08 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:08 | return
+08:05:08 | responseCode : 100
+08:05:08 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:08 | username : *********
+08:05:08 | password : *********
+08:05:08 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:08 | return
+08:05:08 | responseCode : 100
+08:05:08 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:09 | username : *********
+08:05:09 | password : *********
+08:05:09 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:09 | return
+08:05:09 | responseCode : 100
+08:05:09 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:09 | username : *********
+08:05:09 | password : *********
+08:05:09 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:09 | return
+08:05:09 | responseCode : 100
+08:05:09 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:10 | username : *********
+08:05:10 | password : *********
+08:05:10 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:10 | return
+08:05:10 | responseCode : 100
+08:05:10 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:10 | username : *********
+08:05:10 | password : *********
+08:05:10 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:10 | return
+08:05:10 | responseCode : 100
+08:05:10 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:11 | username : *********
+08:05:11 | password : *********
+08:05:11 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:11 | return
+08:05:11 | responseCode : 100
+08:05:11 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:11 | username : *********
+08:05:11 | password : *********
+08:05:11 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:11 | return
+08:05:11 | responseCode : 100
+08:05:11 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:12 | username : *********
+08:05:12 | password : *********
+08:05:12 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:12 | return
+08:05:12 | responseCode : 100
+08:05:12 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:12 | username : *********
+08:05:12 | password : *********
+08:05:12 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:12 | return
+08:05:12 | responseCode : 100
+08:05:12 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:13 | username : *********
+08:05:13 | password : *********
+08:05:13 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:13 | return
+08:05:13 | responseCode : 100
+08:05:13 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:13 | username : *********
+08:05:13 | password : *********
+08:05:13 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:13 | return
+08:05:13 | responseCode : 100
+08:05:13 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:14 | username : *********
+08:05:14 | password : *********
+08:05:14 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:14 | return
+08:05:14 | responseCode : 100
+08:05:14 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:14 | username : *********
+08:05:14 | password : *********
+08:05:14 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:15 | return
+08:05:15 | responseCode : 100
+08:05:15 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:15 | username : *********
+08:05:15 | password : *********
+08:05:15 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:15 | return
+08:05:15 | responseCode : 100
+08:05:15 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:16 | username : *********
+08:05:16 | password : *********
+08:05:16 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:16 | return
+08:05:16 | responseCode : 100
+08:05:16 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:16 | username : *********
+08:05:16 | password : *********
+08:05:16 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:16 | return
+08:05:16 | responseCode : 100
+08:05:16 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:17 | username : *********
+08:05:17 | password : *********
+08:05:17 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:17 | return
+08:05:17 | responseCode : 100
+08:05:17 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:17 | username : *********
+08:05:17 | password : *********
+08:05:17 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:17 | return
+08:05:17 | responseCode : 100
+08:05:17 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:18 | username : *********
+08:05:18 | password : *********
+08:05:18 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:18 | return
+08:05:18 | responseCode : 100
+08:05:18 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:18 | username : *********
+08:05:18 | password : *********
+08:05:18 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:18 | return
+08:05:18 | responseCode : 100
+08:05:18 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:19 | username : *********
+08:05:19 | password : *********
+08:05:19 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:19 | return
+08:05:19 | responseCode : 100
+08:05:19 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:19 | username : *********
+08:05:19 | password : *********
+08:05:19 | invoiceNo : 204739551
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:19 | return
+08:05:19 | responseCode : 100
+08:05:19 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:20 | username : *********
+08:05:20 | password : *********
+08:05:20 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:20 | return
+08:05:20 | responseCode : 21VD
+08:05:20 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:21 | username : *********
+08:05:21 | password : *********
+08:05:21 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:21 | return
+08:05:21 | responseCode : 21VD
+08:05:21 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:21 | username : *********
+08:05:21 | password : *********
+08:05:21 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:21 | return
+08:05:21 | responseCode : 21VD
+08:05:21 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:22 | username : *********
+08:05:22 | password : *********
+08:05:22 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:22 | return
+08:05:22 | responseCode : 21VD
+08:05:22 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:22 | username : *********
+08:05:22 | password : *********
+08:05:22 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:22 | return
+08:05:22 | responseCode : 21VD
+08:05:22 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:23 | username : *********
+08:05:23 | password : *********
+08:05:23 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:23 | return
+08:05:23 | responseCode : 21VD
+08:05:23 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:23 | username : *********
+08:05:23 | password : *********
+08:05:23 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:24 | return
+08:05:24 | responseCode : 21VD
+08:05:24 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:24 | username : *********
+08:05:24 | password : *********
+08:05:24 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:24 | return
+08:05:24 | responseCode : 21VD
+08:05:24 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:25 | username : *********
+08:05:25 | password : *********
+08:05:25 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:25 | return
+08:05:25 | responseCode : 21VD
+08:05:25 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:25 | username : *********
+08:05:25 | password : *********
+08:05:25 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:25 | return
+08:05:25 | responseCode : 21VD
+08:05:25 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:26 | username : *********
+08:05:26 | password : *********
+08:05:26 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:26 | return
+08:05:26 | responseCode : 21VD
+08:05:26 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:26 | username : *********
+08:05:26 | password : *********
+08:05:26 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:26 | return
+08:05:26 | responseCode : 21VD
+08:05:26 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:27 | username : *********
+08:05:27 | password : *********
+08:05:27 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:27 | return
+08:05:27 | responseCode : 21VD
+08:05:27 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:27 | username : *********
+08:05:27 | password : *********
+08:05:27 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:28 | return
+08:05:28 | responseCode : 21VD
+08:05:28 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:28 | username : *********
+08:05:28 | password : *********
+08:05:28 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:28 | return
+08:05:28 | responseCode : 21VD
+08:05:28 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:29 | username : *********
+08:05:29 | password : *********
+08:05:29 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:29 | return
+08:05:29 | responseCode : 21VD
+08:05:29 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:29 | username : *********
+08:05:29 | password : *********
+08:05:29 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:29 | return
+08:05:29 | responseCode : 21VD
+08:05:29 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:30 | username : *********
+08:05:30 | password : *********
+08:05:30 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:30 | return
+08:05:30 | responseCode : 21VD
+08:05:30 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:30 | username : *********
+08:05:30 | password : *********
+08:05:30 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:31 | return
+08:05:31 | responseCode : 21VD
+08:05:31 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:31 | username : *********
+08:05:31 | password : *********
+08:05:31 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:31 | return
+08:05:31 | responseCode : 21VD
+08:05:31 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:32 | username : *********
+08:05:32 | password : *********
+08:05:32 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:32 | return
+08:05:32 | responseCode : 21VD
+08:05:32 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:32 | username : *********
+08:05:32 | password : *********
+08:05:32 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:32 | return
+08:05:32 | responseCode : 21VD
+08:05:32 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:33 | username : *********
+08:05:33 | password : *********
+08:05:33 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:33 | return
+08:05:33 | responseCode : 21VD
+08:05:33 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:33 | username : *********
+08:05:33 | password : *********
+08:05:33 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:33 | return
+08:05:33 | responseCode : 21VD
+08:05:33 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:34 | username : *********
+08:05:34 | password : *********
+08:05:34 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:34 | return
+08:05:34 | responseCode : 21VD
+08:05:34 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:34 | username : *********
+08:05:34 | password : *********
+08:05:34 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:35 | return
+08:05:35 | responseCode : 21VD
+08:05:35 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:35 | username : *********
+08:05:35 | password : *********
+08:05:35 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:35 | return
+08:05:35 | responseCode : 21VD
+08:05:35 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:36 | username : *********
+08:05:36 | password : *********
+08:05:36 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:36 | return
+08:05:36 | responseCode : 21VD
+08:05:36 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:36 | username : *********
+08:05:36 | password : *********
+08:05:36 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:36 | return
+08:05:36 | responseCode : 21VD
+08:05:36 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:37 | username : *********
+08:05:37 | password : *********
+08:05:37 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:37 | return
+08:05:37 | responseCode : 21VD
+08:05:37 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:37 | username : *********
+08:05:37 | password : *********
+08:05:37 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:37 | return
+08:05:37 | responseCode : 21VD
+08:05:37 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:38 | username : *********
+08:05:38 | password : *********
+08:05:38 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:38 | return
+08:05:38 | responseCode : 21VD
+08:05:38 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:38 | username : *********
+08:05:38 | password : *********
+08:05:38 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:39 | return
+08:05:39 | responseCode : 21VD
+08:05:39 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:39 | username : *********
+08:05:39 | password : *********
+08:05:39 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:39 | return
+08:05:39 | responseCode : 21VD
+08:05:39 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:40 | username : *********
+08:05:40 | password : *********
+08:05:40 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:40 | return
+08:05:40 | responseCode : 21VD
+08:05:40 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:40 | username : *********
+08:05:40 | password : *********
+08:05:40 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:40 | return
+08:05:40 | responseCode : 21VD
+08:05:40 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:41 | username : *********
+08:05:41 | password : *********
+08:05:41 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:41 | return
+08:05:41 | responseCode : 21VD
+08:05:41 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:41 | username : *********
+08:05:41 | password : *********
+08:05:41 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:42 | return
+08:05:42 | responseCode : 21VD
+08:05:42 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:42 | username : *********
+08:05:42 | password : *********
+08:05:42 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:42 | return
+08:05:42 | responseCode : 21VD
+08:05:42 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:43 | username : *********
+08:05:43 | password : *********
+08:05:43 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:43 | return
+08:05:43 | responseCode : 21VD
+08:05:43 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:43 | username : *********
+08:05:43 | password : *********
+08:05:43 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:43 | return
+08:05:43 | responseCode : 21VD
+08:05:43 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:44 | username : *********
+08:05:44 | password : *********
+08:05:44 | invoiceNo : 204739552
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:44 | return
+08:05:44 | responseCode : 21VD
+08:05:44 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:46 | username : *********
+08:05:46 | password : *********
+08:05:46 | invoiceNo : 204708319
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:46 | return
+08:05:46 | responseCode : 100
+08:05:46 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:46 | username : *********
+08:05:46 | password : *********
+08:05:46 | invoiceNo : 204708249
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:46 | return
+08:05:46 | responseCode : 0000
+08:05:46 | responseMessage : Bill found. Tracking ID: MTN185AD5099ADA680/3307755601
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:48 | username : *********
+08:05:48 | password : *********
+08:05:48 | invoiceNo : 204708228
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:48 | return
+08:05:48 | responseCode : 100
+08:05:48 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:48 | username : *********
+08:05:48 | password : *********
+08:05:48 | invoiceNo : 204708203
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:48 | return
+08:05:48 | responseCode : 100
+08:05:48 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:49 | username : *********
+08:05:49 | password : *********
+08:05:49 | invoiceNo : 204708176
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:49 | return
+08:05:49 | responseCode : 100
+08:05:49 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:51 | username : *********
+08:05:51 | password : *********
+08:05:51 | invoiceNo : 
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:51 | return
+08:05:51 | responseCode : 22VD
+08:05:51 | responseMessage : Invalid Invoice
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:53 | username : *********
+08:05:53 | password : *********
+08:05:53 | invoiceNo : 204707749
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:53 | return
+08:05:53 | responseCode : 100
+08:05:53 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:53 | username : *********
+08:05:53 | password : *********
+08:05:53 | invoiceNo : 204707749
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:53 | return
+08:05:53 | responseCode : 100
+08:05:53 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:54 | username : *********
+08:05:54 | password : *********
+08:05:54 | invoiceNo : 204706889
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:54 | return
+08:05:54 | responseCode : 21EX
+08:05:54 | responseMessage : Bill Failed
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+08:05:54 | username : *********
+08:05:54 | password : *********
+08:05:54 | invoiceNo : 204706889
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+08:05:55 | return
+08:05:55 | responseCode : 21EX
+08:05:55 | responseMessage : Bill Failed
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:01:00 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+09:01:00 | expiry : 2018-04-20
+09:01:00 | username : *********
+09:01:00 | password : *********
+09:01:00 | name : PaySwitch Company Ltd.
+09:01:00 | info : Paystack
+09:01:00 | amt : 1
+09:01:00 | mobile : 0553241149
+09:01:00 | billprompt : 2
+09:01:00 | thirdpartyID : 152409490783
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:01:01 | return
+09:01:01 | responseCode : 0000
+09:01:01 | responseMessage : Accepted for Delivery 0553241149
+09:01:01 | invoiceNo : 204740308
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:01:01 | username : *********
+09:01:01 | password : *********
+09:01:01 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:01:01 | return
+09:01:01 | responseCode : 21VD
+09:01:01 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:01:01 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+09:01:01 | expiry : 2018-04-20
+09:01:01 | username : *********
+09:01:01 | password : *********
+09:01:01 | name : PaySwitch Company Ltd.
+09:01:01 | info : Paystack
+09:01:01 | amt : 1
+09:01:01 | mobile : 0556783436
+09:01:01 | billprompt : 2
+09:01:01 | thirdpartyID : 152402420505
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:01:01 | return
+09:01:01 | responseCode : 0000
+09:01:01 | responseMessage : Accepted for Delivery 0556783436
+09:01:01 | invoiceNo : 204740309
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:01:01 | username : *********
+09:01:01 | password : *********
+09:01:01 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:01:01 | return
+09:01:01 | responseCode : 21VD
+09:01:01 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:01:21 | username : *********
+09:01:21 | password : *********
+09:01:21 | invoiceNo : 204740308
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:01:21 | username : *********
+09:01:21 | password : *********
+09:01:21 | invoiceNo : 204740309
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:01:31 | username : *********
+09:01:31 | password : *********
+09:01:31 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:01:31 | return
+09:01:31 | responseCode : 21VD
+09:01:31 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:01:31 | username : *********
+09:01:31 | password : *********
+09:01:31 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:01:31 | return
+09:01:31 | responseCode : 21VD
+09:01:31 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:01:41 | username : *********
+09:01:41 | password : *********
+09:01:41 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:01:41 | return
+09:01:41 | responseCode : 21VD
+09:01:41 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:01:41 | username : *********
+09:01:41 | password : *********
+09:01:41 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:01:41 | return
+09:01:41 | responseCode : 21VD
+09:01:41 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:00 | username : *********
+09:23:00 | password : *********
+09:23:00 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:00 | return
+09:23:00 | responseCode : 100
+09:23:00 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:01 | username : *********
+09:23:01 | password : *********
+09:23:01 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:01 | return
+09:23:01 | responseCode : 100
+09:23:01 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:01 | username : *********
+09:23:01 | password : *********
+09:23:01 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:01 | return
+09:23:01 | responseCode : 100
+09:23:01 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:02 | username : *********
+09:23:02 | password : *********
+09:23:02 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:02 | return
+09:23:02 | responseCode : 100
+09:23:02 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:02 | username : *********
+09:23:02 | password : *********
+09:23:02 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:02 | return
+09:23:02 | responseCode : 100
+09:23:02 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:03 | username : *********
+09:23:03 | password : *********
+09:23:03 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:03 | return
+09:23:03 | responseCode : 100
+09:23:03 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:03 | username : *********
+09:23:03 | password : *********
+09:23:03 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:03 | return
+09:23:03 | responseCode : 100
+09:23:03 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:04 | username : *********
+09:23:04 | password : *********
+09:23:04 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:04 | return
+09:23:04 | responseCode : 100
+09:23:04 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:04 | username : *********
+09:23:04 | password : *********
+09:23:04 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:04 | return
+09:23:04 | responseCode : 100
+09:23:04 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:05 | username : *********
+09:23:05 | password : *********
+09:23:05 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:05 | return
+09:23:05 | responseCode : 100
+09:23:05 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:05 | username : *********
+09:23:05 | password : *********
+09:23:05 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:06 | return
+09:23:06 | responseCode : 100
+09:23:06 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:06 | username : *********
+09:23:06 | password : *********
+09:23:06 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:06 | return
+09:23:06 | responseCode : 100
+09:23:06 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:06 | username : *********
+09:23:06 | password : *********
+09:23:06 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:07 | return
+09:23:07 | responseCode : 100
+09:23:07 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:07 | username : *********
+09:23:07 | password : *********
+09:23:07 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:07 | return
+09:23:07 | responseCode : 100
+09:23:07 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:08 | username : *********
+09:23:08 | password : *********
+09:23:08 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:08 | return
+09:23:08 | responseCode : 100
+09:23:08 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:08 | username : *********
+09:23:08 | password : *********
+09:23:08 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:08 | return
+09:23:08 | responseCode : 100
+09:23:08 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:09 | username : *********
+09:23:09 | password : *********
+09:23:09 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:09 | return
+09:23:09 | responseCode : 100
+09:23:09 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:09 | username : *********
+09:23:09 | password : *********
+09:23:09 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:09 | return
+09:23:09 | responseCode : 100
+09:23:09 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:10 | username : *********
+09:23:10 | password : *********
+09:23:10 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:10 | return
+09:23:10 | responseCode : 100
+09:23:10 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:10 | username : *********
+09:23:10 | password : *********
+09:23:10 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:10 | return
+09:23:10 | responseCode : 100
+09:23:10 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:11 | username : *********
+09:23:11 | password : *********
+09:23:11 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:11 | return
+09:23:11 | responseCode : 100
+09:23:11 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:11 | username : *********
+09:23:11 | password : *********
+09:23:11 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:11 | return
+09:23:11 | responseCode : 100
+09:23:11 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:12 | username : *********
+09:23:12 | password : *********
+09:23:12 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:12 | return
+09:23:12 | responseCode : 100
+09:23:12 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:12 | username : *********
+09:23:12 | password : *********
+09:23:12 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:13 | return
+09:23:13 | responseCode : 100
+09:23:13 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:13 | username : *********
+09:23:13 | password : *********
+09:23:13 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:13 | return
+09:23:13 | responseCode : 100
+09:23:13 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:13 | username : *********
+09:23:13 | password : *********
+09:23:13 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:14 | return
+09:23:14 | responseCode : 100
+09:23:14 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:14 | username : *********
+09:23:14 | password : *********
+09:23:14 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:14 | return
+09:23:14 | responseCode : 100
+09:23:14 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:15 | username : *********
+09:23:15 | password : *********
+09:23:15 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:15 | return
+09:23:15 | responseCode : 100
+09:23:15 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:15 | username : *********
+09:23:15 | password : *********
+09:23:15 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:15 | return
+09:23:15 | responseCode : 100
+09:23:15 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:16 | username : *********
+09:23:16 | password : *********
+09:23:16 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:16 | return
+09:23:16 | responseCode : 100
+09:23:16 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:16 | username : *********
+09:23:16 | password : *********
+09:23:16 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:16 | return
+09:23:16 | responseCode : 100
+09:23:16 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:17 | username : *********
+09:23:17 | password : *********
+09:23:17 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:17 | return
+09:23:17 | responseCode : 100
+09:23:17 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:17 | username : *********
+09:23:17 | password : *********
+09:23:17 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:17 | return
+09:23:17 | responseCode : 100
+09:23:17 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:18 | username : *********
+09:23:18 | password : *********
+09:23:18 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:18 | return
+09:23:18 | responseCode : 100
+09:23:18 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:18 | username : *********
+09:23:18 | password : *********
+09:23:18 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:18 | return
+09:23:18 | responseCode : 100
+09:23:18 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:19 | username : *********
+09:23:19 | password : *********
+09:23:19 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:19 | return
+09:23:19 | responseCode : 100
+09:23:19 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:19 | username : *********
+09:23:19 | password : *********
+09:23:19 | invoiceNo : 204740309
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:19 | return
+09:23:19 | responseCode : 100
+09:23:19 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:20 | username : *********
+09:23:20 | password : *********
+09:23:20 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:20 | return
+09:23:20 | responseCode : 21VD
+09:23:20 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:20 | username : *********
+09:23:20 | password : *********
+09:23:20 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:21 | return
+09:23:21 | responseCode : 21VD
+09:23:21 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:21 | username : *********
+09:23:21 | password : *********
+09:23:21 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:21 | return
+09:23:21 | responseCode : 21VD
+09:23:21 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:22 | username : *********
+09:23:22 | password : *********
+09:23:22 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:22 | return
+09:23:22 | responseCode : 21VD
+09:23:22 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:22 | username : *********
+09:23:22 | password : *********
+09:23:22 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:22 | return
+09:23:22 | responseCode : 21VD
+09:23:22 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:23 | username : *********
+09:23:23 | password : *********
+09:23:23 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:23 | return
+09:23:23 | responseCode : 21VD
+09:23:23 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:23 | username : *********
+09:23:23 | password : *********
+09:23:23 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:23 | return
+09:23:23 | responseCode : 21VD
+09:23:23 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:24 | username : *********
+09:23:24 | password : *********
+09:23:24 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:24 | return
+09:23:24 | responseCode : 21VD
+09:23:24 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:25 | username : *********
+09:23:25 | password : *********
+09:23:25 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:25 | return
+09:23:25 | responseCode : 21VD
+09:23:25 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:25 | username : *********
+09:23:25 | password : *********
+09:23:25 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:25 | return
+09:23:25 | responseCode : 21VD
+09:23:25 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:26 | username : *********
+09:23:26 | password : *********
+09:23:26 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:26 | return
+09:23:26 | responseCode : 21VD
+09:23:26 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:26 | username : *********
+09:23:26 | password : *********
+09:23:26 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:26 | return
+09:23:26 | responseCode : 21VD
+09:23:26 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:27 | username : *********
+09:23:27 | password : *********
+09:23:27 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:27 | return
+09:23:27 | responseCode : 21VD
+09:23:27 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:27 | username : *********
+09:23:27 | password : *********
+09:23:27 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:28 | return
+09:23:28 | responseCode : 21VD
+09:23:28 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:28 | username : *********
+09:23:28 | password : *********
+09:23:28 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:28 | return
+09:23:28 | responseCode : 21VD
+09:23:28 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:29 | username : *********
+09:23:29 | password : *********
+09:23:29 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:29 | return
+09:23:29 | responseCode : 21VD
+09:23:29 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:29 | username : *********
+09:23:29 | password : *********
+09:23:29 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:29 | return
+09:23:29 | responseCode : 21VD
+09:23:29 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:30 | username : *********
+09:23:30 | password : *********
+09:23:30 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:30 | return
+09:23:30 | responseCode : 21VD
+09:23:30 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:30 | username : *********
+09:23:30 | password : *********
+09:23:30 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:30 | return
+09:23:30 | responseCode : 21VD
+09:23:30 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:31 | username : *********
+09:23:31 | password : *********
+09:23:31 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:31 | return
+09:23:31 | responseCode : 21VD
+09:23:31 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:31 | username : *********
+09:23:31 | password : *********
+09:23:31 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:32 | return
+09:23:32 | responseCode : 21VD
+09:23:32 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:32 | username : *********
+09:23:32 | password : *********
+09:23:32 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:32 | return
+09:23:32 | responseCode : 21VD
+09:23:32 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:33 | username : *********
+09:23:33 | password : *********
+09:23:33 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:33 | return
+09:23:33 | responseCode : 21VD
+09:23:33 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:33 | username : *********
+09:23:33 | password : *********
+09:23:33 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:33 | return
+09:23:33 | responseCode : 21VD
+09:23:33 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:34 | username : *********
+09:23:34 | password : *********
+09:23:34 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:34 | return
+09:23:34 | responseCode : 21VD
+09:23:34 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:34 | username : *********
+09:23:34 | password : *********
+09:23:34 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:34 | return
+09:23:34 | responseCode : 21VD
+09:23:34 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:35 | username : *********
+09:23:35 | password : *********
+09:23:35 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:35 | return
+09:23:35 | responseCode : 21VD
+09:23:35 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:35 | username : *********
+09:23:35 | password : *********
+09:23:35 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:36 | return
+09:23:36 | responseCode : 21VD
+09:23:36 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:36 | username : *********
+09:23:36 | password : *********
+09:23:36 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:36 | return
+09:23:36 | responseCode : 21VD
+09:23:36 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:37 | username : *********
+09:23:37 | password : *********
+09:23:37 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:37 | return
+09:23:37 | responseCode : 21VD
+09:23:37 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:37 | username : *********
+09:23:37 | password : *********
+09:23:37 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:37 | return
+09:23:37 | responseCode : 21VD
+09:23:37 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:38 | username : *********
+09:23:38 | password : *********
+09:23:38 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:38 | return
+09:23:38 | responseCode : 21VD
+09:23:38 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:38 | username : *********
+09:23:38 | password : *********
+09:23:38 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:38 | return
+09:23:38 | responseCode : 21VD
+09:23:38 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:39 | username : *********
+09:23:39 | password : *********
+09:23:39 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:39 | return
+09:23:39 | responseCode : 21VD
+09:23:39 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:39 | username : *********
+09:23:39 | password : *********
+09:23:39 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:40 | return
+09:23:40 | responseCode : 21VD
+09:23:40 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:40 | username : *********
+09:23:40 | password : *********
+09:23:40 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:40 | return
+09:23:40 | responseCode : 21VD
+09:23:40 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:41 | username : *********
+09:23:41 | password : *********
+09:23:41 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:41 | return
+09:23:41 | responseCode : 21VD
+09:23:41 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:41 | username : *********
+09:23:41 | password : *********
+09:23:41 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:41 | return
+09:23:41 | responseCode : 21VD
+09:23:41 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:42 | username : *********
+09:23:42 | password : *********
+09:23:42 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:42 | return
+09:23:42 | responseCode : 21VD
+09:23:42 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:42 | username : *********
+09:23:42 | password : *********
+09:23:42 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:43 | return
+09:23:43 | responseCode : 21VD
+09:23:43 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:43 | username : *********
+09:23:43 | password : *********
+09:23:43 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:43 | return
+09:23:43 | responseCode : 21VD
+09:23:43 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:44 | username : *********
+09:23:44 | password : *********
+09:23:44 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:44 | return
+09:23:44 | responseCode : 21VD
+09:23:44 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:23:44 | username : *********
+09:23:44 | password : *********
+09:23:44 | invoiceNo : 204740308
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:23:44 | return
+09:23:44 | responseCode : 21VD
+09:23:44 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:32:57 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+09:32:57 | expiry : 2018-04-20
+09:32:57 | username : *********
+09:32:57 | password : *********
+09:32:57 | name : PaySwitch Company Ltd.
+09:32:57 | info : Paystack
+09:32:57 | amt : 1
+09:32:57 | mobile : 0553241149
+09:32:57 | billprompt : 2
+09:32:57 | thirdpartyID : 152460987140
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:32:57 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+09:32:57 | expiry : 2018-04-20
+09:32:57 | username : *********
+09:32:57 | password : *********
+09:32:57 | name : PaySwitch Company Ltd.
+09:32:57 | info : Paystack
+09:32:57 | amt : 1
+09:32:57 | mobile : 0556783436
+09:32:57 | billprompt : 2
+09:32:57 | thirdpartyID : 152423302400
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:32:57 | return
+09:32:57 | responseCode : 0000
+09:32:57 | responseMessage : Accepted for Delivery 0553241149
+09:32:57 | invoiceNo : 204740738
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:32:57 | username : *********
+09:32:57 | password : *********
+09:32:57 | invoiceNo : 204740738
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:32:57 | return
+09:32:57 | responseCode : 0000
+09:32:57 | responseMessage : Accepted for Delivery 0556783436
+09:32:57 | invoiceNo : 204740739
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:32:57 | username : *********
+09:32:57 | password : *********
+09:32:57 | invoiceNo : 204740739
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:32:57 | return
+09:32:57 | responseCode : 21VD
+09:32:57 | responseMessage : Bill not paid...
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:32:57 | return
+09:32:57 | responseCode : 21VD
+09:32:57 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:33:17 | username : *********
+09:33:17 | password : *********
+09:33:17 | invoiceNo : 204740738
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:33:17 | username : *********
+09:33:17 | password : *********
+09:33:17 | invoiceNo : 204740739
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:33:27 | username : *********
+09:33:27 | password : *********
+09:33:27 | invoiceNo : 204740738
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:33:27 | username : *********
+09:33:27 | password : *********
+09:33:27 | invoiceNo : 204740739
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:33:27 | return
+09:33:27 | responseCode : 21VD
+09:33:27 | responseMessage : Bill not paid...
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:33:27 | return
+09:33:27 | responseCode : 21VD
+09:33:27 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:33:37 | username : *********
+09:33:37 | password : *********
+09:33:37 | invoiceNo : 204740738
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:33:37 | username : *********
+09:33:37 | password : *********
+09:33:37 | invoiceNo : 204740739
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:33:37 | return
+09:33:37 | responseCode : 21VD
+09:33:37 | responseMessage : Bill not paid...
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:33:37 | return
+09:33:37 | responseCode : 21VD
+09:33:37 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:49:43 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+09:49:43 | expiry : 2018-04-20
+09:49:43 | username : *********
+09:49:43 | password : *********
+09:49:43 | name : PaySwitch Company Ltd.
+09:49:43 | info : Paystack
+09:49:43 | amt : 1
+09:49:43 | mobile : 0553241149
+09:49:43 | billprompt : 2
+09:49:43 | thirdpartyID : 152480406638
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:49:43 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+09:49:43 | expiry : 2018-04-20
+09:49:43 | username : *********
+09:49:43 | password : *********
+09:49:43 | name : PaySwitch Company Ltd.
+09:49:43 | info : Paystack
+09:49:43 | amt : 1
+09:49:43 | mobile : 0556783436
+09:49:43 | billprompt : 2
+09:49:43 | thirdpartyID : 152400047538
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:49:43 | return
+09:49:43 | responseCode : 0000
+09:49:43 | responseMessage : Accepted for Delivery 0553241149
+09:49:43 | invoiceNo : 204741043
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:49:43 | username : *********
+09:49:43 | password : *********
+09:49:43 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:49:43 | return
+09:49:43 | responseCode : 21VD
+09:49:43 | responseMessage : Bill not paid...
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:49:43 | return
+09:49:43 | responseCode : 0000
+09:49:43 | responseMessage : Accepted for Delivery 0556783436
+09:49:43 | invoiceNo : 204741044
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:49:43 | username : *********
+09:49:43 | password : *********
+09:49:43 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:49:43 | return
+09:49:43 | responseCode : 21VD
+09:49:43 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:50:03 | username : *********
+09:50:03 | password : *********
+09:50:03 | invoiceNo : 204741043
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:50:03 | username : *********
+09:50:03 | password : *********
+09:50:03 | invoiceNo : 204741044
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:50:13 | username : *********
+09:50:13 | password : *********
+09:50:13 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:50:13 | return
+09:50:13 | responseCode : 21VD
+09:50:13 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:50:13 | username : *********
+09:50:13 | password : *********
+09:50:13 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:50:13 | return
+09:50:13 | responseCode : 21VD
+09:50:13 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:50:23 | username : *********
+09:50:23 | password : *********
+09:50:23 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:50:23 | return
+09:50:23 | responseCode : 21VD
+09:50:23 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:50:23 | username : *********
+09:50:23 | password : *********
+09:50:23 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:50:24 | return
+09:50:24 | responseCode : 21VD
+09:50:24 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:00 | username : *********
+09:53:00 | password : *********
+09:53:00 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:00 | return
+09:53:00 | responseCode : 21VD
+09:53:00 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:01 | username : *********
+09:53:01 | password : *********
+09:53:01 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:01 | return
+09:53:01 | responseCode : 21VD
+09:53:01 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:01 | username : *********
+09:53:01 | password : *********
+09:53:01 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:02 | return
+09:53:02 | responseCode : 21VD
+09:53:02 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:02 | username : *********
+09:53:02 | password : *********
+09:53:02 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:02 | return
+09:53:02 | responseCode : 21VD
+09:53:02 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:03 | username : *********
+09:53:03 | password : *********
+09:53:03 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:03 | return
+09:53:03 | responseCode : 21VD
+09:53:03 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:03 | username : *********
+09:53:03 | password : *********
+09:53:03 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:03 | return
+09:53:03 | responseCode : 21VD
+09:53:03 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:04 | username : *********
+09:53:04 | password : *********
+09:53:04 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:04 | return
+09:53:04 | responseCode : 21VD
+09:53:04 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:04 | username : *********
+09:53:04 | password : *********
+09:53:04 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:04 | return
+09:53:04 | responseCode : 21VD
+09:53:04 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:05 | username : *********
+09:53:05 | password : *********
+09:53:05 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:05 | return
+09:53:05 | responseCode : 21VD
+09:53:05 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:06 | username : *********
+09:53:06 | password : *********
+09:53:06 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:06 | return
+09:53:06 | responseCode : 21VD
+09:53:06 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:06 | username : *********
+09:53:06 | password : *********
+09:53:06 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:06 | return
+09:53:06 | responseCode : 21VD
+09:53:06 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:07 | username : *********
+09:53:07 | password : *********
+09:53:07 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:07 | return
+09:53:07 | responseCode : 21VD
+09:53:07 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:07 | username : *********
+09:53:07 | password : *********
+09:53:07 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:07 | return
+09:53:07 | responseCode : 21VD
+09:53:07 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:08 | username : *********
+09:53:08 | password : *********
+09:53:08 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:08 | return
+09:53:08 | responseCode : 21VD
+09:53:08 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:09 | username : *********
+09:53:09 | password : *********
+09:53:09 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:09 | return
+09:53:09 | responseCode : 21VD
+09:53:09 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:09 | username : *********
+09:53:09 | password : *********
+09:53:09 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:09 | return
+09:53:09 | responseCode : 21VD
+09:53:09 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:10 | username : *********
+09:53:10 | password : *********
+09:53:10 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:10 | return
+09:53:10 | responseCode : 21VD
+09:53:10 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:10 | username : *********
+09:53:10 | password : *********
+09:53:10 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:10 | return
+09:53:10 | responseCode : 21VD
+09:53:10 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:11 | username : *********
+09:53:11 | password : *********
+09:53:11 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:11 | return
+09:53:11 | responseCode : 21VD
+09:53:11 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:11 | username : *********
+09:53:11 | password : *********
+09:53:11 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:11 | return
+09:53:11 | responseCode : 21VD
+09:53:11 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:12 | username : *********
+09:53:12 | password : *********
+09:53:12 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:12 | return
+09:53:12 | responseCode : 21VD
+09:53:12 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:13 | username : *********
+09:53:13 | password : *********
+09:53:13 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:13 | return
+09:53:13 | responseCode : 21VD
+09:53:13 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:13 | username : *********
+09:53:13 | password : *********
+09:53:13 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:13 | return
+09:53:13 | responseCode : 21VD
+09:53:13 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:14 | username : *********
+09:53:14 | password : *********
+09:53:14 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:14 | return
+09:53:14 | responseCode : 21VD
+09:53:14 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:14 | username : *********
+09:53:14 | password : *********
+09:53:14 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:14 | return
+09:53:14 | responseCode : 21VD
+09:53:14 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:15 | username : *********
+09:53:15 | password : *********
+09:53:15 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:15 | return
+09:53:15 | responseCode : 21VD
+09:53:15 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:15 | username : *********
+09:53:15 | password : *********
+09:53:15 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:16 | return
+09:53:16 | responseCode : 21VD
+09:53:16 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:16 | username : *********
+09:53:16 | password : *********
+09:53:16 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:16 | return
+09:53:16 | responseCode : 21VD
+09:53:16 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:17 | username : *********
+09:53:17 | password : *********
+09:53:17 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:17 | return
+09:53:17 | responseCode : 21VD
+09:53:17 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:17 | username : *********
+09:53:17 | password : *********
+09:53:17 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:17 | return
+09:53:17 | responseCode : 21VD
+09:53:17 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:18 | username : *********
+09:53:18 | password : *********
+09:53:18 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:18 | return
+09:53:18 | responseCode : 21VD
+09:53:18 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:18 | username : *********
+09:53:18 | password : *********
+09:53:18 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:18 | return
+09:53:18 | responseCode : 21VD
+09:53:18 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:19 | username : *********
+09:53:19 | password : *********
+09:53:19 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:19 | return
+09:53:19 | responseCode : 21VD
+09:53:19 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:19 | username : *********
+09:53:19 | password : *********
+09:53:19 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:19 | return
+09:53:19 | responseCode : 21VD
+09:53:19 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:20 | username : *********
+09:53:20 | password : *********
+09:53:20 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:20 | return
+09:53:20 | responseCode : 21VD
+09:53:20 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:20 | username : *********
+09:53:20 | password : *********
+09:53:20 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:21 | return
+09:53:21 | responseCode : 21VD
+09:53:21 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:21 | username : *********
+09:53:21 | password : *********
+09:53:21 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:21 | return
+09:53:21 | responseCode : 21VD
+09:53:21 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:22 | username : *********
+09:53:22 | password : *********
+09:53:22 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:22 | return
+09:53:22 | responseCode : 21VD
+09:53:22 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:22 | username : *********
+09:53:22 | password : *********
+09:53:22 | invoiceNo : 204741044
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:22 | return
+09:53:22 | responseCode : 21VD
+09:53:22 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:23 | username : *********
+09:53:23 | password : *********
+09:53:23 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:23 | return
+09:53:23 | responseCode : 21VD
+09:53:23 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:23 | username : *********
+09:53:23 | password : *********
+09:53:23 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:24 | return
+09:53:24 | responseCode : 21VD
+09:53:24 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:24 | username : *********
+09:53:24 | password : *********
+09:53:24 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:24 | return
+09:53:24 | responseCode : 21VD
+09:53:24 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:25 | username : *********
+09:53:25 | password : *********
+09:53:25 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:25 | return
+09:53:25 | responseCode : 21VD
+09:53:25 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:25 | username : *********
+09:53:25 | password : *********
+09:53:25 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:25 | return
+09:53:25 | responseCode : 21VD
+09:53:25 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:26 | username : *********
+09:53:26 | password : *********
+09:53:26 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:26 | return
+09:53:26 | responseCode : 21VD
+09:53:26 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:26 | username : *********
+09:53:26 | password : *********
+09:53:26 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:26 | return
+09:53:26 | responseCode : 21VD
+09:53:26 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:27 | username : *********
+09:53:27 | password : *********
+09:53:27 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:27 | return
+09:53:27 | responseCode : 21VD
+09:53:27 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:27 | username : *********
+09:53:27 | password : *********
+09:53:27 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:28 | return
+09:53:28 | responseCode : 21VD
+09:53:28 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:28 | username : *********
+09:53:28 | password : *********
+09:53:28 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:28 | return
+09:53:28 | responseCode : 21VD
+09:53:28 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:29 | username : *********
+09:53:29 | password : *********
+09:53:29 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:29 | return
+09:53:29 | responseCode : 21VD
+09:53:29 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:29 | username : *********
+09:53:29 | password : *********
+09:53:29 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:29 | return
+09:53:29 | responseCode : 21VD
+09:53:29 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:30 | username : *********
+09:53:30 | password : *********
+09:53:30 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:30 | return
+09:53:30 | responseCode : 21VD
+09:53:30 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:30 | username : *********
+09:53:30 | password : *********
+09:53:30 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:30 | return
+09:53:30 | responseCode : 21VD
+09:53:30 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:31 | username : *********
+09:53:31 | password : *********
+09:53:31 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:31 | return
+09:53:31 | responseCode : 21VD
+09:53:31 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:32 | username : *********
+09:53:32 | password : *********
+09:53:32 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:32 | return
+09:53:32 | responseCode : 21VD
+09:53:32 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:32 | username : *********
+09:53:32 | password : *********
+09:53:32 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:32 | return
+09:53:32 | responseCode : 21VD
+09:53:32 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:33 | username : *********
+09:53:33 | password : *********
+09:53:33 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:33 | return
+09:53:33 | responseCode : 21VD
+09:53:33 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:33 | username : *********
+09:53:33 | password : *********
+09:53:33 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:33 | return
+09:53:33 | responseCode : 21VD
+09:53:33 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:34 | username : *********
+09:53:34 | password : *********
+09:53:34 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:34 | return
+09:53:34 | responseCode : 21VD
+09:53:34 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:34 | username : *********
+09:53:34 | password : *********
+09:53:34 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:35 | return
+09:53:35 | responseCode : 21VD
+09:53:35 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:35 | username : *********
+09:53:35 | password : *********
+09:53:35 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:35 | return
+09:53:35 | responseCode : 21VD
+09:53:35 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:36 | username : *********
+09:53:36 | password : *********
+09:53:36 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:36 | return
+09:53:36 | responseCode : 21VD
+09:53:36 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:36 | username : *********
+09:53:36 | password : *********
+09:53:36 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:36 | return
+09:53:36 | responseCode : 21VD
+09:53:36 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:37 | username : *********
+09:53:37 | password : *********
+09:53:37 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:37 | return
+09:53:37 | responseCode : 21VD
+09:53:37 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:37 | username : *********
+09:53:37 | password : *********
+09:53:37 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:37 | return
+09:53:37 | responseCode : 21VD
+09:53:37 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:38 | username : *********
+09:53:38 | password : *********
+09:53:38 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:38 | return
+09:53:38 | responseCode : 21VD
+09:53:38 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:38 | username : *********
+09:53:38 | password : *********
+09:53:38 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:39 | return
+09:53:39 | responseCode : 21VD
+09:53:39 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:39 | username : *********
+09:53:39 | password : *********
+09:53:39 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:39 | return
+09:53:39 | responseCode : 21VD
+09:53:39 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:40 | username : *********
+09:53:40 | password : *********
+09:53:40 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:40 | return
+09:53:40 | responseCode : 21VD
+09:53:40 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:40 | username : *********
+09:53:40 | password : *********
+09:53:40 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:40 | return
+09:53:40 | responseCode : 21VD
+09:53:40 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:41 | username : *********
+09:53:41 | password : *********
+09:53:41 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:41 | return
+09:53:41 | responseCode : 21VD
+09:53:41 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:41 | username : *********
+09:53:41 | password : *********
+09:53:41 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:41 | return
+09:53:41 | responseCode : 21VD
+09:53:41 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:42 | username : *********
+09:53:42 | password : *********
+09:53:42 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:42 | return
+09:53:42 | responseCode : 21VD
+09:53:42 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:42 | username : *********
+09:53:42 | password : *********
+09:53:42 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:43 | return
+09:53:43 | responseCode : 21VD
+09:53:43 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:43 | username : *********
+09:53:43 | password : *********
+09:53:43 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:43 | return
+09:53:43 | responseCode : 21VD
+09:53:43 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:44 | username : *********
+09:53:44 | password : *********
+09:53:44 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:44 | return
+09:53:44 | responseCode : 21VD
+09:53:44 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:44 | username : *********
+09:53:44 | password : *********
+09:53:44 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:44 | return
+09:53:44 | responseCode : 21VD
+09:53:44 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:45 | username : *********
+09:53:45 | password : *********
+09:53:45 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:45 | return
+09:53:45 | responseCode : 21VD
+09:53:45 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:45 | username : *********
+09:53:45 | password : *********
+09:53:45 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:45 | return
+09:53:45 | responseCode : 21VD
+09:53:45 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:46 | username : *********
+09:53:46 | password : *********
+09:53:46 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:46 | return
+09:53:46 | responseCode : 21VD
+09:53:46 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:46 | username : *********
+09:53:46 | password : *********
+09:53:46 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:47 | return
+09:53:47 | responseCode : 21VD
+09:53:47 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:47 | username : *********
+09:53:47 | password : *********
+09:53:47 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:47 | return
+09:53:47 | responseCode : 21VD
+09:53:47 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:48 | username : *********
+09:53:48 | password : *********
+09:53:48 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:48 | return
+09:53:48 | responseCode : 21VD
+09:53:48 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+09:53:48 | username : *********
+09:53:48 | password : *********
+09:53:48 | invoiceNo : 204741043
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:53:48 | return
+09:53:48 | responseCode : 21VD
+09:53:48 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:18:28 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+10:18:28 | expiry : 2018-04-20
+10:18:28 | username : *********
+10:18:28 | password : *********
+10:18:28 | name : PaySwitch Company Ltd.
+10:18:28 | info : Paystack
+10:18:28 | amt : 1
+10:18:28 | mobile : 0556783436
+10:18:28 | billprompt : 2
+10:18:28 | thirdpartyID : 152499496070
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:18:28 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+10:18:28 | expiry : 2018-04-20
+10:18:28 | username : *********
+10:18:28 | password : *********
+10:18:28 | name : PaySwitch Company Ltd.
+10:18:28 | info : Paystack
+10:18:28 | amt : 1
+10:18:28 | mobile : 0553241149
+10:18:28 | billprompt : 2
+10:18:28 | thirdpartyID : 152448089250
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:18:28 | return
+10:18:28 | responseCode : 0000
+10:18:28 | responseMessage : Accepted for Delivery 0556783436
+10:18:28 | invoiceNo : 204741583
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:18:28 | username : *********
+10:18:28 | password : *********
+10:18:28 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:18:28 | return
+10:18:28 | responseCode : 0000
+10:18:28 | responseMessage : Accepted for Delivery 0553241149
+10:18:28 | invoiceNo : 204741584
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:18:28 | username : *********
+10:18:28 | password : *********
+10:18:28 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:18:28 | return
+10:18:28 | responseCode : 21VD
+10:18:28 | responseMessage : Bill not paid...
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:18:28 | return
+10:18:28 | responseCode : 21VD
+10:18:28 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:18:48 | username : *********
+10:18:48 | password : *********
+10:18:48 | invoiceNo : 204741583
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:18:48 | username : *********
+10:18:48 | password : *********
+10:18:48 | invoiceNo : 204741584
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:18:57 | username : *********
+10:18:57 | password : *********
+10:18:57 | invoiceNo : 204741584
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:18:58 | username : *********
+10:18:58 | password : *********
+10:18:58 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:18:58 | return
+10:18:58 | responseCode : 21VD
+10:18:58 | responseMessage : Bill not paid...
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:18:58 | return
+10:18:58 | responseCode : 21VD
+10:18:58 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:19:08 | username : *********
+10:19:08 | password : *********
+10:19:08 | invoiceNo : 204741583
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:19:08 | username : *********
+10:19:08 | password : *********
+10:19:08 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:19:08 | return
+10:19:08 | responseCode : 21VD
+10:19:08 | responseMessage : Bill not paid...
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:19:08 | return
+10:19:08 | responseCode : 21VD
+10:19:08 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:00 | username : *********
+10:41:00 | password : *********
+10:41:00 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:00 | return
+10:41:00 | responseCode : 100
+10:41:00 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:01 | username : *********
+10:41:01 | password : *********
+10:41:01 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:01 | return
+10:41:01 | responseCode : 100
+10:41:01 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:01 | username : *********
+10:41:01 | password : *********
+10:41:01 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:01 | return
+10:41:01 | responseCode : 100
+10:41:01 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:02 | username : *********
+10:41:02 | password : *********
+10:41:02 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:02 | return
+10:41:02 | responseCode : 100
+10:41:02 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:02 | username : *********
+10:41:02 | password : *********
+10:41:02 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:02 | return
+10:41:02 | responseCode : 100
+10:41:02 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:03 | username : *********
+10:41:03 | password : *********
+10:41:03 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:03 | return
+10:41:03 | responseCode : 100
+10:41:03 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:03 | username : *********
+10:41:03 | password : *********
+10:41:03 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:03 | return
+10:41:03 | responseCode : 100
+10:41:03 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:04 | username : *********
+10:41:04 | password : *********
+10:41:04 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:04 | return
+10:41:04 | responseCode : 100
+10:41:04 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:04 | username : *********
+10:41:04 | password : *********
+10:41:04 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:04 | return
+10:41:04 | responseCode : 100
+10:41:04 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:05 | username : *********
+10:41:05 | password : *********
+10:41:05 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:05 | return
+10:41:05 | responseCode : 100
+10:41:05 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:05 | username : *********
+10:41:05 | password : *********
+10:41:05 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:06 | return
+10:41:06 | responseCode : 100
+10:41:06 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:06 | username : *********
+10:41:06 | password : *********
+10:41:06 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:06 | return
+10:41:06 | responseCode : 100
+10:41:06 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:06 | username : *********
+10:41:06 | password : *********
+10:41:06 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:07 | return
+10:41:07 | responseCode : 100
+10:41:07 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:07 | username : *********
+10:41:07 | password : *********
+10:41:07 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:07 | return
+10:41:07 | responseCode : 100
+10:41:07 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:08 | username : *********
+10:41:08 | password : *********
+10:41:08 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:08 | return
+10:41:08 | responseCode : 100
+10:41:08 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:08 | username : *********
+10:41:08 | password : *********
+10:41:08 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:08 | return
+10:41:08 | responseCode : 100
+10:41:08 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:09 | username : *********
+10:41:09 | password : *********
+10:41:09 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:09 | return
+10:41:09 | responseCode : 100
+10:41:09 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:09 | username : *********
+10:41:09 | password : *********
+10:41:09 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:09 | return
+10:41:09 | responseCode : 100
+10:41:09 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:10 | username : *********
+10:41:10 | password : *********
+10:41:10 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:10 | return
+10:41:10 | responseCode : 100
+10:41:10 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:10 | username : *********
+10:41:10 | password : *********
+10:41:10 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:10 | return
+10:41:10 | responseCode : 100
+10:41:10 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:11 | username : *********
+10:41:11 | password : *********
+10:41:11 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:11 | return
+10:41:11 | responseCode : 100
+10:41:11 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:11 | username : *********
+10:41:11 | password : *********
+10:41:11 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:11 | return
+10:41:11 | responseCode : 100
+10:41:11 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:12 | username : *********
+10:41:12 | password : *********
+10:41:12 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:12 | return
+10:41:12 | responseCode : 100
+10:41:12 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:12 | username : *********
+10:41:12 | password : *********
+10:41:12 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:13 | return
+10:41:13 | responseCode : 100
+10:41:13 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:13 | username : *********
+10:41:13 | password : *********
+10:41:13 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:13 | return
+10:41:13 | responseCode : 100
+10:41:13 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:14 | username : *********
+10:41:14 | password : *********
+10:41:14 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:14 | return
+10:41:14 | responseCode : 100
+10:41:14 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:14 | username : *********
+10:41:14 | password : *********
+10:41:14 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:14 | return
+10:41:14 | responseCode : 100
+10:41:14 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:15 | username : *********
+10:41:15 | password : *********
+10:41:15 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:15 | return
+10:41:15 | responseCode : 100
+10:41:15 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:15 | username : *********
+10:41:15 | password : *********
+10:41:15 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:15 | return
+10:41:15 | responseCode : 100
+10:41:15 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:16 | username : *********
+10:41:16 | password : *********
+10:41:16 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:16 | return
+10:41:16 | responseCode : 100
+10:41:16 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:16 | username : *********
+10:41:16 | password : *********
+10:41:16 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:16 | return
+10:41:16 | responseCode : 100
+10:41:16 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:17 | username : *********
+10:41:17 | password : *********
+10:41:17 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:17 | return
+10:41:17 | responseCode : 100
+10:41:17 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:17 | username : *********
+10:41:17 | password : *********
+10:41:17 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:17 | return
+10:41:17 | responseCode : 100
+10:41:17 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:18 | username : *********
+10:41:18 | password : *********
+10:41:18 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:18 | return
+10:41:18 | responseCode : 100
+10:41:18 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:18 | username : *********
+10:41:18 | password : *********
+10:41:18 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:18 | return
+10:41:18 | responseCode : 100
+10:41:18 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:19 | username : *********
+10:41:19 | password : *********
+10:41:19 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:19 | return
+10:41:19 | responseCode : 100
+10:41:19 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:19 | username : *********
+10:41:19 | password : *********
+10:41:19 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:19 | return
+10:41:19 | responseCode : 100
+10:41:19 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:20 | username : *********
+10:41:20 | password : *********
+10:41:20 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:20 | return
+10:41:20 | responseCode : 100
+10:41:20 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:20 | username : *********
+10:41:20 | password : *********
+10:41:20 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:20 | return
+10:41:20 | responseCode : 100
+10:41:20 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:21 | username : *********
+10:41:21 | password : *********
+10:41:21 | invoiceNo : 204741583
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:21 | return
+10:41:21 | responseCode : 100
+10:41:21 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:22 | username : *********
+10:41:22 | password : *********
+10:41:22 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:22 | return
+10:41:22 | responseCode : 21VD
+10:41:22 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:22 | username : *********
+10:41:22 | password : *********
+10:41:22 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:22 | return
+10:41:22 | responseCode : 21VD
+10:41:22 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:23 | username : *********
+10:41:23 | password : *********
+10:41:23 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:23 | return
+10:41:23 | responseCode : 21VD
+10:41:23 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:23 | username : *********
+10:41:23 | password : *********
+10:41:23 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:23 | return
+10:41:23 | responseCode : 21VD
+10:41:23 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:24 | username : *********
+10:41:24 | password : *********
+10:41:24 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:24 | return
+10:41:24 | responseCode : 21VD
+10:41:24 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:24 | username : *********
+10:41:24 | password : *********
+10:41:24 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:25 | return
+10:41:25 | responseCode : 21VD
+10:41:25 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:25 | username : *********
+10:41:25 | password : *********
+10:41:25 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:25 | return
+10:41:25 | responseCode : 21VD
+10:41:25 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:26 | username : *********
+10:41:26 | password : *********
+10:41:26 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:26 | return
+10:41:26 | responseCode : 21VD
+10:41:26 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:26 | username : *********
+10:41:26 | password : *********
+10:41:26 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:26 | return
+10:41:26 | responseCode : 21VD
+10:41:26 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:27 | username : *********
+10:41:27 | password : *********
+10:41:27 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:27 | return
+10:41:27 | responseCode : 21VD
+10:41:27 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:27 | username : *********
+10:41:27 | password : *********
+10:41:27 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:27 | return
+10:41:27 | responseCode : 21VD
+10:41:27 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:28 | username : *********
+10:41:28 | password : *********
+10:41:28 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:28 | return
+10:41:28 | responseCode : 21VD
+10:41:28 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:28 | username : *********
+10:41:28 | password : *********
+10:41:28 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:28 | return
+10:41:28 | responseCode : 21VD
+10:41:28 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:29 | username : *********
+10:41:29 | password : *********
+10:41:29 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:29 | return
+10:41:29 | responseCode : 21VD
+10:41:29 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:29 | username : *********
+10:41:29 | password : *********
+10:41:29 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:30 | return
+10:41:30 | responseCode : 21VD
+10:41:30 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:30 | username : *********
+10:41:30 | password : *********
+10:41:30 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:30 | return
+10:41:30 | responseCode : 21VD
+10:41:30 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:31 | username : *********
+10:41:31 | password : *********
+10:41:31 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:31 | return
+10:41:31 | responseCode : 21VD
+10:41:31 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:31 | username : *********
+10:41:31 | password : *********
+10:41:31 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:31 | return
+10:41:31 | responseCode : 21VD
+10:41:31 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:32 | username : *********
+10:41:32 | password : *********
+10:41:32 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:32 | return
+10:41:32 | responseCode : 21VD
+10:41:32 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:32 | username : *********
+10:41:32 | password : *********
+10:41:32 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:32 | return
+10:41:32 | responseCode : 21VD
+10:41:32 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:33 | username : *********
+10:41:33 | password : *********
+10:41:33 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:33 | return
+10:41:33 | responseCode : 21VD
+10:41:33 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:33 | username : *********
+10:41:33 | password : *********
+10:41:33 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:34 | return
+10:41:34 | responseCode : 21VD
+10:41:34 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:34 | username : *********
+10:41:34 | password : *********
+10:41:34 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:34 | return
+10:41:34 | responseCode : 21VD
+10:41:34 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:35 | username : *********
+10:41:35 | password : *********
+10:41:35 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:35 | return
+10:41:35 | responseCode : 21VD
+10:41:35 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:35 | username : *********
+10:41:35 | password : *********
+10:41:35 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:35 | return
+10:41:35 | responseCode : 21VD
+10:41:35 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:36 | username : *********
+10:41:36 | password : *********
+10:41:36 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:36 | return
+10:41:36 | responseCode : 21VD
+10:41:36 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:36 | username : *********
+10:41:36 | password : *********
+10:41:36 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:36 | return
+10:41:36 | responseCode : 21VD
+10:41:36 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:37 | username : *********
+10:41:37 | password : *********
+10:41:37 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:37 | return
+10:41:37 | responseCode : 21VD
+10:41:37 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:37 | username : *********
+10:41:37 | password : *********
+10:41:37 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:38 | return
+10:41:38 | responseCode : 21VD
+10:41:38 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:38 | username : *********
+10:41:38 | password : *********
+10:41:38 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:38 | return
+10:41:38 | responseCode : 21VD
+10:41:38 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:39 | username : *********
+10:41:39 | password : *********
+10:41:39 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:39 | return
+10:41:39 | responseCode : 21VD
+10:41:39 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:39 | username : *********
+10:41:39 | password : *********
+10:41:39 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:39 | return
+10:41:39 | responseCode : 21VD
+10:41:39 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:40 | username : *********
+10:41:40 | password : *********
+10:41:40 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:40 | return
+10:41:40 | responseCode : 21VD
+10:41:40 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:40 | username : *********
+10:41:40 | password : *********
+10:41:40 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:41 | return
+10:41:41 | responseCode : 21VD
+10:41:41 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:41 | username : *********
+10:41:41 | password : *********
+10:41:41 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:41 | return
+10:41:41 | responseCode : 21VD
+10:41:41 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:42 | username : *********
+10:41:42 | password : *********
+10:41:42 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:42 | return
+10:41:42 | responseCode : 21VD
+10:41:42 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:42 | username : *********
+10:41:42 | password : *********
+10:41:42 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:42 | return
+10:41:42 | responseCode : 21VD
+10:41:42 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:43 | username : *********
+10:41:43 | password : *********
+10:41:43 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:43 | return
+10:41:43 | responseCode : 21VD
+10:41:43 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:43 | username : *********
+10:41:43 | password : *********
+10:41:43 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:43 | return
+10:41:43 | responseCode : 21VD
+10:41:43 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:44 | username : *********
+10:41:44 | password : *********
+10:41:44 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:44 | return
+10:41:44 | responseCode : 21VD
+10:41:44 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:44 | username : *********
+10:41:44 | password : *********
+10:41:44 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:45 | return
+10:41:45 | responseCode : 21VD
+10:41:45 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:45 | username : *********
+10:41:45 | password : *********
+10:41:45 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:45 | return
+10:41:45 | responseCode : 21VD
+10:41:45 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:46 | username : *********
+10:41:46 | password : *********
+10:41:46 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:46 | return
+10:41:46 | responseCode : 21VD
+10:41:46 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:46 | username : *********
+10:41:46 | password : *********
+10:41:46 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:46 | return
+10:41:46 | responseCode : 21VD
+10:41:46 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:47 | username : *********
+10:41:47 | password : *********
+10:41:47 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:47 | return
+10:41:47 | responseCode : 21VD
+10:41:47 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+10:41:47 | username : *********
+10:41:47 | password : *********
+10:41:47 | invoiceNo : 204741584
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+10:41:47 | return
+10:41:47 | responseCode : 21VD
+10:41:47 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:28:38 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+11:28:38 | expiry : 2018-04-20
+11:28:38 | username : *********
+11:28:38 | password : *********
+11:28:38 | name : PaySwitch Company Ltd.
+11:28:38 | info : Paystack
+11:28:38 | amt : 1
+11:28:38 | mobile : 0556783436
+11:28:38 | billprompt : 2
+11:28:38 | thirdpartyID : 152410105649
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:28:38 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+11:28:38 | expiry : 2018-04-20
+11:28:38 | username : *********
+11:28:38 | password : *********
+11:28:38 | name : PaySwitch Company Ltd.
+11:28:38 | info : Paystack
+11:28:38 | amt : 1
+11:28:38 | mobile : 0553241149
+11:28:38 | billprompt : 2
+11:28:38 | thirdpartyID : 152405614049
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:28:39 | return
+11:28:39 | responseCode : 0000
+11:28:39 | responseMessage : Accepted for Delivery 0556783436
+11:28:39 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:28:39 | return
+11:28:39 | responseCode : 0000
+11:28:39 | responseMessage : Accepted for Delivery 0553241149
+11:28:39 | invoiceNo : 204742826
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:28:39 | username : *********
+11:28:39 | password : *********
+11:28:39 | invoiceNo : 204742827
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:28:39 | username : *********
+11:28:39 | password : *********
+11:28:39 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:28:39 | return
+11:28:39 | responseCode : 21VD
+11:28:39 | responseMessage : Bill not paid...
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:28:39 | return
+11:28:39 | responseCode : 21VD
+11:28:39 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:28:59 | username : *********
+11:28:59 | password : *********
+11:28:59 | invoiceNo : 204742826
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:28:59 | username : *********
+11:28:59 | password : *********
+11:28:59 | invoiceNo : 204742827
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:29:09 | username : *********
+11:29:09 | password : *********
+11:29:09 | invoiceNo : 204742826
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:29:09 | username : *********
+11:29:09 | password : *********
+11:29:09 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:29:09 | return
+11:29:09 | responseCode : 21VD
+11:29:09 | responseMessage : Bill not paid...
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:29:09 | return
+11:29:09 | responseCode : 21VD
+11:29:09 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:29:19 | username : *********
+11:29:19 | password : *********
+11:29:19 | invoiceNo : 204742826
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:29:19 | username : *********
+11:29:19 | password : *********
+11:29:19 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:29:19 | return
+11:29:19 | responseCode : 21VD
+11:29:19 | responseMessage : Bill not paid...
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:29:19 | return
+11:29:19 | responseCode : 21VD
+11:29:19 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:49:59 | username : *********
+11:49:59 | password : *********
+11:49:59 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:49:59 | return
+11:49:59 | responseCode : 100
+11:49:59 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:00 | username : *********
+11:50:00 | password : *********
+11:50:00 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:00 | return
+11:50:00 | responseCode : 100
+11:50:00 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:00 | username : *********
+11:50:00 | password : *********
+11:50:00 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:01 | return
+11:50:01 | responseCode : 100
+11:50:01 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:01 | username : *********
+11:50:01 | password : *********
+11:50:01 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:01 | return
+11:50:01 | responseCode : 100
+11:50:01 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:02 | username : *********
+11:50:02 | password : *********
+11:50:02 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:02 | return
+11:50:02 | responseCode : 100
+11:50:02 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:02 | username : *********
+11:50:02 | password : *********
+11:50:02 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:03 | return
+11:50:03 | responseCode : 100
+11:50:03 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:03 | username : *********
+11:50:03 | password : *********
+11:50:03 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:03 | return
+11:50:03 | responseCode : 100
+11:50:03 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:04 | username : *********
+11:50:04 | password : *********
+11:50:04 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:04 | return
+11:50:04 | responseCode : 100
+11:50:04 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:04 | username : *********
+11:50:04 | password : *********
+11:50:04 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:04 | return
+11:50:04 | responseCode : 100
+11:50:04 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:05 | username : *********
+11:50:05 | password : *********
+11:50:05 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:05 | return
+11:50:05 | responseCode : 100
+11:50:05 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:05 | username : *********
+11:50:05 | password : *********
+11:50:05 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:05 | return
+11:50:05 | responseCode : 100
+11:50:05 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:06 | username : *********
+11:50:06 | password : *********
+11:50:06 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:06 | return
+11:50:06 | responseCode : 100
+11:50:06 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:06 | username : *********
+11:50:06 | password : *********
+11:50:06 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:06 | return
+11:50:06 | responseCode : 100
+11:50:06 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:07 | username : *********
+11:50:07 | password : *********
+11:50:07 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:07 | return
+11:50:07 | responseCode : 100
+11:50:07 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:07 | username : *********
+11:50:07 | password : *********
+11:50:07 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:08 | return
+11:50:08 | responseCode : 100
+11:50:08 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:08 | username : *********
+11:50:08 | password : *********
+11:50:08 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:08 | return
+11:50:08 | responseCode : 100
+11:50:08 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:09 | username : *********
+11:50:09 | password : *********
+11:50:09 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:09 | return
+11:50:09 | responseCode : 100
+11:50:09 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:09 | username : *********
+11:50:09 | password : *********
+11:50:09 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:09 | return
+11:50:09 | responseCode : 100
+11:50:09 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:10 | username : *********
+11:50:10 | password : *********
+11:50:10 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:10 | return
+11:50:10 | responseCode : 100
+11:50:10 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:10 | username : *********
+11:50:10 | password : *********
+11:50:10 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:10 | return
+11:50:10 | responseCode : 100
+11:50:10 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:11 | username : *********
+11:50:11 | password : *********
+11:50:11 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:11 | return
+11:50:11 | responseCode : 100
+11:50:11 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:11 | username : *********
+11:50:11 | password : *********
+11:50:11 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:11 | return
+11:50:11 | responseCode : 100
+11:50:11 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:12 | username : *********
+11:50:12 | password : *********
+11:50:12 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:12 | return
+11:50:12 | responseCode : 100
+11:50:12 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:12 | username : *********
+11:50:12 | password : *********
+11:50:12 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:12 | return
+11:50:12 | responseCode : 100
+11:50:12 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:13 | username : *********
+11:50:13 | password : *********
+11:50:13 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:13 | return
+11:50:13 | responseCode : 100
+11:50:13 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:13 | username : *********
+11:50:13 | password : *********
+11:50:13 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:13 | return
+11:50:13 | responseCode : 100
+11:50:13 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:14 | username : *********
+11:50:14 | password : *********
+11:50:14 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:14 | return
+11:50:14 | responseCode : 100
+11:50:14 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:14 | username : *********
+11:50:14 | password : *********
+11:50:14 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:15 | return
+11:50:15 | responseCode : 100
+11:50:15 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:15 | username : *********
+11:50:15 | password : *********
+11:50:15 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:15 | return
+11:50:15 | responseCode : 100
+11:50:15 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:15 | username : *********
+11:50:15 | password : *********
+11:50:15 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:16 | return
+11:50:16 | responseCode : 100
+11:50:16 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:16 | username : *********
+11:50:16 | password : *********
+11:50:16 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:16 | return
+11:50:16 | responseCode : 100
+11:50:16 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:17 | username : *********
+11:50:17 | password : *********
+11:50:17 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:17 | return
+11:50:17 | responseCode : 100
+11:50:17 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:17 | username : *********
+11:50:17 | password : *********
+11:50:17 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:17 | return
+11:50:17 | responseCode : 100
+11:50:17 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:18 | username : *********
+11:50:18 | password : *********
+11:50:18 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:18 | return
+11:50:18 | responseCode : 100
+11:50:18 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:18 | username : *********
+11:50:18 | password : *********
+11:50:18 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:18 | return
+11:50:18 | responseCode : 100
+11:50:18 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:19 | username : *********
+11:50:19 | password : *********
+11:50:19 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:19 | return
+11:50:19 | responseCode : 100
+11:50:19 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:19 | username : *********
+11:50:19 | password : *********
+11:50:19 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:20 | return
+11:50:20 | responseCode : 100
+11:50:20 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:20 | username : *********
+11:50:20 | password : *********
+11:50:20 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:20 | return
+11:50:20 | responseCode : 100
+11:50:20 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:21 | username : *********
+11:50:21 | password : *********
+11:50:21 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:21 | return
+11:50:21 | responseCode : 100
+11:50:21 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:21 | username : *********
+11:50:21 | password : *********
+11:50:21 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:21 | return
+11:50:21 | responseCode : 100
+11:50:21 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:22 | username : *********
+11:50:22 | password : *********
+11:50:22 | invoiceNo : 204742827
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:22 | return
+11:50:22 | responseCode : 100
+11:50:22 | responseMessage : General Failure
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:22 | username : *********
+11:50:22 | password : *********
+11:50:22 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:22 | return
+11:50:22 | responseCode : 21VD
+11:50:22 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:23 | username : *********
+11:50:23 | password : *********
+11:50:23 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:23 | return
+11:50:23 | responseCode : 21VD
+11:50:23 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:23 | username : *********
+11:50:23 | password : *********
+11:50:23 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:23 | return
+11:50:23 | responseCode : 21VD
+11:50:23 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:24 | username : *********
+11:50:24 | password : *********
+11:50:24 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:24 | return
+11:50:24 | responseCode : 21VD
+11:50:24 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:24 | username : *********
+11:50:24 | password : *********
+11:50:24 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:25 | return
+11:50:25 | responseCode : 21VD
+11:50:25 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:25 | username : *********
+11:50:25 | password : *********
+11:50:25 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:25 | return
+11:50:25 | responseCode : 21VD
+11:50:25 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:26 | username : *********
+11:50:26 | password : *********
+11:50:26 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:26 | return
+11:50:26 | responseCode : 21VD
+11:50:26 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:26 | username : *********
+11:50:26 | password : *********
+11:50:26 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:26 | return
+11:50:26 | responseCode : 21VD
+11:50:26 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:27 | username : *********
+11:50:27 | password : *********
+11:50:27 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:27 | return
+11:50:27 | responseCode : 21VD
+11:50:27 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:27 | username : *********
+11:50:27 | password : *********
+11:50:27 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:27 | return
+11:50:27 | responseCode : 21VD
+11:50:27 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:28 | username : *********
+11:50:28 | password : *********
+11:50:28 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:28 | return
+11:50:28 | responseCode : 21VD
+11:50:28 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:28 | username : *********
+11:50:28 | password : *********
+11:50:28 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:29 | return
+11:50:29 | responseCode : 21VD
+11:50:29 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:29 | username : *********
+11:50:29 | password : *********
+11:50:29 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:29 | return
+11:50:29 | responseCode : 21VD
+11:50:29 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:30 | username : *********
+11:50:30 | password : *********
+11:50:30 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:30 | return
+11:50:30 | responseCode : 21VD
+11:50:30 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:30 | username : *********
+11:50:30 | password : *********
+11:50:30 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:30 | return
+11:50:30 | responseCode : 21VD
+11:50:30 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:31 | username : *********
+11:50:31 | password : *********
+11:50:31 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:31 | return
+11:50:31 | responseCode : 21VD
+11:50:31 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:31 | username : *********
+11:50:31 | password : *********
+11:50:31 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:32 | return
+11:50:32 | responseCode : 21VD
+11:50:32 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:32 | username : *********
+11:50:32 | password : *********
+11:50:32 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:32 | return
+11:50:32 | responseCode : 21VD
+11:50:32 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:33 | username : *********
+11:50:33 | password : *********
+11:50:33 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:33 | return
+11:50:33 | responseCode : 21VD
+11:50:33 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:33 | username : *********
+11:50:33 | password : *********
+11:50:33 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:33 | return
+11:50:33 | responseCode : 21VD
+11:50:33 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:34 | username : *********
+11:50:34 | password : *********
+11:50:34 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:34 | return
+11:50:34 | responseCode : 21VD
+11:50:34 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:34 | username : *********
+11:50:34 | password : *********
+11:50:34 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:34 | return
+11:50:34 | responseCode : 21VD
+11:50:34 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:35 | username : *********
+11:50:35 | password : *********
+11:50:35 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:35 | return
+11:50:35 | responseCode : 21VD
+11:50:35 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:36 | username : *********
+11:50:36 | password : *********
+11:50:36 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:36 | return
+11:50:36 | responseCode : 21VD
+11:50:36 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:36 | username : *********
+11:50:36 | password : *********
+11:50:36 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:36 | return
+11:50:36 | responseCode : 21VD
+11:50:36 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:37 | username : *********
+11:50:37 | password : *********
+11:50:37 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:37 | return
+11:50:37 | responseCode : 21VD
+11:50:37 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:37 | username : *********
+11:50:37 | password : *********
+11:50:37 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:37 | return
+11:50:37 | responseCode : 21VD
+11:50:37 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:38 | username : *********
+11:50:38 | password : *********
+11:50:38 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:38 | return
+11:50:38 | responseCode : 21VD
+11:50:38 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:38 | username : *********
+11:50:38 | password : *********
+11:50:38 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:38 | return
+11:50:38 | responseCode : 21VD
+11:50:38 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:39 | username : *********
+11:50:39 | password : *********
+11:50:39 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:39 | return
+11:50:39 | responseCode : 21VD
+11:50:39 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:40 | username : *********
+11:50:40 | password : *********
+11:50:40 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:40 | return
+11:50:40 | responseCode : 21VD
+11:50:40 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:40 | username : *********
+11:50:40 | password : *********
+11:50:40 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:40 | return
+11:50:40 | responseCode : 21VD
+11:50:40 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:41 | username : *********
+11:50:41 | password : *********
+11:50:41 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:41 | return
+11:50:41 | responseCode : 21VD
+11:50:41 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:41 | username : *********
+11:50:41 | password : *********
+11:50:41 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:41 | return
+11:50:41 | responseCode : 21VD
+11:50:41 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:42 | username : *********
+11:50:42 | password : *********
+11:50:42 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:42 | return
+11:50:42 | responseCode : 21VD
+11:50:42 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:43 | username : *********
+11:50:43 | password : *********
+11:50:43 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:43 | return
+11:50:43 | responseCode : 21VD
+11:50:43 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:43 | username : *********
+11:50:43 | password : *********
+11:50:43 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:43 | return
+11:50:43 | responseCode : 21VD
+11:50:43 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:44 | username : *********
+11:50:44 | password : *********
+11:50:44 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:44 | return
+11:50:44 | responseCode : 21VD
+11:50:44 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:44 | username : *********
+11:50:44 | password : *********
+11:50:44 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:44 | return
+11:50:44 | responseCode : 21VD
+11:50:44 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:45 | username : *********
+11:50:45 | password : *********
+11:50:45 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:45 | return
+11:50:45 | responseCode : 21VD
+11:50:45 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:46 | username : *********
+11:50:46 | password : *********
+11:50:46 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:46 | return
+11:50:46 | responseCode : 21VD
+11:50:46 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:46 | username : *********
+11:50:46 | password : *********
+11:50:46 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:46 | return
+11:50:46 | responseCode : 21VD
+11:50:46 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:47 | username : *********
+11:50:47 | password : *********
+11:50:47 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:47 | return
+11:50:47 | responseCode : 21VD
+11:50:47 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:47 | username : *********
+11:50:47 | password : *********
+11:50:47 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:47 | return
+11:50:47 | responseCode : 21VD
+11:50:47 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:48 | username : *********
+11:50:48 | password : *********
+11:50:48 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:48 | return
+11:50:48 | responseCode : 21VD
+11:50:48 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:48 | username : *********
+11:50:48 | password : *********
+11:50:48 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:49 | return
+11:50:49 | responseCode : 21VD
+11:50:49 | responseMessage : Bill not paid...
+
+19-04-2018 | TTLR TO MTN REQUEST FOREIGN
+11:50:49 | username : *********
+11:50:49 | password : *********
+11:50:49 | invoiceNo : 204742826
+
+19-04-2018 | MTN TO TTLR RESPONSE FOREIGN
+11:50:49 | return
+11:50:49 | responseCode : 21VD
+11:50:49 | responseMessage : Bill not paid...
+

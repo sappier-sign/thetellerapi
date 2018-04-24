@@ -1,0 +1,380 @@
+17-01-2018 | TTLR TO MTN REQUEST FOREIGN
+09:16:45 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+09:16:45 | expiry : 2018-01-18
+09:16:45 | username : *********
+09:16:45 | password : *********
+09:16:45 | name : PaySwitch Company Ltd.
+09:16:45 | info : TheTeller App
+09:16:45 | amt : 0.1
+09:16:45 | mobile : 0550053932
+09:16:45 | billprompt : 2
+09:16:45 | thirdpartyID : 151681077000
+
+17-01-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:16:45 | return
+09:16:45 | responseCode : 0000
+09:16:45 | responseMessage : Accepted for Delivery 0550053932
+09:16:45 | invoiceNo : 203505247
+
+17-01-2018 | TTLR TO MTN REQUEST FOREIGN
+09:16:45 | username : *********
+09:16:45 | password : *********
+09:16:45 | invoiceNo : 203505247
+
+17-01-2018 | MTN TO TTLR RESPONSE FOREIGN
+09:16:57 | return
+09:16:57 | responseCode : 21VD
+09:16:57 | responseMessage : Bill not paid...
+
+17-01-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+12:46:32 | customer_number : 0263581279
+12:46:32 | merchant_number : **********
+12:46:32 | amount : 0.1
+12:46:32 | exttrid : 151617600041
+12:46:32 | reference : Mobile Money Tr
+12:46:32 | nickname : PAYSWITCH
+12:46:32 | ts : 2018-01-17 12:46:32
+
+17-01-2018 | AIRTEL TTLR REPONSE FOREIGN
+12:46:44 | resp_code : 121
+12:46:44 | resp_desc : Your request is in progress
+
+17-01-2018 | TTLR TO MTN REQUEST FOREIGN
+12:58:07 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+12:58:07 | expiry : 2018-01-18
+12:58:07 | username : *********
+12:58:07 | password : *********
+12:58:07 | name : PaySwitch Company Ltd.
+12:58:07 | info : TheTeller App
+12:58:07 | amt : 0.1
+12:58:07 | mobile : 0550053932
+12:58:07 | billprompt : 2
+12:58:07 | thirdpartyID : 151686920905
+
+17-01-2018 | MTN TO TTLR RESPONSE FOREIGN
+12:58:07 | return
+12:58:07 | responseCode : 0000
+12:58:07 | responseMessage : Accepted for Delivery 0550053932
+12:58:07 | invoiceNo : 203511019
+
+17-01-2018 | TTLR TO MTN REQUEST FOREIGN
+12:58:07 | username : *********
+12:58:07 | password : *********
+12:58:07 | invoiceNo : 203511019
+
+17-01-2018 | MTN TO TTLR RESPONSE FOREIGN
+12:58:20 | return
+12:58:20 | responseCode : 21VD
+12:58:20 | responseMessage : Bill not paid...
+
+17-01-2018 | TTLR TO MTN REQUEST FOREIGN
+12:58:37 | vendorID : ***
+12:58:37 | subscriberID : 0550053932
+12:58:37 | thirdpartyTransactionID : 151686920905
+12:58:37 | amount : 0
+12:58:37 | apiKey : ***********************
+
+17-01-2018 | MTN TO TLLR RESPONSE FOREIGN
+12:58:42 | return
+12:58:42 | responseCode : 849
+12:58:42 | responseMessage : The data provided in the request failed the validation check
+12:58:42 | thirdpartyTransactionId : 151686920905
+
+17-01-2018 | TTLR TO MTN REQUEST FOREIGN
+14:26:28 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:26:28 | expiry : 2018-01-18
+14:26:28 | username : *********
+14:26:28 | password : *********
+14:26:28 | name : PaySwitch Company Ltd.
+14:26:28 | info : TheTeller App
+14:26:28 | amt : 0.1
+14:26:28 | mobile : 0550053932
+14:26:28 | billprompt : 2
+14:26:28 | thirdpartyID : 151609098807
+
+17-01-2018 | MTN TO TTLR RESPONSE FOREIGN
+14:26:29 | return
+14:26:29 | responseCode : 0000
+14:26:29 | responseMessage : Accepted for Delivery 0550053932
+14:26:29 | invoiceNo : 203513181
+
+17-01-2018 | TTLR TO MTN REQUEST FOREIGN
+14:26:29 | username : *********
+14:26:29 | password : *********
+14:26:29 | invoiceNo : 203513181
+
+17-01-2018 | MTN TO TTLR RESPONSE FOREIGN
+14:26:41 | return
+14:26:41 | responseCode : 21VD
+14:26:41 | responseMessage : Bill not paid...
+
+17-01-2018 | TTLR TO MTN REQUEST FOREIGN
+14:35:23 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:35:23 | expiry : 2018-01-18
+14:35:23 | username : *********
+14:35:23 | password : *********
+14:35:23 | name : PaySwitch Company Ltd.
+14:35:23 | info : TheTeller App
+14:35:23 | amt : 0.1
+14:35:23 | mobile : 0550053932
+14:35:23 | billprompt : 2
+14:35:23 | thirdpartyID : 151622265090
+
+17-01-2018 | MTN TO TTLR RESPONSE FOREIGN
+14:35:23 | return
+14:35:23 | responseCode : 0000
+14:35:23 | responseMessage : Accepted for Delivery 0550053932
+14:35:23 | invoiceNo : 203513372
+
+17-01-2018 | TTLR TO MTN REQUEST FOREIGN
+14:35:23 | username : *********
+14:35:23 | password : *********
+14:35:23 | invoiceNo : 203513372
+
+17-01-2018 | MTN TO TTLR RESPONSE FOREIGN
+14:35:35 | return
+14:35:35 | responseCode : 21VD
+14:35:35 | responseMessage : Bill not paid...
+
+17-01-2018 | TTLR TO MTN REQUEST FOREIGN
+14:35:52 | vendorID : ***
+14:35:52 | subscriberID : 0550053932
+14:35:52 | thirdpartyTransactionID : 151622265090
+14:35:52 | amount : 0
+14:35:52 | apiKey : ***********************
+
+17-01-2018 | MTN TO TLLR RESPONSE FOREIGN
+14:35:55 | return
+14:35:55 | responseCode : 849
+14:35:55 | responseMessage : The data provided in the request failed the validation check
+14:35:55 | thirdpartyTransactionId : 151622265090
+
+17-01-2018 | TTLR TO MTN REQUEST FOREIGN
+14:47:15 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:47:15 | expiry : 2018-01-18
+14:47:15 | username : *********
+14:47:15 | password : *********
+14:47:15 | name : PaySwitch Company Ltd.
+14:47:15 | info : Petra Trust Company Limited
+14:47:15 | amt : 0.01
+14:47:15 | mobile : 0266475890
+14:47:15 | billprompt : 2
+14:47:15 | thirdpartyID : 151666960805
+
+17-01-2018 | MTN TO TTLR RESPONSE FOREIGN
+14:47:15 | return
+14:47:15 | responseCode : 0000
+14:47:15 | responseMessage : Accepted for Delivery 0266475890
+14:47:15 | invoiceNo : 203513643
+
+17-01-2018 | TTLR TO MTN REQUEST FOREIGN
+14:47:15 | username : *********
+14:47:15 | password : *********
+14:47:15 | invoiceNo : 203513643
+
+17-01-2018 | MTN TO TTLR RESPONSE FOREIGN
+14:47:27 | return
+14:47:27 | responseCode : 21VD
+14:47:27 | responseMessage : Bill not paid...
+
+17-01-2018 | TTLR TO MTN REQUEST FOREIGN
+14:49:26 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:49:26 | expiry : 2018-01-18
+14:49:26 | username : *********
+14:49:26 | password : *********
+14:49:26 | name : PaySwitch Company Ltd.
+14:49:26 | info : Petra Trust Company Limited
+14:49:26 | amt : 0.01
+14:49:26 | mobile : 0266475890
+14:49:26 | billprompt : 2
+14:49:26 | thirdpartyID : 151612235008
+
+17-01-2018 | MTN TO TTLR RESPONSE FOREIGN
+14:49:26 | return
+14:49:26 | responseCode : 0000
+14:49:26 | responseMessage : Accepted for Delivery 0266475890
+14:49:26 | invoiceNo : 203513695
+
+17-01-2018 | TTLR TO MTN REQUEST FOREIGN
+14:49:26 | username : *********
+14:49:26 | password : *********
+14:49:26 | invoiceNo : 203513695
+
+17-01-2018 | MTN TO TTLR RESPONSE FOREIGN
+14:49:38 | return
+14:49:38 | responseCode : 21VD
+14:49:38 | responseMessage : Bill not paid...
+
+17-01-2018 | TTLR TO MTN REQUEST FOREIGN
+14:50:58 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:50:58 | expiry : 2018-01-18
+14:50:58 | username : *********
+14:50:58 | password : *********
+14:50:58 | name : PaySwitch Company Ltd.
+14:50:58 | info : Petra Trust Company Limited
+14:50:58 | amt : 0.5
+14:50:58 | mobile : 0266475890
+14:50:58 | billprompt : 2
+14:50:58 | thirdpartyID : 151640097346
+
+17-01-2018 | MTN TO TTLR RESPONSE FOREIGN
+14:50:58 | return
+14:50:58 | responseCode : 0000
+14:50:58 | responseMessage : Accepted for Delivery 0266475890
+14:50:58 | invoiceNo : 203513723
+
+17-01-2018 | TTLR TO MTN REQUEST FOREIGN
+14:50:58 | username : *********
+14:50:58 | password : *********
+14:50:58 | invoiceNo : 203513723
+
+17-01-2018 | MTN TO TTLR RESPONSE FOREIGN
+14:51:10 | return
+14:51:10 | responseCode : 21VD
+14:51:10 | responseMessage : Bill not paid...
+
+17-01-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+14:51:26 | customer_number : 0269547982
+14:51:26 | merchant_number : **********
+14:51:26 | amount : 0.5
+14:51:26 | exttrid : 151640097346
+14:51:26 | reference : Demo Payment
+14:51:26 | ts : 2018-01-17 14:51:26
+
+17-01-2018 | AIRTEL TO TTLR REPONSE FOREIGN
+14:51:33 | resp_code : 200
+14:51:33 | resp_desc : You have sent GHC0.50 to 269547982. Your new balance is GHC5939.46. Trans ID: CI180117.1451.C04366.
+14:51:33 | exttrid : 151640097346
+14:51:33 | refid : CI180117.1451.C04366
+
+17-01-2018 | TTLR TO MTN REQUEST FOREIGN
+14:58:12 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:58:12 | expiry : 2018-01-18
+14:58:12 | username : *********
+14:58:12 | password : *********
+14:58:12 | name : PaySwitch Company Ltd.
+14:58:12 | info : TheTeller App
+14:58:12 | amt : 0.1
+14:58:12 | mobile : 0550053932
+14:58:12 | billprompt : 2
+14:58:12 | thirdpartyID : 151620847150
+
+17-01-2018 | MTN TO TTLR RESPONSE FOREIGN
+14:58:13 | return
+14:58:13 | responseCode : 0000
+14:58:13 | responseMessage : Accepted for Delivery 0550053932
+14:58:13 | invoiceNo : 203513905
+
+17-01-2018 | TTLR TO MTN REQUEST FOREIGN
+14:58:13 | username : *********
+14:58:13 | password : *********
+14:58:13 | invoiceNo : 203513905
+
+17-01-2018 | MTN TO TTLR RESPONSE FOREIGN
+14:58:25 | return
+14:58:25 | responseCode : 21VD
+14:58:25 | responseMessage : Bill not paid...
+
+17-01-2018 | TTLR TO MTN REQUEST FOREIGN
+14:58:40 | return
+14:58:40 | responseCode : 0000
+14:58:40 | responseMessage : Bill found. Tracking ID: MTN185A5F64980AD1B/2793011978
+
+17-01-2018 | TTLR TO MTN REQUEST FOREIGN
+14:58:42 | vendorID : ***
+14:58:42 | subscriberID : 0550053932
+14:58:42 | thirdpartyTransactionID : 151620847150
+14:58:42 | amount : 0
+14:58:42 | apiKey : ***********************
+
+17-01-2018 | MTN TO TLLR RESPONSE FOREIGN
+14:58:44 | return
+14:58:44 | responseCode : 849
+14:58:44 | responseMessage : The data provided in the request failed the validation check
+14:58:44 | thirdpartyTransactionId : 151620847150
+
+17-01-2018 | TTLR TO MTN REQUEST FOREIGN
+15:01:42 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:01:42 | expiry : 2018-01-18
+15:01:42 | username : *********
+15:01:42 | password : *********
+15:01:42 | name : PaySwitch Company Ltd.
+15:01:42 | info : TheTeller App
+15:01:42 | amt : 0.1
+15:01:42 | mobile : 0550053932
+15:01:42 | billprompt : 2
+15:01:42 | thirdpartyID : 151680061600
+
+17-01-2018 | MTN TO TTLR RESPONSE FOREIGN
+15:01:42 | return
+15:01:42 | responseCode : 0000
+15:01:42 | responseMessage : Accepted for Delivery 0550053932
+15:01:42 | invoiceNo : 203513996
+
+17-01-2018 | TTLR TO MTN REQUEST FOREIGN
+15:01:42 | username : *********
+15:01:42 | password : *********
+15:01:42 | invoiceNo : 203513996
+
+17-01-2018 | MTN TO TTLR RESPONSE FOREIGN
+15:01:54 | return
+15:01:54 | responseCode : 21VD
+15:01:54 | responseMessage : Bill not paid...
+
+17-01-2018 | TTLR TO MTN REQUEST FOREIGN
+15:02:09 | return
+15:02:09 | responseCode : 21VD
+15:02:09 | responseMessage : Bill not paid...
+
+17-01-2018 | TTLR TO MTN REQUEST FOREIGN
+15:02:19 | return
+15:02:19 | responseCode : 0000
+15:02:19 | responseMessage : Bill found. Tracking ID: MTN185A5F6574C7A74/2793031289
+
+17-01-2018 | TTLR TO MTN REQUEST FOREIGN
+15:04:34 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:04:34 | expiry : 2018-01-18
+15:04:34 | username : *********
+15:04:34 | password : *********
+15:04:34 | name : PaySwitch Company Ltd.
+15:04:34 | info : PaySwitch Company Ltd
+15:04:34 | amt : 0.1
+15:04:34 | mobile : 0249621938
+15:04:34 | billprompt : 2
+15:04:34 | thirdpartyID : 151650931042
+
+17-01-2018 | MTN TO TTLR RESPONSE FOREIGN
+15:04:34 | return
+15:04:34 | responseCode : 0000
+15:04:34 | responseMessage : Accepted for Delivery 0249621938
+15:04:34 | invoiceNo : 203514072
+
+17-01-2018 | TTLR TO MTN REQUEST FOREIGN
+15:04:34 | username : *********
+15:04:34 | password : *********
+15:04:34 | invoiceNo : 203514072
+
+17-01-2018 | MTN TO TTLR RESPONSE FOREIGN
+15:04:46 | return
+15:04:46 | responseCode : 21VD
+15:04:46 | responseMessage : Bill not paid...
+
+17-01-2018 | TTLR TO MTN REQUEST FOREIGN
+15:05:01 | return
+15:05:01 | responseCode : 0000
+15:05:01 | responseMessage : Bill found. Tracking ID: MTN185A5F660FA4B8E/2793047365
+
+17-01-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+15:05:01 | customer_number : 0263581279
+15:05:01 | merchant_number : **********
+15:05:01 | amount : 0.1
+15:05:01 | exttrid : 151650931042
+15:05:01 | reference : testing debit f
+15:05:01 | ts : 2018-01-17 15:05:01
+
+17-01-2018 | AIRTEL TO TTLR REPONSE FOREIGN
+15:06:26 | resp_code : 200
+15:06:26 | resp_desc : You have sent GHC0.10 to Jaguar279. Your new balance is GHC5939.36. Trans ID: CI180117.1506.C04372.
+15:06:26 | exttrid : 151650931042
+15:06:26 | refid : CI180117.1506.C04372
+

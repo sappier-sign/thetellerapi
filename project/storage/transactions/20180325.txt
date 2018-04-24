@@ -1,0 +1,197 @@
+25-03-2018 | TTLR TO TIGO REQUEST FOREIGN
+09:49:12 | DEBUGFLAG : true
+09:49:12 | TRANSACTIONID : Pay001
+09:49:12 | COUNTRY : GHA
+09:49:12 | CORRELATIONID : Pay01
+09:49:12 | MSISDN : 233544534116
+09:49:12 | MSISDN : 233276203025
+09:49:12 | PAYMENTREFERENCE : 152108062703
+09:49:12 | EXTERNALCATEGORY : default
+09:49:12 | EXTERNALCHANNEL : default
+09:49:12 | MERCHANTNAME : payswitch
+09:49:12 | ITEMNAME : PaySwitch Company Ltd.
+09:49:12 | AMOUNT : 7.5
+09:49:12 | MINUTESTOEXPIRE : 2
+09:49:12 | NOTIFICATIONCHANNEL : 2
+
+25-03-2018 | TIGO TO TTLR RESPONSE FOREIGN
+09:49:16 | SOATRANSACTIONID : 8b08ab2b-c814-4ec0-b824-a3c78fd83495
+09:49:16 | CORRELATIONID : Pay01
+09:49:16 | STATUS : OK
+09:49:16 | CODE : purchaseinitiate-3022-0001-S
+09:49:16 | DESCRIPTION : Your payment request has been initiated.
+09:49:16 | PAYMENTID : 1779753
+09:49:16 | PAYMENTREFERENCE : 152108062703
+
+25-03-2018 | TTLR TO TIGO REQUEST FOREIGN
+10:32:19 | DEBUGFLAG : true
+10:32:19 | TRANSACTIONID : Pay001
+10:32:19 | COUNTRY : GHA
+10:32:19 | CORRELATIONID : Pay01
+10:32:19 | MSISDN : 233544534116
+10:32:19 | MSISDN : 233276203025
+10:32:19 | PAYMENTREFERENCE : 152173043870
+10:32:19 | EXTERNALCATEGORY : default
+10:32:19 | EXTERNALCHANNEL : default
+10:32:19 | MERCHANTNAME : payswitch
+10:32:19 | ITEMNAME : PaySwitch Company Ltd.
+10:32:19 | AMOUNT : 7.5
+10:32:19 | MINUTESTOEXPIRE : 2
+10:32:19 | NOTIFICATIONCHANNEL : 2
+
+25-03-2018 | TIGO TO TTLR RESPONSE FOREIGN
+10:32:21 | SOATRANSACTIONID : 2f18c371-a17c-4935-b34f-92155723530e
+10:32:21 | CORRELATIONID : Pay01
+10:32:21 | STATUS : OK
+10:32:21 | CODE : purchaseinitiate-3022-0001-S
+10:32:21 | DESCRIPTION : Your payment request has been initiated.
+10:32:21 | PAYMENTID : 1779792
+10:32:21 | PAYMENTREFERENCE : 152173043870
+
+25-03-2018 | TTLR TO TIGO REQUEST FOREIGN
+13:17:16 | DEBUGFLAG : true
+13:17:16 | TRANSACTIONID : Pay001
+13:17:16 | COUNTRY : GHA
+13:17:16 | CORRELATIONID : Pay01
+13:17:16 | MSISDN : 233544534116
+13:17:16 | MSISDN : 233276203025
+13:17:16 | PAYMENTREFERENCE : 152178200250
+13:17:16 | EXTERNALCATEGORY : default
+13:17:16 | EXTERNALCHANNEL : default
+13:17:16 | MERCHANTNAME : payswitch
+13:17:16 | ITEMNAME : PaySwitch Company Ltd.
+13:17:16 | AMOUNT : 7.5
+13:17:16 | MINUTESTOEXPIRE : 2
+13:17:16 | NOTIFICATIONCHANNEL : 2
+
+25-03-2018 | TIGO TO TTLR RESPONSE FOREIGN
+13:17:19 | SOATRANSACTIONID : f2cf514e-24d7-4384-8772-2a263f80791f
+13:17:19 | CORRELATIONID : Pay01
+13:17:19 | STATUS : OK
+13:17:19 | CODE : purchaseinitiate-3022-0001-S
+13:17:19 | DESCRIPTION : Your payment request has been initiated.
+13:17:19 | PAYMENTID : 1780051
+13:17:19 | PAYMENTREFERENCE : 152178200250
+
+25-03-2018 | TTLR TO MTN REQUEST FOREIGN
+16:12:27 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:12:27 | expiry : 2018-03-26
+16:12:27 | username : *********
+16:12:27 | password : *********
+16:12:27 | name : PaySwitch Company Ltd.
+16:12:27 | info : Enterprise Insurance
+16:12:27 | amt : 0.1
+16:12:27 | mobile : 0246263366
+16:12:27 | billprompt : 2
+16:12:27 | thirdpartyID : 152180578004
+
+25-03-2018 | MTN TO TTLR RESPONSE FOREIGN
+16:12:27 | return
+16:12:27 | responseCode : 0000
+16:12:27 | responseMessage : Accepted for Delivery 0246263366
+16:12:27 | invoiceNo : 204464208
+
+25-03-2018 | TTLR TO MTN REQUEST FOREIGN
+16:13:02 | username : *********
+16:13:02 | password : *********
+16:13:02 | invoiceNo : 204464208
+
+25-03-2018 | TTLR TO MTN REQUEST FOREIGN
+16:13:03 | username : *********
+16:13:03 | password : *********
+16:13:03 | invoiceNo : 204464208
+
+25-03-2018 | MTN TO TTLR RESPONSE FOREIGN
+16:13:14 | return
+16:13:14 | responseCode : 21VD
+16:13:14 | responseMessage : Bill not paid...
+
+25-03-2018 | MTN TO TTLR RESPONSE FOREIGN
+16:13:15 | return
+16:13:15 | responseCode : 21VD
+16:13:15 | responseMessage : Bill not paid...
+
+25-03-2018 | TTLR TO MTN REQUEST FOREIGN
+17:02:57 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:02:57 | expiry : 2018-03-26
+17:02:57 | username : *********
+17:02:57 | password : *********
+17:02:57 | name : PaySwitch Company Ltd.
+17:02:57 | info : Enterprise Insurance
+17:02:57 | amt : 0.1
+17:02:57 | mobile : 0243746328
+17:02:57 | billprompt : 2
+17:02:57 | thirdpartyID : 152140039314
+
+25-03-2018 | MTN TO TTLR RESPONSE FOREIGN
+17:02:57 | return
+17:02:57 | responseCode : 0000
+17:02:57 | responseMessage : Accepted for Delivery 0243746328
+17:02:57 | invoiceNo : 204464603
+
+25-03-2018 | TTLR TO MTN REQUEST FOREIGN
+17:03:01 | username : *********
+17:03:01 | password : *********
+17:03:01 | invoiceNo : 204464603
+
+25-03-2018 | MTN TO TTLR RESPONSE FOREIGN
+17:03:13 | return
+17:03:13 | responseCode : 21VD
+17:03:13 | responseMessage : Bill not paid...
+
+25-03-2018 | TTLR TO MTN REQUEST FOREIGN
+17:04:29 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:04:29 | expiry : 2018-03-26
+17:04:29 | username : *********
+17:04:29 | password : *********
+17:04:29 | name : PaySwitch Company Ltd.
+17:04:29 | info : Enterprise Insurance
+17:04:29 | amt : 0.1
+17:04:29 | mobile : 0243746328
+17:04:29 | billprompt : 2
+17:04:29 | thirdpartyID : 152112087004
+
+25-03-2018 | MTN TO TTLR RESPONSE FOREIGN
+17:04:29 | return
+17:04:29 | responseCode : 0000
+17:04:29 | responseMessage : Accepted for Delivery 0243746328
+17:04:29 | invoiceNo : 204464616
+
+25-03-2018 | TTLR TO MTN REQUEST FOREIGN
+17:05:02 | username : *********
+17:05:02 | password : *********
+17:05:02 | invoiceNo : 204464616
+
+25-03-2018 | MTN TO TTLR RESPONSE FOREIGN
+17:05:14 | return
+17:05:14 | responseCode : 0000
+17:05:14 | responseMessage : Bill found. Tracking ID: MTN185AB7D6C4D4646/3177147414
+
+25-03-2018 | TTLR TO MTN REQUEST FOREIGN
+17:14:37 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+17:14:37 | expiry : 2018-03-26
+17:14:37 | username : *********
+17:14:37 | password : *********
+17:14:37 | name : PaySwitch Company Ltd.
+17:14:37 | info : Enterprise Insurance
+17:14:37 | amt : 0.1
+17:14:37 | mobile : 0246263366
+17:14:37 | billprompt : 2
+17:14:37 | thirdpartyID : 152100070994
+
+25-03-2018 | MTN TO TTLR RESPONSE FOREIGN
+17:14:37 | return
+17:14:37 | responseCode : 0000
+17:14:37 | responseMessage : Accepted for Delivery 0246263366
+17:14:37 | invoiceNo : 204464688
+
+25-03-2018 | TTLR TO MTN REQUEST FOREIGN
+17:15:01 | username : *********
+17:15:01 | password : *********
+17:15:01 | invoiceNo : 204464688
+
+25-03-2018 | MTN TO TTLR RESPONSE FOREIGN
+17:15:13 | return
+17:15:13 | responseCode : 21VD
+17:15:13 | responseMessage : Bill not paid...
+

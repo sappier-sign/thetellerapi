@@ -1,0 +1,67 @@
+15-03-2018 | TTLR TO ZENITH REQUEST FOREIGN
+11:48:27 | PaymentRequest
+11:48:27 | Merchant
+11:48:27 | GlobalPayID : ********
+11:48:27 | Card
+11:48:27 | CardNumber : 445824******9635
+11:48:27 | CardExpiryMonth : 07
+11:48:27 | CardExpiryYear : 21
+11:48:27 | CardCvv : ***
+11:48:27 | Payment
+11:48:27 | Description : 152190086562
+11:48:27 | ReferenceID : 152190086562
+11:48:27 | OrderID : 152190086562
+11:48:27 | Amount : 0.36
+11:48:27 | mode : Visa
+
+15-03-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+11:48:32 | PaymentResponse
+11:48:32 | Date : 3/15/2018
+11:48:32 | referenceID : 152190086562
+11:48:32 | PaymentStatus : APPROVED
+11:48:32 | Reason : transaction processed successfully
+11:48:32 | ResponseCode : 00
+11:48:32 | Mode : Visa
+11:48:32 | AuthID : 377156
+11:48:32 | Pan : 445824******9635
+
+15-03-2018 | TTLR TO ZENITH REQUEST FOREIGN
+11:54:52 | PaymentRequest
+11:54:52 | Merchant
+11:54:52 | GlobalPayID : ********
+11:54:52 | Card
+11:54:52 | CardNumber : 445824******9635
+11:54:52 | CardExpiryMonth : 07
+11:54:52 | CardExpiryYear : 21
+11:54:52 | CardCvv : ***
+11:54:52 | Payment
+11:54:52 | Description : 152160709868
+11:54:52 | ReferenceID : 152160709868
+11:54:52 | OrderID : 152160709868
+11:54:52 | Amount : 100
+11:54:52 | mode : Visa
+
+15-03-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+11:54:57 | PaymentResponse
+11:54:57 | Date : 3/15/2018
+11:54:57 | referenceID : 152160709868
+11:54:57 | PaymentStatus : APPROVED
+11:54:57 | Reason : transaction processed successfully
+11:54:57 | ResponseCode : 00
+11:54:57 | Mode : Visa
+11:54:57 | AuthID : 623157
+11:54:57 | Pan : 445824******9635
+
+15-03-2018 | TTLR TO MTN REQUEST FOREIGN
+11:54:59 | vendorID : ***
+11:54:59 | subscriberID : 0247460217
+11:54:59 | thirdpartyTransactionID : 152160709868
+11:54:59 | amount : 100
+11:54:59 | apiKey : ***********************
+
+15-03-2018 | MTN TO TLLR RESPONSE FOREIGN
+11:55:03 | return
+11:55:03 | responseCode : 01
+11:55:03 | responseMessage : Successfully processed transaction.
+11:55:03 | thirdpartyTransactionId : 152160709868
+

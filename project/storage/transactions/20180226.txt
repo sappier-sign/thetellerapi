@@ -1,0 +1,1596 @@
+26-02-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+11:33:55 | customer_number :  0267443610
+11:33:55 | merchant_number : **********
+11:33:55 | amount : 1
+11:33:55 | exttrid : 151944910059
+11:33:55 | reference : Paystack Paymen
+11:33:55 | nickname : PAYSWITCH
+11:33:55 | ts : 2018-02-26 11:33:55
+
+26-02-2018 | AIRTEL TTLR REPONSE FOREIGN
+11:33:57 | resp_code : 120
+11:33:57 | resp_desc : Unknown
+11:33:57 | trans_id : 151944910059
+11:33:57 | error_type : USSDGw
+
+26-02-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+11:35:23 | customer_number :  0267443610
+11:35:23 | merchant_number : **********
+11:35:23 | amount : 1
+11:35:23 | exttrid : 151905433034
+11:35:23 | reference : Paystack Paymen
+11:35:23 | nickname : PAYSWITCH
+11:35:23 | ts : 2018-02-26 11:35:23
+
+26-02-2018 | AIRTEL TTLR REPONSE FOREIGN
+11:35:25 | resp_code : 120
+11:35:25 | resp_desc : Unknown
+11:35:25 | trans_id : 151905433034
+11:35:25 | error_type : USSDGw
+
+26-02-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+11:59:39 | customer_number : 0267443610
+11:59:39 | merchant_number : **********
+11:59:39 | amount : 1
+11:59:39 | exttrid : 151995030370
+11:59:39 | reference : Paystack Paymen
+11:59:39 | nickname : PAYSWITCH
+11:59:39 | ts : 2018-02-26 11:59:39
+
+26-02-2018 | AIRTEL TTLR REPONSE FOREIGN
+12:00:07 | resp_code : 120
+12:00:07 | resp_desc : Unknown
+12:00:07 | trans_id : 151995030370
+12:00:07 | error_type : USSDGw
+
+26-02-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+12:08:43 | customer_number :  0267443610
+12:08:43 | merchant_number : **********
+12:08:43 | amount : 1
+12:08:43 | exttrid : 151907133040
+12:08:43 | reference : Paystack Paymen
+12:08:43 | nickname : PAYSWITCH
+12:08:43 | ts : 2018-02-26 12:08:43
+
+26-02-2018 | AIRTEL TTLR REPONSE FOREIGN
+12:08:45 | resp_code : 120
+12:08:45 | resp_desc : Unknown
+12:08:45 | trans_id : 151907133040
+12:08:45 | error_type : USSDGw
+
+26-02-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+12:15:32 | customer_number :  0267443610
+12:15:32 | merchant_number : **********
+12:15:32 | amount : 1
+12:15:32 | exttrid : 151929410202
+12:15:32 | reference : Paystack Paymen
+12:15:32 | nickname : PAYSWITCH
+12:15:32 | ts : 2018-02-26 12:15:32
+
+26-02-2018 | AIRTEL TTLR REPONSE FOREIGN
+12:15:33 | resp_code : 120
+12:15:33 | resp_desc : Unknown
+12:15:33 | trans_id : 151929410202
+12:15:33 | error_type : USSDGw
+
+26-02-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+12:22:18 | customer_number : 0267443610
+12:22:18 | merchant_number : **********
+12:22:18 | amount : 1
+12:22:18 | exttrid : 151901517209
+12:22:18 | reference : Paystack Paymen
+12:22:18 | nickname : PAYSWITCH
+12:22:18 | ts : 2018-02-26 12:22:18
+
+26-02-2018 | AIRTEL TTLR REPONSE FOREIGN
+12:22:21 | resp_code : 120
+12:22:21 | resp_desc : Unknown
+12:22:21 | trans_id : 151901517209
+12:22:21 | error_type : USSDGw
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:22:53 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+12:22:53 | expiry : 2018-02-27
+12:22:53 | username : *********
+12:22:53 | password : *********
+12:22:53 | name : PaySwitch Company Ltd.
+12:22:53 | info : Paystack
+12:22:53 | amt : 1
+12:22:53 | mobile : 233553241149
+12:22:53 | billprompt : 2
+12:22:53 | thirdpartyID : 151961134000
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+12:22:53 | return
+12:22:53 | responseCode : 0000
+12:22:53 | responseMessage : Accepted for Delivery 233553241149
+12:22:53 | invoiceNo : 204177303
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:22:53 | username : *********
+12:22:53 | password : *********
+12:22:53 | invoiceNo : 204177303
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+12:23:05 | return
+12:23:05 | responseCode : 21VD
+12:23:05 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:23:20 | return
+12:23:20 | responseCode : 21VD
+12:23:20 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:23:30 | return
+12:23:30 | responseCode : 21VD
+12:23:30 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:23:41 | return
+12:23:41 | responseCode : 21VD
+12:23:41 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:23:51 | return
+12:23:51 | responseCode : 21VD
+12:23:51 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:24:01 | return
+12:24:01 | responseCode : 21VD
+12:24:01 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:24:11 | return
+12:24:11 | responseCode : 21VD
+12:24:11 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:24:21 | return
+12:24:21 | responseCode : 21VD
+12:24:21 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:24:31 | return
+12:24:31 | responseCode : 21VD
+12:24:31 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:24:59 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+12:24:59 | expiry : 2018-02-27
+12:24:59 | username : *********
+12:24:59 | password : *********
+12:24:59 | name : PaySwitch Company Ltd.
+12:24:59 | info : Paystack
+12:24:59 | amt : 1
+12:24:59 | mobile : 0553241149
+12:24:59 | billprompt : 2
+12:24:59 | thirdpartyID : 151990543780
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+12:24:59 | return
+12:24:59 | responseCode : 0000
+12:24:59 | responseMessage : Accepted for Delivery 0553241149
+12:24:59 | invoiceNo : 204177337
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:24:59 | username : *********
+12:24:59 | password : *********
+12:24:59 | invoiceNo : 204177337
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+12:25:12 | return
+12:25:12 | responseCode : 21VD
+12:25:12 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:25:27 | return
+12:25:27 | responseCode : 21VD
+12:25:27 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:25:37 | return
+12:25:37 | responseCode : 21VD
+12:25:37 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:25:47 | return
+12:25:47 | responseCode : 21VD
+12:25:47 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:25:57 | return
+12:25:57 | responseCode : 21VD
+12:25:57 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:26:07 | return
+12:26:07 | responseCode : 21VD
+12:26:07 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:26:17 | return
+12:26:17 | responseCode : 21VD
+12:26:17 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:26:27 | return
+12:26:27 | responseCode : 21VD
+12:26:27 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+12:26:27 | PaymentRequest
+12:26:27 | Merchant
+12:26:27 | GlobalPayID : ********
+12:26:27 | Card
+12:26:27 | CardNumber : 445824******4210
+12:26:27 | CardExpiryMonth : 10
+12:26:27 | CardExpiryYear : 22
+12:26:27 | CardCvv : ***
+12:26:27 | Payment
+12:26:27 | Description : 151939802603
+12:26:27 | ReferenceID : 151939802603
+12:26:27 | OrderID : 151939802603
+12:26:27 | Amount : 1
+12:26:27 | mode : Visa
+
+26-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+12:26:35 | PaymentResponse
+12:26:35 | Date : 2/26/2018
+12:26:35 | referenceID : 151939802603
+12:26:35 | PaymentStatus : vbv required
+12:26:35 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20180226123132
+12:26:35 | ResponseCode : 
+12:26:35 | Mode : Visa
+12:26:35 | AuthID : 
+12:26:35 | Pan : 
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:26:37 | return
+12:26:37 | responseCode : 21VD
+12:26:37 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+12:26:52 | PaymentRequest
+12:26:52 | Merchant
+12:26:52 | GlobalPayID : ********
+12:26:52 | Card
+12:26:52 | CardNumber : 445824******4210
+12:26:52 | CardExpiryMonth : 10
+12:26:52 | CardExpiryYear : 22
+12:26:52 | CardCvv : ***
+12:26:52 | Payment
+12:26:52 | Description : 151945060502
+12:26:52 | ReferenceID : 151945060502
+12:26:52 | OrderID : 151945060502
+12:26:52 | Amount : 1
+12:26:52 | mode : Visa
+
+26-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+12:26:58 | PaymentResponse
+12:26:58 | Date : 2/26/2018
+12:26:58 | referenceID : 151945060502
+12:26:58 | PaymentStatus : vbv required
+12:26:58 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20180226123156
+12:26:58 | ResponseCode : 
+12:26:58 | Mode : Visa
+12:26:58 | AuthID : 
+12:26:58 | Pan : 
+
+26-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+12:28:22 | PaymentRequest
+12:28:22 | Merchant
+12:28:22 | GlobalPayID : ********
+12:28:22 | Card
+12:28:22 | CardNumber : 445824******4210
+12:28:22 | CardExpiryMonth : 10
+12:28:22 | CardExpiryYear : 22
+12:28:22 | CardCvv : ***
+12:28:22 | Payment
+12:28:22 | Description : 151904845420
+12:28:22 | ReferenceID : 151904845420
+12:28:22 | OrderID : 151904845420
+12:28:22 | Amount : 1
+12:28:22 | mode : Visa
+
+26-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+12:28:31 | PaymentResponse
+12:28:31 | Date : 2/26/2018
+12:28:31 | referenceID : 151904845420
+12:28:31 | PaymentStatus : vbv required
+12:28:31 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20180226123326
+12:28:31 | ResponseCode : 
+12:28:31 | Mode : Visa
+12:28:31 | AuthID : 
+12:28:31 | Pan : 
+
+26-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+12:30:00 | PaymentRequest
+12:30:00 | Merchant
+12:30:00 | GlobalPayID : ********
+12:30:00 | Card
+12:30:00 | CardNumber : 445824******4210
+12:30:00 | CardExpiryMonth : 10
+12:30:00 | CardExpiryYear : 22
+12:30:00 | CardCvv : ***
+12:30:00 | Payment
+12:30:00 | Description : 151921004521
+12:30:00 | ReferenceID : 151921004521
+12:30:00 | OrderID : 151921004521
+12:30:00 | Amount : 1
+12:30:00 | mode : Visa
+
+26-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+12:30:08 | PaymentResponse
+12:30:08 | Date : 2/26/2018
+12:30:08 | referenceID : 151921004521
+12:30:08 | PaymentStatus : vbv required
+12:30:08 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20180226123504
+12:30:08 | ResponseCode : 
+12:30:08 | Mode : Visa
+12:30:08 | AuthID : 
+12:30:08 | Pan : 
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:52:06 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+12:52:06 | expiry : 2018-02-27
+12:52:06 | username : *********
+12:52:06 | password : *********
+12:52:06 | name : PaySwitch Company Ltd.
+12:52:06 | info : Paystack
+12:52:06 | amt : 1
+12:52:06 | mobile : 0553241149
+12:52:06 | billprompt : 2
+12:52:06 | thirdpartyID : 151990701308
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+12:52:06 | return
+12:52:06 | responseCode : 0000
+12:52:06 | responseMessage : Accepted for Delivery 0553241149
+12:52:06 | invoiceNo : 204177652
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:52:06 | username : *********
+12:52:06 | password : *********
+12:52:06 | invoiceNo : 204177652
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+12:52:18 | return
+12:52:18 | responseCode : 21VD
+12:52:18 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:52:33 | return
+12:52:33 | responseCode : 21VD
+12:52:33 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:52:43 | return
+12:52:43 | responseCode : 21VD
+12:52:43 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:52:53 | return
+12:52:53 | responseCode : 21VD
+12:52:53 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:53:04 | return
+12:53:04 | responseCode : 21VD
+12:53:04 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:53:14 | return
+12:53:14 | responseCode : 21VD
+12:53:14 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:53:24 | return
+12:53:24 | responseCode : 21VD
+12:53:24 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:53:34 | return
+12:53:34 | responseCode : 21VD
+12:53:34 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:53:44 | return
+12:53:44 | responseCode : 21VD
+12:53:44 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:55:11 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+12:55:11 | expiry : 2018-02-27
+12:55:11 | username : *********
+12:55:11 | password : *********
+12:55:11 | name : PaySwitch Company Ltd.
+12:55:11 | info : Paystack
+12:55:11 | amt : 1
+12:55:11 | mobile :  0248574571
+12:55:11 | billprompt : 2
+12:55:11 | thirdpartyID : 151900072049
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+12:55:11 | return
+12:55:11 | responseCode : 0000
+12:55:11 | responseMessage : Accepted for Delivery  0248574571
+12:55:11 | invoiceNo : 204177668
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:55:11 | username : *********
+12:55:11 | password : *********
+12:55:11 | invoiceNo : 204177668
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+12:55:23 | return
+12:55:23 | responseCode : 21VD
+12:55:23 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:55:38 | return
+12:55:38 | responseCode : 21VD
+12:55:38 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:55:48 | return
+12:55:48 | responseCode : 21VD
+12:55:48 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:55:58 | return
+12:55:58 | responseCode : 21VD
+12:55:58 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:56:09 | return
+12:56:09 | responseCode : 21VD
+12:56:09 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:56:19 | return
+12:56:19 | responseCode : 21VD
+12:56:19 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:56:29 | return
+12:56:29 | responseCode : 21VD
+12:56:29 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:56:43 | return
+12:56:43 | responseCode : 21VD
+12:56:43 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+12:56:53 | return
+12:56:53 | responseCode : 21VD
+12:56:53 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:10:57 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:10:57 | expiry : 2018-02-27
+13:10:57 | username : *********
+13:10:57 | password : *********
+13:10:57 | name : PaySwitch Company Ltd.
+13:10:57 | info : Paystack
+13:10:57 | amt : 1
+13:10:57 | mobile : 0553241149
+13:10:57 | billprompt : 2
+13:10:57 | thirdpartyID : 151920225030
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+13:10:57 | return
+13:10:57 | responseCode : 0000
+13:10:57 | responseMessage : Accepted for Delivery 0553241149
+13:10:57 | invoiceNo : 204177831
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:10:57 | username : *********
+13:10:57 | password : *********
+13:10:57 | invoiceNo : 204177831
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+13:11:09 | return
+13:11:09 | responseCode : 21VD
+13:11:09 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:11:11 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:11:11 | expiry : 2018-02-27
+13:11:11 | username : *********
+13:11:11 | password : *********
+13:11:11 | name : PaySwitch Company Ltd.
+13:11:11 | info : Paystack
+13:11:11 | amt : 1
+13:11:11 | mobile :  0248574571
+13:11:11 | billprompt : 2
+13:11:11 | thirdpartyID : 151900063107
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+13:11:16 | return
+13:11:16 | responseCode : 0000
+13:11:16 | responseMessage : Accepted for Delivery  0248574571
+13:11:16 | invoiceNo : 204177836
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:11:16 | username : *********
+13:11:16 | password : *********
+13:11:16 | invoiceNo : 204177836
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:11:24 | return
+13:11:24 | responseCode : 21VD
+13:11:24 | responseMessage : Bill not paid...
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+13:11:32 | return
+13:11:32 | responseCode : 21VD
+13:11:32 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:11:34 | return
+13:11:34 | responseCode : 21VD
+13:11:34 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:11:42 | username : *********
+13:11:42 | password : *********
+13:11:42 | invoiceNo : 204177836
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:11:44 | return
+13:11:44 | responseCode : 21VD
+13:11:44 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:11:47 | return
+13:11:47 | responseCode : 21VD
+13:11:47 | responseMessage : Bill not paid...
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+13:11:54 | return
+13:11:54 | responseCode : 21VD
+13:11:54 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:11:54 | return
+13:11:54 | responseCode : 21VD
+13:11:54 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:11:57 | return
+13:11:57 | responseCode : 21VD
+13:11:57 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:12:05 | return
+13:12:05 | responseCode : 21VD
+13:12:05 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:12:07 | return
+13:12:07 | responseCode : 21VD
+13:12:07 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:12:15 | return
+13:12:15 | responseCode : 21VD
+13:12:15 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:12:18 | return
+13:12:18 | responseCode : 21VD
+13:12:18 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:12:25 | return
+13:12:25 | responseCode : 21VD
+13:12:25 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:12:28 | return
+13:12:28 | responseCode : 21VD
+13:12:28 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:12:35 | return
+13:12:35 | responseCode : 21VD
+13:12:35 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:12:38 | return
+13:12:38 | responseCode : 21VD
+13:12:38 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:12:48 | return
+13:12:48 | responseCode : 21VD
+13:12:48 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:12:58 | return
+13:12:58 | responseCode : 21VD
+13:12:58 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:18:34 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+13:18:34 | expiry : 2018-02-27
+13:18:34 | username : *********
+13:18:34 | password : *********
+13:18:34 | name : PaySwitch Company Ltd.
+13:18:34 | info : Paystack
+13:18:34 | amt : 1
+13:18:34 | mobile :  0248574571
+13:18:34 | billprompt : 2
+13:18:34 | thirdpartyID : 151947036205
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+13:18:34 | return
+13:18:34 | responseCode : 0000
+13:18:34 | responseMessage : Accepted for Delivery  0248574571
+13:18:34 | invoiceNo : 204177912
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:18:34 | username : *********
+13:18:34 | password : *********
+13:18:34 | invoiceNo : 204177912
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+13:18:46 | return
+13:18:46 | responseCode : 21VD
+13:18:46 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:19:01 | return
+13:19:01 | responseCode : 21VD
+13:19:01 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:19:05 | username : *********
+13:19:05 | password : *********
+13:19:05 | invoiceNo : 204177912
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:19:12 | return
+13:19:12 | responseCode : 21VD
+13:19:12 | responseMessage : Bill not paid...
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+13:19:17 | return
+13:19:17 | responseCode : 21VD
+13:19:17 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:19:22 | return
+13:19:22 | responseCode : 21VD
+13:19:22 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:19:32 | return
+13:19:32 | responseCode : 21VD
+13:19:32 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:19:42 | return
+13:19:42 | responseCode : 21VD
+13:19:42 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:19:52 | return
+13:19:52 | responseCode : 21VD
+13:19:52 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:20:02 | return
+13:20:02 | responseCode : 21VD
+13:20:02 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:20:12 | return
+13:20:12 | responseCode : 21VD
+13:20:12 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+13:54:39 | PaymentRequest
+13:54:39 | Merchant
+13:54:39 | GlobalPayID : ********
+13:54:39 | Card
+13:54:39 | CardNumber : 519911******0994
+13:54:39 | CardExpiryMonth : 03
+13:54:39 | CardExpiryYear : 20
+13:54:39 | CardCvv : ***
+13:54:39 | Payment
+13:54:39 | Description : 151900268031
+13:54:39 | ReferenceID : 151900268031
+13:54:39 | OrderID : 151900268031
+13:54:39 | Amount : 1
+13:54:39 | mode : Mastercard
+
+26-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+13:54:50 | PaymentResponse
+13:54:50 | Date : 2/26/2018
+13:54:50 | referenceID : 151900268031
+13:54:50 | PaymentStatus : APPROVED
+13:54:50 | Reason : Successful
+13:54:50 | ResponseCode : 0
+13:54:50 | Mode : Mastercard
+13:54:50 | AuthID : 327452
+13:54:50 | Pan : 519911******0994
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+13:54:52 | vendorID : ***
+13:54:52 | subscriberID : 0553241149
+13:54:52 | thirdpartyTransactionID : 151900268031
+13:54:52 | amount : 1
+13:54:52 | apiKey : ***********************
+
+26-02-2018 | MTN TO TLLR RESPONSE FOREIGN
+13:54:57 | return
+13:54:57 | responseCode : 01
+13:54:57 | responseMessage : Successfully processed transaction.
+13:54:57 | thirdpartyTransactionId : 151900268031
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+14:10:10 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+14:10:10 | expiry : 2018-02-27
+14:10:10 | username : *********
+14:10:10 | password : *********
+14:10:10 | name : PaySwitch Company Ltd.
+14:10:10 | info : Paystack
+14:10:10 | amt : 1
+14:10:10 | mobile : 0553241149
+14:10:10 | billprompt : 2
+14:10:10 | thirdpartyID : 151970786025
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+14:10:10 | return
+14:10:10 | responseCode : 0000
+14:10:10 | responseMessage : Accepted for Delivery 0553241149
+14:10:10 | invoiceNo : 204178472
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+14:10:10 | username : *********
+14:10:10 | password : *********
+14:10:10 | invoiceNo : 204178472
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+14:10:22 | return
+14:10:22 | responseCode : 21VD
+14:10:22 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+14:10:37 | return
+14:10:37 | responseCode : 21VD
+14:10:37 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+14:10:41 | username : *********
+14:10:41 | password : *********
+14:10:41 | invoiceNo : 204178472
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+14:10:47 | return
+14:10:47 | responseCode : 0000
+14:10:47 | responseMessage : Bill found. Tracking ID: MTN185A941560773EF/3020542681
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+14:10:53 | return
+14:10:53 | responseCode : 0000
+14:10:53 | responseMessage : Bill found. Tracking ID: MTN185A941560773EF/3020542681
+
+26-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+14:17:03 | PaymentRequest
+14:17:03 | Merchant
+14:17:03 | GlobalPayID : ********
+14:17:03 | Card
+14:17:03 | CardNumber : 445824******8454
+14:17:03 | CardExpiryMonth : 10
+14:17:03 | CardExpiryYear : 22
+14:17:03 | CardCvv : ***
+14:17:03 | Payment
+14:17:03 | Description : 151920718069
+14:17:03 | ReferenceID : 151920718069
+14:17:03 | OrderID : 151920718069
+14:17:03 | Amount : 0.17
+14:17:03 | mode : Visa
+
+26-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+14:17:10 | PaymentResponse
+14:17:10 | Date : 2/26/2018
+14:17:10 | referenceID : 151920718069
+14:17:10 | PaymentStatus : vbv required
+14:17:10 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20180226142208
+14:17:10 | ResponseCode : 
+14:17:10 | Mode : Visa
+14:17:10 | AuthID : 
+14:17:10 | Pan : 
+
+26-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+14:59:46 | PaymentRequest
+14:59:46 | Merchant
+14:59:46 | GlobalPayID : ********
+14:59:46 | Card
+14:59:46 | CardNumber : 537010******9754
+14:59:46 | CardExpiryMonth : 12
+14:59:46 | CardExpiryYear : 20
+14:59:46 | CardCvv : ***
+14:59:46 | Payment
+14:59:46 | Description : 151935308028
+14:59:46 | ReferenceID : 151935308028
+14:59:46 | OrderID : 151935308028
+14:59:46 | Amount : 5
+14:59:46 | mode : Mastercard
+
+26-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+14:59:55 | PaymentResponse
+14:59:55 | Date : 2/26/2018
+14:59:55 | referenceID : 151935308028
+14:59:55 | PaymentStatus : APPROVED
+14:59:55 | Reason : Successful
+14:59:55 | ResponseCode : 0
+14:59:55 | Mode : Mastercard
+14:59:55 | AuthID : 628837
+14:59:55 | Pan : 537010******9754
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+14:59:57 | vendorID : ***
+14:59:57 | subscriberID : 0553241149
+14:59:57 | thirdpartyTransactionID : 151935308028
+14:59:57 | amount : 5
+14:59:57 | apiKey : ***********************
+
+26-02-2018 | MTN TO TLLR RESPONSE FOREIGN
+15:00:00 | return
+15:00:00 | responseCode : 01
+15:00:00 | responseMessage : Successfully processed transaction.
+15:00:00 | thirdpartyTransactionId : 151935308028
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:02:55 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:02:55 | expiry : 2018-02-27
+15:02:55 | username : *********
+15:02:55 | password : *********
+15:02:55 | name : PaySwitch Company Ltd.
+15:02:55 | info : Paystack
+15:02:55 | amt : 500
+15:02:55 | mobile : 0553241149
+15:02:55 | billprompt : 2
+15:02:55 | thirdpartyID : 151978068026
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+15:02:56 | return
+15:02:56 | responseCode : 0000
+15:02:56 | responseMessage : Accepted for Delivery 0553241149
+15:02:56 | invoiceNo : 204179053
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:02:56 | username : *********
+15:02:56 | password : *********
+15:02:56 | invoiceNo : 204179053
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+15:03:08 | return
+15:03:08 | responseCode : 21VD
+15:03:08 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:03:23 | return
+15:03:23 | responseCode : 21VD
+15:03:23 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:03:25 | username : *********
+15:03:25 | password : *********
+15:03:25 | invoiceNo : 204179053
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:03:33 | return
+15:03:33 | responseCode : 21VD
+15:03:33 | responseMessage : Bill not paid...
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+15:03:37 | return
+15:03:37 | responseCode : 21VD
+15:03:37 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:03:43 | return
+15:03:43 | responseCode : 21VD
+15:03:43 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:03:53 | return
+15:03:53 | responseCode : 21VD
+15:03:53 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:04:03 | return
+15:04:03 | responseCode : 21VD
+15:04:03 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:04:13 | return
+15:04:13 | responseCode : 21VD
+15:04:13 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:04:21 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:04:21 | expiry : 2018-02-27
+15:04:21 | username : *********
+15:04:21 | password : *********
+15:04:21 | name : PaySwitch Company Ltd.
+15:04:21 | info : Paystack
+15:04:21 | amt : 1
+15:04:21 | mobile : 0553241149
+15:04:21 | billprompt : 2
+15:04:21 | thirdpartyID : 151979513009
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+15:04:21 | return
+15:04:21 | responseCode : 0000
+15:04:21 | responseMessage : Accepted for Delivery 0553241149
+15:04:21 | invoiceNo : 204179064
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:04:21 | username : *********
+15:04:21 | password : *********
+15:04:21 | invoiceNo : 204179064
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:04:23 | return
+15:04:23 | responseCode : 21VD
+15:04:23 | responseMessage : Bill not paid...
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+15:04:33 | return
+15:04:33 | responseCode : 21VD
+15:04:33 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:04:33 | return
+15:04:33 | responseCode : 21VD
+15:04:33 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:04:48 | return
+15:04:48 | responseCode : 21VD
+15:04:48 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:04:51 | username : *********
+15:04:51 | password : *********
+15:04:51 | invoiceNo : 204179064
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:04:58 | return
+15:04:58 | responseCode : 21VD
+15:04:58 | responseMessage : Bill not paid...
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+15:05:03 | return
+15:05:03 | responseCode : 21VD
+15:05:03 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:05:08 | return
+15:05:08 | responseCode : 21VD
+15:05:08 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:05:18 | return
+15:05:18 | responseCode : 21VD
+15:05:18 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:05:28 | return
+15:05:28 | responseCode : 21VD
+15:05:28 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:05:39 | return
+15:05:39 | responseCode : 21VD
+15:05:39 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:05:49 | return
+15:05:49 | responseCode : 21VD
+15:05:49 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:05:59 | return
+15:05:59 | responseCode : 21VD
+15:05:59 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:06:02 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:06:02 | expiry : 2018-02-27
+15:06:02 | username : *********
+15:06:02 | password : *********
+15:06:02 | name : PaySwitch Company Ltd.
+15:06:02 | info : Paystack
+15:06:02 | amt : 1
+15:06:02 | mobile : 0553241149
+15:06:02 | billprompt : 2
+15:06:02 | thirdpartyID : 151962707508
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+15:06:02 | return
+15:06:02 | responseCode : 0000
+15:06:02 | responseMessage : Accepted for Delivery 0553241149
+15:06:02 | invoiceNo : 204179083
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:06:02 | username : *********
+15:06:02 | password : *********
+15:06:02 | invoiceNo : 204179083
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+15:06:14 | return
+15:06:14 | responseCode : 21VD
+15:06:14 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:06:30 | return
+15:06:30 | responseCode : 0000
+15:06:30 | responseMessage : Bill found. Tracking ID: MTN185A94227022E1B/3020905862
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:08:48 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:08:48 | expiry : 2018-02-27
+15:08:48 | username : *********
+15:08:48 | password : *********
+15:08:48 | name : PaySwitch Company Ltd.
+15:08:48 | info : Paystack
+15:08:48 | amt : 1
+15:08:48 | mobile : 0553241149
+15:08:48 | billprompt : 2
+15:08:48 | thirdpartyID : 151925007590
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+15:08:48 | return
+15:08:48 | responseCode : 0000
+15:08:48 | responseMessage : Accepted for Delivery 0553241149
+15:08:48 | invoiceNo : 204179114
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:08:48 | username : *********
+15:08:48 | password : *********
+15:08:48 | invoiceNo : 204179114
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+15:09:00 | return
+15:09:00 | responseCode : 21VD
+15:09:00 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:09:16 | return
+15:09:16 | responseCode : 0000
+15:09:16 | responseMessage : Bill found. Tracking ID: MTN185A942314C98D3/3020924809
+
+26-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+15:10:50 | PaymentRequest
+15:10:50 | Merchant
+15:10:50 | GlobalPayID : ********
+15:10:50 | Card
+15:10:50 | CardNumber : 445824******8454
+15:10:50 | CardExpiryMonth : 10
+15:10:50 | CardExpiryYear : 22
+15:10:50 | CardCvv : ***
+15:10:50 | Payment
+15:10:50 | Description : 151904014707
+15:10:50 | ReferenceID : 151904014707
+15:10:50 | OrderID : 151904014707
+15:10:50 | Amount : 0.18
+15:10:50 | mode : Visa
+
+26-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+15:11:24 | PaymentResponse
+15:11:24 | Date : 2/26/2018
+15:11:24 | referenceID : 151904014707
+15:11:24 | PaymentStatus : General Error
+15:11:24 | Reason : Object reference not set to an instance of an object.
+15:11:24 | ResponseCode : -900
+15:11:24 | Mode : Visa
+15:11:24 | AuthID : 
+15:11:24 | Pan : 445824******8454
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:11:29 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:11:29 | expiry : 2018-02-27
+15:11:29 | username : *********
+15:11:29 | password : *********
+15:11:29 | name : PaySwitch Company Ltd.
+15:11:29 | info : Pos Payswitch
+15:11:29 | amt : 1
+15:11:29 | mobile : 0242732017
+15:11:29 | billprompt : 2
+15:11:29 | thirdpartyID : 151923068066
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+15:11:29 | return
+15:11:29 | responseCode : 0000
+15:11:29 | responseMessage : Accepted for Delivery 0242732017
+15:11:29 | invoiceNo : 204179136
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:11:29 | username : *********
+15:11:29 | password : *********
+15:11:29 | invoiceNo : 204179136
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+15:11:41 | return
+15:11:41 | responseCode : 21VD
+15:11:41 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:11:56 | return
+15:11:56 | responseCode : 21VD
+15:11:56 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+15:12:06 | PaymentRequest
+15:12:06 | Merchant
+15:12:06 | GlobalPayID : ********
+15:12:06 | Card
+15:12:06 | CardNumber : 445824******8454
+15:12:06 | CardExpiryMonth : 10
+15:12:06 | CardExpiryYear : 22
+15:12:06 | CardCvv : ***
+15:12:06 | Payment
+15:12:06 | Description : 151960012958
+15:12:06 | ReferenceID : 151960012958
+15:12:06 | OrderID : 151960012958
+15:12:06 | Amount : 0.19
+15:12:06 | mode : Visa
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:12:07 | return
+15:12:07 | responseCode : 21VD
+15:12:07 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:12:17 | return
+15:12:17 | responseCode : 21VD
+15:12:17 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:12:27 | return
+15:12:27 | responseCode : 21VD
+15:12:27 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:12:37 | return
+15:12:37 | responseCode : 21VD
+15:12:37 | responseMessage : Bill not paid...
+
+26-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+15:12:38 | PaymentResponse
+15:12:38 | Date : 2/26/2018
+15:12:38 | referenceID : 151960012958
+15:12:38 | PaymentStatus : General Error
+15:12:38 | Reason : Object reference not set to an instance of an object.
+15:12:38 | ResponseCode : -900
+15:12:38 | Mode : Visa
+15:12:38 | AuthID : 
+15:12:38 | Pan : 445824******8454
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:12:47 | return
+15:12:47 | responseCode : 21VD
+15:12:47 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:12:57 | return
+15:12:57 | responseCode : 21VD
+15:12:57 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:13:07 | return
+15:13:07 | responseCode : 21VD
+15:13:07 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+15:14:11 | PaymentRequest
+15:14:11 | Merchant
+15:14:11 | GlobalPayID : ********
+15:14:11 | Card
+15:14:11 | CardNumber : 445824******4210
+15:14:11 | CardExpiryMonth : 10
+15:14:11 | CardExpiryYear : 22
+15:14:11 | CardCvv : ***
+15:14:11 | Payment
+15:14:11 | Description : 151906776081
+15:14:11 | ReferenceID : 151906776081
+15:14:11 | OrderID : 151906776081
+15:14:11 | Amount : 0.5
+15:14:11 | mode : Visa
+
+26-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+15:14:43 | PaymentResponse
+15:14:43 | Date : 2/26/2018
+15:14:43 | referenceID : 151906776081
+15:14:43 | PaymentStatus : General Error
+15:14:43 | Reason : Object reference not set to an instance of an object.
+15:14:43 | ResponseCode : -900
+15:14:43 | Mode : Visa
+15:14:43 | AuthID : 
+15:14:43 | Pan : 445824******4210
+
+26-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+15:15:26 | PaymentRequest
+15:15:26 | Merchant
+15:15:26 | GlobalPayID : ********
+15:15:26 | Card
+15:15:26 | CardNumber : 445824******4210
+15:15:26 | CardExpiryMonth : 10
+15:15:26 | CardExpiryYear : 22
+15:15:26 | CardCvv : ***
+15:15:26 | Payment
+15:15:26 | Description : 151901686900
+15:15:26 | ReferenceID : 151901686900
+15:15:26 | OrderID : 151901686900
+15:15:26 | Amount : 0.15
+15:15:26 | mode : Visa
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:15:32 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+15:15:32 | expiry : 2018-02-27
+15:15:32 | username : *********
+15:15:32 | password : *********
+15:15:32 | name : PaySwitch Company Ltd.
+15:15:32 | info : Pos Payswitch
+15:15:32 | amt : 1
+15:15:32 | mobile : 0242732017
+15:15:32 | billprompt : 2
+15:15:32 | thirdpartyID : 151906044731
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+15:15:32 | return
+15:15:32 | responseCode : 0000
+15:15:32 | responseMessage : Accepted for Delivery 0242732017
+15:15:32 | invoiceNo : 204179178
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:15:32 | username : *********
+15:15:32 | password : *********
+15:15:32 | invoiceNo : 204179178
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+15:15:44 | return
+15:15:44 | responseCode : 21VD
+15:15:44 | responseMessage : Bill not paid...
+
+26-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+15:15:58 | PaymentResponse
+15:15:58 | Date : 2/26/2018
+15:15:58 | referenceID : 151901686900
+15:15:58 | PaymentStatus : General Error
+15:15:58 | Reason : Object reference not set to an instance of an object.
+15:15:58 | ResponseCode : -900
+15:15:58 | Mode : Visa
+15:15:58 | AuthID : 
+15:15:58 | Pan : 445824******4210
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+15:15:59 | return
+15:15:59 | responseCode : 100
+15:15:59 | responseMessage : General Failure
+
+26-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+15:19:45 | PaymentRequest
+15:19:45 | Merchant
+15:19:45 | GlobalPayID : ********
+15:19:45 | Card
+15:19:45 | CardNumber : 445824******4210
+15:19:45 | CardExpiryMonth : 10
+15:19:45 | CardExpiryYear : 22
+15:19:45 | CardCvv : ***
+15:19:45 | Payment
+15:19:45 | Description : 151921015035
+15:19:45 | ReferenceID : 151921015035
+15:19:45 | OrderID : 151921015035
+15:19:45 | Amount : 0.17
+15:19:45 | mode : Visa
+
+26-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+15:20:17 | PaymentResponse
+15:20:17 | Date : 2/26/2018
+15:20:17 | referenceID : 151921015035
+15:20:17 | PaymentStatus : General Error
+15:20:17 | Reason : Object reference not set to an instance of an object.
+15:20:17 | ResponseCode : -900
+15:20:17 | Mode : Visa
+15:20:17 | AuthID : 
+15:20:17 | Pan : 445824******4210
+
+26-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+15:21:07 | PaymentRequest
+15:21:07 | Merchant
+15:21:07 | GlobalPayID : ********
+15:21:07 | Card
+15:21:07 | CardNumber : 445824******4210
+15:21:07 | CardExpiryMonth : 10
+15:21:07 | CardExpiryYear : 22
+15:21:07 | CardCvv : ***
+15:21:07 | Payment
+15:21:07 | Description : 151929400607
+15:21:07 | ReferenceID : 151929400607
+15:21:07 | OrderID : 151929400607
+15:21:07 | Amount : 0.13
+15:21:07 | mode : Visa
+
+26-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+15:21:40 | PaymentResponse
+15:21:40 | Date : 2/26/2018
+15:21:40 | referenceID : 151929400607
+15:21:40 | PaymentStatus : General Error
+15:21:40 | Reason : Object reference not set to an instance of an object.
+15:21:40 | ResponseCode : -900
+15:21:40 | Mode : Visa
+15:21:40 | AuthID : 
+15:21:40 | Pan : 445824******4210
+
+26-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+15:22:53 | PaymentRequest
+15:22:53 | Merchant
+15:22:53 | GlobalPayID : ********
+15:22:53 | Card
+15:22:53 | CardNumber : 445824******4210
+15:22:53 | CardExpiryMonth : 10
+15:22:53 | CardExpiryYear : 22
+15:22:53 | CardCvv : ***
+15:22:53 | Payment
+15:22:53 | Description : 151900048133
+15:22:53 | ReferenceID : 151900048133
+15:22:53 | OrderID : 151900048133
+15:22:53 | Amount : 0.15
+15:22:53 | mode : Visa
+
+26-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+15:23:02 | PaymentResponse
+15:23:02 | Date : 2/26/2018
+15:23:02 | referenceID : 151900048133
+15:23:02 | PaymentStatus : vbv required
+15:23:02 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20180226152758
+15:23:02 | ResponseCode : 
+15:23:02 | Mode : Visa
+15:23:02 | AuthID : 
+15:23:02 | Pan : 
+
+26-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+15:24:27 | PaymentRequest
+15:24:27 | Merchant
+15:24:27 | GlobalPayID : ********
+15:24:27 | Card
+15:24:27 | CardNumber : 445824******4210
+15:24:27 | CardExpiryMonth : 10
+15:24:27 | CardExpiryYear : 22
+15:24:27 | CardCvv : ***
+15:24:27 | Payment
+15:24:27 | Description : 151900413832
+15:24:27 | ReferenceID : 151900413832
+15:24:27 | OrderID : 151900413832
+15:24:27 | Amount : 0.31
+15:24:27 | mode : Visa
+
+26-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+15:24:37 | PaymentResponse
+15:24:37 | Date : 2/26/2018
+15:24:37 | referenceID : 151900413832
+15:24:37 | PaymentStatus : vbv required
+15:24:37 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20180226152930
+15:24:37 | ResponseCode : 
+15:24:37 | Mode : Visa
+15:24:37 | AuthID : 
+15:24:37 | Pan : 
+
+26-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+15:25:31 | status : 
+15:25:31 | refID : 151900413832
+15:25:31 | retCode : 250
+15:25:31 | dateTime : 2/26/2018 3:21:39 PM
+15:25:31 | productID : 
+15:25:31 | customerID : 
+15:25:31 | description : VBV_AUTHENTICATE_ERROR
+15:25:31 | AuthID : null
+15:25:31 | type : VisaAll
+15:25:31 | PAN : 445824******4210
+15:25:31 | amount : 0.31
+15:25:31 | currency : 936
+15:25:31 | TID : 
+15:25:31 | refundDate : 
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+16:57:32 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:57:32 | expiry : 2018-02-27
+16:57:32 | username : *********
+16:57:32 | password : *********
+16:57:32 | name : PaySwitch Company Ltd.
+16:57:32 | info : Paystack
+16:57:32 | amt : 1
+16:57:32 | mobile : 0553241149
+16:57:32 | billprompt : 2
+16:57:32 | thirdpartyID : 151901707724
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+16:57:32 | return
+16:57:32 | responseCode : 0000
+16:57:32 | responseMessage : Accepted for Delivery 0553241149
+16:57:32 | invoiceNo : 204180304
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+16:57:32 | username : *********
+16:57:32 | password : *********
+16:57:32 | invoiceNo : 204180304
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+16:57:44 | return
+16:57:44 | responseCode : 21VD
+16:57:44 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+16:57:59 | return
+16:57:59 | responseCode : 21VD
+16:57:59 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+16:58:02 | username : *********
+16:58:02 | password : *********
+16:58:02 | invoiceNo : 204180304
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+16:58:09 | return
+16:58:09 | responseCode : 21VD
+16:58:09 | responseMessage : Bill not paid...
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+16:58:14 | return
+16:58:14 | responseCode : 21VD
+16:58:14 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+16:58:16 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:58:16 | expiry : 2018-02-27
+16:58:16 | username : *********
+16:58:16 | password : *********
+16:58:16 | name : PaySwitch Company Ltd.
+16:58:16 | info : Paystack
+16:58:16 | amt : 1
+16:58:16 | mobile : 0553241149
+16:58:16 | billprompt : 2
+16:58:16 | thirdpartyID : 151956009003
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+16:58:16 | return
+16:58:16 | responseCode : 0000
+16:58:16 | responseMessage : Accepted for Delivery 0553241149
+16:58:16 | invoiceNo : 204180315
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+16:58:16 | username : *********
+16:58:16 | password : *********
+16:58:16 | invoiceNo : 204180315
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+16:58:19 | return
+16:58:19 | responseCode : 21VD
+16:58:19 | responseMessage : Bill not paid...
+
+26-02-2018 | MTN TO TTLR RESPONSE FOREIGN
+16:58:28 | return
+16:58:28 | responseCode : 21VD
+16:58:28 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+16:58:29 | return
+16:58:29 | responseCode : 21VD
+16:58:29 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+16:58:39 | return
+16:58:39 | responseCode : 21VD
+16:58:39 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+16:58:43 | return
+16:58:43 | responseCode : 0000
+16:58:43 | responseMessage : Bill found. Tracking ID: MTN185A943CBCB5CDC/3021771239
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+16:58:49 | return
+16:58:49 | responseCode : 21VD
+16:58:49 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+16:59:00 | return
+16:59:00 | responseCode : 21VD
+16:59:00 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO MTN REQUEST FOREIGN
+16:59:10 | return
+16:59:10 | responseCode : 21VD
+16:59:10 | responseMessage : Bill not paid...
+
+26-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+17:01:26 | PaymentRequest
+17:01:26 | Merchant
+17:01:26 | GlobalPayID : ********
+17:01:26 | Card
+17:01:26 | CardNumber : 445824******8454
+17:01:26 | CardExpiryMonth : 10
+17:01:26 | CardExpiryYear : 22
+17:01:26 | CardCvv : ***
+17:01:26 | Payment
+17:01:26 | Description : 151988037990
+17:01:26 | ReferenceID : 151988037990
+17:01:26 | OrderID : 151988037990
+17:01:26 | Amount : 0.16
+17:01:26 | mode : Visa
+
+26-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+17:01:35 | PaymentResponse
+17:01:35 | Date : 2/26/2018
+17:01:35 | referenceID : 151988037990
+17:01:35 | PaymentStatus : vbv required
+17:01:35 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20180226170630
+17:01:35 | ResponseCode : 
+17:01:35 | Mode : Visa
+17:01:35 | AuthID : 
+17:01:35 | Pan : 
+
+26-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+17:54:39 | PaymentRequest
+17:54:39 | Merchant
+17:54:39 | GlobalPayID : ********
+17:54:39 | Card
+17:54:39 | CardNumber : 445824******4210
+17:54:39 | CardExpiryMonth : 10
+17:54:39 | CardExpiryYear : 22
+17:54:39 | CardCvv : ***
+17:54:39 | Payment
+17:54:39 | Description : 151974906040
+17:54:39 | ReferenceID : 151974906040
+17:54:39 | OrderID : 151974906040
+17:54:39 | Amount : 0.22
+17:54:39 | mode : Visa
+
+26-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+17:54:47 | PaymentResponse
+17:54:47 | Date : 2/26/2018
+17:54:47 | referenceID : 151974906040
+17:54:47 | PaymentStatus : vbv required
+17:54:47 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20180226175948
+17:54:47 | ResponseCode : 
+17:54:47 | Mode : Visa
+17:54:47 | AuthID : 
+17:54:47 | Pan : 
+
+26-02-2018 | TTLR TO ZENITH REQUEST FOREIGN
+19:09:44 | PaymentRequest
+19:09:44 | Merchant
+19:09:44 | GlobalPayID : ********
+19:09:44 | Card
+19:09:44 | CardNumber : 445824******4210
+19:09:44 | CardExpiryMonth : 10
+19:09:44 | CardExpiryYear : 22
+19:09:44 | CardCvv : ***
+19:09:44 | Payment
+19:09:44 | Description : 151904713007
+19:09:44 | ReferenceID : 151904713007
+19:09:44 | OrderID : 151904713007
+19:09:44 | Amount : 0.5
+19:09:44 | mode : Visa
+
+26-02-2018 | ZENITH TO TTLR RESPONSE FOREIGN
+19:09:56 | PaymentResponse
+19:09:56 | Date : 2/26/2018
+19:09:56 | referenceID : 151904713007
+19:09:56 | PaymentStatus : vbv required
+19:09:56 | Reason : https://www.zenithbank.com.gh/api.globalpay/Service/Processor?tid=20180226191453
+19:09:56 | ResponseCode : 
+19:09:56 | Mode : Visa
+19:09:56 | AuthID : 
+19:09:56 | Pan : 
+

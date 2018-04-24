@@ -1,0 +1,136 @@
+28-01-2018 | TTLR TO MTN REQUEST FOREIGN
+18:41:19 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:41:19 | expiry : 2018-01-29
+18:41:19 | username : *********
+18:41:19 | password : *********
+18:41:19 | name : PaySwitch Company Ltd.
+18:41:19 | info : Eze Moni
+18:41:19 | amt : 100
+18:41:19 | mobile : 0246119490
+18:41:19 | billprompt : 2
+18:41:19 | thirdpartyID : 151784020074
+
+28-01-2018 | MTN TO TTLR RESPONSE FOREIGN
+18:41:20 | return
+18:41:20 | responseCode : 0000
+18:41:20 | responseMessage : Accepted for Delivery 0246119490
+18:41:20 | invoiceNo : 203792298
+
+28-01-2018 | TTLR TO MTN REQUEST FOREIGN
+18:41:20 | username : *********
+18:41:20 | password : *********
+18:41:20 | invoiceNo : 203792298
+
+28-01-2018 | MTN TO TTLR RESPONSE FOREIGN
+18:41:32 | return
+18:41:32 | responseCode : 21VD
+18:41:32 | responseMessage : Bill not paid...
+
+28-01-2018 | TTLR TO MTN REQUEST FOREIGN
+18:41:47 | return
+18:41:47 | responseCode : 21VD
+18:41:47 | responseMessage : Bill not paid...
+
+28-01-2018 | TTLR TO MTN REQUEST FOREIGN
+18:41:57 | return
+18:41:57 | responseCode : 21VD
+18:41:57 | responseMessage : Bill not paid...
+
+28-01-2018 | TTLR TO MTN REQUEST FOREIGN
+18:42:07 | return
+18:42:07 | responseCode : 21VD
+18:42:07 | responseMessage : Bill not paid...
+
+28-01-2018 | TTLR TO MTN REQUEST FOREIGN
+18:42:17 | return
+18:42:17 | responseCode : 21VD
+18:42:17 | responseMessage : Bill not paid...
+
+28-01-2018 | TTLR TO MTN REQUEST FOREIGN
+18:42:27 | return
+18:42:27 | responseCode : 21VD
+18:42:27 | responseMessage : Bill not paid...
+
+28-01-2018 | TTLR TO MTN REQUEST FOREIGN
+18:42:37 | return
+18:42:37 | responseCode : 21VD
+18:42:37 | responseMessage : Bill not paid...
+
+28-01-2018 | TTLR TO MTN REQUEST FOREIGN
+18:42:47 | return
+18:42:47 | responseCode : 21VD
+18:42:47 | responseMessage : Bill not paid...
+
+28-01-2018 | TTLR TO MTN REQUEST FOREIGN
+18:42:57 | return
+18:42:57 | responseCode : 21VD
+18:42:57 | responseMessage : Bill not paid...
+
+28-01-2018 | TTLR TO MTN REQUEST FOREIGN
+18:46:00 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+18:46:00 | expiry : 2018-01-29
+18:46:00 | username : *********
+18:46:00 | password : *********
+18:46:00 | name : PaySwitch Company Ltd.
+18:46:00 | info : Eze Moni
+18:46:00 | amt : 100
+18:46:00 | mobile : 0559899451
+18:46:00 | billprompt : 2
+18:46:00 | thirdpartyID : 151733076704
+
+28-01-2018 | MTN TO TTLR RESPONSE FOREIGN
+18:46:00 | return
+18:46:00 | responseCode : 0000
+18:46:00 | responseMessage : Accepted for Delivery 0559899451
+18:46:00 | invoiceNo : 203792337
+
+28-01-2018 | TTLR TO MTN REQUEST FOREIGN
+18:46:00 | username : *********
+18:46:00 | password : *********
+18:46:00 | invoiceNo : 203792337
+
+28-01-2018 | MTN TO TTLR RESPONSE FOREIGN
+18:46:12 | return
+18:46:12 | responseCode : 21VD
+18:46:12 | responseMessage : Bill not paid...
+
+28-01-2018 | TTLR TO MTN REQUEST FOREIGN
+18:46:27 | return
+18:46:27 | responseCode : 21VD
+18:46:27 | responseMessage : Bill not paid...
+
+28-01-2018 | TTLR TO MTN REQUEST FOREIGN
+18:46:37 | return
+18:46:37 | responseCode : 21VD
+18:46:37 | responseMessage : Bill not paid...
+
+28-01-2018 | TTLR TO MTN REQUEST FOREIGN
+18:46:47 | return
+18:46:47 | responseCode : 21VD
+18:46:47 | responseMessage : Bill not paid...
+
+28-01-2018 | TTLR TO MTN REQUEST FOREIGN
+18:46:57 | return
+18:46:57 | responseCode : 21VD
+18:46:57 | responseMessage : Bill not paid...
+
+28-01-2018 | TTLR TO MTN REQUEST FOREIGN
+18:47:08 | return
+18:47:08 | responseCode : 21VD
+18:47:08 | responseMessage : Bill not paid...
+
+28-01-2018 | TTLR TO MTN REQUEST FOREIGN
+18:47:18 | return
+18:47:18 | responseCode : 21VD
+18:47:18 | responseMessage : Bill not paid...
+
+28-01-2018 | TTLR TO MTN REQUEST FOREIGN
+18:47:28 | return
+18:47:28 | responseCode : 21VD
+18:47:28 | responseMessage : Bill not paid...
+
+28-01-2018 | TTLR TO MTN REQUEST FOREIGN
+18:47:38 | return
+18:47:38 | responseCode : 21VD
+18:47:38 | responseMessage : Bill not paid...
+

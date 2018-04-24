@@ -1,0 +1,68 @@
+27-01-2018 | TTLR TO MTN REQUEST FOREIGN
+07:04:01 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+07:04:01 | expiry : 2018-01-28
+07:04:01 | username : *********
+07:04:01 | password : *********
+07:04:01 | name : PaySwitch Company Ltd.
+07:04:01 | info : Eze Moni
+07:04:01 | amt : 200
+07:04:01 | mobile : 0244276366
+07:04:01 | billprompt : 2
+07:04:01 | thirdpartyID : 151701097040
+
+27-01-2018 | MTN TO TTLR RESPONSE FOREIGN
+07:04:01 | return
+07:04:01 | responseCode : 0000
+07:04:01 | responseMessage : Accepted for Delivery 0244276366
+07:04:01 | invoiceNo : 203777163
+
+27-01-2018 | TTLR TO MTN REQUEST FOREIGN
+07:04:01 | username : *********
+07:04:01 | password : *********
+07:04:01 | invoiceNo : 203777163
+
+27-01-2018 | MTN TO TTLR RESPONSE FOREIGN
+07:04:13 | return
+07:04:13 | responseCode : 21VD
+07:04:13 | responseMessage : Bill not paid...
+
+27-01-2018 | TTLR TO MTN REQUEST FOREIGN
+07:04:30 | return
+07:04:30 | responseCode : 21VD
+07:04:30 | responseMessage : Bill not paid...
+
+27-01-2018 | TTLR TO MTN REQUEST FOREIGN
+07:04:40 | return
+07:04:40 | responseCode : 21VD
+07:04:40 | responseMessage : Bill not paid...
+
+27-01-2018 | TTLR TO MTN REQUEST FOREIGN
+07:04:50 | return
+07:04:50 | responseCode : 21VD
+07:04:50 | responseMessage : Bill not paid...
+
+27-01-2018 | TTLR TO MTN REQUEST FOREIGN
+07:05:00 | return
+07:05:00 | responseCode : 21VD
+07:05:00 | responseMessage : Bill not paid...
+
+27-01-2018 | TTLR TO MTN REQUEST FOREIGN
+07:05:10 | return
+07:05:10 | responseCode : 21VD
+07:05:10 | responseMessage : Bill not paid...
+
+27-01-2018 | TTLR TO MTN REQUEST FOREIGN
+07:05:20 | return
+07:05:20 | responseCode : 21VD
+07:05:20 | responseMessage : Bill not paid...
+
+27-01-2018 | TTLR TO MTN REQUEST FOREIGN
+07:05:30 | return
+07:05:30 | responseCode : 21VD
+07:05:30 | responseMessage : Bill not paid...
+
+27-01-2018 | TTLR TO MTN REQUEST FOREIGN
+07:05:40 | return
+07:05:40 | responseCode : 21VD
+07:05:40 | responseMessage : Bill not paid...
+

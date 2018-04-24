@@ -1,0 +1,25 @@
+26-12-2017 | TTLR TO ZENITH REQUEST FOREIGN
+22:40:43 | PaymentRequest
+22:40:43 | Merchant
+22:40:43 | GlobalPayID : ********
+22:40:43 | Card
+22:40:43 | CardNumber : 463485******8027
+22:40:43 | CardExpiryMonth : 03
+22:40:43 | CardExpiryYear : 22
+22:40:43 | CardCvv : ***
+22:40:43 | Payment
+22:40:43 | Description : 151450903038
+22:40:43 | ReferenceID : 151450903038
+22:40:43 | OrderID : 151450903038
+22:40:43 | Amount : 1
+22:40:43 | mode : Visa
+
+26-12-2017 | ZENITH TO TTLR RESPONSE FOREIGN
+22:40:47 | PaymentResponse
+22:40:47 | Date : 12/26/2017
+22:40:47 | referenceID : 151450903038
+22:40:47 | PaymentStatus : APPROVED
+22:40:47 | Reason : transaction processed successfully
+22:40:47 | ResponseCode : 00
+22:40:47 | Mode : Visa
+

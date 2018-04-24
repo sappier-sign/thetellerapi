@@ -1,0 +1,46 @@
+10-03-2018 | TTLR TO MTN REQUEST FOREIGN
+16:48:16 | mesg : Request to pay for bill is being processed. Your invoice number is {inv}.
+16:48:16 | expiry : 2018-03-11
+16:48:16 | username : *********
+16:48:16 | password : *********
+16:48:16 | name : PaySwitch Company Ltd.
+16:48:16 | info : TheTeller App
+16:48:16 | amt : 30
+16:48:16 | mobile : 0244331750
+16:48:16 | billprompt : 2
+16:48:16 | thirdpartyID : 152075900420
+
+10-03-2018 | MTN TO TTLR RESPONSE FOREIGN
+16:48:16 | return
+16:48:16 | responseCode : 0000
+16:48:16 | responseMessage : Accepted for Delivery 0244331750
+16:48:16 | invoiceNo : 204293607
+
+10-03-2018 | TTLR TO MTN REQUEST FOREIGN
+16:48:16 | username : *********
+16:48:16 | password : *********
+16:48:16 | invoiceNo : 204293607
+
+10-03-2018 | MTN TO TTLR RESPONSE FOREIGN
+16:48:28 | return
+16:48:28 | responseCode : 21VD
+16:48:28 | responseMessage : Bill not paid...
+
+10-03-2018 | TTLR TO MTN REQUEST FOREIGN
+16:48:44 | return
+16:48:44 | responseCode : 0000
+16:48:44 | responseMessage : Bill found. Tracking ID: MTN185AA40C62BB4FF/3092934458
+
+10-03-2018 | TTLR TO MTN REQUEST FOREIGN
+16:48:46 | vendorID : ***
+16:48:46 | subscriberID : 0243639964
+16:48:46 | thirdpartyTransactionID : 152075900420
+16:48:46 | amount : 30
+16:48:46 | apiKey : ***********************
+
+10-03-2018 | MTN TO TLLR RESPONSE FOREIGN
+16:48:49 | return
+16:48:49 | responseCode : 01
+16:48:49 | responseMessage : Successfully processed transaction.
+16:48:49 | thirdpartyTransactionId : 152075900420
+
