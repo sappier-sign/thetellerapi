@@ -68,6 +68,8 @@ class DesktopController extends Controller
             return response([
                 'status' => 'success',
                 'code' => 1000,
+                'merchant_id' => $job->getMerchant()->merchant_id,
+                'merchant_name' => $job->getMerchant()->company,
                 'set_pin' => $job->isSetPin(),
                 'token' => $this->jwt($job->getMerchant()->merchant_id)
             ], 200, ['Content-Type: application/json']);
