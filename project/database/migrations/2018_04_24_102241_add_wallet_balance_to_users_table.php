@@ -14,7 +14,7 @@ class AddWalletBalanceToUsersTable extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table) {
-            //
+            $table->string('wallet_balance')->after('wallet_id')->nullable();
         });
     }
 
@@ -26,7 +26,7 @@ class AddWalletBalanceToUsersTable extends Migration
     public function down()
     {
         Schema::table('users', function (Blueprint $table) {
-            //
+            $table->dropColumn('wallet_balance');
         });
     }
 }
