@@ -105,6 +105,7 @@ $app->group(['prefix' => 'desktop', 'middleware' => 'merchantbearer'], function 
     $app->post('verify.pin', 'DesktopController@verifyPin');
     $app->post('set.pin', 'DesktopController@setPin');
     $app->post('change.pin', 'DesktopController@changePin');
+    $app->post('change.password', 'DesktopController@changePassword');
     $app->get('transactions', 'DesktopController@getTransactions');
     $app->post('payment.do', 'DesktopController@payemnt');
     $app->post('transfer.do', 'DesktopController@transfer');
