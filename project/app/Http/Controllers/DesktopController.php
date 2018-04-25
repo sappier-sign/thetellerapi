@@ -189,6 +189,14 @@ class DesktopController extends Controller
         }
     }
 
+    public function changePin()
+    {
+        $this->validate($this->request, [
+            'old_pin' => 'required|digits:6',
+            'new_pin' => 'required|digits:6'
+        ]);
+    }
+
     public function transfer()
     {
         return 'transfer';
