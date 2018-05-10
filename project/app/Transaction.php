@@ -83,7 +83,7 @@ class Transaction extends Model
         $trans->fld_012 = date('Y-m-d H:i:s');
         $trans->fld_014 = $transaction['fld_014'];
         $trans->fld_037 = $transaction['fld_037'];
-        $trans->fld_038 = 'pending';
+        $trans->fld_038 = self::getSponsorCode($transaction['fld_057']).'101'; //'pending';
         $trans->fld_041 = $transaction['fld_041'];
         $trans->fld_042 = $transaction['fld_042'];
         $trans->fld_043 = Merchant::where('merchant_id', $transaction['fld_042'])->first()->company;
@@ -95,7 +95,7 @@ class Transaction extends Model
         # Set Reserved For Future Use Fields
         $trans->rfu_001 = $transaction['rfu_001'];
         $trans->rfu_002 = $transaction['rfu_002'];
-        $trans->rfu_003 = $transaction['rfu_003'];
+        $trans->rfu_003 = $transaction['rfu_003'] ?? 'pending';
         $trans->rfu_004 = $transaction['rfu_004'];
         $trans->rfu_005 = $transaction['rfu_005'];
         return $trans->save();
@@ -233,7 +233,8 @@ class Transaction extends Model
         if ($action === 'transfer') {
 
             $this_transaction = Transaction::where('fld_037', $transaction['fld_037'])->where('fld_042', $transaction['fld_042'])->first();
-            $this_transaction->fld_038 = 'pending';
+            $this_transaction->fld_038 = self::getSponsorCode($this_transaction->fld_117).'101';
+            $this_transaction->rfu_003 = 'pending';
             $this_transaction->save();
 
             if ($transaction['fld_117'] === 'MTN') {
@@ -337,30 +338,13 @@ class Transaction extends Model
 
         if (!is_null($transaction)) {
 
-            $sponsor = null;
-
-            if ($transaction->fld_057 === 'TLA') {
-                $sponsor = 101;
-            } elseif ($transaction->fld_057 === 'VIS') {
-                $sponsor = 102;
-            } elseif ($transaction->fld_057 === 'MAS') {
-                $sponsor = 103;
-            } elseif ($transaction->fld_057 === 'GHL') {
-                $sponsor = 104;
-            } elseif ($transaction->fld_057 === 'MTN') {
-                $sponsor = 201;
-            } elseif ($transaction->fld_057 === 'TGO') {
-                $sponsor = 202;
-            } elseif ($transaction->fld_057 === 'ATL') {
-                $sponsor = 203;
-            } elseif ($transaction->fld_057 === 'VDF') {
-                $sponsor = 204;
-            }
+            $sponsor = self::getSponsorCode($transaction->fld_057);
 
             switch ($response[0]) {
                 case 100:
-                    $transaction->fld_038 = $sponsor . $response[0];
+                    $transaction->fld_038 = $sponsor . $response[1];
                     $transaction->fld_039 = '000';
+                    $transaction->rfu_003 = 'Approved: Transaction successful!';
                     $transaction->save();
                     return [
                         'status' => 'approved',
@@ -370,8 +354,9 @@ class Transaction extends Model
                     break;
 
                 case 101:
-                    $transaction->fld_038 = $sponsor . $response[0];
+                    $transaction->fld_038 = $sponsor . $response[1];
                     $transaction->fld_039 = '100';
+                    $transaction->rfu_003 = 'Declined: Insufficient funds in wallet';
                     $transaction->save();
                     return [
                         'status' => 'declined',
@@ -381,8 +366,9 @@ class Transaction extends Model
                     break;
 
                 case 102:
-                    $transaction->fld_038 = $sponsor . $response[0];
+                    $transaction->fld_038 = $sponsor . $response[1];
                     $transaction->fld_039 = '100';
+                    $transaction->rfu_003 = 'Declined: Number not registered for mobile money!';
                     $transaction->save();
                     return [
                         'status' => 'declined',
@@ -392,8 +378,9 @@ class Transaction extends Model
                     break;
 
                 case 103:
-                    $transaction->fld_038 = $sponsor . $response[0];
+                    $transaction->fld_038 = $sponsor . $response[1];
                     $transaction->fld_039 = '100';
+                    $transaction->rfu_003 = 'Declined: Wrong PIN or transaction timed out!';
                     $transaction->save();
                     return [
                         'status' => 'declined',
@@ -403,8 +390,9 @@ class Transaction extends Model
                     break;
 
                 case 104:
-                    $transaction->fld_038 = $sponsor . $response[0];
+                    $transaction->fld_038 = $sponsor . $response[1];
                     $transaction->fld_039 = '100';
+                    $transaction->rfu_003 = 'Declined: Transaction declined or terminated!';
                     $transaction->save();
                     return [
                         'status' => 'declined',
@@ -414,8 +402,9 @@ class Transaction extends Model
                     break;
 
                 case 105:
-                    $transaction->fld_038 = $sponsor . $response[0];
+                    $transaction->fld_038 = $sponsor . $response[1];
                     $transaction->fld_039 = '100';
+                    $transaction->rfu_003 = 'Declined: Invalid amount or general failure. Try changing transaction id!';
                     $transaction->save();
                     return [
                         'status' => 'declined',
@@ -425,8 +414,9 @@ class Transaction extends Model
                     break;
 
                 case 106:
-                    $transaction->fld_038 = $sponsor . $response[0];
+                    $transaction->fld_038 = $sponsor . $response[1];
                     $transaction->fld_039 = '100';
+                    $transaction->rfu_003 = 'Declined: Duplicate transaction ID!';
                     $transaction->save();
                     return [
                         'status' => 'declined',
@@ -436,8 +426,9 @@ class Transaction extends Model
                     break;
 
                 case 111:
-                    $transaction->fld_038 = $sponsor . $response[0];
+                    $transaction->fld_038 = $sponsor . $response[1];
                     $transaction->fld_039 = '101';
+                    $transaction->rfu_003 = 'Success: Pending authorization';
                     $transaction->save();
                     return [
                         'status' => 'success',
@@ -447,8 +438,9 @@ class Transaction extends Model
                     break;
 
                 case 96:
-                    $transaction->fld_038 = $sponsor . $response[0];
+                    $transaction->fld_038 = $sponsor . $response[1];
                     $transaction->fld_039 = '100';
+                    $transaction->rfu_003 = $response[1];
                     $transaction->save();
                     return [
                         'status' => 'declined',
@@ -458,8 +450,9 @@ class Transaction extends Model
                     break;
 
                 case '05':
-                    $transaction->fld_038 = $sponsor . $response[0];
+                    $transaction->fld_038 = $sponsor . $response[1];
                     $transaction->fld_039 = '100';
+                    $transaction->rfu_003 = $response[1];
                     $transaction->save();
                     return [
                         'status' => 'declined',
@@ -469,8 +462,9 @@ class Transaction extends Model
                     break;
 
                 case 2:
-                    $transaction->fld_038 = $sponsor . $response[0];
+                    $transaction->fld_038 = $sponsor . $response[1];
                     $transaction->fld_039 = '100';
+                    $transaction->rfu_003 = $response[1];
                     $transaction->save();
                     return [
                         'status' => 'declined',
@@ -480,8 +474,9 @@ class Transaction extends Model
                     break;
 
                 case 107:
-                    $transaction->fld_038 = $sponsor . $response[0];
+                    $transaction->fld_038 = $sponsor . $response[1];
                     $transaction->fld_039 = '100';
+                    $transaction->rfu_003 = 'Error: Network error please try again later!';
                     $transaction->save();
                     return [
                         'status' => 'network down',
@@ -491,8 +486,9 @@ class Transaction extends Model
                     break;
 
                 case 110:
-                    $transaction->fld_038 = $sponsor . $response[0];
+                    $transaction->fld_038 = $sponsor . $response[1];
                     $transaction->fld_039 = '100';
+                    $transaction->rfu_003 = 'Error: USSD is busy, please try again later!';
                     $transaction->save();
                     return [
                         'status' => 'network busy',
@@ -501,8 +497,9 @@ class Transaction extends Model
                     ];
                     break;
                 case 114:
-                    $transaction->fld_038 = $sponsor . $response[0];
+                    $transaction->fld_038 = $sponsor . $response[1];
                     $transaction->fld_039 = '100';
+                    $transaction->rfu_003 = 'Declined: Invalid Voucher code';
                     $transaction->save();
                     return [
                         'status' => 'error',
@@ -512,8 +509,9 @@ class Transaction extends Model
                     break;
 
                 case '-900': //Cards for deactivated accounts
-                    $transaction->fld_038 = $sponsor . $response[0];
+                    $transaction->fld_038 = $sponsor . $response[1];
                     $transaction->fld_039 = '100';
+                    $transaction->rfu_003 = 'System error: The requested name is valid, but no data of the requested type was found';
                     $transaction->save();
                     return [
                         'status' => 'declined',
@@ -523,8 +521,9 @@ class Transaction extends Model
                     break;
 
                 case 'vbv required':
-                    $transaction->fld_038 = $sponsor . $response[0];
+                    $transaction->fld_038 = $sponsor . $response[1];
                     $transaction->fld_039 = '101';
+                    $transaction->rfu_003 = 'Success: vbv required';
                     $transaction->save();
                     return [
                         'status' => 'vbv required',
@@ -538,12 +537,14 @@ class Transaction extends Model
                         if (isset($response['status'])) {
                             $transaction->fld_038 = $response['description'];
                             $transaction->fld_039 = 'vbv required';
+                            $transaction->rfu_003 = 'Success: vbv required';
                             $transaction->save();
                         }
                         return $response;
                     } else {
-                        $transaction->fld_038 = $sponsor . $response[0];
+                        $transaction->fld_038 = $sponsor . $response[1];
                         $transaction->fld_039 = '100';
+                        $transaction->rfu_003 = 'Error: Error occurred please try again later!';
                         $transaction->save();
                         return [
                             'status' => 'declined',
@@ -589,7 +590,23 @@ class Transaction extends Model
     {
         switch ($code) {
             case 100:
-                return [
+                $message = [
+                    'status' => 'approved',
+                    'code' => '000',
+                    'reason' => 'Transaction processed successfully!'
+                ];
+                break;
+
+            case '0':
+                $message = [
+                    'status' => 'approved',
+                    'code' => '000',
+                    'reason' => 'Transaction processed successfully!'
+                ];
+                break;
+
+            case '00':
+                $message = [
                     'status' => 'approved',
                     'code' => '000',
                     'reason' => 'Transaction processed successfully!'
@@ -597,7 +614,7 @@ class Transaction extends Model
                 break;
 
             case 101:
-                return [
+                $message = [
                     'status' => 'declined',
                     'code' => 101,
                     'reason' => 'Insufficient funds in wallet'
@@ -605,7 +622,7 @@ class Transaction extends Model
                 break;
 
             case 102:
-                return [
+                $message = [
                     'status' => 'declined',
                     'code' => 102,
                     'reason' => 'Number not registered for mobile money!'
@@ -613,7 +630,7 @@ class Transaction extends Model
                 break;
 
             case 103:
-                return [
+                $message = [
                     'status' => 'declined',
                     'code' => 103,
                     'reason' => 'Wrong PIN or transaction timed out!'
@@ -621,7 +638,15 @@ class Transaction extends Model
                 break;
 
             case 111:
-                return [
+                $message = [
+                    'status' => 'success',
+                    'code' => 111,
+                    'reason' => 'Payment request sent successfully'
+                ];
+                break;
+
+            case '1000':
+                $message = [
                     'status' => 'success',
                     'code' => 111,
                     'reason' => 'Payment request sent successfully'
@@ -629,7 +654,7 @@ class Transaction extends Model
                 break;
 
             case 104:
-                return [
+                $message = [
                     'status' => 'declined',
                     'code' => 104,
                     'reason' => 'Transaction declined or terminated!'
@@ -637,7 +662,7 @@ class Transaction extends Model
                 break;
 
             case 105:
-                return [
+                $message = [
                     'status' => 'declined',
                     'code' => 105,
                     'reason' => 'Invalid amount or general failure. Try changing transaction id!',
@@ -645,7 +670,7 @@ class Transaction extends Model
                 break;
 
             case 106:
-                return [
+                $message = [
                     'status' => 'declined',
                     'code' => 106,
                     'reason' => 'Duplicate transaction ID!'
@@ -653,7 +678,7 @@ class Transaction extends Model
                 break;
 
             case 107:
-                return [
+                $message = [
                     'status' => 'network down',
                     'code' => 107,
                     'reason' => 'Network error please try again later!'
@@ -661,7 +686,7 @@ class Transaction extends Model
                 break;
 
             case '-900':
-                return [
+                $message = [
                     'status' => 'declined',
                     'code' => 901,
                     'reason' => 'System error: The requested name is valid, but no data of the requested type was found'
@@ -669,47 +694,47 @@ class Transaction extends Model
                 break;
 
             case 'vbv required':
-                return [
+                $message = [
                     'status' => 'vbv required',
                     'code' => 200,
-                    'reason' => 'Card has been temporarily declined. Please try with a different card!'
+                    'reason' => 'Verified By Visa password required'
                 ];
                 break;
 
             case '62':
-                return [
+                $message = [
                     'status' => 'Declined',
-                    'code' => 200,
+                    'code' => 201,
                     'reason' => 'Restricted Card'
                 ];
                 break;
 
             case '2':
-                return [
+                $message = [
                     'status' => 'Declined',
-                    'code' => 200,
+                    'code' => 202,
                     'reason' => 'Bank Declined Transaction'
                 ];
                 break;
 
             case '05':
-                return [
+                $message = [
                     'status' => 'Declined',
-                    'code' => 200,
+                    'code' => 203,
                     'reason' => 'Do not honor'
                 ];
                 break;
 
             case '54':
-                return [
+                $message = [
                     'status' => 'Declined',
-                    'code' => 200,
-                    'reason' => 'Card expired'
+                    'code' => 204,
+                    'reason' => 'Card Expired'
                 ];
                 break;
 
             case '010':
-                return [
+                $message = [
                     'status' => 'Declined',
                     'code' => '010',
                     'reason' => 'Suspicious transaction'
@@ -717,7 +742,7 @@ class Transaction extends Model
                 break;
 
             case '020':
-                return [
+                $message = [
                     'status' => 'Declined',
                     'code' => '020',
                     'reason' => 'Allowed transaction amount exceeded!'
@@ -725,7 +750,7 @@ class Transaction extends Model
                 break;
 
             case '030':
-                return [
+                $message = [
                     'status' => 'Declined',
                     'code' => '030',
                     'reason' => 'Transaction amount below GHS 0.10 are not allowed.'
@@ -733,21 +758,33 @@ class Transaction extends Model
                 break;
 
             case 114:
-                return [
+                $message = [
                     'status' => 'error',
                     'code' => 114,
                     'reason' => 'Invalid Voucher code'
                 ];
                 break;
 
+            case '250':
+                $message = [
+                    'status' => 'Decline',
+                    'code' => 441,
+                    'reason' => 'VBV Authentication Error'
+                ];
+                break;
+
             default:
-                return [
+                $message = [
                     'status' => 'declined',
                     'code' => 109,
                     'reason' => 'Error occurred please try again later!'
                 ];
                 break;
+
         }
+
+        $message['auth_code'] = $code;
+        return $message;
     }
 
     public static function getMerchantTransactionUsingTransactionId($merchant_id, $transaction_id)
@@ -882,5 +919,29 @@ class Transaction extends Model
             'code' => 999,
             'reason' => 'Transaction not found'
         ];
+    }
+
+    public static function getSponsorCode($sponsor)
+    {
+        if ($sponsor === 'TLA') {
+            $code = 101;
+        } elseif ($sponsor === 'VIS') {
+            $code = 102;
+        } elseif ($sponsor === 'MAS') {
+            $code = 103;
+        } elseif ($sponsor === 'GHL') {
+            $code = 104;
+        } elseif ($sponsor === 'MTN') {
+            $code = 201;
+        } elseif ($sponsor === 'TGO') {
+            $code = 202;
+        } elseif ($sponsor === 'ATL') {
+            $code = 203;
+        } elseif ($sponsor === 'VDF') {
+            $code = 204;
+        } else {
+            $code = 999;
+        }
+        return $code;
     }
 }

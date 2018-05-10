@@ -182,8 +182,20 @@ class TransactionController extends Controller
 
         } elseif (in_array($request->input('processing_code'), $deposit_transactions)) { // If transaction type is funds transfer
 
-			if (!in_array($request->input('merchant_id'), ['TTM-00000002', 'TTM-00000001', 'TTM-00000035'])) { // if the merchant is
+			if (!in_array($request->input('merchant_id'), ['TTM-00000002', 'TTM-00000001'])) { // if the merchant is
 				// not theTeller then do not process the transfer
+
+                $m = Merchant::where('merchant_id', $request->input('merchant_id'))->first();
+
+                if (substr($request->input('processing_code'), 0, 2) === '40') {
+                    $amount = Functions::toFloat($request->input('amount'));
+                    $balance = Functions::toFloat($m->wallet_balance);
+
+                    if ($balance < $amount) {
+                        return response(['status' => 'error', 'code' => 999, 'description' => 'Insufficient funds in merchant float'], 200);
+                    }
+                }
+
 				return array_merge($request->all(), ['status' => 'failed', 'code' => 900, 'reason' => 'transaction could not be completed']);
 			}
 
@@ -249,6 +261,11 @@ class TransactionController extends Controller
                     if (isset($transfer['status']) && $transfer['status'] === 'vbv required'){
                         $transfer['status'] = 'failed';
                         $transfer['reason'] ='Merchant debit failed. Please contact support';
+                    }
+
+                    if ($transfer['code'] === '000') {
+                        $merchant->debitWallet($transaction['amount']);
+                        $merchant->save();
                     }
 
                     return array_merge($request->all(), $transfer);

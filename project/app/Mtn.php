@@ -350,7 +350,7 @@ class Mtn extends Model
 
             // wrong PIN or time out
             case '21VD':
-                return [101, $status];
+                return [103, $status];
                 break;
 
             // Transaction declined or terminated

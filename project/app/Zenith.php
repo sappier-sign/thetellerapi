@@ -156,9 +156,11 @@ class Zenith extends Model
             $zenith->status         =   $response['status'];
             $zenith->auth_id        =   $response['AuthID'];
             $zenith->ret_code       =   $response['retCode'];
+            $zenith->response_code  =   $response['retCode'];
             $zenith->date_time      =   $response['dateTime'];
             $zenith->product_id     =   $response['productID'];
             $zenith->customer_id    =   $response['customerID'];
+            $zenith->reason         =   $response['description'];
             $zenith->type           =   $response['type'];
             $zenith->currency       =   $response['currency'];
             $zenith->t_id           =   $response['TID'];
@@ -186,19 +188,22 @@ class Zenith extends Model
 
 
                     } else {
-                        $transaction->fld_038   =   $fld_038.'100';
+                        $transaction->fld_038   =   $fld_038.$zenith->ret_code;
                         $transaction->fld_039   =   '000';
+                        $transaction->rfu_003   =   Transaction::responseMessage($zenith->ret_code)['reason'];
                     }
 
                 } else {
                     // failed transaction
-                    $transaction->fld_038   =   $fld_038.'104';
+                    $transaction->fld_038   =   $fld_038.$zenith->ret_code;
                     $transaction->fld_039   =   '100';
+                    $transaction->rfu_003   =   Transaction::responseMessage($zenith->ret_code)['reason'];
                 }
             } else {
                 // transaction declined
-                $transaction->fld_038   =   $fld_038.'100';
+                $transaction->fld_038   =   $fld_038.$zenith->ret_code;
                 $transaction->fld_039   =   '100';
+                $transaction->rfu_003   =   Transaction::responseMessage($zenith->ret_code)['reason'];
             }
 
             $transaction->save();
