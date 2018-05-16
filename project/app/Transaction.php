@@ -508,6 +508,17 @@ class Transaction extends Model
                     ];
                     break;
 
+                case 201:
+                    $transaction->fld_038 = $sponsor . $response[1];
+                    $transaction->fld_039 = '100';
+                    $transaction->rfu_003 = 'Declined: Restricted Card';
+                    $transaction->save();
+                    return [
+                        'status' => 'Declined',
+                        'code' => 201,
+                        'reason' => 'Restricted Card'
+                    ];
+
                 case '-900': //Cards for deactivated accounts
                     $transaction->fld_038 = $sponsor . $response[1];
                     $transaction->fld_039 = '100';

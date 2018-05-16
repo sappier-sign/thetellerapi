@@ -78,7 +78,7 @@ class WalletController extends Controller
 		}
 
 
-		if (count(Merchant::where('merchant_id', $request->input('merchant_id'))->first()) <> 1) {
+		if (is_null(Merchant::where('merchant_id', $request->input('merchant_id'))->first())) {
 			return [
 				'status' => 'error',
 				'code' => 909,
@@ -191,6 +191,6 @@ class WalletController extends Controller
 		$merchant_id = $request->input('merchant_id');
 		$user_id = $request->input('user_id');
 		$id = $request->input('wallet_id');
-		return Wallet::deleteWallet($merchant_id, $user_id, $id);
+		return response()->json(Wallet::deleteWallet($merchant_id, $user_id, $id), 204);
 	}
 }
