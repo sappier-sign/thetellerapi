@@ -48,26 +48,31 @@ class Wallet extends Model
      * @param $request
      * @return array
      */
-    public static function encryptData($request)
+    public static function encryptData($request, $validate = false)
 	{
-		if (self::walletExists($request)) {
-			return [
-				'status' => 'failed',
-				'code' => 900,
-				'reason' => 'wallet already exist'
-			];
-		}
+	    if (!$validate) {
+            if (self::walletExists($request)) {
+                return [
+                    'status' => 'failed',
+                    'code' => 900,
+                    'reason' => 'wallet already exist'
+                ];
+            }
+        }
 
 		$data = json_encode($request['details']);
-		$encryption = openssl_encrypt($data, 'aes256', $request['pass_code'], 0,
+		return openssl_encrypt($data, 'aes256', $request['pass_code'], 0,
 			Wallet::generateIv($request['pass_code']));
+	}
 
-		$wallet = new Wallet();
-		return $wallet->saveWallet(
-			$request['pass_code'],
-			$request['user_id'],
-			$encryption,
-			$request['merchant_id']);
+    public static function persistWallet($encrypted_wallet, $data)
+    {
+        $wallet = new Wallet();
+        return $wallet->saveWallet(
+            $data['pass_code'],
+            $data['user_id'],
+            $encrypted_wallet,
+            $data['merchant_id']);
 	}
 
 	public static function decryptData(Wallet $wallet)
@@ -80,6 +85,18 @@ class Wallet extends Model
 		);
 
 		return json_decode($decryption, true);
+	}
+
+    public static function decryptRef($hash, $pass_code)
+    {
+        $decryption = openssl_decrypt(
+            $hash, 'aes256',
+            substr($pass_code, 0, 32),
+            0,
+            self::generateIv($pass_code)
+        );
+
+        return json_decode($decryption, true);
 	}
 
 	public static function showWallet(Wallet $wallet)
@@ -247,7 +264,11 @@ class Wallet extends Model
 		return null;
 	}
 
-	public static function walletExists($request)
+    /**
+     * @param $request
+     * @return bool
+     */
+    public static function walletExists($request)
 	{
 		if (in_array($request['details']['wallet_name'], ['MAS', 'VIS'])) {
 			$wallet_number = substr($request['details']['wallet_number'], 0, 6) . '******' . substr
@@ -263,8 +284,22 @@ class Wallet extends Model
 		}
 	}
 
-	public static function pay($merchant_id, $user_id, $wallet_id, $transaction_id, $pass_code, $processing_code,
-							   $amount, $desc, $cvv = null, $response_url = null, $voucher_code)
+    /**
+     * @param $merchant_id
+     * @param $user_id
+     * @param $wallet_id
+     * @param $transaction_id
+     * @param $pass_code
+     * @param $processing_code
+     * @param $amount
+     * @param $desc
+     * @param null $cvv
+     * @param null $response_url
+     * @param $voucher_code
+     * @return array|mixed|string
+     */
+    public static function pay($merchant_id, $user_id, $wallet_id, $transaction_id, $pass_code, $processing_code,
+                               $amount, $desc, $cvv = null, $response_url = null, $voucher_code)
 	{
 
 		// returns array [merchant, details, $pass_code]

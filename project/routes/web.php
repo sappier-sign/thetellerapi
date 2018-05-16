@@ -20,6 +20,8 @@ $app->get('testAcs', function (){
 
 $app->group(['prefix' => 'v1.1/wallets'], function ($app){
 	$app->post('add.do', 'WalletController@create');
+	$app->post('validate.do', 'WalletController@validateWallet');
+	$app->post('save.do', 'WalletController@saveWallet');
 	$app->get('{merchant_id}/{user_id}', 'WalletController@show');
 	$app->delete('remove.do', 'WalletController@destroy');
 	$app->put('edit.do', 'WalletController@update');

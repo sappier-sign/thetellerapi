@@ -24,7 +24,7 @@ class Terminal extends Model
 
     public static function createTerminal($merchant_id)
     {
-        $pin = substr(str_shuffle('0147852369'), 2, 4);
+        $pin = substr(str_shuffle('014785236984756932107412589603'), 2, 4);
         $terminal = new Terminal();
         $terminal->merchant_id  =   $merchant_id;
         $terminal->pin          =   Hash::make($pin);

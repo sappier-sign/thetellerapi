@@ -10,6 +10,8 @@ namespace App\Http\Controllers;
 
 
 use App\Merchant;
+use App\Transaction;
+use App\User;
 use App\Wallet;
 use Illuminate\Http\Request;
 
@@ -86,7 +88,9 @@ class WalletController extends Controller
 			];
 		}
 
-		return Wallet::encryptData($request->all());
+		$encrypted_data = Wallet::encryptData($request->all());
+
+		return Wallet::persistWallet($encrypted_data, $request->all());
 
 	}
 
@@ -191,6 +195,99 @@ class WalletController extends Controller
 		$merchant_id = $request->input('merchant_id');
 		$user_id = $request->input('user_id');
 		$id = $request->input('wallet_id');
-		return response()->json(Wallet::deleteWallet($merchant_id, $user_id, $id), 204);
+		$response = Wallet::deleteWallet($merchant_id, $user_id, $id);
+
+		if ($response['code'] === '000') {
+            return response()->json("", 204);
+        }
+
+        return array_merge($request->all(), $response);
+	}
+
+    public function validateWallet(Request $request)
+    {
+        $this->validate($request, [
+            'merchant_id'           => 'bail|required|size:12',
+            'amount'                => 'bail|required|digits:12',
+            'cvv'                   => 'bail|required|digits:3',
+            'details.wallet_name'   => 'bail|required|size:3|in:MTN,ATL,TGO,VIS,MAS,VDF',
+            'details.wallet_number' => 'bail|required|min:10|numeric',
+            'details.holder_name'   => 'bail|required|string|min:4|max:30',
+            'details.expiry_date'   => 'bail|required_if:details.wallet_name,VIS,MAS|digits:4'
+        ], [
+            'merchant_id.size'      => 'Merchant id must be 12 characters long',
+            'merchant_id.exists'    => 'Merchant does not exist',
+        ]);
+
+
+
+        $validation_code = substr(str_replace('.', '', microtime(true)), 0, 12);
+        $data = $request->all();
+        $data['pass_code'] = md5($validation_code);
+        $merchant = Merchant::where('merchant_id', 'TTM-00000001')->first();
+
+        $body = [];
+        $body['cvv']                = $data['cvv'];
+        $body['merchant_id']        = 'TTM-00000001';
+        $body['rfu_001']            = $data['merchant_id'];
+        $body['exp_month']          = substr($data['details']['expiry_date'], 0, 2);
+        $body['exp_year']           = substr($data['details']['expiry_date'], -2);
+        $body['amount']             = $data['amount'];
+        $body['r-switch']           = $data['details']['wallet_name'];
+        $body['desc']               = 'TheTeller Wallet Verification';
+        $body['processing_code']    = (in_array($data['details']['wallet_name'], ['MAS', 'VIS']))? '000000' : '000200';
+        $body['transaction_id']     = $validation_code;
+        $body['pan']                = $data['details']['wallet_number'];
+        $body['3d_url_response']    = 'https://api.theteller.net';
+
+        $response = Wallet::sendRequest($merchant, $body);
+
+        if (isset($response['code']) && $response['code'] === '000'){
+            return [
+                "reference"         =>  Wallet::encryptData($data, true),
+                "status"            =>  "success",
+                "code"              =>  "000",
+                "reason"            =>  "Wallet debited",
+                "validation_code"   =>  $validation_code,
+                "amount"            =>  $data['amount']
+            ];
+        }
+
+        return $response;
+	}
+
+    public function saveWallet(Request $request)
+    {
+        $this->validate($request, [
+            "pass_code"         =>  "bail|required|size:32",
+            "reference"         =>  "bail|required",
+            "merchant_id"       =>  "bail|required|size:12",
+            "user_id"           =>  "bail|required|size:12",
+            "amount"            =>  "bail|required|digits:12",
+            "validation_code"   =>  "bail|required|digits:12"
+        ]);
+
+        if (Transaction::where('fld_042', 'TTM-00000001')->where('rfu_001', $request->merchant_id)->where('fld_004', $request->amount)->where('fld_037', $request->validation_code)->count()){
+            $data = $request->all();
+
+            $data['details'] = Wallet::decryptRef($data['reference'], md5($data['validation_code']));
+
+            if (!$data['details']) {
+                return array_merge($request->all(),[
+                    "status"    =>  "error",
+                    "code"      =>  900,
+                    "reason"    =>  "reference failed validation"
+                ]);
+            }
+
+            $encrypted_data = Wallet::encryptData($data);
+            return Wallet::persistWallet($encrypted_data, $data);
+        }
+
+        return array_merge($request->all(), [
+            "status"    =>  "error",
+            "code"      =>  900,
+            "reason"    =>  "data verification failed"
+        ]);
 	}
 }
