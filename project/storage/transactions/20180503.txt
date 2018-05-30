@@ -1,0 +1,35 @@
+03-05-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+08:32:49 | customer_number : 0244637602
+08:32:49 | merchant_number : **********
+08:32:49 | amount : 0.1
+08:32:49 | exttrid : 152533636900
+08:32:49 | reference : testing new url
+08:32:49 | nickname : PAYSWITCH
+08:32:49 | ts : 2018-05-03 08:31:31
+
+03-05-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+08:34:10 | customer_number : 0244637602
+08:34:10 | merchant_number : **********
+08:34:10 | amount : 0.1
+08:34:10 | exttrid : 152533645000
+08:34:10 | reference : testing new url
+08:34:10 | nickname : PAYSWITCH
+08:34:10 | ts : 2018-05-03 08:34:08
+
+03-05-2018 | AIRTEL TTLR REPONSE FOREIGN
+08:38:41 | resp_code : 100
+08:38:41 | resp_desc : You are not allowed to use this service
+
+03-05-2018 | TTLR TO AIRTEL REQUEST FOREIGN
+08:40:31 | customer_number : 0244637602
+08:40:31 | merchant_number : **********
+08:40:31 | amount : 0.1
+08:40:31 | exttrid : 152533683100
+08:40:31 | reference : testing new url
+08:40:31 | nickname : PAYSWITCH
+08:40:31 | ts : 2018-05-03 08:40:29
+
+03-05-2018 | AIRTEL TTLR REPONSE FOREIGN
+08:40:46 | resp_code : 100
+08:40:46 | resp_desc : You are not allowed to use this service
+
