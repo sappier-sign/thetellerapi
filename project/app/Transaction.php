@@ -189,14 +189,19 @@ class Transaction extends Model
                     $debitee->success = 1;
                     $debitee->save();
                 }
-                return $response;
+
             } else {
-                return $response = [
+                $response = [
                     'status' => 'failed',
                     'code' => 909,
                     'reason' => 'Transfer failed, please contact support'
                 ];
             }
+            $record = Transaction::where('fld_011', $transaction['fld_011'])->first();
+            $record->rfu_003 = $response['reason'];
+            $record->save();
+            return $response;
+
         } elseif ($purchase === '010') {
             return $response = [
                 'status' => 'declined',

@@ -115,7 +115,7 @@
 
             $pass_code = md5($cvv);
 
-            $wallet = Wallet::encryptData([
+            $data = [
                 'merchant_id' => $merchant_id,
                 'user_id' => $merchant_id,
                 'pass_code' => $pass_code,
@@ -125,10 +125,14 @@
                     'wallet_name' => $account_name,
                     'expiry_date' => $expiry_date
                 ]
-            ]);
+            ];
+
+            $details = Wallet::encryptData($data);
+            $wallet = Wallet::persistWallet($details, $data);
 
             /* Check if wallet was created successfully */
             if (isset($wallet['wallet_id'])) {
+
                 $merchant->pass_code = $pass_code . $cvv;
                 $merchant->wallet_id = $wallet['wallet_id'];
 
@@ -144,7 +148,7 @@
                 }
             } else {
                 /* Wallet creating failed */
-                return $wallet;
+                return false;
             }
 
         }

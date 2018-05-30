@@ -187,9 +187,9 @@ class WalletController extends Controller
 	public function destroy(Request $request)
 	{
 		$this->validate($request, [
-			'merchant_id' => 'bail|required|size:12',
+			'merchant_id' => 'bail|required|size:12|exists:users',
 			'user_id' => 'bail|required|size:12',
-			'wallet_id' => 'bail|required|min:1'
+			'wallet_id' => 'bail|required|min:1|exists:ttm_wallets'
 		]);
 
 		$merchant_id = $request->input('merchant_id');
@@ -207,7 +207,7 @@ class WalletController extends Controller
     public function validateWallet(Request $request)
     {
         $this->validate($request, [
-            'merchant_id'           => 'bail|required|size:12',
+            'merchant_id'           => 'bail|required|size:12|exists:users',
             'amount'                => 'bail|required|digits:12',
             'cvv'                   => 'bail|required|digits:3',
             'details.wallet_name'   => 'bail|required|size:3|in:MTN,ATL,TGO,VIS,MAS,VDF',
@@ -261,7 +261,7 @@ class WalletController extends Controller
         $this->validate($request, [
             "pass_code"         =>  "bail|required|size:32",
             "reference"         =>  "bail|required",
-            "merchant_id"       =>  "bail|required|size:12",
+            "merchant_id"       =>  "bail|required|size:12|exists:users",
             "user_id"           =>  "bail|required|size:12",
             "amount"            =>  "bail|required|digits:12",
             "validation_code"   =>  "bail|required|digits:12"
