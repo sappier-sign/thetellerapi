@@ -1,0 +1,58 @@
+14-12-2017 | TTLR TO AIRTEL REQUEST FOREIGN
+14:08:08 | customer_number : 0263581279
+14:08:08 | merchant_number : **********
+14:08:08 | amount : 0.1
+14:08:08 | exttrid : 151340874309
+14:08:08 | reference : testing new api
+14:08:08 | nickname : PAYSWITCH
+14:08:08 | ts : 2017-12-14 14:08:08
+
+14-12-2017 | AIRTEL TTLR REPONSE FOREIGN
+14:08:18 | resp_code : 121
+14:08:18 | resp_desc : Your request is in progress
+
+14-12-2017 | TTLR VODAFONE REQUEST FOREIGN
+14:33:28 | TOKEN : ******************
+14:33:28 | RESULTURL : https://api.theteller.net/v1.1/vodafone/response
+14:33:28 | VFPIN : ************
+14:33:28 | VOUCHERCODE : 636248
+14:33:28 | PHONENUMBER : 0506327253
+14:33:28 | AMOUNT : 0.1
+14:33:28 | VENDORCODE : ****
+14:33:28 | TRANSACTIONID : 151348709036
+
+14-12-2017 | VODAFONE TTLR RESPONSE FOREIGN
+14:35:39 | statusCode : nothing
+14:35:39 | statusMessage : nothing
+14:35:39 | ext_trans_id : nothing
+
+14-12-2017 | TTLR VODAFONE REQUEST FOREIGN
+14:44:48 | TOKEN : ******************
+14:44:48 | RESULTURL : https://api.theteller.net/v1.1/vodafone/response
+14:44:48 | VFPIN : ************
+14:44:48 | VOUCHERCODE : 366897
+14:44:48 | PHONENUMBER : 0506327253
+14:44:48 | AMOUNT : 0.1
+14:44:48 | VENDORCODE : ****
+14:44:48 | TRANSACTIONID : 151302705350
+
+14-12-2017 | VODAFONE TTLR RESPONSE FOREIGN
+14:46:58 | statusCode : nothing
+14:46:58 | statusMessage : nothing
+14:46:58 | ext_trans_id : nothing
+
+14-12-2017 | TTLR VODAFONE REQUEST FOREIGN
+14:55:17 | TOKEN : ******************
+14:55:17 | RESULTURL : https://api.theteller.net/v1.1/vodafone/response
+14:55:17 | VFPIN : ************
+14:55:17 | VOUCHERCODE : 366897
+14:55:17 | PHONENUMBER : 0506327253
+14:55:17 | AMOUNT : 0.1
+14:55:17 | VENDORCODE : ****
+14:55:17 | TRANSACTIONID : 151305301803
+
+14-12-2017 | VODAFONE TTLR RESPONSE FOREIGN
+14:57:26 | statusCode : nothing
+14:57:26 | statusMessage : nothing
+14:57:26 | ext_trans_id : nothing
+

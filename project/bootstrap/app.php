@@ -23,7 +23,9 @@ $app = new Laravel\Lumen\Application(
     realpath(__DIR__.'/../')
 );
 
- $app->withFacades();
+ $app->withFacades(true, [
+     //
+ ]);
 
  $app->withEloquent();
 
@@ -65,7 +67,9 @@ $app->singleton(
 
  $app->routeMiddleware([
      'auth' => App\Http\Middleware\AuthApiUser::class,
-     'authpos'  => App\Http\Middleware\AuthPos::class
+     'authpos'  => App\Http\Middleware\AuthPos::class,
+     'merchantbearer' => App\Http\Middleware\AuthMerchant::class,
+     'settler' => App\Http\Middleware\AuthSettler::class
 //     'auth' => App\Http\Middleware\Authenticate::class
  ]);
 

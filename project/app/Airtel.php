@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Admin
- * Date: 21/07/2017
- * Time: 3:17 PM
- */
 
 namespace App;
 
@@ -12,7 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Airtel extends Model
 {
-    private $details;
     protected $client_id;
     protected $client_secret;
     protected $merchant_number;
@@ -34,22 +27,6 @@ class Airtel extends Model
         $this->ts               = date('Y-m-d H:i:s');
     }
 
-    /**
-     * @return mixed
-     */
-    public function getDetails()
-    {
-        return $this->details;
-    }
-
-    /**
-     * @param mixed $details
-     */
-    public function setDetails($details)
-    {
-        $this->details = $details;
-    }
-
     /*
     * Airtel debit function
     * @params string customer_number
@@ -62,7 +39,8 @@ class Airtel extends Model
         $serviceName = substr( $serviceName, 0, 15 );
 
         $this->end_point = 'debitCustomerWallet';
-        $this->url = "https://appsnmobileagent.com:8201/$this->end_point";
+        $this->url = "https://payalert-api.anmgw.com/$this->end_point";
+//        $this->url = "https://appsnmobileagent.com:8201/$this->end_point";
         $data = array
         (
             "customer_number" 			=> $customer_number,
@@ -100,8 +78,6 @@ class Airtel extends Model
 
         // Prepare and write the request data to our messages_logs.txt file
         Functions::writeAirtel( $header = "TTLR TO AIRTEL REQUEST FOREIGN", $request );
-        $details = $this->getDetails();
-        $details[':msg_004'] = 'RES';
 
         if ( $response = curl_error( $curl ) )
         {
@@ -118,7 +94,7 @@ class Airtel extends Model
             $response = json_decode( $response, true );
 
             // Prepare and write the response data to our messages_logs.txt file
-            Functions::writeAirtel( $header = "AIRTEL TTLR REPONSE FOREIGN", $response );
+            Functions::writeAirtel( $header = "AIRTEL TTLR RESPONSE FOREIGN", $response );
 
             curl_close( $curl );
 
@@ -167,8 +143,6 @@ class Airtel extends Model
 
             } else {
                 $resp = $this->tranStatus ( $response[ 'resp_code' ] );
-                $details[':msg_015'] = $response['resp_code'];
-                $details[':msg_017'] = $response['resp_desc'];
             }
 
             return $resp;
@@ -195,7 +169,7 @@ class Airtel extends Model
                 return [101, $responseCode];
                 break;
 
-            // Unregisterdd number for debiting
+            // Unregistered number for debiting
             case '102':
                 return [102, $responseCode];
                 break;
@@ -252,7 +226,8 @@ class Airtel extends Model
         $description = substr( $description, 0, 15 );
 
         $this->end_point = 'creditCustomerWallet';
-        $this->url = "https://appsnmobileagent.com:8201/$this->end_point";
+        $this->url = "https://payalert-api.anmgw.com/$this->end_point";
+//        $this->url = "https://appsnmobileagent.com:8201/$this->end_point";
 
 //        if ((float) $amount >= 300.00){
 //            return $this->tranStatus( '00017' ) ;
@@ -306,7 +281,7 @@ class Airtel extends Model
             curl_close( $curl );
 
             // Prepare and write the request data to our messages_logs.txt file
-            Functions::writeAirtel( $header = "AIRTEL TO TTLR REPONSE FOREIGN", $response );
+            Functions::writeAirtel( $header = "AIRTEL TO TTLR RESPONSE FOREIGN", $response );
 
             return $this->tranStatus( $response [ 'resp_code' ] ) ;
         }

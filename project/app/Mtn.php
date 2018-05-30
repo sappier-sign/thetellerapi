@@ -10,6 +10,7 @@ namespace App;
 
 
 use DateTime;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Database\Eloquent\Model;
 use SoapClient;
 
@@ -17,6 +18,7 @@ class Mtn extends Model
 {
     private $details;
     private $mtn_debit;
+    private $res_code;
     protected $url;
     protected $uName;
     protected $pWord;
@@ -34,12 +36,12 @@ class Mtn extends Model
     {
         error_reporting(E_ALL);
         ini_set('display_errors', 1);
-        $this->url      = env('MTN_URL');
+        $this->url = env('MTN_URL');
         $this->username = env('MTN_USER_NAME');
         $this->password = env('MTN_PASSWORD');
-        $this->wsdl     = array('trace' => 1, 'cache_wsdl' => 'WSDL_CACHE_NONE', 'location' => 'http://68.169.57.64:8080/transflow_webclient/services/InvoicingService.InvoicingServiceHttpSoap11Endpoint', 'connection_timeout' => 10);
+        $this->wsdl = array('trace' => 1, 'cache_wsdl' => 'WSDL_CACHE_NONE', 'location' => 'http://68.169.57.64:8080/transflow_webclient/services/InvoicingService.InvoicingServiceHttpSoap11Endpoint', 'connection_timeout' => 10);
         $this->vendorID = env('MTN_VENDOR_ID');
-        $this->apiKey   = env('MTN_API_KEY');
+        $this->apiKey = env('MTN_API_KEY');
     }
 
     public static function masked($string)
@@ -125,10 +127,7 @@ class Mtn extends Model
             $this->mtn_debit->invoiceNo = $response['invoiceNo'];
             $this->mtn_debit->save();
 
-            $invoiceNo = $response['invoiceNo'];
-            $checkInvoice = $this->checkInvoice($invoiceNo);
-            $checkStatus = $this->checkStatus($checkInvoice);
-            return $checkStatus;
+            return $this->checkInvoice($response['invoiceNo'])->checkStatus();
         }
     }
 
@@ -186,9 +185,11 @@ class Mtn extends Model
             $this->mtn_debit->save();
 
             if ($response['responseCode'] === '0000') {
-                return $checkStatus = $this->checkStatus('1000');
+                $this->setResCode('1000');
+                return $this->checkStatus();
             }
-            return $this->checkStatus($response['responseCode']);
+            $this->setResCode($response['responseCode']);
+            return $this->checkStatus();
         }
     }
 
@@ -204,66 +205,85 @@ class Mtn extends Model
         // Prepare and write the request data to our messages_logs.txt file
         Functions::writeMTN($header = "TTLR TO MTN REQUEST FOREIGN", $params);
 
-        $client = new SoapClient($this->url, $this->wsdl);
+        $soap_client = new SoapClient($this->url, $this->wsdl);
 
-        //wait for 8 seconds and check for status of the invoice
-        sleep(12);
-        $response = $client->__soapCall('checkInvStatus', array($params));
+        try {
+            $response = $soap_client->__soapCall('checkInvStatus', array($params));
 
-        // Prepare and write the response data to our messages_logs.txt file
-        Functions::writeMTN($header = "MTN TO TTLR RESPONSE FOREIGN", $response);
+            // Prepare and write the response data to our messages_logs.txt file
+            Functions::writeMTN($header = "MTN TO TTLR RESPONSE FOREIGN", $response);
 
-        //check for faults in soap Call
-        if (is_soap_fault($response)) {
-            return 900;
-        } else {
             $response = get_object_vars($response);
             $response = get_object_vars($response['return']);
-            $responseCode = $response['responseCode'];
-            $response_to_array = [];
+            $this->setResCode($response['responseCode']);
 
             if ($response['responseCode'] == '21VD') {
-                $timeOut = 80;
-                $try = 5;
-                sleep(15);
+                $stop = 80;
+                $start = 0;
+                sleep(20);
 
-                // Loop for 60 seconds
-                while ($try < $timeOut) {
-
-                    $response = $client->__soapCall('checkInvStatus', array($params));    // MAKE SOAP CALL
+                // Loop for 80 seconds
+                while ($start < $stop) {
 
                     // Prepare and write the request data to our messages_logs.txt file
-//                    Functions::writeMTN( $header = "TTLR TO MTN REQUEST FOREIGN", $response );
+                    Functions::writeMTN($header = "TTLR TO MTN REQUEST FOREIGN", $params);
+
+                    $response = $soap_client->__soapCall('checkInvStatus', array($params));    // MAKE SOAP CALL
+
+                    // Prepare and write the request data to our messages_logs.txt file
+                    Functions::writeMTN($header = "MTN TO TTLR RESPONSE FOREIGN", $response);
 
                     //	PARSE VALUES OF SOAP RESPONSE OBJECT INTO AN ARRAY
                     $response = get_object_vars(get_object_vars($response)['return']);
 
                     if ($response['responseCode'] == '21VD') {    //	CHECK IF INVOICE IS PENDING PAYMENT
+                        $this->setResCode($response['responseCode']);
 
-                        $try += 10;    //	INCREMENT THE VALUE OF TRY
-
-                    } elseif ($response['responseCode'] == '0000') { // Check if invoice has been paid
-                        $responseCode = $response['responseCode'];
-                        break;
-
-                    } else {    //	IF INVOICE HAS NOT BEEN PAID
-                        $responseCode = $response['responseCode'];
+                    } else {    # Status Changed
+                        $this->setResCode($response['responseCode']);
                         break;    // ASSIGN THE CODE STATUS OF THE INVOICE
                     }
 
-                    sleep(10);    //WAIT FOR SOME SECONDS AND RUN THE LOOP AGAIN
+                    $start += 20;    //	INCREMENT THE VALUE OF TRY
+                    sleep(20);    //WAIT FOR SOME SECONDS AND RUN THE LOOP AGAIN
                 }
+
                 $this->mtn_debit->responseCode = $response['responseCode'];
                 $this->mtn_debit->responseMessage = $response['responseMessage'];
                 $this->mtn_debit->save();
-                return $responseCode;
+                $this->setResCode($response['responseCode']);
+                return $this;
             }
+
             $this->mtn_debit->responseCode = $response['responseCode'];
             $this->mtn_debit->responseMessage = $response['responseMessage'];
             $this->mtn_debit->save();
-            $responseCode = $response['responseCode'];
-            return $responseCode;
+            $this->setResCode($response['responseCode']);
+            return $this;
+
+
+        } catch (\Exception $exception) {
+
+            Log::error($exception->getMessage());
+
+            sleep(20);
+
+            $this->checkInvoiceOffline($invoiceNo);
+
+            return $this;
         }
+
+//        $response = $soap_client->__soapCall('checkInvStatus', array($params));
+//
+//        // Prepare and write the response data to our messages_logs.txt file
+//        Functions::writeMTN($header = "MTN TO TTLR RESPONSE FOREIGN", $response);
+//
+//        //check for faults in soap Call
+//        if (is_soap_fault($response)) {
+//            return 900;
+//        } else {
+//
+//        }
     }
 
     public function checkInvoiceOffline($invoiceNo)
@@ -279,9 +299,6 @@ class Mtn extends Model
         Functions::writeMTN($header = "TTLR TO MTN REQUEST FOREIGN", $params);
 
         $client = new SoapClient($this->url, $this->wsdl);
-
-        //wait for 8 seconds and check for status of the invoice
-        sleep(12);
         $response = $client->__soapCall('checkInvStatus', array($params));
 
         // Prepare and write the response data to our messages_logs.txt file
@@ -298,13 +315,16 @@ class Mtn extends Model
             $this->mtn_debit->responseCode = $response['responseCode'];
             $this->mtn_debit->responseMessage = $response['responseMessage'];
             $this->mtn_debit->save();
+            $this->setResCode($response['responseCode']);
 
-            return $this->checkStatus($response['responseCode']);
+            return $this->checkStatus();
         }
     }
 
-    public function checkStatus($status)
+    public function checkStatus()
     {
+        $status = $this->getResCode();
+
         if (is_array($status)) {
             if (isset($status['return'])) {
                 $status = get_object_vars($status['return'])['responseCode'];
@@ -414,14 +434,15 @@ class Mtn extends Model
             $response = $response['responseCode'];
 
             if ($response === '01') {
-                $statusCode = '0000';
+                $this->setResCode('0000');
             } else {
-                $statusCode = $response;
+                $this->setResCode($response);
             }
 
-            return $this->checkStatus($statusCode);
+            return $this->checkStatus();
         } else {
-            return $this->checkStatus('527');
+            $this->setResCode('527');
+            return $this->checkStatus();
         }
     }
 
@@ -442,5 +463,23 @@ class Mtn extends Model
         $response = get_object_vars($response);
         return (float)$response['balance'];
 
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getResCode()
+    {
+        return $this->res_code;
+    }
+
+    /**
+     * @param mixed $response_code
+     */
+    public function setResCode($response_code)
+    {
+        $this->res_code = $response_code;
+
+        return $this;
     }
 }

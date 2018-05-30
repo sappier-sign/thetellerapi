@@ -129,6 +129,9 @@ class Vodafone extends Model
             case '2002':
                 $response_code = 102;
                 break;
+            case '2058':
+                $response_code = 114;
+                break;
             default:
 //                $response_code = 107;
                 $response_code = $GLOBALS['transaction']->result_code;

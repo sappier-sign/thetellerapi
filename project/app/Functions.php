@@ -2,7 +2,9 @@
 
 namespace App;
 
+use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
 
 class Functions extends Model
@@ -142,13 +144,13 @@ class Functions extends Model
     {
         $match = array('merchant_number');
         $message	=	"$header\r\n";
-        foreach ( $value as $key => $value )
+        foreach ( $value as $key => $val )
         {
             if ( in_array( $key, $match ) )
             {
-                $message .= date( 'H:i:s' ).' | '.$key.' : '.self::maskAm( $value)."\r\n";
+                $message .= date( 'H:i:s' ).' | '.$key.' : '.self::maskAm( $val )."\r\n";
             } else {
-                $message .= date( 'H:i:s' ).' | '."$key : $value\r\n";
+                $message .= date( 'H:i:s' ).' | '."$key : $val\r\n";
             }
         }
         self::writeRequestWithTimestamp( $message );
@@ -289,5 +291,25 @@ class Functions extends Model
         $fopen = fopen( $filePath, 'a+' );
         fwrite( $fopen, $dataToWrite );
         fclose( $fopen );
+    }
+
+    public static function toFloat($minor_unit){
+        $float = ((int)$minor_unit)/100;
+        return round((float)$float,2);
+    }
+
+    public static function logRequest(Request $request)
+    {
+        $message = date( "d-m-Y" ) . " | " . "MERCHANT TO TTLR REQUEST FOREIGN\r\n";
+        foreach ($request->all() as $index => $value) {
+            if ($index === 'pan'){
+                $value = self::maskAm($value);
+            } elseif ($index === 'cvv') {
+                $value = '***';
+            }
+            $message .= Carbon::today()->toTimeString()." | $index:\t\t$value\r\n";
+        }
+
+        File::append(storage_path('requests/'.Date('Ymd').'.txt'), "$message");
     }
 }

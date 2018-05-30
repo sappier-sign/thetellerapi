@@ -151,13 +151,16 @@ class Zenith extends Model
             $response	            =	json_decode( curl_exec( $curl ), true );
             Functions::writeZenith('ZENITH TO TTLR RESPONSE FOREIGN', $response);
 
-            $zenith                 =   new Zenith();
+//            $zenith                 =   new Zenith();
+            $zenith = self::where('reference_id', $ref)->first();
             $zenith->status         =   $response['status'];
             $zenith->auth_id        =   $response['AuthID'];
             $zenith->ret_code       =   $response['retCode'];
+            $zenith->response_code  =   $response['retCode'];
             $zenith->date_time      =   $response['dateTime'];
             $zenith->product_id     =   $response['productID'];
             $zenith->customer_id    =   $response['customerID'];
+            $zenith->reason         =   $response['description'];
             $zenith->type           =   $response['type'];
             $zenith->currency       =   $response['currency'];
             $zenith->t_id           =   $response['TID'];
@@ -177,25 +180,39 @@ class Zenith extends Model
                     if ((int) substr($transaction->fld_003, 0, 1) === 4){
 
                         $transfer = Transaction::deposit($transaction->toArray(), true);
+                        if (count(explode('?', $zenith->response_url)) > 1){
+                            return redirect($zenith->response_url."&code=".$transfer['code']."&transaction_id=$transaction->fld_037&reason=".$transfer['reason']."&status=".$transfer['status']);
+                        }
+
                         return redirect($zenith->response_url."?code=".$transfer['code']."&transaction_id=$transaction->fld_037&reason=".$transfer['reason']."&status=".$transfer['status']);
 
+
                     } else {
-                        $transaction->fld_038   =   $fld_038.'100';
+                        $transaction->fld_038   =   $fld_038.$zenith->ret_code;
                         $transaction->fld_039   =   '000';
+                        $transaction->rfu_003   =   Transaction::responseMessage($zenith->ret_code)['reason'];
                     }
 
                 } else {
                     // failed transaction
-                    $transaction->fld_038   =   $fld_038.'104';
+                    $transaction->fld_038   =   $fld_038.$zenith->ret_code;
                     $transaction->fld_039   =   '100';
+                    $transaction->rfu_003   =   Transaction::responseMessage($zenith->ret_code)['reason'];
                 }
             } else {
                 // transaction declined
-                $transaction->fld_038   =   $fld_038.'100';
+                $transaction->fld_038   =   $fld_038.$zenith->ret_code;
                 $transaction->fld_039   =   '100';
+                $transaction->rfu_003   =   Transaction::responseMessage($zenith->ret_code)['reason'];
             }
 
             $transaction->save();
+
+            if (count(explode('?', $zenith->response_url)) > 1){
+                return redirect($zenith->response_url."&code=$transaction->fld_039&reason=$reason&status=$status&transaction_id=$transaction->fld_037");
+            }
+
+//            echo "<script>window.top.location.href = \"$zenith->response_url?code=$transaction->fld_039&reason=$reason&status=$status&transaction_id=$transaction->fld_037\";</script>";
 
             return redirect($zenith->response_url."?code=$transaction->fld_039&reason=$reason&status=$status&transaction_id=$transaction->fld_037");
         }

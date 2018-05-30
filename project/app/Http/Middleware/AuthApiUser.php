@@ -9,6 +9,7 @@
 namespace App\Http\Middleware;
 
 
+use App\Functions;
 use App\User;
 use Closure;
 use Illuminate\Support\Facades\DB;
@@ -39,17 +40,44 @@ class AuthApiUser
 
         }
 
-        $user = User::where(['user_name' => $_SERVER['PHP_AUTH_USER'], 'api_key' => $_SERVER['PHP_AUTH_PW'], 'status' => 1])->first();
-        if (!isset($user->id)){
 
-            return response(['status' => 'Bad request', 'code' => 999, 'description' => 'Merchant not found. Please make sure you have your credentials set using basic Authentication!'], 400);
+        $user = User::where('user_name', $_SERVER['PHP_AUTH_USER'])->where('api_key', $_SERVER['PHP_AUTH_PW'])->first();
+        $found = $user->id ?? false;
+        if ($found){
+            if ($user->status){
+                $merchant = DB::table('users')->where('apiuser', $user->user_name)->first();
+                if ( $merchant->merchant_id !== $request->input('merchant_id') ) {
+                    return response(['status' => 'Unauthorized', 'code' => 999, 'description' => 'Merchant ID is wrong!'], 401);
+                }
 
-        } elseif (DB::table('users')->where('apiuser', $user->user_name)->first()->merchant_id !== $request->input('merchant_id')) {
+                if (substr($request->input('processing_code'), 0, 2) === '40') {
+                    $amount = Functions::toFloat($request->input('amount'));
+                    $balance = Functions::toFloat($merchant->wallet_balance);
 
-            return response(['status' => 'Unauthorized', 'code' => 999, 'description' => 'Merchant ID is wrong!'], 401);
+                    if ($balance < $amount) {
+                        return response(['status' => 'error', 'code' => 999, 'description' => 'Insufficient funds in merchant float'], 200);
+                    }
+                }
+
+                return $next($request);
+            } else {
+                return response(['status' => 'Unauthorized', 'code' => 998, 'description' => 'Merchant deactivated. Please contact support'], 401);
+            }
 
         }
-        return $next($request);
+
+        return response(['status' => 'Unauthorized', 'code' => 999, 'description' => 'Merchant not found. Please make sure you have your credentials set using basic Authentication!'], 400);
+
+//        if (!isset($user->id)){
+//
+//            return response(['status' => 'Bad request', 'code' => 999, 'description' => 'Merchant not found. Please make sure you have your credentials set using basic Authentication!'], 400);
+//
+//        } elseif (DB::table('users')->where('apiuser', $user->user_name)->first()->merchant_id !== $request->input('merchant_id')) {
+//
+//            return response(['status' => 'Unauthorized', 'code' => 999, 'description' => 'Merchant ID is wrong!'], 401);
+//
+//        }
+
     }
 
 }

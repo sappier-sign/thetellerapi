@@ -18,11 +18,16 @@ $app->get('testAcs', function (){
     return view('pareq');
 });
 
-$app->post('v1.1/wallet/add', 'WalletController@create');
-$app->delete('v1.1/wallet', 'WalletController@destroy');
-$app->get('v1.1/wallet/{merchant_id}/{user_id}', 'WalletController@show');
-$app->post('v1.1/wallet/pay', 'WalletController@pay');
-$app->post('v1.1/wallet/transfer', 'WalletController@transfer');
+$app->group(['prefix' => 'v1.1/wallets'], function ($app){
+	$app->post('add.do', 'WalletController@create');
+	$app->post('validate.do', 'WalletController@validateWallet');
+	$app->post('save.do', 'WalletController@saveWallet');
+	$app->get('{merchant_id}/{user_id}', 'WalletController@show');
+	$app->delete('remove.do', 'WalletController@destroy');
+	$app->put('edit.do', 'WalletController@update');
+	$app->post('payment.do', 'WalletController@pay');
+	$app->post('transfer.do', 'WalletController@transfer');
+});
 
 $app->post('ghlinkable', 'TestController@ghlinkView');
 
@@ -94,4 +99,22 @@ $app->group(['prefix' => 'pos'], function ($app){
     $app->post('transfer', ['middleware' => 'authpos', function(\Illuminate\Http\Request $request) use($transactionController){
         return $transactionController->create($request);
     }]); // zend_extension=/usr/lib64/php/modules/xdebug.so
+});
+
+$app->post('desktop/login.do', 'DesktopController@login');
+
+$app->group(['prefix' => 'desktop', 'middleware' => 'merchantbearer'], function ($app){
+    $app->post('verify.pin', 'DesktopController@verifyPin');
+    $app->post('set.pin', 'DesktopController@setPin');
+    $app->post('change.pin', 'DesktopController@changePin');
+    $app->post('change.password', 'DesktopController@changePassword');
+    $app->get('transactions', 'DesktopController@getTransactions');
+    $app->post('payment.do', 'DesktopController@payemnt');
+    $app->post('transfer.do', 'DesktopController@transfer');
+});
+
+$app->group(['prefix' => 'merchants', 'middleware' => 'settler'], function ($app) {
+    $app->post('debit.do', 'BalanceController@debit');
+    $app->post('credit.do', 'BalanceController@credit');
+    $app->get('{merchant_id}/balance', 'BalanceController@check');
 });
